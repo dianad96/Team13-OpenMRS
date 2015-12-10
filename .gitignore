@@ -1,47 +1,37 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
 
-# Folder config file
-Desktop.ini
+#android project
+build/*
+*.iml
+tests/*.iml
+.gradle/
+.idea/
+local.properties
+gradle.properties
+tests/bin/*
+bin/*
+tests/gen/*
+gen/*
+tests/out/*
+out/*
+modules/support/appcompat/gen/*
+modules/support/appcompat/bin/*
+modules/support/appcompat/out/*
+modules/support/gridlayout/gen/*
+modules/support/gridlayout/bin/*
+modules/support/gridlayout/out/*
+modules/odk.collect/gen/*
+modules/odk.collect/bin/*
+modules/odk.collect/android/*
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+#git patches
+*.patch
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Eclipse files
+*.project
+*.classpath
+.settings/
