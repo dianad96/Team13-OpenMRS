@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\xml\\admin_preferences.xml",
+        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\xml\\admin_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
+        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\xml\\searchable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\xml\\preferences.xml"
+    }
+]

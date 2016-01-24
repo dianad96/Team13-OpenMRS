@@ -1,0 +1,1076 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Team13AndroidClient-master:
+* .gitattributes
+* .gitignore
+* .idea\
+* .idea\.name
+* .idea\Team13AndroidClient-master.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* README.md
+* ant.properties
+* art\
+* art\hdpi\
+* art\hdpi\_pre_production\
+* art\hdpi\_pre_production\ic_openmrs.eps
+* art\hdpi\_pre_production\openmrs_logo.eps
+* art\hdpi\ic_openmrs.png
+* art\hdpi\openmrs_logo.png
+* art\mdpi\
+* art\mdpi\_pre_production\
+* art\mdpi\_pre_production\ic_openmrs.eps
+* art\mdpi\_pre_production\openmrs_logo.eps
+* art\mdpi\ic_openmrs.png
+* art\mdpi\openmrs_logo.png
+* art\xhdpi\
+* art\xhdpi\_pre_production\
+* art\xhdpi\_pre_production\ic_openmrs.eps
+* art\xhdpi\_pre_production\openmrs_logo.eps
+* art\xhdpi\ic_openmrs.png
+* art\xhdpi\openmrs_logo.png
+* art\xxhdpi\
+* art\xxhdpi\_pre_production\
+* art\xxhdpi\_pre_production\ic_openmrs.eps
+* art\xxhdpi\_pre_production\openmrs_logo.eps
+* art\xxhdpi\ic_openmrs.png
+* art\xxhdpi\openmrs_logo.png
+* art\xxxhdpi\
+* art\xxxhdpi\_pre_production\
+* art\xxxhdpi\_pre_production\ic_openmrs.eps
+* art\xxxhdpi\_pre_production\openmrs_logo.eps
+* art\xxxhdpi\ic_openmrs.png
+* art\xxxhdpi\openmrs_logo.png
+* build.xml
+* checkstyle.xml
+* checkstyle\
+* checkstyle\checkstyle-5.6-all.jar
+* copyright\
+* copyright\copyright
+* custom_rules.xml
+* modules\
+* modules\odk.collect\
+* modules\odk.collect\AndroidManifest.xml
+* modules\odk.collect\LICENSE.txt
+* modules\odk.collect\build.xml
+* modules\odk.collect\libs\
+* modules\odk.collect\libs\apache-mime4j-0.6.jar
+* modules\odk.collect\libs\commons-io-2.4.jar
+* modules\odk.collect\libs\httpclientandroidlib-4.2.1.jar
+* modules\odk.collect\libs\javarosa-libraries-2014-04-29.jar
+* modules\odk.collect\libs\joda-time-2.0.jar
+* modules\odk.collect\libs\kxml2-2.3.0.jar
+* modules\odk.collect\libs\opencsv-2.3.jar
+* modules\odk.collect\lint.xml
+* modules\odk.collect\project.properties
+* modules\odk.collect\res\
+* modules\odk.collect\res\anim\
+* modules\odk.collect\res\anim\fade_in.xml
+* modules\odk.collect\res\anim\fade_out.xml
+* modules\odk.collect\res\anim\push_left_in.xml
+* modules\odk.collect\res\anim\push_left_out.xml
+* modules\odk.collect\res\anim\push_right_in.xml
+* modules\odk.collect\res\anim\push_right_out.xml
+* modules\odk.collect\res\anim\start_arrow.xml
+* modules\odk.collect\res\drawable-hdpi\
+* modules\odk.collect\res\drawable-hdpi\expander_ic_maximized.png
+* modules\odk.collect\res\drawable-hdpi\expander_ic_minimized.png
+* modules\odk.collect\res\drawable-hdpi\expander_ic_right.png
+* modules\odk.collect\res\drawable-hdpi\ic_maps_indicator_current_position.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_backward.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_clear_playlist.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_close_clear_cancel.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_forward.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_goto.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_login.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_manage.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_mark.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_mylocation.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_preferences.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_refresh.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_save.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_send.png
+* modules\odk.collect\res\drawable-hdpi\ic_menu_start_conversation.png
+* modules\odk.collect\res\drawable-hdpi\notes.png
+* modules\odk.collect\res\drawable-ldpi\
+* modules\odk.collect\res\drawable-ldpi\expander_ic_maximized.png
+* modules\odk.collect\res\drawable-ldpi\expander_ic_minimized.png
+* modules\odk.collect\res\drawable-ldpi\expander_ic_right.png
+* modules\odk.collect\res\drawable-ldpi\ic_maps_indicator_current_position.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_backward.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_clear_playlist.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_close_clear_cancel.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_forward.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_goto.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_login.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_manage.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_mark.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_mylocation.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_preferences.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_refresh.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_save.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_send.png
+* modules\odk.collect\res\drawable-ldpi\ic_menu_start_conversation.png
+* modules\odk.collect\res\drawable-mdpi\
+* modules\odk.collect\res\drawable-mdpi\advance.png
+* modules\odk.collect\res\drawable-mdpi\backup.png
+* modules\odk.collect\res\drawable-mdpi\expander_ic_maximized.png
+* modules\odk.collect\res\drawable-mdpi\expander_ic_minimized.png
+* modules\odk.collect\res\drawable-mdpi\expander_ic_right.png
+* modules\odk.collect\res\drawable-mdpi\ic_maps_indicator_current_position.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_backward.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_clear_playlist.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_close_clear_cancel.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_forward.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_goto.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_login.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_manage.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_mark.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_mylocation.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_preferences.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_refresh.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_save.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_send.png
+* modules\odk.collect\res\drawable-mdpi\ic_menu_start_conversation.png
+* modules\odk.collect\res\drawable-mdpi\left_arrow.png
+* modules\odk.collect\res\drawable-mdpi\notes.png
+* modules\odk.collect\res\drawable-xhdpi\
+* modules\odk.collect\res\drawable-xhdpi\expander_ic_maximized.9.png
+* modules\odk.collect\res\drawable-xhdpi\expander_ic_minimized.9.png
+* modules\odk.collect\res\drawable-xhdpi\expander_ic_right.png
+* modules\odk.collect\res\drawable-xhdpi\ic_maps_indicator_current_position.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_backward.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_clear_playlist.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_close_clear_cancel.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_forward.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_goto.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_login.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_manage.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_mark.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_mylocation.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_preferences.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_refresh.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_save.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_send.png
+* modules\odk.collect\res\drawable-xhdpi\ic_menu_start_conversation.png
+* modules\odk.collect\res\drawable-xhdpi\notes.png
+* modules\odk.collect\res\drawable\
+* modules\odk.collect\res\drawable\ic_menu_backward.png
+* modules\odk.collect\res\drawable\ic_menu_forward.png
+* modules\odk.collect\res\drawable\ic_menu_save.png
+* modules\odk.collect\res\drawable\thumb.xml
+* modules\odk.collect\res\layout\
+* modules\odk.collect\res\layout\chooser_list_layout.xml
+* modules\odk.collect\res\layout\custom_spinner_item.xml
+* modules\odk.collect\res\layout\data_manage_list.xml
+* modules\odk.collect\res\layout\draw_layout.xml
+* modules\odk.collect\res\layout\form_entry.xml
+* modules\odk.collect\res\layout\form_entry_end.xml
+* modules\odk.collect\res\layout\form_entry_start.xml
+* modules\odk.collect\res\layout\form_manage_list.xml
+* modules\odk.collect\res\layout\geopoint_layout.xml
+* modules\odk.collect\res\layout\geopoint_layout_sdk7.xml
+* modules\odk.collect\res\layout\hierarchy_layout.xml
+* modules\odk.collect\res\layout\instance_uploader_list.xml
+* modules\odk.collect\res\layout\list_view_filled.xml
+* modules\odk.collect\res\layout\main_menu.xml
+* modules\odk.collect\res\layout\password_dialog_layout.xml
+* modules\odk.collect\res\layout\quick_select_layout.xml
+* modules\odk.collect\res\layout\remote_file_manage_list.xml
+* modules\odk.collect\res\layout\server_auth_dialog.xml
+* modules\odk.collect\res\layout\splash_screen.xml
+* modules\odk.collect\res\layout\toast_view.xml
+* modules\odk.collect\res\layout\two_item.xml
+* modules\odk.collect\res\layout\two_item_multiple_choice.xml
+* modules\odk.collect\res\values-ar\
+* modules\odk.collect\res\values-ar\strings.xml
+* modules\odk.collect\res\values-ca\
+* modules\odk.collect\res\values-ca\strings.xml
+* modules\odk.collect\res\values-de\
+* modules\odk.collect\res\values-de\strings.xml
+* modules\odk.collect\res\values-es-rSV\
+* modules\odk.collect\res\values-es-rSV\strings.xml
+* modules\odk.collect\res\values-es\
+* modules\odk.collect\res\values-es\strings.xml
+* modules\odk.collect\res\values-fa\
+* modules\odk.collect\res\values-fa\strings.xml
+* modules\odk.collect\res\values-fr\
+* modules\odk.collect\res\values-fr\strings.xml
+* modules\odk.collect\res\values-ha\
+* modules\odk.collect\res\values-ha\strings.xml
+* modules\odk.collect\res\values-id\
+* modules\odk.collect\res\values-id\strings.xml
+* modules\odk.collect\res\values-it\
+* modules\odk.collect\res\values-it\strings.xml
+* modules\odk.collect\res\values-ka\
+* modules\odk.collect\res\values-ka\strings.xml
+* modules\odk.collect\res\values-kr-rUG\
+* modules\odk.collect\res\values-kr-rUG\strings.xml
+* modules\odk.collect\res\values-lo-rLA\
+* modules\odk.collect\res\values-lo-rLA\strings.xml
+* modules\odk.collect\res\values-lt\
+* modules\odk.collect\res\values-lt\strings.xml
+* modules\odk.collect\res\values-mg\
+* modules\odk.collect\res\values-mg\strings.xml
+* modules\odk.collect\res\values-my\
+* modules\odk.collect\res\values-my\strings.xml
+* modules\odk.collect\res\values-nl\
+* modules\odk.collect\res\values-nl\strings.xml
+* modules\odk.collect\res\values-no\
+* modules\odk.collect\res\values-no\strings.xml
+* modules\odk.collect\res\values-pt\
+* modules\odk.collect\res\values-pt\strings.xml
+* modules\odk.collect\res\values-ro\
+* modules\odk.collect\res\values-ro\strings.xml
+* modules\odk.collect\res\values-ru\
+* modules\odk.collect\res\values-ru\strings.xml
+* modules\odk.collect\res\values-sq-rAL\
+* modules\odk.collect\res\values-sq-rAL\strings.xml
+* modules\odk.collect\res\values-sw-rKE\
+* modules\odk.collect\res\values-sw-rKE\strings.xml
+* modules\odk.collect\res\values-sw\
+* modules\odk.collect\res\values-sw\strings.xml
+* modules\odk.collect\res\values-th-rTH\
+* modules\odk.collect\res\values-th-rTH\strings.xml
+* modules\odk.collect\res\values-tl-rPH\
+* modules\odk.collect\res\values-tl-rPH\strings.xml
+* modules\odk.collect\res\values-tl\
+* modules\odk.collect\res\values-tl\strings.xml
+* modules\odk.collect\res\values-tr\
+* modules\odk.collect\res\values-tr\strings.xml
+* modules\odk.collect\res\values-ur-rPK\
+* modules\odk.collect\res\values-ur-rPK\strings.xml
+* modules\odk.collect\res\values-v11\
+* modules\odk.collect\res\values-v11\theme.xml
+* modules\odk.collect\res\values-vi\
+* modules\odk.collect\res\values-vi\strings.xml
+* modules\odk.collect\res\values-zh\
+* modules\odk.collect\res\values-zh\strings.xml
+* modules\odk.collect\res\values\
+* modules\odk.collect\res\values\arrays.xml
+* modules\odk.collect\res\values\colors.xml
+* modules\odk.collect\res\values\strings.xml
+* modules\odk.collect\res\values\theme.xml
+* modules\odk.collect\res\values\untranslated.xml
+* modules\odk.collect\res\xml\
+* modules\odk.collect\res\xml\admin_preferences.xml
+* modules\odk.collect\res\xml\preferences.xml
+* modules\odk.collect\src\
+* modules\odk.collect\src\org\
+* modules\odk.collect\src\org\odk\
+* modules\odk.collect\src\org\odk\collect\
+* modules\odk.collect\src\org\odk\collect\android\
+* modules\odk.collect\src\org\odk\collect\android\activities\
+* modules\odk.collect\src\org\odk\collect\android\activities\AndroidShortcuts.java
+* modules\odk.collect\src\org\odk\collect\android\activities\BearingActivity.java
+* modules\odk.collect\src\org\odk\collect\android\activities\DataManagerList.java
+* modules\odk.collect\src\org\odk\collect\android\activities\DrawActivity.java
+* modules\odk.collect\src\org\odk\collect\android\activities\FileManagerTabs.java
+* modules\odk.collect\src\org\odk\collect\android\activities\FormChooserList.java
+* modules\odk.collect\src\org\odk\collect\android\activities\FormDownloadList.java
+* modules\odk.collect\src\org\odk\collect\android\activities\FormEntryActivity.java
+* modules\odk.collect\src\org\odk\collect\android\activities\FormHierarchyActivity.java
+* modules\odk.collect\src\org\odk\collect\android\activities\FormManagerList.java
+* modules\odk.collect\src\org\odk\collect\android\activities\InstanceChooserList.java
+* modules\odk.collect\src\org\odk\collect\android\activities\InstanceChooserTabs.java
+* modules\odk.collect\src\org\odk\collect\android\activities\InstanceUploaderActivity.java
+* modules\odk.collect\src\org\odk\collect\android\activities\InstanceUploaderList.java
+* modules\odk.collect\src\org\odk\collect\android\activities\MainMenuActivity.java
+* modules\odk.collect\src\org\odk\collect\android\activities\SplashScreenActivity.java
+* modules\odk.collect\src\org\odk\collect\android\adapters\
+* modules\odk.collect\src\org\odk\collect\android\adapters\HierarchyListAdapter.java
+* modules\odk.collect\src\org\odk\collect\android\application\
+* modules\odk.collect\src\org\odk\collect\android\application\Collect.java
+* modules\odk.collect\src\org\odk\collect\android\database\
+* modules\odk.collect\src\org\odk\collect\android\database\ActivityLogger.java
+* modules\odk.collect\src\org\odk\collect\android\database\ItemsetDbAdapter.java
+* modules\odk.collect\src\org\odk\collect\android\database\ODKSQLiteOpenHelper.java
+* modules\odk.collect\src\org\odk\collect\android\exception\
+* modules\odk.collect\src\org\odk\collect\android\exception\EncryptionException.java
+* modules\odk.collect\src\org\odk\collect\android\exception\ExternalDataException.java
+* modules\odk.collect\src\org\odk\collect\android\exception\ExternalParamsException.java
+* modules\odk.collect\src\org\odk\collect\android\exception\InvalidSyntaxException.java
+* modules\odk.collect\src\org\odk\collect\android\exception\JavaRosaException.java
+* modules\odk.collect\src\org\odk\collect\android\exception\TaskCancelledException.java
+* modules\odk.collect\src\org\odk\collect\android\external\
+* modules\odk.collect\src\org\odk\collect\android\external\ExternalAnswerResolver.java
+* modules\odk.collect\src\org\odk\collect\android\external\ExternalAppsUtils.java
+* modules\odk.collect\src\org\odk\collect\android\external\ExternalDataHandler.java
+* modules\odk.collect\src\org\odk\collect\android\external\ExternalDataManager.java
+* modules\odk.collect\src\org\odk\collect\android\external\ExternalDataManagerImpl.java
+* modules\odk.collect\src\org\odk\collect\android\external\ExternalDataReader.java
+* modules\odk.collect\src\org\odk\collect\android\external\ExternalDataReaderImpl.java
+* modules\odk.collect\src\org\odk\collect\android\external\ExternalDataUtil.java
+* modules\odk.collect\src\org\odk\collect\android\external\ExternalSQLiteOpenHelper.java
+* modules\odk.collect\src\org\odk\collect\android\external\ExternalSelectChoice.java
+* modules\odk.collect\src\org\odk\collect\android\external\handler\
+* modules\odk.collect\src\org\odk\collect\android\external\handler\ExternalDataHandlerBase.java
+* modules\odk.collect\src\org\odk\collect\android\external\handler\ExternalDataHandlerPull.java
+* modules\odk.collect\src\org\odk\collect\android\external\handler\ExternalDataHandlerSearch.java
+* modules\odk.collect\src\org\odk\collect\android\external\handler\ExternalDataSearchType.java
+* modules\odk.collect\src\org\odk\collect\android\listeners\
+* modules\odk.collect\src\org\odk\collect\android\listeners\AdvanceToNextListener.java
+* modules\odk.collect\src\org\odk\collect\android\listeners\DeleteFormsListener.java
+* modules\odk.collect\src\org\odk\collect\android\listeners\DeleteInstancesListener.java
+* modules\odk.collect\src\org\odk\collect\android\listeners\DiskSyncListener.java
+* modules\odk.collect\src\org\odk\collect\android\listeners\FormDownloaderListener.java
+* modules\odk.collect\src\org\odk\collect\android\listeners\FormListDownloaderListener.java
+* modules\odk.collect\src\org\odk\collect\android\listeners\FormLoaderListener.java
+* modules\odk.collect\src\org\odk\collect\android\listeners\FormSavedListener.java
+* modules\odk.collect\src\org\odk\collect\android\listeners\InstanceUploaderListener.java
+* modules\odk.collect\src\org\odk\collect\android\listeners\SavePointListener.java
+* modules\odk.collect\src\org\odk\collect\android\logic\
+* modules\odk.collect\src\org\odk\collect\android\logic\FileReference.java
+* modules\odk.collect\src\org\odk\collect\android\logic\FileReferenceFactory.java
+* modules\odk.collect\src\org\odk\collect\android\logic\FormController.java
+* modules\odk.collect\src\org\odk\collect\android\logic\FormDetails.java
+* modules\odk.collect\src\org\odk\collect\android\logic\HierarchyElement.java
+* modules\odk.collect\src\org\odk\collect\android\logic\PropertyManager.java
+* modules\odk.collect\src\org\odk\collect\android\openmrs\
+* modules\odk.collect\src\org\odk\collect\android\openmrs\provider\
+* modules\odk.collect\src\org\odk\collect\android\openmrs\provider\OpenMRSFormsProvider.java
+* modules\odk.collect\src\org\odk\collect\android\openmrs\provider\OpenMRSFormsProviderAPI.java
+* modules\odk.collect\src\org\odk\collect\android\openmrs\provider\OpenMRSInstanceProvider.java
+* modules\odk.collect\src\org\odk\collect\android\openmrs\provider\OpenMRSInstanceProviderAPI.java
+* modules\odk.collect\src\org\odk\collect\android\preferences\
+* modules\odk.collect\src\org\odk\collect\android\preferences\AdminPreferencesActivity.java
+* modules\odk.collect\src\org\odk\collect\android\preferences\PasswordDialogPreference.java
+* modules\odk.collect\src\org\odk\collect\android\preferences\PreferencesActivity.java
+* modules\odk.collect\src\org\odk\collect\android\provider\
+* modules\odk.collect\src\org\odk\collect\android\provider\FormsProvider.java
+* modules\odk.collect\src\org\odk\collect\android\provider\FormsProviderAPI.java
+* modules\odk.collect\src\org\odk\collect\android\provider\InstanceProvider.java
+* modules\odk.collect\src\org\odk\collect\android\provider\InstanceProviderAPI.java
+* modules\odk.collect\src\org\odk\collect\android\receivers\
+* modules\odk.collect\src\org\odk\collect\android\receivers\NetworkReceiver.java
+* modules\odk.collect\src\org\odk\collect\android\tasks\
+* modules\odk.collect\src\org\odk\collect\android\tasks\DeleteFormsTask.java
+* modules\odk.collect\src\org\odk\collect\android\tasks\DeleteInstancesTask.java
+* modules\odk.collect\src\org\odk\collect\android\tasks\DiskSyncTask.java
+* modules\odk.collect\src\org\odk\collect\android\tasks\DownloadFormListTask.java
+* modules\odk.collect\src\org\odk\collect\android\tasks\DownloadFormsTask.java
+* modules\odk.collect\src\org\odk\collect\android\tasks\FormLoaderTask.java
+* modules\odk.collect\src\org\odk\collect\android\tasks\InstanceUploaderTask.java
+* modules\odk.collect\src\org\odk\collect\android\tasks\ProgressNotifier.java
+* modules\odk.collect\src\org\odk\collect\android\tasks\SavePointTask.java
+* modules\odk.collect\src\org\odk\collect\android\tasks\SaveResult.java
+* modules\odk.collect\src\org\odk\collect\android\tasks\SaveToDiskTask.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\
+* modules\odk.collect\src\org\odk\collect\android\utilities\AgingCredentialsProvider.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\Base64Wrapper.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\ColorPickerDialog.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\CompatibilityUtils.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\DocumentFetchResult.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\EncryptionUtils.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\FileUtils.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\InfoLogger.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\MediaUtils.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\UrlUtils.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\VersionHidingCursorAdapter.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\WebUtils.java
+* modules\odk.collect\src\org\odk\collect\android\utilities\ZipUtils.java
+* modules\odk.collect\src\org\odk\collect\android\views\
+* modules\odk.collect\src\org\odk\collect\android\views\ArrowAnimationView.java
+* modules\odk.collect\src\org\odk\collect\android\views\AudioButton.java
+* modules\odk.collect\src\org\odk\collect\android\views\ExpandedHeightGridView.java
+* modules\odk.collect\src\org\odk\collect\android\views\HierarchyElementView.java
+* modules\odk.collect\src\org\odk\collect\android\views\MediaLayout.java
+* modules\odk.collect\src\org\odk\collect\android\views\ODKView.java
+* modules\odk.collect\src\org\odk\collect\android\views\TwoItemMultipleChoiceView.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\
+* modules\odk.collect\src\org\odk\collect\android\widgets\AlignedImageWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\AnnotateWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\AudioWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\AutoCompleteWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\BarcodeWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\BearingWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\DateTimeWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\DateWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\DecimalWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\DrawWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\ExDecimalWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\ExIntegerWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\ExPrinterWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\ExStringWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\GridMultiWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\GridWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\IBinaryWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\ImageWebViewWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\ImageWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\IntegerWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\ItemsetWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\LabelWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\ListMultiWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\ListWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\QuestionWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\SelectMultiWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\SelectOneAutoAdvanceWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\SelectOneWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\SignatureWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\SpinnerMultiWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\SpinnerWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\StringNumberWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\StringWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\TimeWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\TriggerWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\UrlWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\VideoWidget.java
+* modules\odk.collect\src\org\odk\collect\android\widgets\WidgetFactory.java
+* modules\support\
+* modules\support\appcompat\
+* modules\support\appcompat\AndroidManifest.xml
+* modules\support\appcompat\README.txt
+* modules\support\appcompat\build.xml
+* modules\support\appcompat\libs\
+* modules\support\appcompat\libs\android-support-v4.jar
+* modules\support\appcompat\libs\android-support-v7-appcompat.jar
+* modules\support\appcompat\project.properties
+* modules\support\appcompat\res\
+* modules\support\appcompat\res\anim\
+* modules\support\appcompat\res\anim\abc_fade_in.xml
+* modules\support\appcompat\res\anim\abc_fade_out.xml
+* modules\support\appcompat\res\anim\abc_slide_in_bottom.xml
+* modules\support\appcompat\res\anim\abc_slide_in_top.xml
+* modules\support\appcompat\res\anim\abc_slide_out_bottom.xml
+* modules\support\appcompat\res\anim\abc_slide_out_top.xml
+* modules\support\appcompat\res\color\
+* modules\support\appcompat\res\color\abc_search_url_text_holo.xml
+* modules\support\appcompat\res\drawable-hdpi\
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_bottom_solid_dark_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_bottom_solid_light_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_bottom_transparent_dark_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_bottom_transparent_light_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_share_pack_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_share_pack_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_solid_dark_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_solid_light_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_stacked_solid_dark_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_stacked_solid_light_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_stacked_transparent_dark_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_stacked_transparent_light_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_transparent_dark_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ab_transparent_light_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_cab_background_bottom_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_cab_background_bottom_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_cab_background_top_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_cab_background_top_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_ab_back_holo_dark.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_ab_back_holo_light.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_cab_done_holo_dark.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_cab_done_holo_light.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_clear_disabled.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_clear_normal.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_clear_search_api_disabled_holo_light.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_clear_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_commit_search_api_holo_dark.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_commit_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_go.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_go_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_menu_moreoverflow_normal_holo_dark.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_menu_moreoverflow_normal_holo_light.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_menu_share_holo_dark.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_menu_share_holo_light.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_search.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_voice_search.png
+* modules\support\appcompat\res\drawable-hdpi\abc_ic_voice_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-hdpi\abc_list_divider_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_list_divider_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_list_focused_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_list_longpressed_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_list_pressed_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_list_pressed_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_list_selector_disabled_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_list_selector_disabled_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_menu_dropdown_panel_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_menu_dropdown_panel_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_menu_hardkey_panel_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_menu_hardkey_panel_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_spinner_ab_default_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_spinner_ab_default_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_spinner_ab_disabled_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_spinner_ab_disabled_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_spinner_ab_focused_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_spinner_ab_focused_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_spinner_ab_pressed_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_spinner_ab_pressed_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_tab_selected_focused_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_tab_selected_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_tab_selected_pressed_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_tab_unselected_pressed_holo.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_textfield_search_default_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_textfield_search_default_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_textfield_search_right_default_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_textfield_search_right_default_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_textfield_search_right_selected_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_textfield_search_right_selected_holo_light.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_textfield_search_selected_holo_dark.9.png
+* modules\support\appcompat\res\drawable-hdpi\abc_textfield_search_selected_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_bottom_solid_dark_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_bottom_solid_light_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_bottom_transparent_dark_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_bottom_transparent_light_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_share_pack_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_share_pack_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_solid_dark_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_solid_light_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_stacked_solid_dark_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_stacked_solid_light_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_stacked_transparent_dark_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_stacked_transparent_light_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_transparent_dark_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ab_transparent_light_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_cab_background_bottom_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_cab_background_bottom_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_cab_background_top_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_cab_background_top_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_ab_back_holo_dark.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_ab_back_holo_light.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_cab_done_holo_dark.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_cab_done_holo_light.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_clear_disabled.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_clear_normal.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_clear_search_api_disabled_holo_light.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_clear_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_commit_search_api_holo_dark.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_commit_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_go.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_go_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_menu_moreoverflow_normal_holo_dark.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_menu_moreoverflow_normal_holo_light.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_menu_share_holo_dark.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_menu_share_holo_light.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_search.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_voice_search.png
+* modules\support\appcompat\res\drawable-mdpi\abc_ic_voice_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-mdpi\abc_list_divider_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_list_divider_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_list_focused_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_list_longpressed_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_list_pressed_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_list_pressed_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_list_selector_disabled_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_list_selector_disabled_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_menu_dropdown_panel_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_menu_dropdown_panel_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_menu_hardkey_panel_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_menu_hardkey_panel_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_spinner_ab_default_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_spinner_ab_default_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_spinner_ab_disabled_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_spinner_ab_disabled_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_spinner_ab_focused_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_spinner_ab_focused_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_spinner_ab_pressed_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_spinner_ab_pressed_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_tab_selected_focused_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_tab_selected_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_tab_selected_pressed_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_tab_unselected_pressed_holo.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_textfield_search_default_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_textfield_search_default_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_textfield_search_right_default_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_textfield_search_right_default_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_textfield_search_right_selected_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_textfield_search_right_selected_holo_light.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_textfield_search_selected_holo_dark.9.png
+* modules\support\appcompat\res\drawable-mdpi\abc_textfield_search_selected_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_bottom_solid_dark_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_bottom_solid_light_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_bottom_transparent_dark_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_bottom_transparent_light_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_share_pack_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_share_pack_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_solid_dark_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_solid_light_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_stacked_solid_dark_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_stacked_solid_light_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_stacked_transparent_dark_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_stacked_transparent_light_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_transparent_dark_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ab_transparent_light_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_cab_background_bottom_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_cab_background_bottom_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_cab_background_top_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_cab_background_top_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_ab_back_holo_dark.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_ab_back_holo_light.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_cab_done_holo_dark.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_cab_done_holo_light.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_clear_disabled.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_clear_normal.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_clear_search_api_disabled_holo_light.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_clear_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_commit_search_api_holo_dark.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_commit_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_go.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_go_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_menu_moreoverflow_normal_holo_dark.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_menu_moreoverflow_normal_holo_light.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_menu_share_holo_dark.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_menu_share_holo_light.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_search.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_voice_search.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_ic_voice_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_list_divider_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_list_divider_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_list_focused_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_list_longpressed_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_list_pressed_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_list_pressed_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_list_selector_disabled_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_list_selector_disabled_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_menu_dropdown_panel_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_menu_dropdown_panel_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_menu_hardkey_panel_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_menu_hardkey_panel_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_spinner_ab_default_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_spinner_ab_default_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_spinner_ab_disabled_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_spinner_ab_disabled_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_spinner_ab_focused_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_spinner_ab_focused_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_spinner_ab_pressed_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_spinner_ab_pressed_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_tab_selected_focused_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_tab_selected_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_tab_selected_pressed_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_tab_unselected_pressed_holo.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_textfield_search_default_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_textfield_search_default_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_textfield_search_right_default_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_textfield_search_right_default_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_textfield_search_right_selected_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_textfield_search_right_selected_holo_light.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_textfield_search_selected_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xhdpi\abc_textfield_search_selected_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_bottom_solid_dark_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_bottom_solid_light_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_bottom_transparent_dark_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_bottom_transparent_light_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_share_pack_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_share_pack_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_solid_dark_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_solid_light_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_stacked_solid_dark_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_stacked_solid_light_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_stacked_transparent_dark_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_stacked_transparent_light_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_transparent_dark_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ab_transparent_light_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_cab_background_bottom_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_cab_background_bottom_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_cab_background_top_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_cab_background_top_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_ab_back_holo_dark.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_ab_back_holo_light.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_cab_done_holo_dark.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_cab_done_holo_light.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_clear_disabled.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_clear_normal.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_clear_search_api_disabled_holo_light.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_clear_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_commit_search_api_holo_dark.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_commit_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_go.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_go_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_menu_moreoverflow_normal_holo_dark.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_menu_moreoverflow_normal_holo_light.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_menu_share_holo_dark.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_menu_share_holo_light.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_search.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_voice_search.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_ic_voice_search_api_holo_light.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_list_divider_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_list_divider_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_list_focused_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_list_longpressed_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_list_pressed_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_list_pressed_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_list_selector_disabled_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_list_selector_disabled_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_menu_dropdown_panel_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_menu_dropdown_panel_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_menu_hardkey_panel_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_menu_hardkey_panel_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_spinner_ab_default_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_spinner_ab_default_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_spinner_ab_disabled_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_spinner_ab_disabled_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_spinner_ab_focused_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_spinner_ab_focused_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_spinner_ab_pressed_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_spinner_ab_pressed_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_tab_selected_focused_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_tab_selected_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_tab_selected_pressed_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_tab_unselected_pressed_holo.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_textfield_search_default_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_textfield_search_default_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_textfield_search_right_default_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_textfield_search_right_default_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_textfield_search_right_selected_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_textfield_search_right_selected_holo_light.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_textfield_search_selected_holo_dark.9.png
+* modules\support\appcompat\res\drawable-xxhdpi\abc_textfield_search_selected_holo_light.9.png
+* modules\support\appcompat\res\drawable\
+* modules\support\appcompat\res\drawable\abc_ic_clear.xml
+* modules\support\appcompat\res\drawable\abc_ic_clear_holo_light.xml
+* modules\support\appcompat\res\drawable\abc_item_background_holo_dark.xml
+* modules\support\appcompat\res\drawable\abc_item_background_holo_light.xml
+* modules\support\appcompat\res\drawable\abc_list_selector_background_transition_holo_dark.xml
+* modules\support\appcompat\res\drawable\abc_list_selector_background_transition_holo_light.xml
+* modules\support\appcompat\res\drawable\abc_list_selector_holo_dark.xml
+* modules\support\appcompat\res\drawable\abc_list_selector_holo_light.xml
+* modules\support\appcompat\res\drawable\abc_search_dropdown_dark.xml
+* modules\support\appcompat\res\drawable\abc_search_dropdown_light.xml
+* modules\support\appcompat\res\drawable\abc_spinner_ab_holo_dark.xml
+* modules\support\appcompat\res\drawable\abc_spinner_ab_holo_light.xml
+* modules\support\appcompat\res\drawable\abc_tab_indicator_ab_holo.xml
+* modules\support\appcompat\res\drawable\abc_textfield_searchview_holo_dark.xml
+* modules\support\appcompat\res\drawable\abc_textfield_searchview_holo_light.xml
+* modules\support\appcompat\res\drawable\abc_textfield_searchview_right_holo_dark.xml
+* modules\support\appcompat\res\drawable\abc_textfield_searchview_right_holo_light.xml
+* modules\support\appcompat\res\layout-v11\
+* modules\support\appcompat\res\layout-v11\abc_action_bar_decor.xml
+* modules\support\appcompat\res\layout-v11\abc_simple_decor.xml
+* modules\support\appcompat\res\layout-v14\
+* modules\support\appcompat\res\layout-v14\abc_activity_chooser_view.xml
+* modules\support\appcompat\res\layout\
+* modules\support\appcompat\res\layout\abc_action_bar_decor.xml
+* modules\support\appcompat\res\layout\abc_action_bar_decor_include.xml
+* modules\support\appcompat\res\layout\abc_action_bar_decor_overlay.xml
+* modules\support\appcompat\res\layout\abc_action_bar_home.xml
+* modules\support\appcompat\res\layout\abc_action_bar_tab.xml
+* modules\support\appcompat\res\layout\abc_action_bar_tabbar.xml
+* modules\support\appcompat\res\layout\abc_action_bar_title_item.xml
+* modules\support\appcompat\res\layout\abc_action_bar_view_list_nav_layout.xml
+* modules\support\appcompat\res\layout\abc_action_menu_item_layout.xml
+* modules\support\appcompat\res\layout\abc_action_menu_layout.xml
+* modules\support\appcompat\res\layout\abc_action_mode_bar.xml
+* modules\support\appcompat\res\layout\abc_action_mode_close_item.xml
+* modules\support\appcompat\res\layout\abc_activity_chooser_view.xml
+* modules\support\appcompat\res\layout\abc_activity_chooser_view_include.xml
+* modules\support\appcompat\res\layout\abc_activity_chooser_view_list_item.xml
+* modules\support\appcompat\res\layout\abc_expanded_menu_layout.xml
+* modules\support\appcompat\res\layout\abc_list_menu_item_checkbox.xml
+* modules\support\appcompat\res\layout\abc_list_menu_item_icon.xml
+* modules\support\appcompat\res\layout\abc_list_menu_item_layout.xml
+* modules\support\appcompat\res\layout\abc_list_menu_item_radio.xml
+* modules\support\appcompat\res\layout\abc_popup_menu_item_layout.xml
+* modules\support\appcompat\res\layout\abc_search_dropdown_item_icons_2line.xml
+* modules\support\appcompat\res\layout\abc_search_view.xml
+* modules\support\appcompat\res\layout\abc_simple_decor.xml
+* modules\support\appcompat\res\layout\support_simple_spinner_dropdown_item.xml
+* modules\support\appcompat\res\values-af\
+* modules\support\appcompat\res\values-af\strings.xml
+* modules\support\appcompat\res\values-am\
+* modules\support\appcompat\res\values-am\strings.xml
+* modules\support\appcompat\res\values-ar\
+* modules\support\appcompat\res\values-ar\strings.xml
+* modules\support\appcompat\res\values-bg\
+* modules\support\appcompat\res\values-bg\strings.xml
+* modules\support\appcompat\res\values-ca\
+* modules\support\appcompat\res\values-ca\strings.xml
+* modules\support\appcompat\res\values-cs\
+* modules\support\appcompat\res\values-cs\strings.xml
+* modules\support\appcompat\res\values-da\
+* modules\support\appcompat\res\values-da\strings.xml
+* modules\support\appcompat\res\values-de\
+* modules\support\appcompat\res\values-de\strings.xml
+* modules\support\appcompat\res\values-el\
+* modules\support\appcompat\res\values-el\strings.xml
+* modules\support\appcompat\res\values-en-rGB\
+* modules\support\appcompat\res\values-en-rGB\strings.xml
+* modules\support\appcompat\res\values-en-rIN\
+* modules\support\appcompat\res\values-en-rIN\strings.xml
+* modules\support\appcompat\res\values-es-rUS\
+* modules\support\appcompat\res\values-es-rUS\strings.xml
+* modules\support\appcompat\res\values-es\
+* modules\support\appcompat\res\values-es\strings.xml
+* modules\support\appcompat\res\values-et-rEE\
+* modules\support\appcompat\res\values-et-rEE\strings.xml
+* modules\support\appcompat\res\values-fa\
+* modules\support\appcompat\res\values-fa\strings.xml
+* modules\support\appcompat\res\values-fi\
+* modules\support\appcompat\res\values-fi\strings.xml
+* modules\support\appcompat\res\values-fr-rCA\
+* modules\support\appcompat\res\values-fr-rCA\strings.xml
+* modules\support\appcompat\res\values-fr\
+* modules\support\appcompat\res\values-fr\strings.xml
+* modules\support\appcompat\res\values-hi\
+* modules\support\appcompat\res\values-hi\strings.xml
+* modules\support\appcompat\res\values-hr\
+* modules\support\appcompat\res\values-hr\strings.xml
+* modules\support\appcompat\res\values-hu\
+* modules\support\appcompat\res\values-hu\strings.xml
+* modules\support\appcompat\res\values-hy-rAM\
+* modules\support\appcompat\res\values-hy-rAM\strings.xml
+* modules\support\appcompat\res\values-in\
+* modules\support\appcompat\res\values-in\strings.xml
+* modules\support\appcompat\res\values-it\
+* modules\support\appcompat\res\values-it\strings.xml
+* modules\support\appcompat\res\values-iw\
+* modules\support\appcompat\res\values-iw\strings.xml
+* modules\support\appcompat\res\values-ja\
+* modules\support\appcompat\res\values-ja\strings.xml
+* modules\support\appcompat\res\values-ka-rGE\
+* modules\support\appcompat\res\values-ka-rGE\strings.xml
+* modules\support\appcompat\res\values-km-rKH\
+* modules\support\appcompat\res\values-km-rKH\strings.xml
+* modules\support\appcompat\res\values-ko\
+* modules\support\appcompat\res\values-ko\strings.xml
+* modules\support\appcompat\res\values-land\
+* modules\support\appcompat\res\values-land\bools.xml
+* modules\support\appcompat\res\values-land\config.xml
+* modules\support\appcompat\res\values-land\dimens.xml
+* modules\support\appcompat\res\values-large-v14\
+* modules\support\appcompat\res\values-large-v14\themes_base.xml
+* modules\support\appcompat\res\values-large\
+* modules\support\appcompat\res\values-large\bools.xml
+* modules\support\appcompat\res\values-large\config.xml
+* modules\support\appcompat\res\values-large\dimens.xml
+* modules\support\appcompat\res\values-large\themes_base.xml
+* modules\support\appcompat\res\values-lo-rLA\
+* modules\support\appcompat\res\values-lo-rLA\strings.xml
+* modules\support\appcompat\res\values-lt\
+* modules\support\appcompat\res\values-lt\strings.xml
+* modules\support\appcompat\res\values-lv\
+* modules\support\appcompat\res\values-lv\strings.xml
+* modules\support\appcompat\res\values-mn-rMN\
+* modules\support\appcompat\res\values-mn-rMN\strings.xml
+* modules\support\appcompat\res\values-ms-rMY\
+* modules\support\appcompat\res\values-ms-rMY\strings.xml
+* modules\support\appcompat\res\values-nb\
+* modules\support\appcompat\res\values-nb\strings.xml
+* modules\support\appcompat\res\values-nl\
+* modules\support\appcompat\res\values-nl\strings.xml
+* modules\support\appcompat\res\values-pl\
+* modules\support\appcompat\res\values-pl\strings.xml
+* modules\support\appcompat\res\values-pt-rPT\
+* modules\support\appcompat\res\values-pt-rPT\strings.xml
+* modules\support\appcompat\res\values-pt\
+* modules\support\appcompat\res\values-pt\strings.xml
+* modules\support\appcompat\res\values-ro\
+* modules\support\appcompat\res\values-ro\strings.xml
+* modules\support\appcompat\res\values-ru\
+* modules\support\appcompat\res\values-ru\strings.xml
+* modules\support\appcompat\res\values-sk\
+* modules\support\appcompat\res\values-sk\strings.xml
+* modules\support\appcompat\res\values-sl\
+* modules\support\appcompat\res\values-sl\strings.xml
+* modules\support\appcompat\res\values-sr\
+* modules\support\appcompat\res\values-sr\strings.xml
+* modules\support\appcompat\res\values-sv\
+* modules\support\appcompat\res\values-sv\strings.xml
+* modules\support\appcompat\res\values-sw600dp\
+* modules\support\appcompat\res\values-sw600dp\config.xml
+* modules\support\appcompat\res\values-sw600dp\dimens.xml
+* modules\support\appcompat\res\values-sw\
+* modules\support\appcompat\res\values-sw\strings.xml
+* modules\support\appcompat\res\values-th\
+* modules\support\appcompat\res\values-th\strings.xml
+* modules\support\appcompat\res\values-tl\
+* modules\support\appcompat\res\values-tl\strings.xml
+* modules\support\appcompat\res\values-tr\
+* modules\support\appcompat\res\values-tr\strings.xml
+* modules\support\appcompat\res\values-uk\
+* modules\support\appcompat\res\values-uk\strings.xml
+* modules\support\appcompat\res\values-v11\
+* modules\support\appcompat\res\values-v11\styles_base.xml
+* modules\support\appcompat\res\values-v11\themes_base.xml
+* modules\support\appcompat\res\values-v14\
+* modules\support\appcompat\res\values-v14\styles_base.xml
+* modules\support\appcompat\res\values-v14\themes_base.xml
+* modules\support\appcompat\res\values-vi\
+* modules\support\appcompat\res\values-vi\strings.xml
+* modules\support\appcompat\res\values-w360dp\
+* modules\support\appcompat\res\values-w360dp\dimens.xml
+* modules\support\appcompat\res\values-w480dp\
+* modules\support\appcompat\res\values-w480dp\bools.xml
+* modules\support\appcompat\res\values-w480dp\config.xml
+* modules\support\appcompat\res\values-w500dp\
+* modules\support\appcompat\res\values-w500dp\dimens.xml
+* modules\support\appcompat\res\values-w600dp\
+* modules\support\appcompat\res\values-w600dp\dimens.xml
+* modules\support\appcompat\res\values-w720dp\
+* modules\support\appcompat\res\values-w720dp\bools.xml
+* modules\support\appcompat\res\values-xlarge\
+* modules\support\appcompat\res\values-xlarge\bools.xml
+* modules\support\appcompat\res\values-xlarge\dimens.xml
+* modules\support\appcompat\res\values-zh-rCN\
+* modules\support\appcompat\res\values-zh-rCN\strings.xml
+* modules\support\appcompat\res\values-zh-rHK\
+* modules\support\appcompat\res\values-zh-rHK\strings.xml
+* modules\support\appcompat\res\values-zh-rTW\
+* modules\support\appcompat\res\values-zh-rTW\strings.xml
+* modules\support\appcompat\res\values-zu\
+* modules\support\appcompat\res\values-zu\strings.xml
+* modules\support\appcompat\res\values\
+* modules\support\appcompat\res\values\attrs.xml
+* modules\support\appcompat\res\values\bools.xml
+* modules\support\appcompat\res\values\colors.xml
+* modules\support\appcompat\res\values\config.xml
+* modules\support\appcompat\res\values\dimens.xml
+* modules\support\appcompat\res\values\ids.xml
+* modules\support\appcompat\res\values\strings.xml
+* modules\support\appcompat\res\values\styles.xml
+* modules\support\appcompat\res\values\styles_base.xml
+* modules\support\appcompat\res\values\themes.xml
+* modules\support\appcompat\res\values\themes_base.xml
+* modules\support\appcompat\src\
+* modules\support\appcompat\src\.readme
+* modules\support\gridlayout\
+* modules\support\gridlayout\AndroidManifest.xml
+* modules\support\gridlayout\README.txt
+* modules\support\gridlayout\build.xml
+* modules\support\gridlayout\libs\
+* modules\support\gridlayout\libs\android-support-v7-gridlayout.jar
+* modules\support\gridlayout\project.properties
+* modules\support\gridlayout\res\
+* modules\support\gridlayout\res\values\
+* modules\support\gridlayout\res\values\attrs.xml
+* modules\support\gridlayout\res\values\dimens.xml
+* modules\support\gridlayout\src\
+* modules\support\gridlayout\src\.readme
+* play_resources\
+* play_resources\OpenMRS_Feature_Graphic.png
+* play_resources\OpenMRS_icon.png
+* pmd.xml
+* pmd\
+* pmd\asm-3.2.jar
+* pmd\jaxen-1.1.1.jar
+* pmd\pmd-5.0.1.jar
+* tests\
+* tests\ant.properties
+* tests\build.xml
+* tests\custom_rules.xml
+* tests\project.properties
+From odk.collect:
+* LICENSE.txt
+* build.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+robotium-solo-4.2.jar => com.jayway.android.robotium:robotium-solo:4.2
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:19.1.0
+android-support-v7-gridlayout.jar => com.android.support:gridlayout-v7:18.0.0
+gson-2.3.1.jar => com.google.code.gson:gson:2.3.1
+guava-r09.jar => com.google.guava:guava:18.0
+joda-time-2.0.jar => joda-time:joda-time:2.0
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+joda-time-2.0.jar => version 2.0 in joda-time:joda-time:2.0
+robotium-solo-4.2.jar => version 4.2 in com.jayway.android.robotium:robotium-solo:4.2
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+appcompat => [com.android.support:appcompat-v7:19.1.0]
+gridlayout => [com.android.support:gridlayout-v7:18.0.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In odk.collect:
+* AndroidManifest.xml => odkcollect\src\main\AndroidManifest.xml
+* libs\apache-mime4j-0.6.jar => odkcollect\libs\apache-mime4j-0.6.jar
+* libs\commons-io-2.4.jar => odkcollect\libs\commons-io-2.4.jar
+* libs\httpclientandroidlib-4.2.1.jar => odkcollect\libs\httpclientandroidlib-4.2.1.jar
+* libs\javarosa-libraries-2014-04-29.jar => odkcollect\libs\javarosa-libraries-2014-04-29.jar
+* libs\kxml2-2.3.0.jar => odkcollect\libs\kxml2-2.3.0.jar
+* libs\opencsv-2.3.jar => odkcollect\libs\opencsv-2.3.jar
+* lint.xml => odkcollect\lint.xml
+* res\ => odkcollect\src\main\res\
+* src\ => odkcollect\src\main\java\
+In Team13AndroidClient-master:
+* AndroidManifest.xml => team13AndroidClientmaster\src\main\AndroidManifest.xml
+* assets\ => team13AndroidClientmaster\src\main\assets\
+* libs\armeabi\libdatabase_sqlcipher.so => team13AndroidClientmaster\src\main\jniLibs\armeabi\libdatabase_sqlcipher.so
+* libs\armeabi\libsqlcipher_android.so => team13AndroidClientmaster\src\main\jniLibs\armeabi\libsqlcipher_android.so
+* libs\armeabi\libstlport_shared.so => team13AndroidClientmaster\src\main\jniLibs\armeabi\libstlport_shared.so
+* libs\commons-codec.jar => team13AndroidClientmaster\libs\commons-codec.jar
+* libs\httpcore-4.3.2.jar => team13AndroidClientmaster\libs\httpcore-4.3.2.jar
+* libs\httpmime-4.3.6.jar => team13AndroidClientmaster\libs\httpmime-4.3.6.jar
+* libs\sqlcipher.jar => team13AndroidClientmaster\libs\sqlcipher.jar
+* libs\volley.jar => team13AndroidClientmaster\libs\volley.jar
+* libs\x86\libdatabase_sqlcipher.so => team13AndroidClientmaster\src\main\jniLibs\x86\libdatabase_sqlcipher.so
+* libs\x86\libsqlcipher_android.so => team13AndroidClientmaster\src\main\jniLibs\x86\libsqlcipher_android.so
+* libs\x86\libstlport_shared.so => team13AndroidClientmaster\src\main\jniLibs\x86\libstlport_shared.so
+* res\ => team13AndroidClientmaster\src\main\res\
+* src\ => team13AndroidClientmaster\src\main\java\
+* tests\libs\dexmaker-1.0.jar => team13AndroidClientmaster\libs\dexmaker-1.0.jar
+* tests\libs\dexmaker-mockito-1.0.jar => team13AndroidClientmaster\libs\dexmaker-mockito-1.0.jar
+* tests\libs\robotium-solo-4.2.jar => team13AndroidClientmaster\libs\robotium-solo-4.2.jar
+* tests\libs\the-missing-android-xml-junit-test-runner-release-1.3_2.jar => team13AndroidClientmaster\libs\the-missing-android-xml-junit-test-runner-release-1.3_2.jar
+* tests\src\ => team13AndroidClientmaster\src\androidTest\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ico_vitals.png",
+        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\drawable-xxxhdpi\\ico_vitals.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_openmrs.png",
+        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\drawable-xxxhdpi\\ic_openmrs.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\openmrs_logo.png",
+        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\drawable-xxxhdpi\\openmrs_logo.png"
+    }
+]
