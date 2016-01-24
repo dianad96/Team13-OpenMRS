@@ -79,17 +79,19 @@ public class DashboardActivity extends ACBaseActivity {
 
     private void bindDrawableResources() {
         mBitmapCache = new SparseArray<Bitmap>();
-        ImageView findPatientImageButton = (ImageView) findViewById(R.id.findPatientButton);
-        ImageView registryPatientImageButton = (ImageView) findViewById(R.id.registryPatientButton);
-        ImageView activeVisitsImageButton = (ImageView) findViewById(R.id.activeVisitsButton);
+        ImageView inputFood = (ImageView) findViewById(R.id.findPatientButton);
+        ImageView inputHeight = (ImageView) findViewById(R.id.registryPatientButton);
+        ImageView inputExercise = (ImageView) findViewById(R.id.activeVisitsButton);
         ImageView captureVitalsImageButton = (ImageView) findViewById(R.id.captureVitalsButton);
-        createImageBitmap(R.drawable.ico_search, findPatientImageButton.getLayoutParams());
-        createImageBitmap(R.drawable.ico_registry, registryPatientImageButton.getLayoutParams());
-        createImageBitmap(R.drawable.ico_visits, activeVisitsImageButton.getLayoutParams());
+
+        createImageBitmap(R.drawable.ico_food, inputFood.getLayoutParams());
+        createImageBitmap(R.drawable.ico_scale, inputHeight.getLayoutParams());
+        createImageBitmap(R.drawable.ico_exercise, inputExercise.getLayoutParams());
         createImageBitmap(R.drawable.ico_vitals, captureVitalsImageButton.getLayoutParams());
-        findPatientImageButton.setImageBitmap(mBitmapCache.get(R.drawable.ico_search));
-        registryPatientImageButton.setImageBitmap(mBitmapCache.get(R.drawable.ico_registry));
-        activeVisitsImageButton.setImageBitmap(mBitmapCache.get(R.drawable.ico_visits));
+
+        inputFood.setImageBitmap(mBitmapCache.get(R.drawable.ico_food));
+        inputHeight.setImageBitmap(mBitmapCache.get(R.drawable.ico_scale));
+        inputExercise.setImageBitmap(mBitmapCache.get(R.drawable.ico_exercise));
         captureVitalsImageButton.setImageBitmap(mBitmapCache.get(R.drawable.ico_vitals));
     }
 

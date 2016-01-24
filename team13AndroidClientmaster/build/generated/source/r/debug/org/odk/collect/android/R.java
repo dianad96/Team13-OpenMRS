@@ -29,7 +29,7 @@ public final class R {
 	public static final class drawable {
 		public static final int advance = 0x7f02005f;
 		public static final int backup = 0x7f020060;
-		public static final int black = 0x7f0200ae;
+		public static final int black = 0x7f0200b2;
 		public static final int expander_ic_maximized = 0x7f020072;
 		public static final int expander_ic_minimized = 0x7f020073;
 		public static final int expander_ic_right = 0x7f020074;
@@ -48,10 +48,10 @@ public final class R {
 		public static final int ic_menu_save = 0x7f020081;
 		public static final int ic_menu_send = 0x7f020082;
 		public static final int ic_menu_start_conversation = 0x7f020083;
-		public static final int left_arrow = 0x7f02008b;
-		public static final int notes = 0x7f020090;
-		public static final int thumb = 0x7f0200a7;
-		public static final int white = 0x7f0200af;
+		public static final int left_arrow = 0x7f02008f;
+		public static final int notes = 0x7f020094;
+		public static final int thumb = 0x7f0200ab;
+		public static final int white = 0x7f0200b3;
 	}
 	public static final class id {
 		public static final int accept_location = 0x7f0d00c7;

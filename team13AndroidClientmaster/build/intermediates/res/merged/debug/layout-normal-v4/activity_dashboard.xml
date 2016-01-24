@@ -76,7 +76,7 @@
                             android:clickable="true"
                             android:onClick="onFindPatientCallback"
                             android:paddingTop="10dp"
-                            android:text="@string/dashboard_search_icon_label"
+                            android:text="Food"
                             android:textSize="22sp"/>
                 </RelativeLayout>
                 </FrameLayout>
@@ -109,7 +109,7 @@
                             android:layout_gravity="center"
                             android:clickable="true"
                             android:paddingTop="10dp"
-                            android:text="@string/dashboard_visits_icon_label"
+                            android:text="Exercise"
                             android:onClick="onActiveVisitsCallback"
                             android:textSize="22sp"/>
                     </RelativeLayout>
@@ -146,7 +146,7 @@
                             android:layout_gravity="center"
                             android:clickable="true"
                             android:paddingTop="10dp"
-                            android:text="@string/dashboard_vitals_icon_label"
+                            android:text="Heart Rate"
                             android:onClick="onCaptureVitalsCallback"
                             android:textSize="22sp"/>
                     </RelativeLayout>
@@ -182,7 +182,7 @@
                             android:layout_gravity="center"
                             android:clickable="true"
                             android:paddingTop="10dp"
-                            android:text="Input Manually"
+                            android:text="Height &amp; Weight"
                             android:onClick="onInputManually"
                             android:visibility="visible"
                             android:textSize="22sp"/>

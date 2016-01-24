@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_normal_holo_dark.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_solid_dark_holo.9.png",
-        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ab_solid_dark_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_holo_light.png",
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ic_commit_search_api_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_solid_dark_holo.9.png",
+        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ab_solid_dark_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_cab_done_pressed_openmrs.9.png",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\drawable-mdpi\\checkbox_unchecked.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_solid_light_holo.9.png",
-        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ab_solid_light_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png",
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ab_bottom_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_solid_light_holo.9.png",
+        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ab_solid_light_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_ab_disabled_holo_light.9.png",
@@ -86,6 +86,10 @@
     {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_menu_forward.png",
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\drawable-mdpi-v4\\ic_menu_forward.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ico_food.png",
+        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\drawable-mdpi\\ico_food.png"
     },
     {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\exp_list_hide_details.png",
@@ -208,6 +212,10 @@
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_spinner_ab_pressed_holo_light.9.png"
     },
     {
+        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ico_heart_rate.png",
+        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\drawable-mdpi\\ico_heart_rate.png"
+    },
+    {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_holo_dark.9.png",
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_cab_background_top_holo_dark.9.png"
     },
@@ -262,6 +270,10 @@
     {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_right_default_holo_light.9.png",
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_textfield_search_right_default_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ico_scale.png",
+        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\drawable-mdpi\\ico_scale.png"
     },
     {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_voice_search_api_holo_light.png",
@@ -466,6 +478,10 @@
     {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\expander_ic_maximized.png",
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\drawable-mdpi-v4\\expander_ic_maximized.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ico_exercise.png",
+        "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\drawable-mdpi\\ico_exercise.png"
     },
     {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_bottom_solid_light_holo.9.png",
