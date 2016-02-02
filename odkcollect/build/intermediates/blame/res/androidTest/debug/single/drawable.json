@@ -8,11 +8,27 @@
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_backward.png"
     },
     {
+        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_forward.png",
+        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_forward.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_backward.png",
+        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_backward.png"
+    },
+    {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_save.png",
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_save.png"
     },
     {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\thumb.xml",
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_save.png",
+        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_save.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\thumb.xml",
+        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\thumb.xml"
     }
 ]

@@ -1,11 +1,23 @@
 [
     {
+        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\menu\\patients_visit_tab_menu.xml",
+        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\menu\\patients_visit_tab_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\menu\\patients_menu.xml",
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\menu\\patients_menu.xml"
     },
     {
+        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\menu\\basic_menu.xml",
+        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\menu\\basic_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\menu\\active_visit_menu.xml",
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\menu\\active_visit_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\menu\\find_patients_menu.xml",
+        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\menu\\find_patients_menu.xml"
     },
     {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\menu\\patients_visit_tab_menu.xml",
@@ -18,5 +30,13 @@
     {
         "merged": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\menu\\basic_menu.xml",
         "source": "C:\\Users\\Diana\\AndroidStudioProjects\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\menu\\basic_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\menu\\active_visit_menu.xml",
+        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\menu\\active_visit_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\menu\\patients_menu.xml",
+        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\menu\\patients_menu.xml"
     }
 ]

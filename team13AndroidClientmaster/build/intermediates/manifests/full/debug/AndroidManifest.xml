@@ -188,6 +188,23 @@
         <activity
             android:name="org.openmrs.mobile.activities.InputManually"
             android:label="@string/title_activity_input_manually" />
+        <activity
+            android:name="org.openmrs.mobile.activities.InputFood"
+            android:label="Food" />
+        <activity
+            android:name="org.openmrs.mobile.activities.InputExercise"
+            android:label="@string/title_activity_input_exercise" />
+        <activity
+            android:name="org.openmrs.mobile.activities.SyncData"
+            android:label="@string/title_activity_sync_data" />
+        <activity
+            android:name="org.openmrs.mobile.activities.InputHeartRate"
+            android:label="@string/title_activity_input_heart_rate" />
+        <activity android:name="org.openmrs.mobile.activities.InputHeightWeight" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

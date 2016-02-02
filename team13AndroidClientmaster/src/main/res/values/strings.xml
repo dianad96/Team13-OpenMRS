@@ -174,4 +174,7 @@
     <string name="forms_sent_successfully">Form has been sent successfully.</string>
     <string name="empty_visits_list">Patient has no visits yet.</string>
     <string name="title_activity_input_manually">InputManually</string>
+    <string name="title_activity_input_exercise">InputExercise</string>
+    <string name="title_activity_sync_data">SyncData</string>
+    <string name="title_activity_input_heart_rate">InputHeartRate</string>
 </resources>

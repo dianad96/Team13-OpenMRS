@@ -37,6 +37,31 @@ public class DashboardActivity extends ACBaseActivity {
         FontsUtil.setFont((ViewGroup) findViewById(android.R.id.content));
     }
 
+    public void onInputFood(View v) {
+        Intent i = new Intent(this, InputFood.class);
+        startActivity(i);
+    }
+
+    public void onInputExercise(View v) {
+        Intent i = new Intent(this, InputExercise.class);
+        startActivity(i);
+    }
+
+    public void onInputHeartRate(View v) {
+        Intent i = new Intent(this, InputHeartRate.class);
+        startActivity(i);
+    }
+
+    public void onInputHeightWeight(View v) {
+        Intent i = new Intent(this, InputHeightWeight.class);
+        startActivity(i);
+    }
+
+    public void onSyncData(View v) {
+        Intent i = new Intent(this, SyncData.class);
+        startActivity(i);
+    }
+
     public void onFindPatientCallback(View v) {
         Intent i = new Intent(this, FindPatientsActivity.class);
         startActivity(i);
@@ -52,10 +77,6 @@ public class DashboardActivity extends ACBaseActivity {
         startActivity(intent);
     }
 
-    public void onInputManually(View v) {
-        Intent intent = new Intent(this, InputManually.class);
-        startActivity(intent);
-    }
 
     @Override
     protected void onResumeFragments() {
@@ -83,16 +104,19 @@ public class DashboardActivity extends ACBaseActivity {
         ImageView inputHeight = (ImageView) findViewById(R.id.registryPatientButton);
         ImageView inputExercise = (ImageView) findViewById(R.id.activeVisitsButton);
         ImageView captureVitalsImageButton = (ImageView) findViewById(R.id.captureVitalsButton);
+        ImageView syncData = (ImageView) findViewById(R.id.syncData);
 
         createImageBitmap(R.drawable.ico_food, inputFood.getLayoutParams());
         createImageBitmap(R.drawable.ico_scale, inputHeight.getLayoutParams());
         createImageBitmap(R.drawable.ico_exercise, inputExercise.getLayoutParams());
         createImageBitmap(R.drawable.ico_vitals, captureVitalsImageButton.getLayoutParams());
+        createImageBitmap(R.drawable.sync, syncData.getLayoutParams());
 
         inputFood.setImageBitmap(mBitmapCache.get(R.drawable.ico_food));
         inputHeight.setImageBitmap(mBitmapCache.get(R.drawable.ico_scale));
         inputExercise.setImageBitmap(mBitmapCache.get(R.drawable.ico_exercise));
         captureVitalsImageButton.setImageBitmap(mBitmapCache.get(R.drawable.ico_vitals));
+        syncData.setImageBitmap(mBitmapCache.get(R.drawable.sync));
     }
 
     private void createImageBitmap(Integer key, ViewGroup.LayoutParams layoutParams) {
