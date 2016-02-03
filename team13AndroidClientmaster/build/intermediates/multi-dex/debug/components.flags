@@ -101,6 +101,14 @@
     <init>();
 }
 
+-keep class org.openmrs.mobile.activities.Graph {
+    <init>();
+}
+
+-keep class org.openmrs.mobile.activities.Chat {
+    <init>();
+}
+
 -keep public class * extends android.app.backup.BackupAgent {
     <init>();
 }

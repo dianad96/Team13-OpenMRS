@@ -18,8 +18,10 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.util.SparseArray;
+import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import org.openmrs.mobile.R;
@@ -35,6 +37,34 @@ public class DashboardActivity extends ACBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
         FontsUtil.setFont((ViewGroup) findViewById(android.R.id.content));
+
+        Button input = (Button) findViewById(R.id.dash_input);
+        input.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(DashboardActivity.this, DashboardActivity.class);
+                startActivity(i);
+            }
+        });
+
+        Button graph = (Button) findViewById(R.id.dash_graph);
+        graph.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(DashboardActivity.this, Chat.class);
+                startActivity(i);
+            }
+        });
+
+        Button chat = (Button) findViewById(R.id.dash_chat);
+        chat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(DashboardActivity.this, Chat.class);
+                startActivity(i);
+            }
+        });
+
     }
 
     public void onInputFood(View v) {

@@ -23,6 +23,8 @@
 -keep class org.openmrs.mobile.activities.SyncData { <init>(); }
 -keep class org.openmrs.mobile.activities.InputHeartRate { <init>(); }
 -keep class org.openmrs.mobile.activities.InputHeightWeight { <init>(); }
+-keep class org.openmrs.mobile.activities.Graph { <init>(); }
+-keep class org.openmrs.mobile.activities.Chat { <init>(); }
 -keep public class * extends android.app.backup.BackupAgent {
     <init>();
 }

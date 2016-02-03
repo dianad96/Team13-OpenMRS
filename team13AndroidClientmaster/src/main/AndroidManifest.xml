@@ -199,7 +199,13 @@
         <activity
             android:name=".activities.InputHeartRate"
             android:label="@string/title_activity_input_heart_rate" />
-        <activity android:name=".activities.InputHeightWeight"></activity>
+        <activity android:name=".activities.InputHeightWeight" />
+        <activity
+            android:name=".activities.Graph"
+            android:label="@string/title_activity_graph" />
+        <activity
+            android:name=".activities.Chat"
+            android:label="@string/title_activity_chat"></activity>
     </application>
 
 </manifest>

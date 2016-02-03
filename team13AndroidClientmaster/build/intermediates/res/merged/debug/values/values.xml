@@ -666,6 +666,8 @@ available. Please contact the developer for assistance.</string>
     <string name="swipe_navigation">Use horizontal swipes</string>
     <string name="synchronize_patient_error">Synchronize patient data unsuccessful</string>
     <string name="synchronize_patient_successful">Synchronize patient data successful</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_graph">Graph</string>
     <string name="title_activity_input_exercise">InputExercise</string>
     <string name="title_activity_input_heart_rate">InputHeartRate</string>
     <string name="title_activity_input_manually">InputManually</string>

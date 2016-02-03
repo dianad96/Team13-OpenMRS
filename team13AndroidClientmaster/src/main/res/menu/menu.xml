@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+        android:id="@+id/weather"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/ico_registry"
+        android:title="weather"/>
+    <item
+        android:id="@+id/second"
+        android:icon="@drawable/ic_maps_indicator_current_position"
+        android:showAsAction="always|withText"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/java"
+        android:icon="@drawable/ic_menu_backward"
+        android:showAsAction="always|withText"
+        android:title="Java"/>
+
+    <item
+        android:id="@+id/android"
+        android:icon="@drawable/ic_menu_login"
+        android:showAsAction="always|withText"
+        android:title="Android"/>
+</menu>

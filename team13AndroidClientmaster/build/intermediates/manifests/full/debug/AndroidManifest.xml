@@ -201,6 +201,12 @@
             android:name="org.openmrs.mobile.activities.InputHeartRate"
             android:label="@string/title_activity_input_heart_rate" />
         <activity android:name="org.openmrs.mobile.activities.InputHeightWeight" />
+        <activity
+            android:name="org.openmrs.mobile.activities.Graph"
+            android:label="@string/title_activity_graph" />
+        <activity
+            android:name="org.openmrs.mobile.activities.Chat"
+            android:label="@string/title_activity_chat" />
 
         <meta-data
             android:name="com.google.android.gms.version"
