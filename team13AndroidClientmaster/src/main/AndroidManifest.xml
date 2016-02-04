@@ -64,11 +64,7 @@
         <activity
             android:name=".activities.DashboardActivity"
             android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".activities.DialogActivity"
@@ -205,7 +201,16 @@
             android:label="@string/title_activity_graph" />
         <activity
             android:name=".activities.Chat"
-            android:label="@string/title_activity_chat"></activity>
+            android:label="@string/title_activity_chat" />
+        <activity
+            android:name=".activities.LoginPatient"
+            android:label="@string/title_activity_login_patient">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

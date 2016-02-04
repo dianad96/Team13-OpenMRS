@@ -1,6 +1,7 @@
 package org.openmrs.mobile.activities;
 
 import android.content.Context;
+import android.os.StrictMode;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,9 +10,13 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import org.apache.http.entity.StringEntity;
 import org.openmrs.mobile.R;
+import org.openmrs.mobile.activities.fragments.ApiAuthRest;
 
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 
@@ -23,6 +28,7 @@ public class ChatArrayAdapter extends ArrayAdapter<ChatMessage> {
     private TextView chatText;
     private List<ChatMessage> chatMessageList = new ArrayList<ChatMessage>();
     private Context context;
+    String comment;
 
     @Override
     public void add(ChatMessage object) {
@@ -47,13 +53,11 @@ public class ChatArrayAdapter extends ArrayAdapter<ChatMessage> {
         ChatMessage chatMessageObj = getItem(position);
         View row = convertView;
         LayoutInflater inflater = (LayoutInflater) this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        if (chatMessageObj.left) {
-            row = inflater.inflate(R.layout.right, parent, false);
-        }else{
-            row = inflater.inflate(R.layout.left, parent, false);
-        }
+        row = inflater.inflate(R.layout.right, parent, false);
         chatText = (TextView) row.findViewById(R.id.msgr);
         chatText.setText(chatMessageObj.message);
+        comment = chatMessageObj.message;
+        //sendData();
         return row;
     }
 }

@@ -637,6 +637,7 @@ org/opendatakit/httpclientandroidlib/conn/params/ConnPerRouteBean.class
 org/openmrs/mobile/adapters/VisitExpandableListAdapter.class
 org/apache/http/params/HttpParams.class
 org/joda/time/YearMonthDay$Property.class
+org/openmrs/mobile/activities/LoginPatient.class
 com/google/android/gms/maps/GoogleMap$OnMyLocationChangeListener.class
 org/apache/http/message/BasicLineParser.class
 com/google/android/gms/internal/zzau.class
@@ -691,6 +692,7 @@ org/openmrs/mobile/utilities/ApplicationConstants$OpenMRSSharedPreferenceNames.c
 android/support/annotation/StringRes.class
 com/google/android/gms/internal/zzt.class
 net/sqlcipher/database/SQLiteProgram.class
+org/openmrs/mobile/activities/LoginPatient$1.class
 org/apache/http/protocol/HTTP.class
 android/support/v4/widget/MaterialProgressDrawable$1.class
 com/google/android/gms/auth/GoogleAuthUtil.class

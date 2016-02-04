@@ -7280,14 +7280,7 @@
                     "endOffset": 57075
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 180,
-                        "startColumn": 4,
-                        "startOffset": 11873,
-                        "endColumn": 52,
-                        "endOffset": 11921
-                    }
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -7343,8 +7336,27 @@
                     "startLine": 673,
                     "startColumn": 4,
                     "startOffset": 57354,
+                    "endColumn": 69,
+                    "endOffset": 57419
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 181,
+                        "startColumn": 4,
+                        "startOffset": 11926,
+                        "endColumn": 69,
+                        "endOffset": 11991
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 674,
+                    "startColumn": 4,
+                    "startOffset": 57424,
                     "endColumn": 61,
-                    "endOffset": 57411
+                    "endOffset": 57481
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml"
@@ -7352,23 +7364,11 @@
             },
             {
                 "to": {
-                    "startLine": 674,
-                    "startColumn": 4,
-                    "startOffset": 57416,
-                    "endColumn": 54,
-                    "endOffset": 57466
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
                     "startLine": 675,
                     "startColumn": 4,
-                    "startOffset": 57471,
-                    "endColumn": 56,
-                    "endOffset": 57523
+                    "startOffset": 57486,
+                    "endColumn": 54,
+                    "endOffset": 57536
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
@@ -7378,21 +7378,21 @@
                 "to": {
                     "startLine": 676,
                     "startColumn": 4,
-                    "startOffset": 57528,
-                    "endColumn": 93,
-                    "endOffset": 57617
+                    "startOffset": 57541,
+                    "endColumn": 56,
+                    "endOffset": 57593
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 677,
                     "startColumn": 4,
-                    "startOffset": 57622,
-                    "endColumn": 66,
-                    "endOffset": 57684
+                    "startOffset": 57598,
+                    "endColumn": 93,
+                    "endOffset": 57687
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml"
@@ -7402,21 +7402,21 @@
                 "to": {
                     "startLine": 678,
                     "startColumn": 4,
-                    "startOffset": 57689,
-                    "endColumn": 57,
-                    "endOffset": 57742
+                    "startOffset": 57692,
+                    "endColumn": 66,
+                    "endOffset": 57754
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 679,
                     "startColumn": 4,
-                    "startOffset": 57747,
-                    "endColumn": 55,
-                    "endOffset": 57798
+                    "startOffset": 57759,
+                    "endColumn": 57,
+                    "endOffset": 57812
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
@@ -7426,9 +7426,9 @@
                 "to": {
                     "startLine": 680,
                     "startColumn": 4,
-                    "startOffset": 57803,
-                    "endColumn": 57,
-                    "endOffset": 57856
+                    "startOffset": 57817,
+                    "endColumn": 55,
+                    "endOffset": 57868
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
@@ -7438,9 +7438,9 @@
                 "to": {
                     "startLine": 681,
                     "startColumn": 4,
-                    "startOffset": 57861,
-                    "endColumn": 61,
-                    "endOffset": 57918
+                    "startOffset": 57873,
+                    "endColumn": 57,
+                    "endOffset": 57926
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
@@ -7450,9 +7450,9 @@
                 "to": {
                     "startLine": 682,
                     "startColumn": 4,
-                    "startOffset": 57923,
-                    "endColumn": 84,
-                    "endOffset": 58003
+                    "startOffset": 57931,
+                    "endColumn": 61,
+                    "endOffset": 57988
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
@@ -7462,9 +7462,9 @@
                 "to": {
                     "startLine": 683,
                     "startColumn": 4,
-                    "startOffset": 58008,
-                    "endColumn": 82,
-                    "endOffset": 58086
+                    "startOffset": 57993,
+                    "endColumn": 84,
+                    "endOffset": 58073
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
@@ -7474,9 +7474,9 @@
                 "to": {
                     "startLine": 684,
                     "startColumn": 4,
-                    "startOffset": 58091,
-                    "endColumn": 90,
-                    "endOffset": 58177
+                    "startOffset": 58078,
+                    "endColumn": 82,
+                    "endOffset": 58156
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
@@ -7486,9 +7486,9 @@
                 "to": {
                     "startLine": 685,
                     "startColumn": 4,
-                    "startOffset": 58182,
-                    "endColumn": 45,
-                    "endOffset": 58223
+                    "startOffset": 58161,
+                    "endColumn": 90,
+                    "endOffset": 58247
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
@@ -7498,8 +7498,8 @@
                 "to": {
                     "startLine": 686,
                     "startColumn": 4,
-                    "startOffset": 58228,
-                    "endColumn": 69,
+                    "startOffset": 58252,
+                    "endColumn": 45,
                     "endOffset": 58293
                 },
                 "from": {
@@ -7511,8 +7511,8 @@
                     "startLine": 687,
                     "startColumn": 4,
                     "startOffset": 58298,
-                    "endColumn": 44,
-                    "endOffset": 58338
+                    "endColumn": 69,
+                    "endOffset": 58363
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
@@ -7522,9 +7522,9 @@
                 "to": {
                     "startLine": 688,
                     "startColumn": 4,
-                    "startOffset": 58343,
-                    "endColumn": 72,
-                    "endOffset": 58411
+                    "startOffset": 58368,
+                    "endColumn": 44,
+                    "endOffset": 58408
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
@@ -7534,9 +7534,9 @@
                 "to": {
                     "startLine": 689,
                     "startColumn": 4,
-                    "startOffset": 58416,
-                    "endColumn": 55,
-                    "endOffset": 58467
+                    "startOffset": 58413,
+                    "endColumn": 72,
+                    "endOffset": 58481
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
@@ -7546,21 +7546,21 @@
                 "to": {
                     "startLine": 690,
                     "startColumn": 4,
-                    "startOffset": 58472,
-                    "endColumn": 60,
-                    "endOffset": 58528
+                    "startOffset": 58486,
+                    "endColumn": 55,
+                    "endOffset": 58537
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 691,
                     "startColumn": 4,
-                    "startOffset": 58533,
-                    "endColumn": 77,
-                    "endOffset": 58606
+                    "startOffset": 58542,
+                    "endColumn": 60,
+                    "endOffset": 58598
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml"
@@ -7570,9 +7570,9 @@
                 "to": {
                     "startLine": 692,
                     "startColumn": 4,
-                    "startOffset": 58611,
-                    "endColumn": 44,
-                    "endOffset": 58651
+                    "startOffset": 58603,
+                    "endColumn": 77,
+                    "endOffset": 58676
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml"
@@ -7582,21 +7582,9 @@
                 "to": {
                     "startLine": 693,
                     "startColumn": 4,
-                    "startOffset": 58656,
-                    "endColumn": 189,
-                    "endOffset": 58841
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\7.0.0\\res\\values\\wallet_strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 694,
-                    "startColumn": 4,
-                    "startOffset": 58846,
-                    "endColumn": 56,
-                    "endOffset": 58898
+                    "startOffset": 58681,
+                    "endColumn": 44,
+                    "endOffset": 58721
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml"
@@ -7604,11 +7592,23 @@
             },
             {
                 "to": {
+                    "startLine": 694,
+                    "startColumn": 4,
+                    "startOffset": 58726,
+                    "endColumn": 189,
+                    "endOffset": 58911
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\7.0.0\\res\\values\\wallet_strings.xml"
+                }
+            },
+            {
+                "to": {
                     "startLine": 695,
                     "startColumn": 4,
-                    "startOffset": 58903,
-                    "endColumn": 117,
-                    "endOffset": 59016
+                    "startOffset": 58916,
+                    "endColumn": 56,
+                    "endOffset": 58968
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml"
@@ -7618,152 +7618,21 @@
                 "to": {
                     "startLine": 696,
                     "startColumn": 4,
-                    "startOffset": 59021,
-                    "endColumn": 93,
-                    "endOffset": 59110
+                    "startOffset": 58973,
+                    "endColumn": 117,
+                    "endOffset": 59086
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 697,
                     "startColumn": 4,
-                    "startOffset": 59115,
-                    "endLine": 702,
-                    "endColumn": 12,
-                    "endOffset": 59526
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 703,
-                    "startColumn": 4,
-                    "startOffset": 59531,
-                    "endLine": 706,
-                    "endColumn": 12,
-                    "endOffset": 59775
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 707,
-                    "startColumn": 4,
-                    "startOffset": 59780,
-                    "endLine": 709,
-                    "endColumn": 12,
-                    "endOffset": 59966
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 710,
-                    "startColumn": 4,
-                    "startOffset": 59971,
-                    "endLine": 712,
-                    "endColumn": 12,
-                    "endOffset": 60163
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 713,
-                    "startColumn": 4,
-                    "startOffset": 60168,
-                    "endLine": 718,
-                    "endColumn": 12,
-                    "endOffset": 60429
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 719,
-                    "startColumn": 4,
-                    "startOffset": 60434,
-                    "endLine": 723,
-                    "endColumn": 12,
-                    "endOffset": 60669
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 724,
-                    "startColumn": 4,
-                    "startOffset": 60674,
-                    "endLine": 725,
-                    "endColumn": 12,
-                    "endOffset": 60755
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 726,
-                    "startColumn": 4,
-                    "startOffset": 60760,
-                    "endLine": 733,
-                    "endColumn": 12,
-                    "endOffset": 61221
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.1\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 734,
-                    "startColumn": 4,
-                    "startOffset": 61226,
-                    "endLine": 736,
-                    "endColumn": 12,
-                    "endOffset": 61347
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.1\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 737,
-                    "startColumn": 4,
-                    "startOffset": 61352,
-                    "endLine": 739,
-                    "endColumn": 12,
-                    "endOffset": 61475
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.1\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 740,
-                    "startColumn": 4,
-                    "startOffset": 61480,
-                    "endLine": 746,
-                    "endColumn": 9,
-                    "endOffset": 61868
+                    "startOffset": 59091,
+                    "endColumn": 93,
+                    "endOffset": 59180
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
@@ -7771,12 +7640,64 @@
             },
             {
                 "to": {
-                    "startLine": 747,
+                    "startLine": 698,
                     "startColumn": 4,
-                    "startOffset": 61873,
-                    "endLine": 751,
+                    "startOffset": 59185,
+                    "endLine": 703,
                     "endColumn": 12,
-                    "endOffset": 62091
+                    "endOffset": 59596
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 704,
+                    "startColumn": 4,
+                    "startOffset": 59601,
+                    "endLine": 707,
+                    "endColumn": 12,
+                    "endOffset": 59845
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 708,
+                    "startColumn": 4,
+                    "startOffset": 59850,
+                    "endLine": 710,
+                    "endColumn": 12,
+                    "endOffset": 60036
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 711,
+                    "startColumn": 4,
+                    "startOffset": 60041,
+                    "endLine": 713,
+                    "endColumn": 12,
+                    "endOffset": 60233
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 714,
+                    "startColumn": 4,
+                    "startOffset": 60238,
+                    "endLine": 719,
+                    "endColumn": 12,
+                    "endOffset": 60499
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
@@ -7784,12 +7705,103 @@
             },
             {
                 "to": {
-                    "startLine": 752,
+                    "startLine": 720,
                     "startColumn": 4,
-                    "startOffset": 62096,
-                    "endLine": 754,
+                    "startOffset": 60504,
+                    "endLine": 724,
                     "endColumn": 12,
-                    "endOffset": 62220
+                    "endOffset": 60739
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 725,
+                    "startColumn": 4,
+                    "startOffset": 60744,
+                    "endLine": 726,
+                    "endColumn": 12,
+                    "endOffset": 60825
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 727,
+                    "startColumn": 4,
+                    "startOffset": 60830,
+                    "endLine": 734,
+                    "endColumn": 12,
+                    "endOffset": 61291
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.1\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 735,
+                    "startColumn": 4,
+                    "startOffset": 61296,
+                    "endLine": 737,
+                    "endColumn": 12,
+                    "endOffset": 61417
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.1\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 738,
+                    "startColumn": 4,
+                    "startOffset": 61422,
+                    "endLine": 740,
+                    "endColumn": 12,
+                    "endOffset": 61545
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.1.1\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 741,
+                    "startColumn": 4,
+                    "startOffset": 61550,
+                    "endLine": 747,
+                    "endColumn": 9,
+                    "endOffset": 61938
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient-master\\odkcollect\\unspecified\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 748,
+                    "startColumn": 4,
+                    "startOffset": 61943,
+                    "endLine": 752,
+                    "endColumn": 12,
+                    "endOffset": 62161
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 753,
+                    "startColumn": 4,
+                    "startOffset": 62166,
+                    "endLine": 755,
+                    "endColumn": 12,
+                    "endOffset": 62290
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\theme.xml"
@@ -7797,12 +7809,12 @@
             },
             {
                 "to": {
-                    "startLine": 755,
+                    "startLine": 756,
                     "startColumn": 4,
-                    "startOffset": 62225,
-                    "endLine": 757,
+                    "startOffset": 62295,
+                    "endLine": 758,
                     "endColumn": 12,
-                    "endOffset": 62333
+                    "endOffset": 62403
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
@@ -7810,12 +7822,12 @@
             },
             {
                 "to": {
-                    "startLine": 758,
+                    "startLine": 759,
                     "startColumn": 4,
-                    "startOffset": 62338,
-                    "endLine": 761,
+                    "startOffset": 62408,
+                    "endLine": 762,
                     "endColumn": 12,
-                    "endOffset": 62499
+                    "endOffset": 62569
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
@@ -7823,12 +7835,12 @@
             },
             {
                 "to": {
-                    "startLine": 762,
+                    "startLine": 763,
                     "startColumn": 4,
-                    "startOffset": 62504,
-                    "endLine": 766,
+                    "startOffset": 62574,
+                    "endLine": 767,
                     "endColumn": 12,
-                    "endOffset": 62731
+                    "endOffset": 62801
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
@@ -7836,12 +7848,12 @@
             },
             {
                 "to": {
-                    "startLine": 767,
+                    "startLine": 768,
                     "startColumn": 4,
-                    "startOffset": 62736,
-                    "endLine": 771,
+                    "startOffset": 62806,
+                    "endLine": 772,
                     "endColumn": 12,
-                    "endOffset": 62969
+                    "endOffset": 63039
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
@@ -7849,12 +7861,12 @@
             },
             {
                 "to": {
-                    "startLine": 772,
+                    "startLine": 773,
                     "startColumn": 4,
-                    "startOffset": 62974,
-                    "endLine": 775,
+                    "startOffset": 63044,
+                    "endLine": 776,
                     "endColumn": 12,
-                    "endOffset": 63139
+                    "endOffset": 63209
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
@@ -7862,12 +7874,12 @@
             },
             {
                 "to": {
-                    "startLine": 776,
+                    "startLine": 777,
                     "startColumn": 4,
-                    "startOffset": 63144,
-                    "endLine": 778,
+                    "startOffset": 63214,
+                    "endLine": 779,
                     "endColumn": 12,
-                    "endOffset": 63336
+                    "endOffset": 63406
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
@@ -7875,12 +7887,12 @@
             },
             {
                 "to": {
-                    "startLine": 779,
+                    "startLine": 780,
                     "startColumn": 4,
-                    "startOffset": 63341,
-                    "endLine": 783,
+                    "startOffset": 63411,
+                    "endLine": 784,
                     "endColumn": 12,
-                    "endOffset": 63718
+                    "endOffset": 63788
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
@@ -7888,12 +7900,12 @@
             },
             {
                 "to": {
-                    "startLine": 784,
+                    "startLine": 785,
                     "startColumn": 4,
-                    "startOffset": 63723,
-                    "endLine": 786,
+                    "startOffset": 63793,
+                    "endLine": 787,
                     "endColumn": 12,
-                    "endOffset": 63885
+                    "endOffset": 63955
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\theme.xml"
@@ -7901,12 +7913,12 @@
             },
             {
                 "to": {
-                    "startLine": 787,
+                    "startLine": 788,
                     "startColumn": 4,
-                    "startOffset": 63890,
-                    "endLine": 789,
+                    "startOffset": 63960,
+                    "endLine": 790,
                     "endColumn": 12,
-                    "endOffset": 64054
+                    "endOffset": 64124
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
@@ -7914,12 +7926,12 @@
             },
             {
                 "to": {
-                    "startLine": 790,
+                    "startLine": 791,
                     "startColumn": 4,
-                    "startOffset": 64059,
-                    "endLine": 793,
+                    "startOffset": 64129,
+                    "endLine": 794,
                     "endColumn": 12,
-                    "endOffset": 64279
+                    "endOffset": 64349
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
@@ -7927,12 +7939,12 @@
             },
             {
                 "to": {
-                    "startLine": 794,
+                    "startLine": 795,
                     "startColumn": 4,
-                    "startOffset": 64284,
-                    "endLine": 796,
+                    "startOffset": 64354,
+                    "endLine": 797,
                     "endColumn": 12,
-                    "endOffset": 64464
+                    "endOffset": 64534
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
@@ -7940,12 +7952,12 @@
             },
             {
                 "to": {
-                    "startLine": 797,
+                    "startLine": 798,
                     "startColumn": 4,
-                    "startOffset": 64469,
-                    "endLine": 799,
+                    "startOffset": 64539,
+                    "endLine": 800,
                     "endColumn": 12,
-                    "endOffset": 64663
+                    "endOffset": 64733
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
@@ -7953,12 +7965,12 @@
             },
             {
                 "to": {
-                    "startLine": 800,
+                    "startLine": 801,
                     "startColumn": 4,
-                    "startOffset": 64668,
-                    "endLine": 802,
+                    "startOffset": 64738,
+                    "endLine": 803,
                     "endColumn": 12,
-                    "endOffset": 64863
+                    "endOffset": 64933
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -7966,12 +7978,12 @@
             },
             {
                 "to": {
-                    "startLine": 803,
+                    "startLine": 804,
                     "startColumn": 4,
-                    "startOffset": 64868,
-                    "endLine": 807,
+                    "startOffset": 64938,
+                    "endLine": 808,
                     "endColumn": 12,
-                    "endOffset": 65146
+                    "endOffset": 65216
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -7979,12 +7991,12 @@
             },
             {
                 "to": {
-                    "startLine": 808,
+                    "startLine": 809,
                     "startColumn": 4,
-                    "startOffset": 65151,
-                    "endLine": 811,
+                    "startOffset": 65221,
+                    "endLine": 812,
                     "endColumn": 12,
-                    "endOffset": 65354
+                    "endOffset": 65424
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -7992,12 +8004,12 @@
             },
             {
                 "to": {
-                    "startLine": 812,
+                    "startLine": 813,
                     "startColumn": 4,
-                    "startOffset": 65359,
-                    "endLine": 814,
+                    "startOffset": 65429,
+                    "endLine": 815,
                     "endColumn": 12,
-                    "endOffset": 65485
+                    "endOffset": 65555
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8005,12 +8017,12 @@
             },
             {
                 "to": {
-                    "startLine": 815,
+                    "startLine": 816,
                     "startColumn": 4,
-                    "startOffset": 65490,
-                    "endLine": 818,
+                    "startOffset": 65560,
+                    "endLine": 819,
                     "endColumn": 12,
-                    "endOffset": 65747
+                    "endOffset": 65817
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8018,12 +8030,12 @@
             },
             {
                 "to": {
-                    "startLine": 819,
+                    "startLine": 820,
                     "startColumn": 4,
-                    "startOffset": 65752,
-                    "endLine": 822,
+                    "startOffset": 65822,
+                    "endLine": 823,
                     "endColumn": 12,
-                    "endOffset": 66009
+                    "endOffset": 66079
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8031,12 +8043,12 @@
             },
             {
                 "to": {
-                    "startLine": 823,
+                    "startLine": 824,
                     "startColumn": 4,
-                    "startOffset": 66014,
-                    "endLine": 826,
+                    "startOffset": 66084,
+                    "endLine": 827,
                     "endColumn": 12,
-                    "endOffset": 66287
+                    "endOffset": 66357
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8044,12 +8056,12 @@
             },
             {
                 "to": {
-                    "startLine": 827,
+                    "startLine": 828,
                     "startColumn": 4,
-                    "startOffset": 66292,
-                    "endLine": 830,
+                    "startOffset": 66362,
+                    "endLine": 831,
                     "endColumn": 12,
-                    "endOffset": 66501
+                    "endOffset": 66571
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8057,24 +8069,12 @@
             },
             {
                 "to": {
-                    "startLine": 831,
+                    "startLine": 832,
                     "startColumn": 4,
-                    "startOffset": 66506,
-                    "endLine": 833,
+                    "startOffset": 66576,
+                    "endLine": 834,
                     "endColumn": 12,
-                    "endOffset": 66638
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 834,
-                    "startColumn": 4,
-                    "startOffset": 66643,
-                    "endColumn": 140,
-                    "endOffset": 66779
+                    "endOffset": 66708
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8084,9 +8084,9 @@
                 "to": {
                     "startLine": 835,
                     "startColumn": 4,
-                    "startOffset": 66784,
+                    "startOffset": 66713,
                     "endColumn": 140,
-                    "endOffset": 66920
+                    "endOffset": 66849
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8096,9 +8096,9 @@
                 "to": {
                     "startLine": 836,
                     "startColumn": 4,
-                    "startOffset": 66925,
-                    "endColumn": 139,
-                    "endOffset": 67060
+                    "startOffset": 66854,
+                    "endColumn": 140,
+                    "endOffset": 66990
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8108,9 +8108,9 @@
                 "to": {
                     "startLine": 837,
                     "startColumn": 4,
-                    "startOffset": 67065,
-                    "endColumn": 133,
-                    "endOffset": 67194
+                    "startOffset": 66995,
+                    "endColumn": 139,
+                    "endOffset": 67130
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8120,9 +8120,9 @@
                 "to": {
                     "startLine": 838,
                     "startColumn": 4,
-                    "startOffset": 67199,
-                    "endColumn": 141,
-                    "endOffset": 67336
+                    "startOffset": 67135,
+                    "endColumn": 133,
+                    "endOffset": 67264
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8132,9 +8132,9 @@
                 "to": {
                     "startLine": 839,
                     "startColumn": 4,
-                    "startOffset": 67341,
+                    "startOffset": 67269,
                     "endColumn": 141,
-                    "endOffset": 67478
+                    "endOffset": 67406
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8144,9 +8144,9 @@
                 "to": {
                     "startLine": 840,
                     "startColumn": 4,
-                    "startOffset": 67483,
-                    "endColumn": 127,
-                    "endOffset": 67606
+                    "startOffset": 67411,
+                    "endColumn": 141,
+                    "endOffset": 67548
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8156,9 +8156,9 @@
                 "to": {
                     "startLine": 841,
                     "startColumn": 4,
-                    "startOffset": 67611,
-                    "endColumn": 121,
-                    "endOffset": 67728
+                    "startOffset": 67553,
+                    "endColumn": 127,
+                    "endOffset": 67676
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8168,9 +8168,9 @@
                 "to": {
                     "startLine": 842,
                     "startColumn": 4,
-                    "startOffset": 67733,
-                    "endColumn": 127,
-                    "endOffset": 67856
+                    "startOffset": 67681,
+                    "endColumn": 121,
+                    "endOffset": 67798
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8180,9 +8180,9 @@
                 "to": {
                     "startLine": 843,
                     "startColumn": 4,
-                    "startOffset": 67861,
-                    "endColumn": 135,
-                    "endOffset": 67992
+                    "startOffset": 67803,
+                    "endColumn": 127,
+                    "endOffset": 67926
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8192,9 +8192,9 @@
                 "to": {
                     "startLine": 844,
                     "startColumn": 4,
-                    "startOffset": 67997,
-                    "endColumn": 151,
-                    "endOffset": 68144
+                    "startOffset": 67931,
+                    "endColumn": 135,
+                    "endOffset": 68062
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8204,9 +8204,9 @@
                 "to": {
                     "startLine": 845,
                     "startColumn": 4,
-                    "startOffset": 68149,
-                    "endColumn": 129,
-                    "endOffset": 68274
+                    "startOffset": 68067,
+                    "endColumn": 151,
+                    "endOffset": 68214
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8216,9 +8216,9 @@
                 "to": {
                     "startLine": 846,
                     "startColumn": 4,
-                    "startOffset": 68279,
-                    "endColumn": 145,
-                    "endOffset": 68420
+                    "startOffset": 68219,
+                    "endColumn": 129,
+                    "endOffset": 68344
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8228,9 +8228,9 @@
                 "to": {
                     "startLine": 847,
                     "startColumn": 4,
-                    "startOffset": 68425,
-                    "endColumn": 137,
-                    "endOffset": 68558
+                    "startOffset": 68349,
+                    "endColumn": 145,
+                    "endOffset": 68490
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8240,9 +8240,9 @@
                 "to": {
                     "startLine": 848,
                     "startColumn": 4,
-                    "startOffset": 68563,
-                    "endColumn": 153,
-                    "endOffset": 68712
+                    "startOffset": 68495,
+                    "endColumn": 137,
+                    "endOffset": 68628
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8252,9 +8252,9 @@
                 "to": {
                     "startLine": 849,
                     "startColumn": 4,
-                    "startOffset": 68717,
-                    "endColumn": 131,
-                    "endOffset": 68844
+                    "startOffset": 68633,
+                    "endColumn": 153,
+                    "endOffset": 68782
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8264,9 +8264,9 @@
                 "to": {
                     "startLine": 850,
                     "startColumn": 4,
-                    "startOffset": 68849,
-                    "endColumn": 147,
-                    "endOffset": 68992
+                    "startOffset": 68787,
+                    "endColumn": 131,
+                    "endOffset": 68914
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8276,10 +8276,9 @@
                 "to": {
                     "startLine": 851,
                     "startColumn": 4,
-                    "startOffset": 68997,
-                    "endLine": 855,
-                    "endColumn": 12,
-                    "endOffset": 69287
+                    "startOffset": 68919,
+                    "endColumn": 147,
+                    "endOffset": 69062
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8287,12 +8286,12 @@
             },
             {
                 "to": {
-                    "startLine": 856,
+                    "startLine": 852,
                     "startColumn": 4,
-                    "startOffset": 69292,
-                    "endLine": 858,
+                    "startOffset": 69067,
+                    "endLine": 856,
                     "endColumn": 12,
-                    "endOffset": 69499
+                    "endOffset": 69357
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8300,12 +8299,12 @@
             },
             {
                 "to": {
-                    "startLine": 859,
+                    "startLine": 857,
                     "startColumn": 4,
-                    "startOffset": 69504,
-                    "endLine": 861,
+                    "startOffset": 69362,
+                    "endLine": 859,
                     "endColumn": 12,
-                    "endOffset": 69727
+                    "endOffset": 69569
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8313,12 +8312,12 @@
             },
             {
                 "to": {
-                    "startLine": 862,
+                    "startLine": 860,
                     "startColumn": 4,
-                    "startOffset": 69732,
-                    "endLine": 864,
+                    "startOffset": 69574,
+                    "endLine": 862,
                     "endColumn": 12,
-                    "endOffset": 69934
+                    "endOffset": 69797
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8326,12 +8325,12 @@
             },
             {
                 "to": {
-                    "startLine": 865,
+                    "startLine": 863,
                     "startColumn": 4,
-                    "startOffset": 69939,
-                    "endLine": 867,
+                    "startOffset": 69802,
+                    "endLine": 865,
                     "endColumn": 12,
-                    "endOffset": 70157
+                    "endOffset": 70004
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8339,12 +8338,12 @@
             },
             {
                 "to": {
-                    "startLine": 868,
+                    "startLine": 866,
                     "startColumn": 4,
-                    "startOffset": 70162,
-                    "endLine": 870,
+                    "startOffset": 70009,
+                    "endLine": 868,
                     "endColumn": 12,
-                    "endOffset": 70363
+                    "endOffset": 70227
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8352,12 +8351,12 @@
             },
             {
                 "to": {
-                    "startLine": 871,
+                    "startLine": 869,
                     "startColumn": 4,
-                    "startOffset": 70368,
-                    "endLine": 873,
+                    "startOffset": 70232,
+                    "endLine": 871,
                     "endColumn": 12,
-                    "endOffset": 70592
+                    "endOffset": 70433
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8365,11 +8364,12 @@
             },
             {
                 "to": {
-                    "startLine": 874,
+                    "startLine": 872,
                     "startColumn": 4,
-                    "startOffset": 70597,
-                    "endColumn": 112,
-                    "endOffset": 70705
+                    "startOffset": 70438,
+                    "endLine": 874,
+                    "endColumn": 12,
+                    "endOffset": 70662
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8379,9 +8379,9 @@
                 "to": {
                     "startLine": 875,
                     "startColumn": 4,
-                    "startOffset": 70710,
-                    "endColumn": 128,
-                    "endOffset": 70834
+                    "startOffset": 70667,
+                    "endColumn": 112,
+                    "endOffset": 70775
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8391,10 +8391,9 @@
                 "to": {
                     "startLine": 876,
                     "startColumn": 4,
-                    "startOffset": 70839,
-                    "endLine": 878,
-                    "endColumn": 12,
-                    "endOffset": 71042
+                    "startOffset": 70780,
+                    "endColumn": 128,
+                    "endOffset": 70904
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8402,11 +8401,12 @@
             },
             {
                 "to": {
-                    "startLine": 879,
+                    "startLine": 877,
                     "startColumn": 4,
-                    "startOffset": 71047,
-                    "endColumn": 123,
-                    "endOffset": 71166
+                    "startOffset": 70909,
+                    "endLine": 879,
+                    "endColumn": 12,
+                    "endOffset": 71112
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8416,9 +8416,9 @@
                 "to": {
                     "startLine": 880,
                     "startColumn": 4,
-                    "startOffset": 71171,
-                    "endColumn": 129,
-                    "endOffset": 71296
+                    "startOffset": 71117,
+                    "endColumn": 123,
+                    "endOffset": 71236
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8428,9 +8428,9 @@
                 "to": {
                     "startLine": 881,
                     "startColumn": 4,
-                    "startOffset": 71301,
+                    "startOffset": 71241,
                     "endColumn": 129,
-                    "endOffset": 71426
+                    "endOffset": 71366
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8440,10 +8440,9 @@
                 "to": {
                     "startLine": 882,
                     "startColumn": 4,
-                    "startOffset": 71431,
-                    "endLine": 884,
-                    "endColumn": 12,
-                    "endOffset": 71640
+                    "startOffset": 71371,
+                    "endColumn": 129,
+                    "endOffset": 71496
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8451,11 +8450,12 @@
             },
             {
                 "to": {
-                    "startLine": 885,
+                    "startLine": 883,
                     "startColumn": 4,
-                    "startOffset": 71645,
-                    "endColumn": 133,
-                    "endOffset": 71774
+                    "startOffset": 71501,
+                    "endLine": 885,
+                    "endColumn": 12,
+                    "endOffset": 71710
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8465,10 +8465,22 @@
                 "to": {
                     "startLine": 886,
                     "startColumn": 4,
-                    "startOffset": 71779,
-                    "endLine": 888,
+                    "startOffset": 71715,
+                    "endColumn": 133,
+                    "endOffset": 71844
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 887,
+                    "startColumn": 4,
+                    "startOffset": 71849,
+                    "endLine": 889,
                     "endColumn": 12,
-                    "endOffset": 71876
+                    "endOffset": 71946
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
@@ -8476,12 +8488,12 @@
             },
             {
                 "to": {
-                    "startLine": 889,
+                    "startLine": 890,
                     "startColumn": 4,
-                    "startOffset": 71881,
-                    "endLine": 891,
+                    "startOffset": 71951,
+                    "endLine": 892,
                     "endColumn": 12,
-                    "endOffset": 71974
+                    "endOffset": 72044
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles.xml"
@@ -8489,12 +8501,12 @@
             },
             {
                 "to": {
-                    "startLine": 892,
+                    "startLine": 893,
                     "startColumn": 4,
-                    "startOffset": 71979,
-                    "endLine": 925,
+                    "startOffset": 72049,
+                    "endLine": 926,
                     "endColumn": 12,
-                    "endOffset": 74463
+                    "endOffset": 74533
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8502,12 +8514,12 @@
             },
             {
                 "to": {
-                    "startLine": 926,
+                    "startLine": 927,
                     "startColumn": 4,
-                    "startOffset": 74468,
-                    "endLine": 929,
+                    "startOffset": 74538,
+                    "endLine": 930,
                     "endColumn": 12,
-                    "endOffset": 74750
+                    "endOffset": 74820
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8515,24 +8527,12 @@
             },
             {
                 "to": {
-                    "startLine": 930,
+                    "startLine": 931,
                     "startColumn": 4,
-                    "startOffset": 74755,
-                    "endLine": 933,
+                    "startOffset": 74825,
+                    "endLine": 934,
                     "endColumn": 12,
-                    "endOffset": 75041
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 934,
-                    "startColumn": 4,
-                    "startOffset": 75046,
-                    "endColumn": 89,
-                    "endOffset": 75131
+                    "endOffset": 75111
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8542,9 +8542,9 @@
                 "to": {
                     "startLine": 935,
                     "startColumn": 4,
-                    "startOffset": 75136,
-                    "endColumn": 103,
-                    "endOffset": 75235
+                    "startOffset": 75116,
+                    "endColumn": 89,
+                    "endOffset": 75201
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8554,9 +8554,9 @@
                 "to": {
                     "startLine": 936,
                     "startColumn": 4,
-                    "startOffset": 75240,
-                    "endColumn": 97,
-                    "endOffset": 75333
+                    "startOffset": 75206,
+                    "endColumn": 103,
+                    "endOffset": 75305
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8566,10 +8566,9 @@
                 "to": {
                     "startLine": 937,
                     "startColumn": 4,
-                    "startOffset": 75338,
-                    "endLine": 970,
-                    "endColumn": 12,
-                    "endOffset": 77961
+                    "startOffset": 75310,
+                    "endColumn": 97,
+                    "endOffset": 75403
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8577,12 +8576,12 @@
             },
             {
                 "to": {
-                    "startLine": 971,
+                    "startLine": 938,
                     "startColumn": 4,
-                    "startOffset": 77966,
-                    "endLine": 1004,
+                    "startOffset": 75408,
+                    "endLine": 971,
                     "endColumn": 12,
-                    "endOffset": 80513
+                    "endOffset": 78031
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8590,11 +8589,12 @@
             },
             {
                 "to": {
-                    "startLine": 1005,
+                    "startLine": 972,
                     "startColumn": 4,
-                    "startOffset": 80518,
-                    "endColumn": 109,
-                    "endOffset": 80623
+                    "startOffset": 78036,
+                    "endLine": 1005,
+                    "endColumn": 12,
+                    "endOffset": 80583
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8604,9 +8604,9 @@
                 "to": {
                     "startLine": 1006,
                     "startColumn": 4,
-                    "startOffset": 80628,
-                    "endColumn": 53,
-                    "endOffset": 80677
+                    "startOffset": 80588,
+                    "endColumn": 109,
+                    "endOffset": 80693
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8616,10 +8616,9 @@
                 "to": {
                     "startLine": 1007,
                     "startColumn": 4,
-                    "startOffset": 80682,
-                    "endLine": 1053,
-                    "endColumn": 12,
-                    "endOffset": 84051
+                    "startOffset": 80698,
+                    "endColumn": 53,
+                    "endOffset": 80747
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8627,12 +8626,12 @@
             },
             {
                 "to": {
-                    "startLine": 1054,
+                    "startLine": 1008,
                     "startColumn": 4,
-                    "startOffset": 84056,
-                    "endLine": 1087,
+                    "startOffset": 80752,
+                    "endLine": 1054,
                     "endColumn": 12,
-                    "endOffset": 86466
+                    "endOffset": 84121
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8640,11 +8639,12 @@
             },
             {
                 "to": {
-                    "startLine": 1088,
+                    "startLine": 1055,
                     "startColumn": 4,
-                    "startOffset": 86471,
-                    "endColumn": 110,
-                    "endOffset": 86577
+                    "startOffset": 84126,
+                    "endLine": 1088,
+                    "endColumn": 12,
+                    "endOffset": 86536
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8654,9 +8654,9 @@
                 "to": {
                     "startLine": 1089,
                     "startColumn": 4,
-                    "startOffset": 86582,
-                    "endColumn": 86,
-                    "endOffset": 86664
+                    "startOffset": 86541,
+                    "endColumn": 110,
+                    "endOffset": 86647
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8666,10 +8666,9 @@
                 "to": {
                     "startLine": 1090,
                     "startColumn": 4,
-                    "startOffset": 86669,
-                    "endLine": 1138,
-                    "endColumn": 12,
-                    "endOffset": 90167
+                    "startOffset": 86652,
+                    "endColumn": 86,
+                    "endOffset": 86734
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8677,12 +8676,12 @@
             },
             {
                 "to": {
-                    "startLine": 1139,
+                    "startLine": 1091,
                     "startColumn": 4,
-                    "startOffset": 90172,
-                    "endLine": 1164,
+                    "startOffset": 86739,
+                    "endLine": 1139,
                     "endColumn": 12,
-                    "endOffset": 92085
+                    "endOffset": 90237
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8690,11 +8689,12 @@
             },
             {
                 "to": {
-                    "startLine": 1165,
+                    "startLine": 1140,
                     "startColumn": 4,
-                    "startOffset": 92090,
-                    "endColumn": 98,
-                    "endOffset": 92184
+                    "startOffset": 90242,
+                    "endLine": 1165,
+                    "endColumn": 12,
+                    "endOffset": 92155
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8704,9 +8704,9 @@
                 "to": {
                     "startLine": 1166,
                     "startColumn": 4,
-                    "startOffset": 92189,
-                    "endColumn": 65,
-                    "endOffset": 92250
+                    "startOffset": 92160,
+                    "endColumn": 98,
+                    "endOffset": 92254
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8716,100 +8716,9 @@
                 "to": {
                     "startLine": 1167,
                     "startColumn": 4,
-                    "startOffset": 92255,
-                    "endLine": 1174,
-                    "endColumn": 10,
-                    "endOffset": 92674
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\7.0.0\\res\\values\\admob_iap_style.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1175,
-                    "startColumn": 4,
-                    "startOffset": 92679,
-                    "endLine": 1191,
-                    "endColumn": 12,
-                    "endOffset": 93793
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1192,
-                    "startColumn": 4,
-                    "startOffset": 93798,
-                    "endLine": 1195,
-                    "endColumn": 12,
-                    "endOffset": 94028
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1196,
-                    "startColumn": 4,
-                    "startOffset": 94033,
-                    "endLine": 1203,
-                    "endColumn": 12,
-                    "endOffset": 94557
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\7.0.0\\res\\values\\wallet_styles.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1204,
-                    "startColumn": 4,
-                    "startOffset": 94562,
-                    "endLine": 1206,
-                    "endColumn": 12,
-                    "endOffset": 94741
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\7.0.0\\res\\values\\wallet_styles.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1207,
-                    "startColumn": 4,
-                    "startOffset": 94746,
-                    "endLine": 1214,
-                    "endColumn": 12,
-                    "endOffset": 95270
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\7.0.0\\res\\values\\wallet_styles.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1215,
-                    "startColumn": 4,
-                    "startOffset": 95275,
-                    "endLine": 1227,
-                    "endColumn": 12,
-                    "endOffset": 96268
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\7.0.0\\res\\values\\wallet_styles.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1228,
-                    "startColumn": 4,
-                    "startOffset": 96273,
-                    "endColumn": 87,
-                    "endOffset": 96356
+                    "startOffset": 92259,
+                    "endColumn": 65,
+                    "endOffset": 92320
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8817,11 +8726,102 @@
             },
             {
                 "to": {
+                    "startLine": 1168,
+                    "startColumn": 4,
+                    "startOffset": 92325,
+                    "endLine": 1175,
+                    "endColumn": 10,
+                    "endOffset": 92744
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\7.0.0\\res\\values\\admob_iap_style.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1176,
+                    "startColumn": 4,
+                    "startOffset": 92749,
+                    "endLine": 1192,
+                    "endColumn": 12,
+                    "endOffset": 93863
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1193,
+                    "startColumn": 4,
+                    "startOffset": 93868,
+                    "endLine": 1196,
+                    "endColumn": 12,
+                    "endOffset": 94098
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1197,
+                    "startColumn": 4,
+                    "startOffset": 94103,
+                    "endLine": 1204,
+                    "endColumn": 12,
+                    "endOffset": 94627
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\7.0.0\\res\\values\\wallet_styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1205,
+                    "startColumn": 4,
+                    "startOffset": 94632,
+                    "endLine": 1207,
+                    "endColumn": 12,
+                    "endOffset": 94811
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\7.0.0\\res\\values\\wallet_styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1208,
+                    "startColumn": 4,
+                    "startOffset": 94816,
+                    "endLine": 1215,
+                    "endColumn": 12,
+                    "endOffset": 95340
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\7.0.0\\res\\values\\wallet_styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1216,
+                    "startColumn": 4,
+                    "startOffset": 95345,
+                    "endLine": 1228,
+                    "endColumn": 12,
+                    "endOffset": 96338
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\7.0.0\\res\\values\\wallet_styles.xml"
+                }
+            },
+            {
+                "to": {
                     "startLine": 1229,
                     "startColumn": 4,
-                    "startOffset": 96361,
-                    "endColumn": 99,
-                    "endOffset": 96456
+                    "startOffset": 96343,
+                    "endColumn": 87,
+                    "endOffset": 96426
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8831,9 +8831,9 @@
                 "to": {
                     "startLine": 1230,
                     "startColumn": 4,
-                    "startOffset": 96461,
-                    "endColumn": 101,
-                    "endOffset": 96558
+                    "startOffset": 96431,
+                    "endColumn": 99,
+                    "endOffset": 96526
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8843,9 +8843,9 @@
                 "to": {
                     "startLine": 1231,
                     "startColumn": 4,
-                    "startOffset": 96563,
-                    "endColumn": 103,
-                    "endOffset": 96662
+                    "startOffset": 96531,
+                    "endColumn": 101,
+                    "endOffset": 96628
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8855,9 +8855,9 @@
                 "to": {
                     "startLine": 1232,
                     "startColumn": 4,
-                    "startOffset": 96667,
+                    "startOffset": 96633,
                     "endColumn": 103,
-                    "endOffset": 96766
+                    "endOffset": 96732
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8867,9 +8867,9 @@
                 "to": {
                     "startLine": 1233,
                     "startColumn": 4,
-                    "startOffset": 96771,
-                    "endColumn": 93,
-                    "endOffset": 96860
+                    "startOffset": 96737,
+                    "endColumn": 103,
+                    "endOffset": 96836
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8879,9 +8879,9 @@
                 "to": {
                     "startLine": 1234,
                     "startColumn": 4,
-                    "startOffset": 96865,
-                    "endColumn": 113,
-                    "endOffset": 96974
+                    "startOffset": 96841,
+                    "endColumn": 93,
+                    "endOffset": 96930
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8891,9 +8891,9 @@
                 "to": {
                     "startLine": 1235,
                     "startColumn": 4,
-                    "startOffset": 96979,
-                    "endColumn": 111,
-                    "endOffset": 97086
+                    "startOffset": 96935,
+                    "endColumn": 113,
+                    "endOffset": 97044
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8903,9 +8903,9 @@
                 "to": {
                     "startLine": 1236,
                     "startColumn": 4,
-                    "startOffset": 97091,
-                    "endColumn": 89,
-                    "endOffset": 97176
+                    "startOffset": 97049,
+                    "endColumn": 111,
+                    "endOffset": 97156
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8915,9 +8915,9 @@
                 "to": {
                     "startLine": 1237,
                     "startColumn": 4,
-                    "startOffset": 97181,
-                    "endColumn": 107,
-                    "endOffset": 97284
+                    "startOffset": 97161,
+                    "endColumn": 89,
+                    "endOffset": 97246
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8927,9 +8927,9 @@
                 "to": {
                     "startLine": 1238,
                     "startColumn": 4,
-                    "startOffset": 97289,
-                    "endColumn": 109,
-                    "endOffset": 97394
+                    "startOffset": 97251,
+                    "endColumn": 107,
+                    "endOffset": 97354
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8939,10 +8939,9 @@
                 "to": {
                     "startLine": 1239,
                     "startColumn": 4,
-                    "startOffset": 97399,
-                    "endLine": 1253,
-                    "endColumn": 12,
-                    "endOffset": 98547
+                    "startOffset": 97359,
+                    "endColumn": 109,
+                    "endOffset": 97464
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8950,12 +8949,12 @@
             },
             {
                 "to": {
-                    "startLine": 1254,
+                    "startLine": 1240,
                     "startColumn": 4,
-                    "startOffset": 98552,
-                    "endLine": 1258,
+                    "startOffset": 97469,
+                    "endLine": 1254,
                     "endColumn": 12,
-                    "endOffset": 98901
+                    "endOffset": 98617
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8963,12 +8962,12 @@
             },
             {
                 "to": {
-                    "startLine": 1259,
+                    "startLine": 1255,
                     "startColumn": 4,
-                    "startOffset": 98906,
-                    "endLine": 1263,
+                    "startOffset": 98622,
+                    "endLine": 1259,
                     "endColumn": 12,
-                    "endOffset": 99138
+                    "endOffset": 98971
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8976,12 +8975,12 @@
             },
             {
                 "to": {
-                    "startLine": 1264,
+                    "startLine": 1260,
                     "startColumn": 4,
-                    "startOffset": 99143,
-                    "endLine": 1272,
+                    "startOffset": 98976,
+                    "endLine": 1264,
                     "endColumn": 12,
-                    "endOffset": 99612
+                    "endOffset": 99208
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -8989,12 +8988,12 @@
             },
             {
                 "to": {
-                    "startLine": 1273,
+                    "startLine": 1265,
                     "startColumn": 4,
-                    "startOffset": 99617,
-                    "endLine": 1279,
+                    "startOffset": 99213,
+                    "endLine": 1273,
                     "endColumn": 12,
-                    "endOffset": 99999
+                    "endOffset": 99682
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9002,12 +9001,12 @@
             },
             {
                 "to": {
-                    "startLine": 1280,
+                    "startLine": 1274,
                     "startColumn": 4,
-                    "startOffset": 100004,
-                    "endLine": 1289,
+                    "startOffset": 99687,
+                    "endLine": 1280,
                     "endColumn": 12,
-                    "endOffset": 100585
+                    "endOffset": 100069
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9015,11 +9014,12 @@
             },
             {
                 "to": {
-                    "startLine": 1290,
+                    "startLine": 1281,
                     "startColumn": 4,
-                    "startOffset": 100590,
-                    "endColumn": 108,
-                    "endOffset": 100694
+                    "startOffset": 100074,
+                    "endLine": 1290,
+                    "endColumn": 12,
+                    "endOffset": 100655
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9029,10 +9029,9 @@
                 "to": {
                     "startLine": 1291,
                     "startColumn": 4,
-                    "startOffset": 100699,
-                    "endLine": 1293,
-                    "endColumn": 12,
-                    "endOffset": 100906
+                    "startOffset": 100660,
+                    "endColumn": 108,
+                    "endOffset": 100764
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9040,12 +9039,12 @@
             },
             {
                 "to": {
-                    "startLine": 1294,
+                    "startLine": 1292,
                     "startColumn": 4,
-                    "startOffset": 100911,
-                    "endLine": 1300,
+                    "startOffset": 100769,
+                    "endLine": 1294,
                     "endColumn": 12,
-                    "endOffset": 101382
+                    "endOffset": 100976
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9053,12 +9052,12 @@
             },
             {
                 "to": {
-                    "startLine": 1301,
+                    "startLine": 1295,
                     "startColumn": 4,
-                    "startOffset": 101387,
-                    "endLine": 1307,
+                    "startOffset": 100981,
+                    "endLine": 1301,
                     "endColumn": 12,
-                    "endOffset": 101756
+                    "endOffset": 101452
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9066,12 +9065,12 @@
             },
             {
                 "to": {
-                    "startLine": 1308,
+                    "startLine": 1302,
                     "startColumn": 4,
-                    "startOffset": 101761,
-                    "endLine": 1312,
+                    "startOffset": 101457,
+                    "endLine": 1308,
                     "endColumn": 12,
-                    "endOffset": 102135
+                    "endOffset": 101826
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9079,12 +9078,12 @@
             },
             {
                 "to": {
-                    "startLine": 1313,
+                    "startLine": 1309,
                     "startColumn": 4,
-                    "startOffset": 102140,
-                    "endLine": 1318,
+                    "startOffset": 101831,
+                    "endLine": 1313,
                     "endColumn": 12,
-                    "endOffset": 102488
+                    "endOffset": 102205
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9092,12 +9091,12 @@
             },
             {
                 "to": {
-                    "startLine": 1319,
+                    "startLine": 1314,
                     "startColumn": 4,
-                    "startOffset": 102493,
-                    "endLine": 1325,
+                    "startOffset": 102210,
+                    "endLine": 1319,
                     "endColumn": 12,
-                    "endOffset": 102948
+                    "endOffset": 102558
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9105,12 +9104,12 @@
             },
             {
                 "to": {
-                    "startLine": 1326,
+                    "startLine": 1320,
                     "startColumn": 4,
-                    "startOffset": 102953,
-                    "endLine": 1328,
+                    "startOffset": 102563,
+                    "endLine": 1326,
                     "endColumn": 12,
-                    "endOffset": 103140
+                    "endOffset": 103018
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9118,12 +9117,12 @@
             },
             {
                 "to": {
-                    "startLine": 1329,
+                    "startLine": 1327,
                     "startColumn": 4,
-                    "startOffset": 103145,
-                    "endLine": 1332,
+                    "startOffset": 103023,
+                    "endLine": 1329,
                     "endColumn": 12,
-                    "endOffset": 103399
+                    "endOffset": 103210
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9131,11 +9130,12 @@
             },
             {
                 "to": {
-                    "startLine": 1333,
+                    "startLine": 1330,
                     "startColumn": 4,
-                    "startOffset": 103404,
-                    "endColumn": 105,
-                    "endOffset": 103505
+                    "startOffset": 103215,
+                    "endLine": 1333,
+                    "endColumn": 12,
+                    "endOffset": 103469
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9145,10 +9145,9 @@
                 "to": {
                     "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 103510,
-                    "endLine": 1339,
-                    "endColumn": 12,
-                    "endOffset": 103949
+                    "startOffset": 103474,
+                    "endColumn": 105,
+                    "endOffset": 103575
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9156,11 +9155,12 @@
             },
             {
                 "to": {
-                    "startLine": 1340,
+                    "startLine": 1335,
                     "startColumn": 4,
-                    "startOffset": 103954,
-                    "endColumn": 111,
-                    "endOffset": 104061
+                    "startOffset": 103580,
+                    "endLine": 1340,
+                    "endColumn": 12,
+                    "endOffset": 104019
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9170,10 +9170,9 @@
                 "to": {
                     "startLine": 1341,
                     "startColumn": 4,
-                    "startOffset": 104066,
-                    "endLine": 1351,
-                    "endColumn": 12,
-                    "endOffset": 104760
+                    "startOffset": 104024,
+                    "endColumn": 111,
+                    "endOffset": 104131
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9181,11 +9180,12 @@
             },
             {
                 "to": {
-                    "startLine": 1352,
+                    "startLine": 1342,
                     "startColumn": 4,
-                    "startOffset": 104765,
-                    "endColumn": 109,
-                    "endOffset": 104870
+                    "startOffset": 104136,
+                    "endLine": 1352,
+                    "endColumn": 12,
+                    "endOffset": 104830
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9195,9 +9195,9 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 104875,
-                    "endColumn": 99,
-                    "endOffset": 104970
+                    "startOffset": 104835,
+                    "endColumn": 109,
+                    "endOffset": 104940
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9207,9 +9207,9 @@
                 "to": {
                     "startLine": 1354,
                     "startColumn": 4,
-                    "startOffset": 104975,
-                    "endColumn": 111,
-                    "endOffset": 105082
+                    "startOffset": 104945,
+                    "endColumn": 99,
+                    "endOffset": 105040
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9219,9 +9219,9 @@
                 "to": {
                     "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 105087,
-                    "endColumn": 127,
-                    "endOffset": 105210
+                    "startOffset": 105045,
+                    "endColumn": 111,
+                    "endOffset": 105152
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9231,9 +9231,9 @@
                 "to": {
                     "startLine": 1356,
                     "startColumn": 4,
-                    "startOffset": 105215,
-                    "endColumn": 113,
-                    "endOffset": 105324
+                    "startOffset": 105157,
+                    "endColumn": 127,
+                    "endOffset": 105280
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9243,9 +9243,9 @@
                 "to": {
                     "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 105329,
-                    "endColumn": 129,
-                    "endOffset": 105454
+                    "startOffset": 105285,
+                    "endColumn": 113,
+                    "endOffset": 105394
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9255,9 +9255,9 @@
                 "to": {
                     "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 105459,
-                    "endColumn": 115,
-                    "endOffset": 105570
+                    "startOffset": 105399,
+                    "endColumn": 129,
+                    "endOffset": 105524
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9267,9 +9267,9 @@
                 "to": {
                     "startLine": 1359,
                     "startColumn": 4,
-                    "startOffset": 105575,
-                    "endColumn": 131,
-                    "endOffset": 105702
+                    "startOffset": 105529,
+                    "endColumn": 115,
+                    "endOffset": 105640
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9279,9 +9279,9 @@
                 "to": {
                     "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 105707,
-                    "endColumn": 115,
-                    "endOffset": 105818
+                    "startOffset": 105645,
+                    "endColumn": 131,
+                    "endOffset": 105772
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9291,9 +9291,9 @@
                 "to": {
                     "startLine": 1361,
                     "startColumn": 4,
-                    "startOffset": 105823,
-                    "endColumn": 131,
-                    "endOffset": 105950
+                    "startOffset": 105777,
+                    "endColumn": 115,
+                    "endOffset": 105888
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9303,9 +9303,9 @@
                 "to": {
                     "startLine": 1362,
                     "startColumn": 4,
-                    "startOffset": 105955,
-                    "endColumn": 105,
-                    "endOffset": 106056
+                    "startOffset": 105893,
+                    "endColumn": 131,
+                    "endOffset": 106020
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9315,9 +9315,9 @@
                 "to": {
                     "startLine": 1363,
                     "startColumn": 4,
-                    "startOffset": 106061,
-                    "endColumn": 125,
-                    "endOffset": 106182
+                    "startOffset": 106025,
+                    "endColumn": 105,
+                    "endOffset": 106126
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9327,9 +9327,9 @@
                 "to": {
                     "startLine": 1364,
                     "startColumn": 4,
-                    "startOffset": 106187,
-                    "endColumn": 123,
-                    "endOffset": 106306
+                    "startOffset": 106131,
+                    "endColumn": 125,
+                    "endOffset": 106252
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9339,9 +9339,9 @@
                 "to": {
                     "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 106311,
-                    "endColumn": 117,
-                    "endOffset": 106424
+                    "startOffset": 106257,
+                    "endColumn": 123,
+                    "endOffset": 106376
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9351,9 +9351,9 @@
                 "to": {
                     "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 106429,
-                    "endColumn": 119,
-                    "endOffset": 106544
+                    "startOffset": 106381,
+                    "endColumn": 117,
+                    "endOffset": 106494
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9363,9 +9363,9 @@
                 "to": {
                     "startLine": 1367,
                     "startColumn": 4,
-                    "startOffset": 106549,
-                    "endColumn": 121,
-                    "endOffset": 106666
+                    "startOffset": 106499,
+                    "endColumn": 119,
+                    "endOffset": 106614
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9375,10 +9375,9 @@
                 "to": {
                     "startLine": 1368,
                     "startColumn": 4,
-                    "startOffset": 106671,
-                    "endLine": 1376,
-                    "endColumn": 12,
-                    "endOffset": 107419
+                    "startOffset": 106619,
+                    "endColumn": 121,
+                    "endOffset": 106736
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9386,12 +9385,12 @@
             },
             {
                 "to": {
-                    "startLine": 1377,
+                    "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 107424,
-                    "endLine": 1381,
+                    "startOffset": 106741,
+                    "endLine": 1377,
                     "endColumn": 12,
-                    "endOffset": 107788
+                    "endOffset": 107489
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9399,12 +9398,12 @@
             },
             {
                 "to": {
-                    "startLine": 1382,
+                    "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 107793,
-                    "endLine": 1387,
+                    "startOffset": 107494,
+                    "endLine": 1382,
                     "endColumn": 12,
-                    "endOffset": 108344
+                    "endOffset": 107858
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9412,11 +9411,12 @@
             },
             {
                 "to": {
-                    "startLine": 1388,
+                    "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 108349,
-                    "endColumn": 112,
-                    "endOffset": 108457
+                    "startOffset": 107863,
+                    "endLine": 1388,
+                    "endColumn": 12,
+                    "endOffset": 108414
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9426,9 +9426,9 @@
                 "to": {
                     "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 108462,
-                    "endColumn": 126,
-                    "endOffset": 108584
+                    "startOffset": 108419,
+                    "endColumn": 112,
+                    "endOffset": 108527
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9438,9 +9438,9 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 108589,
-                    "endColumn": 114,
-                    "endOffset": 108699
+                    "startOffset": 108532,
+                    "endColumn": 126,
+                    "endOffset": 108654
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9450,10 +9450,9 @@
                 "to": {
                     "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 108704,
-                    "endLine": 1393,
-                    "endColumn": 12,
-                    "endOffset": 108935
+                    "startOffset": 108659,
+                    "endColumn": 114,
+                    "endOffset": 108769
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9461,11 +9460,12 @@
             },
             {
                 "to": {
-                    "startLine": 1394,
+                    "startLine": 1392,
                     "startColumn": 4,
-                    "startOffset": 108940,
-                    "endColumn": 114,
-                    "endOffset": 109050
+                    "startOffset": 108774,
+                    "endLine": 1394,
+                    "endColumn": 12,
+                    "endOffset": 109005
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9475,9 +9475,9 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 109055,
-                    "endColumn": 128,
-                    "endOffset": 109179
+                    "startOffset": 109010,
+                    "endColumn": 114,
+                    "endOffset": 109120
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9487,9 +9487,9 @@
                 "to": {
                     "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 109184,
-                    "endColumn": 104,
-                    "endOffset": 109284
+                    "startOffset": 109125,
+                    "endColumn": 128,
+                    "endOffset": 109249
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9499,9 +9499,9 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 109289,
-                    "endColumn": 120,
-                    "endOffset": 109405
+                    "startOffset": 109254,
+                    "endColumn": 104,
+                    "endOffset": 109354
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9511,61 +9511,61 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 109410,
-                    "endLine": 1400,
-                    "endColumn": 12,
-                    "endOffset": 109630
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1401,
-                    "startColumn": 4,
-                    "startOffset": 109635,
-                    "endLine": 1404,
-                    "endColumn": 12,
-                    "endOffset": 109995
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1405,
-                    "startColumn": 4,
-                    "startOffset": 110000,
-                    "endLine": 1407,
-                    "endColumn": 12,
-                    "endOffset": 110212
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1408,
-                    "startColumn": 4,
-                    "startOffset": 110217,
-                    "endLine": 1412,
-                    "endColumn": 12,
-                    "endOffset": 110599
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1413,
-                    "startColumn": 4,
-                    "startOffset": 110604,
+                    "startOffset": 109359,
                     "endColumn": 120,
-                    "endOffset": 110720
+                    "endOffset": 109475
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1399,
+                    "startColumn": 4,
+                    "startOffset": 109480,
+                    "endLine": 1401,
+                    "endColumn": 12,
+                    "endOffset": 109700
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1402,
+                    "startColumn": 4,
+                    "startOffset": 109705,
+                    "endLine": 1405,
+                    "endColumn": 12,
+                    "endOffset": 110065
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1406,
+                    "startColumn": 4,
+                    "startOffset": 110070,
+                    "endLine": 1408,
+                    "endColumn": 12,
+                    "endOffset": 110282
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1409,
+                    "startColumn": 4,
+                    "startOffset": 110287,
+                    "endLine": 1413,
+                    "endColumn": 12,
+                    "endOffset": 110669
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9575,10 +9575,9 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 110725,
-                    "endLine": 1420,
-                    "endColumn": 12,
-                    "endOffset": 111188
+                    "startOffset": 110674,
+                    "endColumn": 120,
+                    "endOffset": 110790
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9586,12 +9585,12 @@
             },
             {
                 "to": {
-                    "startLine": 1421,
+                    "startLine": 1415,
                     "startColumn": 4,
-                    "startOffset": 111193,
-                    "endLine": 1423,
+                    "startOffset": 110795,
+                    "endLine": 1421,
                     "endColumn": 12,
-                    "endOffset": 111387
+                    "endOffset": 111258
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9599,11 +9598,12 @@
             },
             {
                 "to": {
-                    "startLine": 1424,
+                    "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 111392,
-                    "endColumn": 117,
-                    "endOffset": 111505
+                    "startOffset": 111263,
+                    "endLine": 1424,
+                    "endColumn": 12,
+                    "endOffset": 111457
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9613,10 +9613,9 @@
                 "to": {
                     "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 111510,
-                    "endLine": 1429,
-                    "endColumn": 12,
-                    "endOffset": 111884
+                    "startOffset": 111462,
+                    "endColumn": 117,
+                    "endOffset": 111575
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9624,11 +9623,12 @@
             },
             {
                 "to": {
-                    "startLine": 1430,
+                    "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 111889,
-                    "endColumn": 121,
-                    "endOffset": 112006
+                    "startOffset": 111580,
+                    "endLine": 1430,
+                    "endColumn": 12,
+                    "endOffset": 111954
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9638,9 +9638,9 @@
                 "to": {
                     "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 112011,
-                    "endColumn": 111,
-                    "endOffset": 112118
+                    "startOffset": 111959,
+                    "endColumn": 121,
+                    "endOffset": 112076
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9650,9 +9650,9 @@
                 "to": {
                     "startLine": 1432,
                     "startColumn": 4,
-                    "startOffset": 112123,
-                    "endColumn": 115,
-                    "endOffset": 112234
+                    "startOffset": 112081,
+                    "endColumn": 111,
+                    "endOffset": 112188
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9662,9 +9662,9 @@
                 "to": {
                     "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 112239,
-                    "endColumn": 99,
-                    "endOffset": 112334
+                    "startOffset": 112193,
+                    "endColumn": 115,
+                    "endOffset": 112304
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9674,9 +9674,9 @@
                 "to": {
                     "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 112339,
-                    "endColumn": 114,
-                    "endOffset": 112449
+                    "startOffset": 112309,
+                    "endColumn": 99,
+                    "endOffset": 112404
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9686,9 +9686,9 @@
                 "to": {
                     "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 112454,
-                    "endColumn": 99,
-                    "endOffset": 112549
+                    "startOffset": 112409,
+                    "endColumn": 114,
+                    "endOffset": 112519
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9698,9 +9698,9 @@
                 "to": {
                     "startLine": 1436,
                     "startColumn": 4,
-                    "startOffset": 112554,
-                    "endColumn": 103,
-                    "endOffset": 112653
+                    "startOffset": 112524,
+                    "endColumn": 99,
+                    "endOffset": 112619
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9710,9 +9710,9 @@
                 "to": {
                     "startLine": 1437,
                     "startColumn": 4,
-                    "startOffset": 112658,
-                    "endColumn": 95,
-                    "endOffset": 112749
+                    "startOffset": 112624,
+                    "endColumn": 103,
+                    "endOffset": 112723
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9722,9 +9722,9 @@
                 "to": {
                     "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 112754,
-                    "endColumn": 87,
-                    "endOffset": 112837
+                    "startOffset": 112728,
+                    "endColumn": 95,
+                    "endOffset": 112819
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9734,9 +9734,9 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 112842,
-                    "endColumn": 91,
-                    "endOffset": 112929
+                    "startOffset": 112824,
+                    "endColumn": 87,
+                    "endOffset": 112907
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9746,9 +9746,9 @@
                 "to": {
                     "startLine": 1440,
                     "startColumn": 4,
-                    "startOffset": 112934,
-                    "endColumn": 113,
-                    "endOffset": 113043
+                    "startOffset": 112912,
+                    "endColumn": 91,
+                    "endOffset": 112999
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9758,9 +9758,9 @@
                 "to": {
                     "startLine": 1441,
                     "startColumn": 4,
-                    "startOffset": 113048,
-                    "endColumn": 102,
-                    "endOffset": 113146
+                    "startOffset": 113004,
+                    "endColumn": 113,
+                    "endOffset": 113113
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
@@ -9770,10 +9770,22 @@
                 "to": {
                     "startLine": 1442,
                     "startColumn": 4,
-                    "startOffset": 113151,
-                    "endLine": 1445,
+                    "startOffset": 113118,
+                    "endColumn": 102,
+                    "endOffset": 113216
+                },
+                "from": {
+                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1443,
+                    "startColumn": 4,
+                    "startOffset": 113221,
+                    "endLine": 1446,
                     "endColumn": 12,
-                    "endOffset": 113365
+                    "endOffset": 113435
                 },
                 "from": {
                     "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\src\\main\\res\\values\\styles_openmrs.xml"

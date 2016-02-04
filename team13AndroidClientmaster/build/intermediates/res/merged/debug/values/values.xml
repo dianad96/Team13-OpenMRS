@@ -671,6 +671,7 @@ available. Please contact the developer for assistance.</string>
     <string name="title_activity_input_exercise">InputExercise</string>
     <string name="title_activity_input_heart_rate">InputHeartRate</string>
     <string name="title_activity_input_manually">InputManually</string>
+    <string name="title_activity_login_patient">LoginPatient</string>
     <string name="title_activity_sync_data">SyncData</string>
     <string name="toggle_selected">Toggle All</string>
     <string name="trigger">OK. Please continue.</string>

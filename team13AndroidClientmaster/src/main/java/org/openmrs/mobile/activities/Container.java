@@ -18,8 +18,9 @@ public class Container {
     public static String weight = "";
 
     public static String user_uuid = "f203f94d-5b02-4798-be06-434c5eb2e26b";
+    public static String chat_uuid="182e8d2d-e710-409c-98e2-f98ec9b7bacb";
     public static String calories_uuid = "919df587-688b-4c20-bad8-9d8ebeaf9cd0";
-    public static  String steps_uuid = "472224eb-60ac-4865-96fb-4c6848572d0f";
+    public static String steps_uuid = "472224eb-60ac-4865-96fb-4c6848572d0f";
     public static String calories_burned_uuid = "55a95266-318c-4736-be69-39047d5241e7";
     public static String distance_covered_uuid = "59dc8263-d132-408a-8f07-3e6399e8dfa0";
     public static String total_steps_uuid = "472224eb-60ac-4865-96fb-4c6848572d0f";

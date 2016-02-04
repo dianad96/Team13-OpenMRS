@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.database.DataSetObserver;
 import android.os.Bundle;
 import android.app.Activity;
+import android.os.StrictMode;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AbsListView;
@@ -11,7 +13,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import org.apache.http.entity.StringEntity;
 import org.openmrs.mobile.R;
+import org.openmrs.mobile.activities.fragments.ApiAuthRest;
+
+import java.io.UnsupportedEncodingException;
+import java.util.Calendar;
 
 public class Chat extends Activity {
 
@@ -22,6 +29,7 @@ public class Chat extends Activity {
     private EditText chatText;
     private Button buttonSend;
     private boolean side = false;
+    String comment = "";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -76,6 +84,7 @@ public class Chat extends Activity {
             @Override
             public void onClick(View arg0) {
                 sendChatMessage();
+                sendData();
             }
         });
 
@@ -94,9 +103,42 @@ public class Chat extends Activity {
 
     private boolean sendChatMessage() {
         chatArrayAdapter.add(new ChatMessage(side, chatText.getText().toString()));
+        comment=chatText.getText().toString();
         chatText.setText("");
         side = !side;
         return true;
+    }
+
+    public void sendData()
+    {
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+
+        ApiAuthRest.setURLBase(Container.URLBase);
+        ApiAuthRest.setUsername(Container.username);
+        ApiAuthRest.setPassword(Container.password);
+
+        Calendar c = Calendar.getInstance();
+        String date = c.get(Calendar.YEAR) + "-" + c.get(Calendar.MONTH) + "-" +c.get(Calendar.DAY_OF_MONTH) + " " + c.get(Calendar.HOUR) + ":" + c.get(Calendar.MINUTE) + ":" + c.get(Calendar.SECOND);
+
+        final String JSONComment= "{\"obsDatetime\": \"" + date + "\"" +
+                ", \"concept\": \"" + Container.chat_uuid + "\"" +
+                ", \"value\": \"" + comment + "\"" +
+                ", \"person\": \"" + Container.user_uuid + "\"}";
+
+        StringEntity inputComment = null;
+        try {
+            inputComment = new StringEntity(JSONComment);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+        inputComment.setContentType("application/json");
+        try {
+            Log.i("OpenMRS response", "Comment Added = " + ApiAuthRest.getRequestPost("obs", inputComment));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
 

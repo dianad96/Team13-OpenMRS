@@ -179,4 +179,5 @@
     <string name="title_activity_input_heart_rate">InputHeartRate</string>
     <string name="title_activity_graph">Graph</string>
     <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_login_patient">LoginPatient</string>
 </resources>

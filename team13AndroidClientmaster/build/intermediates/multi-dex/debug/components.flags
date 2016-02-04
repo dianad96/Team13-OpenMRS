@@ -109,6 +109,10 @@
     <init>();
 }
 
+-keep class org.openmrs.mobile.activities.LoginPatient {
+    <init>();
+}
+
 -keep public class * extends android.app.backup.BackupAgent {
     <init>();
 }
