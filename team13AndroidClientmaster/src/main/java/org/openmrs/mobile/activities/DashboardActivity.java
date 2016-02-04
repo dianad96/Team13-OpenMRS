@@ -51,7 +51,7 @@ public class DashboardActivity extends ACBaseActivity {
         graph.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DashboardActivity.this, Chat.class);
+                Intent i = new Intent(DashboardActivity.this, Graph.class);
                 startActivity(i);
             }
         });
