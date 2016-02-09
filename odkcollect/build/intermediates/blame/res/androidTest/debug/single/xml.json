@@ -1,10 +1,18 @@
 [
     {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\admin_preferences.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\xml\\admin_preferences.xml"
+    },
+    {
         "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\preferences.xml",
         "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\xml\\preferences.xml"
     },
     {
         "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\admin_preferences.xml",
         "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\xml\\admin_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\xml\\preferences.xml"
     }
 ]

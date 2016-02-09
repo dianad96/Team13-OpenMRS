@@ -41,6 +41,8 @@ dependencies {
 
     compile 'com.google.android.gms:play-services:7.0.0'
 
+    compile 'com.jjoe64:graphview:4.0.1'
+
     compile files('libs/commons-codec.jar')
     compile files('libs/httpcore-4.3.2.jar')
     compile files('libs/httpmime-4.3.6.jar')

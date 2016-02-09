@@ -65,6 +65,7 @@ org/openmrs/mobile/application/OpenMRSLogger$2.class
 android/support/annotation/StringDef.class
 com/google/common/util/concurrent/Futures$ImmediateSuccessfulCheckedFuture.class
 com/google/android/gms/internal/zzaa.class
+com/jjoe64/graphview/helper/StaticLabelsFormatter.class
 com/google/common/collect/ImmutableMultimap.class
 org/odk/collect/android/listeners/FormLoaderListener.class
 org/opendatakit/httpclientandroidlib/annotation/Immutable.class
@@ -272,6 +273,7 @@ com/google/android/gms/internal/zzeg.class
 com/google/android/gms/internal/zzel.class
 org/openmrs/mobile/utilities/URLValidator$ValidationResult.class
 com/google/common/collect/Multimaps.class
+com/jjoe64/graphview/series/DataPoint.class
 org/joda/time/Seconds.class
 org/opendatakit/httpclientandroidlib/impl/conn/tsccm/PoolEntryRequest.class
 com/google/android/gms/internal/zzdf.class
@@ -319,6 +321,7 @@ com/google/android/gms/internal/zzgm$zza.class
 com/google/common/collect/MapMaker.class
 org/opendatakit/httpclientandroidlib/impl/client/DefaultRedirectHandler.class
 org/joda/time/LocalDate.class
+com/jjoe64/graphview/LabelFormatter.class
 com/google/android/gms/analytics/HitBuilders$AppViewBuilder.class
 org/openmrs/mobile/security/SecretKeyGenerator.class
 org/apache/http/impl/io/HttpRequestWriter.class
@@ -345,6 +348,7 @@ org/openmrs/mobile/activities/InputHeartRate$3.class
 android/support/v4/media/VolumeProviderCompat$1.class
 com/google/android/gms/games/internal/experience/ExperienceEvent.class
 org/apache/http/impl/io/HttpRequestParser.class
+com/jjoe64/graphview/series/BaseSeries.class
 org/apache/http/params/BasicHttpParams.class
 com/google/android/gms/identity/intents/AddressConstants$Themes.class
 com/google/common/io/CharSource.class
@@ -469,6 +473,7 @@ android/support/v7/widget/RecyclerView$ItemDecoration.class
 org/opendatakit/httpclientandroidlib/params/DefaultedHttpParams.class
 org/apache/http/impl/SocketHttpServerConnection.class
 android/support/v4/media/session/MediaSessionCompat$SessionFlags.class
+com/jjoe64/graphview/series/BarGraphSeries.class
 com/google/android/gms/common/data/DataBuffer.class
 org/odk/collect/android/preferences/PreferencesActivity.class
 com/google/common/collect/ImmutableMap.class
@@ -495,6 +500,7 @@ com/google/android/gms/location/zzf.class
 org/odk/collect/android/openmrs/provider/OpenMRSInstanceProvider.class
 com/google/android/gms/common/api/GoogleApiClient$zza.class
 com/google/android/gms/internal/zzey.class
+org/openmrs/mobile/activities/Graph$4.class
 com/google/common/base/package-info.class
 android/support/annotation/FractionRes.class
 android/support/v4/view/accessibility/AccessibilityNodeProviderCompat.class
@@ -514,6 +520,7 @@ org/openmrs/mobile/activities/ChatMessage.class
 org/openmrs/mobile/activities/InputExercise$4.class
 com/google/android/gms/maps/SupportMapFragment.class
 android/support/v4/media/session/MediaSessionCompat$Callback.class
+com/jjoe64/graphview/GraphView.class
 org/openmrs/mobile/activities/Graph.class
 org/apache/http/HttpEntity.class
 android/support/annotation/IntDef.class
@@ -526,6 +533,7 @@ org/apache/http/protocol/HttpRequestHandlerRegistry.class
 com/google/common/collect/TreeRangeSet$SubRangeSet.class
 com/google/android/gms/internal/zzfu.class
 com/google/common/primitives/UnsignedInteger.class
+com/jjoe64/graphview/GridLabelRenderer.class
 com/google/android/gms/internal/zzfz.class
 org/javarosa/core/services/storage/Persistable.class
 org/odk/collect/android/activities/FormEntryActivity$5.class
@@ -800,6 +808,7 @@ com/google/android/gms/common/api/Api.class
 org/openmrs/mobile/net/VisitsManager.class
 com/google/android/gms/fitness/data/DataType.class
 android/support/v4/view/ViewCompat$GBViewCompatImpl.class
+com/jjoe64/graphview/series/Series.class
 org/apache/http/protocol/HttpService.class
 android/support/v4/view/ViewCompat$JbMr2ViewCompatImpl.class
 org/javarosa/core/services/IPropertyManager.class
@@ -807,6 +816,7 @@ org/javarosa/form/api/FormEntryPrompt.class
 org/apache/http/params/HttpProtocolParamBean.class
 org/apache/http/impl/io/AbstractMessageWriter.class
 com/google/android/gms/internal/zzab.class
+org/openmrs/mobile/activities/InputManually$1.class
 org/openmrs/mobile/activities/InputHeightWeight$4.class
 org/odk/collect/android/application/Collect.class
 com/google/common/collect/ImmutableMapEntry.class
@@ -900,6 +910,7 @@ org/openmrs/mobile/dao/PatientDAO.class
 org/openmrs/mobile/activities/FormEntryActivity$2.class
 android/support/v7/widget/CardView.class
 com/google/common/collect/Ordering.class
+com/jjoe64/graphview/series/DataPointInterface.class
 android/support/v7/app/ActionBarActivityDelegate.class
 com/google/common/collect/GwtTransient.class
 android/support/v4/view/ViewCompat.class
@@ -989,6 +1000,7 @@ com/google/android/gms/internal/zzw.class
 com/google/android/gms/internal/zzbu.class
 org/odk/collect/android/activities/FormEntryActivity$9.class
 com/google/android/gms/internal/zzfv.class
+com/jjoe64/graphview/Viewport.class
 android/support/annotation/AnimRes.class
 com/google/android/gms/internal/zzfy.class
 android/support/v4/app/FragmentActivity$NonConfigurationInstances.class
@@ -1033,11 +1045,13 @@ com/google/ads/mediation/MediationServerParameters$Parameter.class
 com/google/common/eventbus/AllowConcurrentEvents.class
 com/google/android/gms/internal/zzcn.class
 org/apache/http/entity/ByteArrayEntity.class
+org/openmrs/mobile/activities/InputManually.class
 com/google/common/collect/LinkedHashMultimap$ValueEntry.class
 org/openmrs/mobile/models/Mapping.class
 org/opendatakit/httpclientandroidlib/conn/params/ConnManagerPNames.class
 android/support/v4/media/session/PlaybackStateCompat$Builder.class
 com/google/android/gms/internal/zzqd.class
+com/jjoe64/graphview/ValueDependentColor.class
 org/joda/time/MutablePeriod.class
 android/support/v4/widget/SwipeRefreshLayout$OnRefreshListener.class
 org/apache/http/impl/io/SocketInputBuffer.class

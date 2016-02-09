@@ -1,7 +1,7 @@
--injars 'C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
--outjars 'C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\multi-dex\debug\componentClasses.jar'
+-injars 'C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\multi-dex\debug\componentClasses.jar'
 
--libraryjars 'C:\Users\Diana\AppData\Local\Android\sdk1\build-tools\22.0.1\lib\shrinkedAndroid.jar'
+-libraryjars 'C:\Users\ga\AppData\Local\Android\sdk\build-tools\22.0.1\lib\shrinkedAndroid.jar'
 
 -forceprocessing
 -dontoptimize
@@ -9,7 +9,7 @@
 -dontusemixedcaseclassnames
 -dontpreverify
 -dontwarn
--printconfiguration 'C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\multi-dex\debug\components.flags'
+-printconfiguration 'C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\multi-dex\debug\components.flags'
 
 
 -keep class org.openmrs.mobile.application.OpenMRS {

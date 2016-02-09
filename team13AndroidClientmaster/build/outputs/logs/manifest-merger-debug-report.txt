@@ -1,506 +1,510 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:14:1-216:12
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:14:1-216:12
 	package
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:15:5-33
-		INJECTED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:15:5-33
+		INJECTED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:17:5-46
-		INJECTED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:17:5-46
+		INJECTED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:16:5-28
-		INJECTED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:16:5-28
+		INJECTED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:14:11-69
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:14:11-69
 uses-sdk
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:19:5-21:41
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
-MERGED from [Team13AndroidClient-master:odkcollect:unspecified] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\Team13AndroidClient-master\odkcollect\unspecified\AndroidManifest.xml:16:5-18:41
-MERGED from [com.android.support:gridlayout-v7:19.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\19.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-ads:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-analytics:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-analytics:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appindexing:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-appstate:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-cast:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-drive:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-fitness:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-location:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-games:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-drive:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-gcm:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-identity:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-location:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-nearby:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-panorama:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-plus:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-safetynet:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-wallet:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-identity:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-wearable:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [Team13AndroidClient:odkcollect:unspecified] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\Team13AndroidClient\odkcollect\unspecified\AndroidManifest.xml:16:5-18:41
+MERGED from [com.android.support:gridlayout-v7:19.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\19.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appstate:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-cast:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-games:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-nearby:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-panorama:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-plus:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wallet:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.jjoe64:graphview:4.0.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.jjoe64\graphview\4.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:21:9-38
-		INJECTED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:21:9-38
+		INJECTED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:20:9-35
-		INJECTED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:20:9-35
+		INJECTED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:23:5-67
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:23:22-64
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:23:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:24:5-81
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:24:5-81
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:24:22-78
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:24:22-78
 uses-permission#android.permission.READ_LOGS
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:25:5-68
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:25:22-65
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:25:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:26:5-79
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:26:22-76
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:26:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:27:5-75
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:27:5-75
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:27:22-72
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:27:22-72
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:28:5-76
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:28:5-76
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:28:22-73
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:28:22-73
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:30:5-88
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:30:5-88
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:30:30-85
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:30:30-85
 application
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:32:5-214:19
-MERGED from [Team13AndroidClient-master:odkcollect:unspecified] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\Team13AndroidClient-master\odkcollect\unspecified\AndroidManifest.xml:20:5-20
-MERGED from [com.android.support:gridlayout-v7:19.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\19.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:19:5-20
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-ads:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appstate:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-cast:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-drive:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-fitness:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-location:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-games:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-drive:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-gcm:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-identity:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-location:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-nearby:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-panorama:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-plus:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-wallet:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-identity:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-wearable:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:32:5-214:19
+MERGED from [Team13AndroidClient:odkcollect:unspecified] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\Team13AndroidClient\odkcollect\unspecified\AndroidManifest.xml:20:5-20
+MERGED from [com.android.support:gridlayout-v7:19.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\19.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appstate:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wallet:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.jjoe64:graphview:4.0.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.jjoe64\graphview\4.0.1\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:36:9-41
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:36:9-41
 	android:allowBackup
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:34:9-35
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:34:9-35
 	android:icon
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:35:9-44
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:35:9-44
 	android:theme
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:37:9-45
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:37:9-45
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:33:9-44
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:33:9-44
 meta-data#buildVersion
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:38:9-40:33
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:38:9-40:33
 	android:value
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:40:13-30
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:40:13-30
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:39:13-40
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:39:13-40
 provider#org.odk.collect.android.openmrs.provider.OpenMRSFormsProvider
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:42:9-45:40
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:42:9-45:40
 	android:authorities
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:44:13-85
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:44:13-85
 	android:exported
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:45:13-37
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:43:13-89
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:43:13-89
 provider#org.odk.collect.android.openmrs.provider.OpenMRSInstanceProvider
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:46:9-49:40
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:46:9-49:40
 	android:authorities
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:48:13-89
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:48:13-89
 	android:exported
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:49:13-37
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:47:13-92
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:47:13-92
 receiver#org.openmrs.mobile.application.OpenMRSBroadcastReceiver
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:51:9-62:20
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:51:9-62:20
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:51:19-71
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:51:19-71
 intent-filter#org.openmrs.mobile.intent.action.AUTH_FAILED_BROADCAST+org.openmrs.mobile.intent.action.CONN_TIMEOUT_BROADCAST+org.openmrs.mobile.intent.action.NO_INTERNET_CONNECTION_BROADCAST+org.openmrs.mobile.intent.action.SERVER_ERROR_BROADCAST+org.openmrs.mobile.intent.action.SERVER_NOT_SUPPORTED_BROADCAST+org.openmrs.mobile.intent.action.SERVER_UNAVAILABLE_BROADCAST+org.openmrs.mobile.intent.action.SOCKET_EXCEPTION_BROADCAST+org.openmrs.mobile.intent.action.UNAUTHORIZED_BROADCAST
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:52:13-61:29
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:52:13-61:29
 action#org.openmrs.mobile.intent.action.AUTH_FAILED_BROADCAST
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:53:17-97
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:53:17-97
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:53:25-94
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:53:25-94
 action#org.openmrs.mobile.intent.action.UNAUTHORIZED_BROADCAST
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:54:17-98
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:54:17-98
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:54:25-95
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:54:25-95
 action#org.openmrs.mobile.intent.action.CONN_TIMEOUT_BROADCAST
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:55:17-98
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:55:17-98
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:55:25-95
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:55:25-95
 action#org.openmrs.mobile.intent.action.NO_INTERNET_CONNECTION_BROADCAST
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:56:17-108
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:56:17-108
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:56:25-105
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:56:25-105
 action#org.openmrs.mobile.intent.action.SERVER_UNAVAILABLE_BROADCAST
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:57:17-104
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:57:17-104
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:57:25-101
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:57:25-101
 action#org.openmrs.mobile.intent.action.SERVER_ERROR_BROADCAST
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:58:17-98
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:58:17-98
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:58:25-95
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:58:25-95
 action#org.openmrs.mobile.intent.action.SOCKET_EXCEPTION_BROADCAST
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:59:17-102
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:59:17-102
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:59:25-99
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:59:25-99
 action#org.openmrs.mobile.intent.action.SERVER_NOT_SUPPORTED_BROADCAST
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:60:17-106
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:60:17-106
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:60:25-103
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:60:25-103
 activity#org.openmrs.mobile.activities.DashboardActivity
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:64:9-68:20
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:64:9-68:20
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:66:13-45
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:66:13-45
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:65:13-57
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:65:13-57
 activity#org.openmrs.mobile.activities.DialogActivity
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:69:9-72:55
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:69:9-72:55
 	android:noHistory
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:71:13-37
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:71:13-37
 	android:theme
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:72:13-52
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:72:13-52
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:70:13-54
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:70:13-54
 activity#org.openmrs.mobile.activities.FindPatientsActivity
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:73:9-90:20
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:73:9-90:20
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:76:13-57
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:76:13-57
 	android:launchMode
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:77:13-43
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:77:13-43
 	android:configChanges
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:75:13-62
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:75:13-62
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:74:13-60
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:74:13-60
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:80:13-82:65
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:80:13-82:65
 	android:value
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:82:17-62
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:82:17-62
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:81:17-63
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:81:17-63
 meta-data#android.app.searchable
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:83:13-85:54
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:83:13-85:54
 	android:resource
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:85:17-51
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:85:17-51
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:84:17-54
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:84:17-54
 intent-filter#android.intent.action.SEARCH
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:87:13-89:29
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:87:13-89:29
 action#android.intent.action.SEARCH
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:88:17-71
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:88:17-71
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:88:25-68
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:88:25-68
 activity#org.openmrs.mobile.activities.FindPatientsSearchActivity
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:91:9-107:20
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:91:9-107:20
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:93:13-57
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:93:13-57
 	android:launchMode
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:94:13-43
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:94:13-43
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:92:13-66
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:92:13-66
 activity#org.openmrs.mobile.activities.LoginActivity
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:108:9-113:55
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:108:9-113:55
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:110:13-45
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:110:13-45
 	android:launchMode
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:111:13-43
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:111:13-43
 	android:noHistory
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:112:13-37
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:112:13-37
 	android:theme
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:113:13-52
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:113:13-52
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:109:13-53
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:109:13-53
 activity#org.openmrs.mobile.activities.SettingsActivity
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:114:9-117:40
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:114:9-117:40
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:116:13-52
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:116:13-52
 	android:noHistory
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:117:13-37
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:117:13-37
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:115:13-56
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:115:13-56
 activity#org.openmrs.mobile.activities.PatientDashboardActivity
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:118:9-124:20
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:118:9-124:20
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:118:19-70
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:118:19-70
 activity#org.openmrs.mobile.activities.FindActiveVisitsActivity
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:125:9-141:20
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:125:9-141:20
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:127:13-57
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:127:13-57
 	android:launchMode
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:128:13-43
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:128:13-43
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:126:13-64
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:126:13-64
 activity#org.openmrs.mobile.activities.FindActiveVisitsSearchActivity
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:142:9-158:20
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:142:9-158:20
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:144:13-57
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:144:13-57
 	android:launchMode
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:145:13-43
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:145:13-43
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:143:13-70
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:143:13-70
 activity#org.openmrs.mobile.activities.VisitDashboardActivity
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:159:9-168:20
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:159:9-168:20
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:161:13-58
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:161:13-58
 	android:launchMode
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:162:13-43
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:162:13-43
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:160:13-62
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:160:13-62
 activity#org.openmrs.mobile.activities.FormEntryActivity
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:169:9-172:46
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:169:9-172:46
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:171:13-57
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:171:13-57
 	android:launchMode
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:172:13-43
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:172:13-43
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:170:13-57
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:170:13-57
 activity#org.openmrs.mobile.activities.CaptureVitalsActivity
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:173:9-182:20
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:173:9-182:20
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:176:13-58
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:176:13-58
 	android:configChanges
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:175:13-74
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:175:13-74
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:174:13-61
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:174:13-61
 activity#org.openmrs.mobile.activities.InputManually
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:183:9-185:69
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:183:9-185:69
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:185:13-66
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:185:13-66
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:184:13-53
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:184:13-53
 activity#org.openmrs.mobile.activities.InputFood
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:186:9-188:36
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:186:9-188:36
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:188:13-33
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:188:13-33
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:187:13-49
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:187:13-49
 activity#org.openmrs.mobile.activities.InputExercise
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:189:9-191:69
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:189:9-191:69
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:191:13-66
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:191:13-66
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:190:13-53
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:190:13-53
 activity#org.openmrs.mobile.activities.SyncData
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:192:9-194:64
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:192:9-194:64
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:194:13-61
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:194:13-61
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:193:13-48
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:193:13-48
 activity#org.openmrs.mobile.activities.InputHeartRate
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:195:9-197:71
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:195:9-197:71
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:197:13-68
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:197:13-68
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:196:13-54
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:196:13-54
 activity#org.openmrs.mobile.activities.InputHeightWeight
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:198:9-66
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:198:9-66
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:198:19-63
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:198:19-63
 activity#org.openmrs.mobile.activities.Graph
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:199:9-201:60
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:199:9-201:60
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:201:13-57
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:201:13-57
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:200:13-45
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:200:13-45
 activity#org.openmrs.mobile.activities.Chat
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:202:9-204:59
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:202:9-204:59
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:204:13-56
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:204:13-56
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:203:13-44
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:203:13-44
 activity#org.openmrs.mobile.activities.LoginPatient
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:205:9-213:20
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:205:9-213:20
 	android:label
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:207:13-65
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:207:13-65
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:206:13-52
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:206:13-52
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:208:13-212:29
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:208:13-212:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:209:17-69
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:209:17-69
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:209:25-66
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:209:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:211:17-77
+ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:211:17-77
 	android:name
-		ADDED from C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\src\main\AndroidManifest.xml:211:27-74
+		ADDED from C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\src\main\AndroidManifest.xml:211:27-74
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\Diana\Desktop\Team13AndroidClient-master\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-base:7.0.0] C:\Users\ga\Documents\GitHub\Team13AndroidClient\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\AndroidManifest.xml:22:13-58
