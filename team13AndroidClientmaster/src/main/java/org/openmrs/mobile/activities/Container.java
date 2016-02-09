@@ -30,6 +30,6 @@ public class Container {
     public static String height_uuid = "18166deb-a22a-43e3-8d79-f311f4c4dddc";
     public static String weight_uuid = "2009fef8-157c-47af-b866-5446d4415d63";
     public static String URLBase = "http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/";
-    public static String username = "diana";
+    public static String username = "admin";
     public static String password = "Admin123";
 }
