@@ -25,6 +25,7 @@
 -keep class org.openmrs.mobile.activities.InputHeightWeight { <init>(); }
 -keep class org.openmrs.mobile.activities.Graph { <init>(); }
 -keep class org.openmrs.mobile.activities.Chat { <init>(); }
+-keep class org.openmrs.mobile.activities.SyncGoogleFitActivity { <init>(); }
 -keep class org.openmrs.mobile.activities.LoginPatient { <init>(); }
 -keep public class * extends android.app.backup.BackupAgent {
     <init>();

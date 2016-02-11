@@ -1000,7 +1000,6 @@ com/google/android/gms/internal/zzw.class
 com/google/android/gms/internal/zzbu.class
 org/odk/collect/android/activities/FormEntryActivity$9.class
 com/google/android/gms/internal/zzfv.class
-com/jjoe64/graphview/Viewport.class
 android/support/annotation/AnimRes.class
 com/google/android/gms/internal/zzfy.class
 android/support/v4/app/FragmentActivity$NonConfigurationInstances.class
@@ -1144,6 +1143,7 @@ com/google/common/cache/LocalCache$ReferenceEntry.class
 com/google/android/gms/games/Game.class
 android/support/v7/widget/RecyclerView$LayoutManager.class
 com/google/common/collect/TreeRangeSet$ComplementRangesByLowerBound.class
+org/openmrs/mobile/activities/SyncGoogleFitActivity.class
 org/javarosa/core/model/instance/TreeElement.class
 org/opendatakit/httpclientandroidlib/entity/InputStreamEntity.class
 com/google/android/gms/games/multiplayer/turnbased/LoadMatchesResponse.class

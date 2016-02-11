@@ -203,6 +203,9 @@
             android:name=".activities.Chat"
             android:label="@string/title_activity_chat" />
         <activity
+            android:name=".activities.SyncGoogleFitActivity"
+            android:label="SyncGoogleFit" />
+        <activity
             android:name=".activities.LoginPatient"
             android:label="@string/title_activity_login_patient">
             <intent-filter>

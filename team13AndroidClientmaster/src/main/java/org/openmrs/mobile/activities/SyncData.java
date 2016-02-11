@@ -57,6 +57,7 @@ public class SyncData extends Activity {
         setContentView(R.layout.activity_sync_data);
 
 
+        buildFitnessClient();
         Button submit = (Button) findViewById(R.id.submit_but);
         submit.setOnClickListener(new View.OnClickListener() {
             @Override

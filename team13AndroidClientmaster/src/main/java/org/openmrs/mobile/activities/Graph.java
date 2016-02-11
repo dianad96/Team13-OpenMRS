@@ -81,11 +81,11 @@ public class Graph extends Activity {
         logBS(dates, values);
 
         BarGraphSeries<DataPoint> series1 = new BarGraphSeries<DataPoint>(new DataPoint[] {
-                new DataPoint(dates[0],values[0]),
-                new DataPoint(dates[1],values[1]),
-                new DataPoint(dates[2],values[2]),
-                new DataPoint(dates[3],values[3]),
-                new DataPoint(dates[4],values[4])
+                new DataPoint(1,values[4]),
+                new DataPoint(2,values[3]),
+                new DataPoint(3,values[2]),
+                new DataPoint(4,values[1]),
+                new DataPoint(5,values[0])
         });
 
         graphView.addSeries(series1);
@@ -96,11 +96,6 @@ public class Graph extends Activity {
 
         graphView.getGridLabelRenderer().setNumHorizontalLabels(5);
 
-        series1.setSpacing(30);
-
-        graphView.getViewport().setMinX(dates[4].getTime());
-        graphView.getViewport().setMaxX(dates[0].getTime());
-        graphView.getViewport().setXAxisBoundsManual(true);
 
         series1.setValueDependentColor(new ValueDependentColor<DataPoint>() {
             @Override

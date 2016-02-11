@@ -109,6 +109,10 @@
     <init>();
 }
 
+-keep class org.openmrs.mobile.activities.SyncGoogleFitActivity {
+    <init>();
+}
+
 -keep class org.openmrs.mobile.activities.LoginPatient {
     <init>();
 }
