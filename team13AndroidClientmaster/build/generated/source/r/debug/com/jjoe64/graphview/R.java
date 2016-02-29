@@ -8,13 +8,13 @@ package com.jjoe64.graphview;
 
 public final class R {
 	public static final class attr {
-		public static final int seriesColor = 0x7f01006c;
-		public static final int seriesData = 0x7f010069;
-		public static final int seriesTitle = 0x7f01006b;
-		public static final int seriesType = 0x7f01006a;
+		public static final int seriesColor = 0x7f010046;
+		public static final int seriesData = 0x7f010043;
+		public static final int seriesTitle = 0x7f010045;
+		public static final int seriesType = 0x7f010044;
 	}
 	public static final class styleable {
-		public static final int[] GraphViewXML = { 0x010101e1, 0x7f010069, 0x7f01006a, 0x7f01006b, 0x7f01006c };
+		public static final int[] GraphViewXML = { 0x010101e1, 0x7f010043, 0x7f010044, 0x7f010045, 0x7f010046 };
 		public static final int GraphViewXML_android_title = 0;
 		public static final int GraphViewXML_seriesColor = 4;
 		public static final int GraphViewXML_seriesData = 1;

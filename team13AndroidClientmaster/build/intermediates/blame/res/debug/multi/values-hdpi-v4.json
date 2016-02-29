@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "outputFile": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -9,17 +9,17 @@
                     "startOffset": 55,
                     "endLine": 6,
                     "endColumn": 13,
-                    "endOffset": 327
+                    "endOffset": 325
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-hdpi\\values-hdpi.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-hdpi\\values-hdpi.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 235,
+                        "startOffset": 297,
                         "endLine": 8,
                         "endColumn": 13,
-                        "endOffset": 507
+                        "endOffset": 567
                     }
                 }
             }

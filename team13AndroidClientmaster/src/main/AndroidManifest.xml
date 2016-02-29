@@ -206,6 +206,20 @@
             android:name=".activities.SyncGoogleFitActivity"
             android:label="SyncGoogleFit" />
         <activity
+            android:name=".activities.SyncFitBitActivity"
+            android:label="SyncFitBit" >
+        </activity>
+        <activity
+            android:name=".activities.SyncFitBitAuthorizationActivity"
+            android:label="FitBit Authorization Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="openmrs" android:host="logincallback" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".activities.LoginPatient"
             android:label="@string/title_activity_login_patient">
             <intent-filter>
@@ -214,6 +228,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name=".activities.SyncFitBitService"
+            android:label="SyncFitBit Service"
+            android:exported="false"/>
     </application>
 
 </manifest>

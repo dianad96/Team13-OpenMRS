@@ -3,8 +3,8 @@
     package="org.openmrs.mobile.test" >
 
     <uses-sdk
-        android:minSdkVersion="10"
-        android:targetSdkVersion="19" />
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
 
     <instrumentation
         android:name="org.openmrs.mobile.test.OpenMRSInstrumentationTestRunner"

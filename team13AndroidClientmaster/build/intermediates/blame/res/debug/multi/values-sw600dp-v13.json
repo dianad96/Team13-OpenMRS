@@ -1,23 +1,23 @@
 [
     {
-        "outputFile": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+        "outputFile": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\values-sw600dp-v13\\values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 61,
-                    "endOffset": 112
+                    "endColumn": 68,
+                    "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 282,
-                        "endColumn": 61,
-                        "endOffset": 339
+                        "startOffset": 295,
+                        "endColumn": 68,
+                        "endOffset": 359
                     }
                 }
             },
@@ -25,18 +25,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 117,
-                    "endColumn": 67,
-                    "endOffset": 180
+                    "startOffset": 124,
+                    "endColumn": 69,
+                    "endOffset": 189
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 344,
-                        "endColumn": 67,
-                        "endOffset": 407
+                        "startOffset": 364,
+                        "endColumn": 69,
+                        "endOffset": 429
                     }
                 }
             },
@@ -44,175 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 185,
-                    "endColumn": 68,
-                    "endOffset": 249
+                    "startOffset": 194,
+                    "endColumn": 69,
+                    "endOffset": 259
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 412,
-                        "endColumn": 68,
-                        "endOffset": 476
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 254,
-                    "endColumn": 64,
-                    "endOffset": 314
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 481,
-                        "endColumn": 64,
-                        "endOffset": 541
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 319,
-                    "endColumn": 65,
-                    "endOffset": 380
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 546,
-                        "endColumn": 65,
-                        "endOffset": 607
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 385,
-                    "endColumn": 61,
-                    "endOffset": 442
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 612,
-                        "endColumn": 61,
-                        "endOffset": 669
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 447,
-                    "endColumn": 58,
-                    "endOffset": 501
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 900,
-                        "endColumn": 58,
-                        "endOffset": 954
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 506,
-                    "endColumn": 54,
-                    "endOffset": 556
-                },
-                "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1185,
-                        "endColumn": 54,
-                        "endOffset": 1235
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 61,
-                    "endOffset": 112
-                },
-                "from": {
-                    "file": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 282,
-                        "endColumn": 61,
-                        "endOffset": 339
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 117,
-                    "endColumn": 67,
-                    "endOffset": 180
-                },
-                "from": {
-                    "file": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 344,
-                        "endColumn": 67,
-                        "endOffset": 407
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 185,
-                    "endColumn": 68,
-                    "endOffset": 249
-                },
-                "from": {
-                    "file": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 412,
-                        "endColumn": 68,
-                        "endOffset": 476
+                        "startOffset": 434,
+                        "endColumn": 69,
+                        "endOffset": 499
                     }
                 }
             },
@@ -220,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 254,
-                    "endColumn": 64,
-                    "endOffset": 314
+                    "startOffset": 264,
+                    "endColumn": 78,
+                    "endOffset": 338
                 },
                 "from": {
-                    "file": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 481,
-                        "endColumn": 64,
-                        "endOffset": 541
+                        "startOffset": 504,
+                        "endColumn": 78,
+                        "endOffset": 578
                     }
                 }
             },
@@ -239,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 319,
-                    "endColumn": 65,
-                    "endOffset": 380
+                    "startOffset": 343,
+                    "endColumn": 75,
+                    "endOffset": 414
                 },
                 "from": {
-                    "file": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 546,
-                        "endColumn": 65,
-                        "endOffset": 607
+                        "startOffset": 583,
+                        "endColumn": 75,
+                        "endOffset": 654
                     }
                 }
             },
@@ -258,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 385,
-                    "endColumn": 61,
-                    "endOffset": 442
+                    "startOffset": 419,
+                    "endColumn": 58,
+                    "endOffset": 473
                 },
                 "from": {
-                    "file": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 612,
-                        "endColumn": 61,
-                        "endOffset": 669
+                        "startOffset": 899,
+                        "endColumn": 58,
+                        "endOffset": 953
                     }
                 }
             },
@@ -277,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 447,
-                    "endColumn": 58,
-                    "endOffset": 501
+                    "startOffset": 478,
+                    "endColumn": 70,
+                    "endOffset": 544
                 },
                 "from": {
-                    "file": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 900,
-                        "endColumn": 58,
-                        "endOffset": 954
+                        "startOffset": 1198,
+                        "endColumn": 70,
+                        "endOffset": 1264
                     }
                 }
             },
@@ -296,18 +139,56 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 506,
-                    "endColumn": 54,
-                    "endOffset": 556
+                    "startOffset": 549,
+                    "endColumn": 67,
+                    "endOffset": 612
                 },
                 "from": {
-                    "file": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values-sw600dp\\values.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sw600dp\\values-sw600dp.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1185,
+                        "startOffset": 1269,
+                        "endColumn": 67,
+                        "endOffset": 1332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 617,
+                    "endColumn": 72,
+                    "endOffset": 685
+                },
+                "from": {
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 297,
+                        "endColumn": 72,
+                        "endOffset": 365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 690,
+                    "endColumn": 54,
+                    "endOffset": 740
+                },
+                "from": {
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1337,
                         "endColumn": 54,
-                        "endOffset": 1235
+                        "endOffset": 1387
                     }
                 }
             }

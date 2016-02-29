@@ -1,20 +1,30 @@
 package org.openmrs.mobile.activities;
 
 import android.app.Activity;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.content.IntentSender;
+import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.StrictMode;
+import android.support.customtabs.CustomTabsClient;
+import android.support.customtabs.CustomTabsIntent;
+import android.support.customtabs.CustomTabsServiceConnection;
+import android.support.customtabs.CustomTabsSession;
+import android.support.v4.content.ContextCompat;
+import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.Scopes;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
 import com.google.android.gms.common.api.Scope;
 import com.google.android.gms.fitness.Fitness;
 import com.google.android.gms.fitness.data.Bucket;
@@ -26,15 +36,49 @@ import com.google.android.gms.fitness.data.Field;
 import com.google.android.gms.fitness.request.DataReadRequest;
 import com.google.android.gms.fitness.result.DataReadResult;
 
+import org.apache.http.NameValuePair;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpParams;
+import org.apache.http.util.EntityUtils;
 import org.joda.time.DateTime;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.openmrs.mobile.R;
 
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
 public class SyncData extends Activity {
+
+    private static final String QUESTION_MARK = "?";
+    private static final String AMPERSAND = "&";
+    private static final String EQUALS = "=";
+
+    private static final String AUTHORIZATION_URL = "https://www.fitbit.com/oauth2/authorize";
+    private static final String ACCESS_TOKEN_URL = "https://api.fitbit.com/oauth2/token";
+    private static final String CLIENT_ID = "227GHX";
+    private static final String CLIENT_SECRET = "02b7cc9ffbe9dbc74bdd370631e9d2c2";
+    private static final String RESPONSE_TYPE = "code";
+    private static final String SCOPE_VALUE = "activity%20heartrate%20nutrition%20sleep%20weight";
+    private static final String REDIRECT_URL = "openmrs://logincallback";
+
+    private static final String CLIENT_ID_PARAM = "client_id";
+    private static final String RESPONSE_TYPE_PARAM = "response_type";
+    private static final String SCOPE_TYPE_PARAM = "scope";
+    private static final String REDIRECT_URI_PARAM = "redirect_uri";
 
     // Read Google Fit Data
 
@@ -50,20 +94,111 @@ public class SyncData extends Activity {
 
     private GoogleApiClient mClient = null;
 
+    SharedPreferences sharedpreferences;
+    private static final String PREFERENCE_TYPE = "FitbitPref";
+    private static final String FITBIT_KEY = "fitbitAuth";
+    private static final String FITBIT_ACCESS_KEY = "accessKey";
+    private static final String FITBIT_REFRESH_KEY = "refreshKey";
+    private static final String FITBIT_KEY_TIMING = "keyTiming";
+    private static final String FITBIT_USER_ID = "userID";
+    private static final String FITBIT_LAST_SYNCED = "lastSynced";
+
+    public static final String CUSTOM_TAB_PACKAGE_NAME = "com.android.chrome";
+    CustomTabsClient mCustomTabsClient;
+    CustomTabsSession mCustomTabsSession;
+    CustomTabsServiceConnection mCustomTabsServiceConnection;
+    CustomTabsIntent customTabsIntent;
+
+    private HttpClient httpClient = new DefaultHttpClient();
+    private HttpPost httpPost = new HttpPost(ACCESS_TOKEN_URL);
+    private HttpParams myParams = new BasicHttpParams();
+
+    private String string;
+    private String ENCODED_AUTHORIZATION;
+    private Button mGoogleFitBtn, mFitBitBtn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sync_data);
 
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
 
         buildFitnessClient();
-        Button submit = (Button) findViewById(R.id.submit_but);
-        submit.setOnClickListener(new View.OnClickListener() {
+
+        mGoogleFitBtn = (Button) findViewById(R.id.mGoogleFitBtn);
+        mFitBitBtn = (Button) findViewById(R.id.mFitbitBtn);
+
+        sharedpreferences = getSharedPreferences(PREFERENCE_TYPE, 4);
+        if(sharedpreferences.getString(FITBIT_KEY,null) != null){
+            mFitBitBtn.setText("Get Fitbit Data");
+        }
+
+        mCustomTabsServiceConnection = new CustomTabsServiceConnection() {
+            @Override
+            public void onCustomTabsServiceConnected(ComponentName componentName, CustomTabsClient customTabsClient) {
+
+                //Pre-warming
+                mCustomTabsClient = customTabsClient;
+                mCustomTabsClient.warmup(0L);
+                //Initialize a session as soon as possible.
+                mCustomTabsSession = mCustomTabsClient.newSession(null);
+            }
+
+            @Override
+            public void onServiceDisconnected(ComponentName name) {
+                mCustomTabsClient = null;
+            }
+        };
+
+        CustomTabsClient.bindCustomTabsService(SyncData.this, CUSTOM_TAB_PACKAGE_NAME, mCustomTabsServiceConnection);
+
+        customTabsIntent = new CustomTabsIntent.Builder(mCustomTabsSession)
+                .setToolbarColor(ContextCompat.getColor(this, R.color.red))
+                .setShowTitle(true)
+                .build();
+        /*
+            End custom tabs setup
+         */
+
+        mGoogleFitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(SyncData.this, SyncGoogleFitActivity.class);
-                startActivity(i);
+                    Intent i = new Intent(SyncData.this, SyncGoogleFitActivity.class);
+                    startActivity(i);
+                }
+        });
+
+        mFitBitBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (sharedpreferences.getString(FITBIT_KEY, null) == null) {
+                    customTabsIntent.launchUrl(SyncData.this, Uri.parse(getAuthorizationUrl()));
+                }
+
+                else {
+                    Calendar calendar = new GregorianCalendar();
+                    AsyncTaskRunner asyncTaskRunner = new AsyncTaskRunner();
+                    Long time = sharedpreferences.getLong(FITBIT_KEY_TIMING, 0);
+
+                    if (time == 0) { //No token
+                        Log.d("TAG", "access code received = " + sharedpreferences.getString(FITBIT_KEY, null));
+                        asyncTaskRunner.doInBackground("authorize");
+                    } else if (calendar.getTimeInMillis() > time) {
+                        //Refresh token then start syncing data
+                        asyncTaskRunner.doInBackground("refresh");
+                        Intent mServiceIntent = new Intent(SyncData.this, SyncFitBitService.class);
+                        startService(mServiceIntent);
+                    } else if (calendar.getTimeInMillis() < time) {
+                    // Token is still valid
+                        Intent mServiceIntent = new Intent(SyncData.this, SyncFitBitService.class);
+                        startService(mServiceIntent);
+                    }
+
+                }
             }
         });
     }
@@ -98,9 +233,9 @@ public class SyncData extends Activity {
                             public void onConnectionSuspended(int i) {
                                 // If your connection to the sensor gets lost at some point,
                                 // you'll be able to determine the reason and react to it here.
-                                if (i == ConnectionCallbacks.CAUSE_NETWORK_LOST) {
+                                if (i == GoogleApiClient.ConnectionCallbacks.CAUSE_NETWORK_LOST) {
                                     Log.i(TAG, "Connection lost.  Cause: Network Lost.");
-                                } else if (i == ConnectionCallbacks.CAUSE_SERVICE_DISCONNECTED) {
+                                } else if (i == GoogleApiClient.ConnectionCallbacks.CAUSE_SERVICE_DISCONNECTED) {
                                     Log.i(TAG, "Connection lost.  Reason: Service Disconnected");
                                 }
                             }
@@ -293,6 +428,178 @@ public class SyncData extends Activity {
         return calCount;
     }
 
+    private void buildFitBitClient(){
+        mCustomTabsServiceConnection = new CustomTabsServiceConnection() {
+            @Override
+            public void onCustomTabsServiceConnected(ComponentName componentName, CustomTabsClient customTabsClient) {
+
+                //Pre-warming
+                mCustomTabsClient = customTabsClient;
+                mCustomTabsClient.warmup(0L);
+                //Initialize a session as soon as possible.
+                mCustomTabsSession = mCustomTabsClient.newSession(null);
+            }
+
+            @Override
+            public void onServiceDisconnected(ComponentName name) {
+                mCustomTabsClient = null;
+            }
+        };
+
+        CustomTabsClient.bindCustomTabsService(SyncData.this, CUSTOM_TAB_PACKAGE_NAME, mCustomTabsServiceConnection);
+
+        customTabsIntent = new CustomTabsIntent.Builder(mCustomTabsSession)
+                .setToolbarColor(ContextCompat.getColor(this, R.color.red))
+                .setShowTitle(true)
+                .build();
+        /*
+            End custom tabs setup
+         */
+    }
+
+    private String getBase64String(String clientID, String clientSecret) {
+        return Base64.encodeToString((clientID + ":" + clientSecret).getBytes(), Base64.URL_SAFE | Base64.NO_WRAP);
+    }
+
+    public static String getDate(long milliSeconds, String dateFormat)
+    {
+        // Create a DateFormatter object for displaying date in specified format.
+        SimpleDateFormat formatter = new SimpleDateFormat(dateFormat);
+
+        // Create a calendar object that will convert the date and time value in milliseconds to date.
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTimeInMillis(milliSeconds);
+        return formatter.format(calendar.getTime());
+    }
+
+    private static String getAuthorizationUrl() {
+        return AUTHORIZATION_URL
+                + QUESTION_MARK
+                + RESPONSE_TYPE_PARAM + EQUALS + RESPONSE_TYPE
+                + AMPERSAND
+                + CLIENT_ID_PARAM + EQUALS + CLIENT_ID
+                + AMPERSAND
+                + REDIRECT_URI_PARAM + EQUALS + REDIRECT_URL
+                + AMPERSAND
+                + SCOPE_TYPE_PARAM + EQUALS + SCOPE_VALUE
+                + AMPERSAND
+                + "prompt=login"; //Optional
+    }
+
+    private class AsyncTaskRunner extends AsyncTask<String, String, String> {
+
+        @Override
+        protected String doInBackground(String... strings) {
+            int count = strings.length;
+            for(int i=0; i<count; i++){
+                Log.d("TAG", "String received = " + strings[i].toString());
+                if(strings[i].equals("authorize")){
+                    doAuthorization();
+                }
+                else if(strings[i].equals("refresh")) {
+                    doRefreshToken();
+                }
+            }
+
+            return null;
+        }
+
+    }
+
+    private void doAuthorization() {
+        ENCODED_AUTHORIZATION = getBase64String(CLIENT_ID, CLIENT_SECRET);
+        Log.d("TAG", "Encoded Authorization Code = " + ENCODED_AUTHORIZATION);
+        httpClient = new DefaultHttpClient(myParams);
+        Log.d("TAG", "Inside sendhttpPost");
+        httpPost.setHeader("Authorization", "Basic " + ENCODED_AUTHORIZATION);
+        httpPost.setHeader("Content-Type", "application/x-www-form-urlencoded");
+        List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(4);
+        nameValuePairs.add(new BasicNameValuePair("client_id", CLIENT_ID));
+        nameValuePairs.add(new BasicNameValuePair("grant_type", "authorization_code"));
+        nameValuePairs.add(new BasicNameValuePair("redirect_uri", REDIRECT_URL));
+        nameValuePairs.add(new BasicNameValuePair("code", sharedpreferences.getString(FITBIT_KEY, null)));
+
+        try {
+            Log.d("TAG", "trying to sendHttp");
+            httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+            org.apache.http.HttpResponse response = httpClient.execute(httpPost);
+            Toast.makeText(SyncData.this, "Executing post!!!", Toast.LENGTH_SHORT).show();
+            string = EntityUtils.toString(response.getEntity());
+            Log.d("TAG", string);
+            JSONObject jsonObject = new JSONObject(string);
+            String accessToken = jsonObject.getString("access_token");
+            String refreshToken = jsonObject.getString("refresh_token");
+            String userID = jsonObject.getString("user_id");
+
+            Calendar calendar = new GregorianCalendar();
+            Long time = calendar.getTimeInMillis();
+
+            SharedPreferences.Editor editor = sharedpreferences.edit();
+            editor.putString(FITBIT_USER_ID, userID);
+            editor.putString(FITBIT_ACCESS_KEY, accessToken);
+            editor.putString(FITBIT_REFRESH_KEY, refreshToken);
+            editor.putLong(FITBIT_KEY_TIMING, (time + 3600 * 1000)); // seconds to milliseconds
+            editor.commit();
+
+            Toast.makeText(SyncData.this, "Access Token received : " + accessToken, Toast.LENGTH_LONG).show();
+            Log.d("TAG", "access_token = " + accessToken);
+            Log.d("TAG", "refresh_token = " + refreshToken);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+            Log.d("TAG", "ERROR Setting entity");
+        } catch (JSONException e) {
+            e.printStackTrace();
+            Log.d("TAG", "JSON Exception Error");
+        } catch (ClientProtocolException e) {
+            e.printStackTrace();
+            Log.d("TAG", "Client Protocol Error");
+        } catch (IOException e) {
+            e.printStackTrace();
+            Log.d("TAG", "IO Exception Error");
+        }
+    }
+
+    private void doRefreshToken() {
+        ENCODED_AUTHORIZATION = getBase64String(CLIENT_ID, CLIENT_SECRET);
+//        Log.d("TAG", "Encoded Authorization Code = " + ENCODED_AUTHORIZATION);
+        httpClient = new DefaultHttpClient(myParams);
+//        Log.d("TAG", "Inside sendhttpPost");
+        httpPost.setHeader("Authorization", "Basic " + ENCODED_AUTHORIZATION);
+        httpPost.setHeader("Content-Type", "application/x-www-form-urlencoded");
+        List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(4);
+        nameValuePairs.add(new BasicNameValuePair("grant_type", "refresh_token"));
+        nameValuePairs.add(new BasicNameValuePair("refresh_token", sharedpreferences.getString(FITBIT_REFRESH_KEY, null)));
+        try {
+            httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+            org.apache.http.HttpResponse response = httpClient.execute(httpPost);
+            Toast.makeText(SyncData.this, "Executing refresh token", Toast.LENGTH_SHORT).show();
+            string = EntityUtils.toString(response.getEntity());
+            Log.d("TAG", string);
+            JSONObject jsonObject = new JSONObject(string);
+            String accessToken = jsonObject.getString("access_token");
+            String refreshToken = jsonObject.getString("refresh_token");
+
+            Calendar calendar = new GregorianCalendar();
+            Long time = calendar.getTimeInMillis();
+
+            SharedPreferences.Editor editor = sharedpreferences.edit();
+            editor.putString(FITBIT_ACCESS_KEY, accessToken);
+            editor.putString(FITBIT_REFRESH_KEY, refreshToken);
+            editor.putLong(FITBIT_KEY_TIMING, (time + 3600 * 1000)); // seconds to milliseconds
+            editor.commit();
+
+//            Toast.makeText(SyncFitbit.this, "Access Token received : " + accessToken, Toast.LENGTH_LONG).show();
+            Log.d("TAG", "access_token = " + accessToken);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        } catch (ClientProtocolException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
 }
 

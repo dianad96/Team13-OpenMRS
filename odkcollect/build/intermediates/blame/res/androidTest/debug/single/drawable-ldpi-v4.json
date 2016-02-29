@@ -1,146 +1,74 @@
 [
     {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_close_clear_cancel.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_close_clear_cancel.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_forward.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_forward.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_mylocation.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_mylocation.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_mylocation.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_mylocation.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_mylocation.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_mylocation.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_manage.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_manage.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\expander_ic_maximized.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\expander_ic_maximized.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\expander_ic_right.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\expander_ic_right.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_mark.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_mark.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\expander_ic_minimized.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\expander_ic_minimized.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_maps_indicator_current_position.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_maps_indicator_current_position.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\expander_ic_maximized.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\expander_ic_maximized.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_refresh.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_refresh.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_login.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_login.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_backward.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_backward.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_start_conversation.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_start_conversation.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_forward.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_forward.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_send.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_send.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_clear_playlist.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_clear_playlist.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_preferences.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_preferences.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_mark.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_mark.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_refresh.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_refresh.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_preferences.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_preferences.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_save.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_save.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\expander_ic_right.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\expander_ic_right.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_backward.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_backward.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_preferences.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_preferences.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_goto.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_goto.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\expander_ic_right.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\expander_ic_right.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_mark.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_mark.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_send.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_send.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_maps_indicator_current_position.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_maps_indicator_current_position.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_login.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_login.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_close_clear_cancel.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_close_clear_cancel.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_goto.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_goto.png"
-    },
-    {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_start_conversation.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_start_conversation.png"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_save.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_save.png"
-    },
-    {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_goto.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_goto.png"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_backward.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_backward.png"
-    },
-    {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_login.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_login.png"
-    },
-    {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_manage.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_manage.png"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_send.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_send.png"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_manage.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_manage.png"
-    },
-    {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_save.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_save.png"
-    },
-    {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\expander_ic_minimized.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\expander_ic_minimized.png"
-    },
-    {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_close_clear_cancel.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_close_clear_cancel.png"
-    },
-    {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_clear_playlist.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_clear_playlist.png"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\expander_ic_maximized.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\expander_ic_maximized.png"
-    },
-    {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_maps_indicator_current_position.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_maps_indicator_current_position.png"
-    },
-    {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_forward.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_forward.png"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\expander_ic_minimized.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\expander_ic_minimized.png"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_start_conversation.png",
-        "source": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_start_conversation.png"
-    },
-    {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_refresh.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_refresh.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4\\ic_menu_clear_playlist.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_menu_clear_playlist.png"
     }
 ]

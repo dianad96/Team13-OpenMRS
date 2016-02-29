@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\values-v17\\values-v17.xml",
+        "outputFile": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\values-v17\\values-v17.xml",
         "map": [
             {
                 "to": {
@@ -12,14 +12,14 @@
                     "endOffset": 223
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 233,
+                        "startOffset": 295,
                         "endLine": 6,
                         "endColumn": 12,
-                        "endOffset": 401
+                        "endOffset": 463
                     }
                 }
             },
@@ -33,14 +33,14 @@
                     "endOffset": 451
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 406,
+                        "startOffset": 468,
                         "endLine": 10,
                         "endColumn": 12,
-                        "endOffset": 629
+                        "endOffset": 691
                     }
                 }
             },
@@ -49,82 +49,82 @@
                     "startLine": 9,
                     "startColumn": 4,
                     "startOffset": 456,
-                    "endLine": 11,
+                    "endLine": 12,
                     "endColumn": 12,
-                    "endOffset": 609
+                    "endOffset": 788
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 634,
-                        "endLine": 13,
+                        "startOffset": 696,
+                        "endLine": 14,
                         "endColumn": 12,
-                        "endOffset": 787
+                        "endOffset": 1028
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 614,
-                    "endLine": 14,
+                    "startOffset": 793,
+                    "endLine": 15,
                     "endColumn": 12,
-                    "endOffset": 759
+                    "endOffset": 946
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 792,
-                        "endLine": 16,
+                        "startOffset": 1033,
+                        "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 937
+                        "endOffset": 1186
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 764,
-                    "endLine": 17,
+                    "startOffset": 951,
+                    "endLine": 18,
                     "endColumn": 12,
-                    "endOffset": 931
+                    "endOffset": 1096
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 942,
-                        "endLine": 19,
+                        "startOffset": 1191,
+                        "endLine": 20,
                         "endColumn": 12,
-                        "endOffset": 1109
+                        "endOffset": 1336
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 18,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 936,
+                    "startOffset": 1101,
                     "endLine": 21,
                     "endColumn": 12,
-                    "endOffset": 1159
+                    "endOffset": 1268
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 1114,
+                        "startOffset": 1341,
                         "endLine": 23,
                         "endColumn": 12,
-                        "endOffset": 1337
+                        "endOffset": 1508
                     }
                 }
             },
@@ -132,20 +132,20 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1164,
+                    "startOffset": 1273,
                     "endLine": 25,
                     "endColumn": 12,
-                    "endOffset": 1401
+                    "endOffset": 1496
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 1342,
+                        "startOffset": 1513,
                         "endLine": 27,
                         "endColumn": 12,
-                        "endOffset": 1579
+                        "endOffset": 1736
                     }
                 }
             },
@@ -153,83 +153,83 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1406,
-                    "endLine": 28,
+                    "startOffset": 1501,
+                    "endLine": 29,
                     "endColumn": 12,
-                    "endOffset": 1572
+                    "endOffset": 1738
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 1584,
-                        "endLine": 30,
+                        "startOffset": 1741,
+                        "endLine": 31,
                         "endColumn": 12,
-                        "endOffset": 1750
+                        "endOffset": 1978
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 1577,
-                    "endLine": 31,
+                    "startOffset": 1743,
+                    "endLine": 32,
                     "endColumn": 12,
-                    "endOffset": 1746
+                    "endOffset": 1909
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 31,
+                        "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 1755,
-                        "endLine": 33,
+                        "startOffset": 1983,
+                        "endLine": 34,
                         "endColumn": 12,
-                        "endOffset": 1924
+                        "endOffset": 2149
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 1751,
-                    "endLine": 34,
+                    "startOffset": 1914,
+                    "endLine": 35,
                     "endColumn": 12,
-                    "endOffset": 1915
+                    "endOffset": 2083
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 34,
+                        "startLine": 35,
                         "startColumn": 4,
-                        "startOffset": 1929,
-                        "endLine": 36,
+                        "startOffset": 2154,
+                        "endLine": 37,
                         "endColumn": 12,
-                        "endOffset": 2093
+                        "endOffset": 2323
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 1920,
+                    "startOffset": 2088,
                     "endLine": 38,
                     "endColumn": 12,
-                    "endOffset": 2188
+                    "endOffset": 2252
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 37,
+                        "startLine": 38,
                         "startColumn": 4,
-                        "startOffset": 2098,
+                        "startOffset": 2328,
                         "endLine": 40,
                         "endColumn": 12,
-                        "endOffset": 2366
+                        "endOffset": 2492
                     }
                 }
             },
@@ -237,41 +237,41 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 2193,
-                    "endLine": 41,
+                    "startOffset": 2257,
+                    "endLine": 42,
                     "endColumn": 12,
-                    "endOffset": 2388
+                    "endOffset": 2525
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
-                        "startOffset": 2371,
-                        "endLine": 43,
+                        "startOffset": 2497,
+                        "endLine": 44,
                         "endColumn": 12,
-                        "endOffset": 2566
+                        "endOffset": 2765
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 2393,
+                    "startOffset": 2530,
                     "endLine": 45,
                     "endColumn": 12,
-                    "endOffset": 2592
+                    "endOffset": 2725
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
-                        "startLine": 44,
+                        "startLine": 45,
                         "startColumn": 4,
-                        "startOffset": 2571,
+                        "startOffset": 2770,
                         "endLine": 47,
                         "endColumn": 12,
-                        "endOffset": 2770
+                        "endOffset": 2965
                     }
                 }
             },
@@ -279,20 +279,20 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 2597,
-                    "endLine": 49,
+                    "startOffset": 2730,
+                    "endLine": 48,
                     "endColumn": 12,
-                    "endOffset": 2921
+                    "endOffset": 2973
                 },
                 "from": {
-                    "file": "C:\\Users\\Diana\\Desktop\\Team13AndroidClient-master\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v17\\values-v17.xml",
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
-                        "startOffset": 2775,
-                        "endLine": 51,
+                        "startOffset": 2970,
+                        "endLine": 50,
                         "endColumn": 12,
-                        "endOffset": 3099
+                        "endOffset": 3213
                     }
                 }
             }

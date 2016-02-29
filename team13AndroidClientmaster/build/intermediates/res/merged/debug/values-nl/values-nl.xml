@@ -74,37 +74,36 @@
     <string name="clearanswer_confirm">Verwijder het antwoord voor \"%s\"?</string>
     <string name="click_to_web">Ga naar http://opendatakit.org</string>
     <string name="client">Client</string>
-    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Er is een update van de Android Wear-app vereist voor een bepaalde app."</string>
-    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Deze app wordt niet uitgevoerd, tenzij u de Android Wear-app updatet."</string>
+    <string msgid="6428604800157361567" name="common_android_wear_notification_needs_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> vereist een update naar de Android Wear-app."</string>
+    <string msgid="2453027084525739603" name="common_android_wear_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> wordt niet uitgevoerd, tenzij u de Android Wear-app updatet."</string>
     <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wear updaten"</string>
+    <string msgid="6534628256897874213" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> vereist een of meer Google Play-services die momenteel niet beschikbaar zijn. Neem contact op met de ontwikkelaar voor ondersteuning."</string>
     <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Google Play-services inschak."</string>
-    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Deze app werkt niet, tenzij u Google Play-services inschakelt."</string>
+    <string msgid="4896236883690196080" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> werkt niet, tenzij u Google Play-services inschakelt."</string>
     <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Google Play-services inschakelen"</string>
     <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Aangevraagd door <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
     <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Google Play-services ophalen"</string>
-    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Deze app kan niet worden uitgevoerd zonder Google Play-services die ontbreken op uw telefoon."</string>
-    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Deze app kan niet worden uitgevoerd zonder Google Play-services die ontbreken op uw tablet."</string>
+    <string msgid="8836325110837822534" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd zonder Google Play-services, die ontbreken op uw telefoon."</string>
+    <string msgid="542176290824754127" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd zonder Google Play-services, die ontbreken op uw tablet."</string>
     <string msgid="26645092511305524" name="common_google_play_services_install_title">"Google Play-services ophalen"</string>
     <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Het gespecificeerde account bestaat niet op dit apparaat. Kies een ander account."</string>
     <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Ongeldig account"</string>
     <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Google Play-services moet zijn ingeschakeld voor een app."</string>
     <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Er is een gegevensverbinding nodig om verbinding te kunnen maken met Google Play-services."</string>
     <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Netwerkfout"</string>
-    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Google Play-services moet zijn geïnstalleerd voor een app."</string>
     <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Google Play-services moet worden geüpdatet voor een app."</string>
     <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Fout met Google Play-services"</string>
     <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Fout bij inloggen op het opgegeven account. Kies een ander account."</string>
     <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Inloggen mislukt"</string>
     <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Onbekend probleem met Google Play-services."</string>
-    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Google Play-services, dat vereist is voor een aantal van uw applicaties, wordt niet ondersteund door uw apparaat. Neem contact op met de fabrikant voor ondersteuning."</string>
+    <string msgid="7682982632307307938" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> werkt met Google Play-services. Dit wordt niet ondersteund door uw apparaat. Neem contact op met de fabrikant voor ondersteuning."</string>
     <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play-services"</string>
     <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Updaten"</string>
-    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Deze app kan niet worden uitgevoerd, tenzij u Google Play-services updatet."</string>
+    <string msgid="5709479369299147668" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd, tenzij u Google Play-services updatet."</string>
     <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Google Play-services updaten"</string>
+    <string msgid="2201289642219771610" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet."</string>
+    <string msgid="815008177440683245" name="common_google_play_services_updating_title">"Google Play-services worden geüpdatet"</string>
     <string msgid="411506735369601515" name="common_open_on_phone">"Openen op telefoon"</string>
-    <string msgid="9071884888741449141" name="common_signin_button_text">"Inloggen"</string>
-    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Inloggen met Google"</string>
-    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Voor deze app zijn een of meer Google Play-services vereist die momenteel niet beschikbaar zijn. Neem contact op met de ontwikkelaar voor ondersteuning."</string>
     <string name="completed_data">Voortgang (%s)</string>
     <string name="constraint_behavior_on_finalize">Controleer bij afronden</string>
     <string name="constraint_behavior_on_swipe">Controleer bij doorgaan</string>
@@ -219,6 +218,12 @@
     <string name="manifest_tag_error">Manifest entry %s is missing one or more tags: filename, hash, or downloadUrl</string>
     <string name="mark_finished">Definitief maken</string>
     <string name="markup_image">Markup Image</string>
+    <string msgid="4271159405637008602" name="mr_media_route_button_content_description">"Media-uitvoer"</string>
+    <string msgid="7553005460920830010" name="mr_media_route_chooser_searching">"Zoeken naar apparaten…"</string>
+    <string msgid="7106830097177242655" name="mr_media_route_chooser_title">"Verbinding maken met apparaat"</string>
+    <string msgid="109793632378378069" name="mr_media_route_controller_disconnect">"Verbinding verbreken"</string>
+    <string msgid="5441529851481176817" name="mr_system_route_name">"Systeem"</string>
+    <string msgid="7498112907524977311" name="mr_user_route_category_name">"Apparaten"</string>
     <string name="navigation">Navigatie</string>
     <string name="no_account">Geen account</string>
     <string name="no_app">Benodigde applicatie ontbreekt. Voer de waarde handmatig in.</string>
@@ -324,5 +329,6 @@
     <string name="version">Versie:</string>
     <string name="view_change_location">Bekijk of wijzig positie</string>
     <string name="view_hierarchy">Ga naar vraag</string>
+    <string msgid="4184147110658930238" name="wallet_buy_button_place_holder">"Kopen met Google"</string>
     <string name="xform_parse_error">XForm parse error. %1$s is missing element %2$s</string>
 </resources>
