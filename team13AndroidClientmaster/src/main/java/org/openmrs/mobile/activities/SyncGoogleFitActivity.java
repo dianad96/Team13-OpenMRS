@@ -39,7 +39,7 @@ public class SyncGoogleFitActivity extends Activity {
         ApiAuthRest.setUsername(username);
         ApiAuthRest.setPassword(password);
 
-        if (hasSubmittedToday("STEPS"))
+        /*if (hasSubmittedToday("STEPS"))
             syncGoogleFit(2);
         else
             syncGoogleFit(1);
@@ -47,7 +47,10 @@ public class SyncGoogleFitActivity extends Activity {
         if (hasSubmittedToday("CALORIES"))
             syncGoogleFit(4);
         else
-            syncGoogleFit(3);
+            syncGoogleFit(3);*/
+        syncGoogleFit(1);
+        syncGoogleFit(3);
+
 
     }
 

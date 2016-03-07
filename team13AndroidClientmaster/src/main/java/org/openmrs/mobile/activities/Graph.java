@@ -17,9 +17,11 @@ import com.jjoe64.graphview.series.DataPoint;
 
 import org.openmrs.mobile.R;
 import org.openmrs.mobile.activities.fragments.ApiAuthRest;
+import org.openmrs.mobile.utilities.DateUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 public class Graph extends Activity {
@@ -74,7 +76,7 @@ public class Graph extends Activity {
 
 
         GraphView graphView = (GraphView) findViewById(R.id.graphView);
-        Float[] values = new Float[5];
+        Float[] values = new Float[]{0f, 0f, 0f, 0f, 0f};
         Date[] dates = new Date[5];
         SimpleDateFormat dateFormat = new SimpleDateFormat(GRAPH_DATE_FORMAT);
         createGraph(values, dates, getPersonInput(Raizelb), "STEPS");
@@ -114,45 +116,85 @@ public class Graph extends Activity {
 
     private void createGraph(Float[] values, Date[] dates, String input, String concept) {
         int location = 0;
-        int i = 0;
-        String UUID = null;
+        int i;
+        String UUID;
+        for (int temp = 0; temp < 5; temp++) {
+            dates[temp] = getDate(temp);
+        }
         while ((location = input.indexOf("uuid", location)) != -1) {
             location += 7;
             int templocation = input.indexOf("\"", location);
             UUID = input.substring(location,templocation);
-            if (returnObs(UUID,concept) != null ) {
-                values[i] = getConceptValue(returnObs(UUID,concept),concept);
-                dates[i] = getDate(returnObs(UUID,concept),concept);
-                i++;
+
+            if (checkConcept(input.substring(location), concept)) {
+                String obs = returnObs(UUID);
+                if ((i = checkObsDate(dates, obs)) != -1) {
+                    if (getConceptValue(obs,concept) > values[i]) {
+                        values[i] = getConceptValue(obs, concept);
+                    }
+                }
+                else break;
+
+                //dates[i] = getDate(returnObs(UUID,concept),concept);
             }
-            if (i > 4)
-                break;
         }
 
+    }
+
+    private boolean checkConcept(String input, String concept) {
+        int tempLocation;
+        tempLocation = input.indexOf("display") + 9;
+        String temp = input.substring(tempLocation + 1);
+        tempLocation = temp.indexOf("\"");
+        temp = temp.substring(0, tempLocation);
+        Log.i("OpenMRS response", temp);
+        if (temp.indexOf(concept) != -1) {
+            return true;
+        }
+        else
+            return false;
     }
 
     private String getPersonInput(String patientUUID) {
         String display = null;
         try {
             display = ApiAuthRest.getRequestGet("obs?patient=" + patientUUID);
+            Log.i("OpenMRS response", display);
         } catch (Exception e) {
             e.printStackTrace();
         }
         return display;
     }
 
-    private String returnObs (String UUID, String concept) {
+    private String returnObs (String UUID) {
         String display = null;
         try {
             display = ApiAuthRest.getRequestGet("obs/" + UUID);
+            Log.i("OpenMRS response", display);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        if (display.indexOf(concept) != -1) {
-            return display;
+        return display;
+    }
+
+    private int checkObsDate(Date[] dates, String obs) {
+        SimpleDateFormat dateFormat = new SimpleDateFormat(DATE_FORMAT);
+        int startPoint = obs.indexOf("obsDatetime") + 14;
+        int endPoint = startPoint + 10;
+        Date date = new Date();
+        try {
+            date = dateFormat.parse(obs.substring(startPoint,endPoint));
+            Log.i("OpenMRS response", date.toString());
+        } catch (ParseException e) {
+            e.printStackTrace();
         }
-        else
-            return null;
+        for (int i = 0; i < 5; i++) {
+            Log.i("OpenMRS response", Boolean.toString(date.equals(dates[i])));
+            if (date.equals(dates[i])) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     private Float getConceptValue (String obs, String concept) {
@@ -167,7 +209,8 @@ public class Graph extends Activity {
 
     }
 
-    private Date getDate (String obs, String concept) {
+
+    /*private Date getDate (String obs, String concept) {
         int startPoint = obs.indexOf("obsDatetime") + 14;
         int endPoint = startPoint + 10;
         SimpleDateFormat dateFormat = new SimpleDateFormat(DATE_FORMAT);
@@ -177,6 +220,16 @@ public class Graph extends Activity {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+        return xPoint;
+    }*/
+    private Date getDate (int index) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        calendar.set(Calendar.MILLISECOND, 0);
+        calendar.add(Calendar.DATE, -index);
+        Date xPoint = calendar.getTime();
         return xPoint;
     }
 
