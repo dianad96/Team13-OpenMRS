@@ -1,34 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_forward.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_forward.png"
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_save.png",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_save.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\thumb.xml",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\thumb.xml"
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_forward.png",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_forward.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_save.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_save.png"
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\thumb.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\thumb.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_forward.png",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_forward.png"
-    },
-    {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_backward.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_backward.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\thumb.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\thumb.xml"
-    },
-    {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_backward.png",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_backward.png"
-    },
-    {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_save.png",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_save.png"
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ic_menu_backward.png",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_backward.png"
     }
 ]

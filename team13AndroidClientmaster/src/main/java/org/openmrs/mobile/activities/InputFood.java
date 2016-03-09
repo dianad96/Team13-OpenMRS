@@ -8,15 +8,14 @@ import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v7.widget.CardView;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import org.apache.http.entity.StringEntity;
 import org.openmrs.mobile.R;
 import org.openmrs.mobile.activities.fragments.ApiAuthRest;
-import org.w3c.dom.Text;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
@@ -26,6 +25,7 @@ import java.util.Calendar;
 public class InputFood extends Activity {
 
 
+    final CharSequence[] items = {};
     final CharSequence[] itemsBreakfast = {"Scrambled Egg Buritos...259 cal","Cornflake Crunch French Toast...149 cal","Banana Corn Muffins...199 cal ","Oatmeal...258 cal"};
     // arraylist to keep the selected items
     final ArrayList<Integer> seletedItemsBreakfast = new ArrayList<Integer>();
@@ -85,62 +85,10 @@ public class InputFood extends Activity {
 
     }
 
+
     void popUpBreakfast() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Pick your breakfast");
-       // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
-        builder.setMultiChoiceItems(itemsBreakfast, null, new DialogInterface.OnMultiChoiceClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int indexSelected, boolean isChecked) {
-                        if (isChecked) {
-                            // If the user checked the item, add it to the selected items
-                            seletedItemsBreakfast.add(indexSelected);
-                        } else if (seletedItemsBreakfast.contains(indexSelected)) {
-                            // Else, if the item is already in the array, remove it
-                            seletedItemsBreakfast.remove(Integer.valueOf(indexSelected));
-                        }
-                    }
-                });
-
-                builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int id) {
-
-                        String s = "";
-                        for (int i : seletedItemsBreakfast) {
-                            switch (i) {
-                                case 0: {
-                                    s = s + "Scrambled Egg Buritos ";
-                                    Container.total_calories = Container.total_calories + 259;
-                                    break;
-                                }
-                                case 1: {
-                                    s = s + "Cornflake Crunch French Toast ";
-                                    Container.total_calories = Container.total_calories + 149;
-                                    break;
-                                }
-                                case 2: {
-                                    s = s + "Banana Corn Muffins ";
-                                    Container.total_calories = Container.total_calories + 199;
-                                    break;
-                                }
-                                case 3:
-                                    s = s + "Oatmeal ";
-                                    Container.total_calories = Container.total_calories + 258;
-                                    break;
-                            }
-                        }
-                        TextView breakfast_log = (TextView) findViewById(R.id.breakfast_log);
-                        breakfast_log.setText(s);
-                        String TC = "Total calories: " + Container.total_calories;
-                        totalCalories.setText(TC);
-                        //  Your code when user clicked on OK
-                        //  You can write the code  to save the selected item here
-                    }
-                });
-                builder.setNegativeButton("CANCEL", null);
-
-        builder.show();
+        Intent i = new Intent(InputFood.this, SearchFood.class);
+        startActivity(i);
     }
 
     void popUpLunch() {

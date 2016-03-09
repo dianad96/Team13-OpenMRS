@@ -497,6 +497,8 @@
     <string name="ext_search_wrong_function_error">Syntax error in search() function : Unrecognised function \'%s\'.</string>
     <string name="ext_sortBy_numeric_error">Your sortby column should contain only numeric values. Conflicting value was \'%s\'.</string>
     <string name="failed_to_open_vitals_form">An error occurred. Invalid or corrupted form file.</string>
+    <string name="fatsecret_consumer_key">40d2391cbdca4b9d802917da81ec98cd</string>
+    <string name="fatsecret_consumer_secret">19420ae9882e496f9b8ffcea11864273</string>
     <string name="fetching_file">Getting %1$s.\n\nForm %2$s of %3$s form(s).</string>
     <string name="fetching_manifest">%s. Getting manifest </string>
     <string name="file_delete_in_progress">Sorry, a form delete action is already in progress!</string>
@@ -759,7 +761,9 @@
     <string name="title_activity_input_exercise">InputExercise</string>
     <string name="title_activity_input_heart_rate">InputHeartRate</string>
     <string name="title_activity_input_manually">InputManually</string>
+    <string name="title_activity_login_activity__fat_secret">LoginActivity_FatSecret</string>
     <string name="title_activity_login_patient">LoginPatient</string>
+    <string name="title_activity_search_food">SearchFood</string>
     <string name="title_activity_sync_data">SyncData</string>
     <string name="toggle_selected">Toggle All</string>
     <string name="trigger">OK. Please continue.</string>
@@ -1796,7 +1800,7 @@
         <item name="android:textColor">@color/white</item>
     </style>
     <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item> <!-- For 2.x version  -->
     </style>
     <style name="Platform.AppCompat" parent="android:Theme">

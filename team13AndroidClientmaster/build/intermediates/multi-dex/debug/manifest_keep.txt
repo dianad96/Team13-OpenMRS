@@ -30,6 +30,8 @@
 -keep class org.openmrs.mobile.activities.SyncFitBitAuthorizationActivity { <init>(); }
 -keep class org.openmrs.mobile.activities.LoginPatient { <init>(); }
 -keep class org.openmrs.mobile.activities.SyncFitBitService { <init>(); }
+-keep class org.openmrs.mobile.activities.SearchFood { <init>(); }
+-keep class org.openmrs.mobile.activities.LoginActivity_FatSecret { <init>(); }
 -keep class com.google.android.gms.ads.AdActivity { <init>(); }
 -keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
 -keep class com.google.android.gms.measurement.AppMeasurementContentProvider { <init>(); }

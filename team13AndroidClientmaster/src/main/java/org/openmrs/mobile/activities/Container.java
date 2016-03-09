@@ -32,4 +32,6 @@ public class Container {
     public static String URLBase = "http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/";
     public static String username = "admin";
     public static String password = "Admin123";
+
+    public static String searchFood = "";
 }

@@ -73,8 +73,7 @@
 
         <activity
             android:name="org.openmrs.mobile.activities.DashboardActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name="org.openmrs.mobile.activities.DialogActivity"
             android:noHistory="true"
@@ -216,8 +215,7 @@
             android:label="SyncGoogleFit" />
         <activity
             android:name="org.openmrs.mobile.activities.SyncFitBitActivity"
-            android:label="SyncFitBit" >
-        </activity>
+            android:label="SyncFitBit" />
         <activity
             android:name="org.openmrs.mobile.activities.SyncFitBitAuthorizationActivity"
             android:label="FitBit Authorization Activity" >
@@ -246,6 +244,13 @@
             android:name="org.openmrs.mobile.activities.SyncFitBitService"
             android:exported="false"
             android:label="SyncFitBit Service" />
+
+        <activity
+            android:name="org.openmrs.mobile.activities.SearchFood"
+            android:label="@string/title_activity_search_food" />
+        <activity
+            android:name="org.openmrs.mobile.activities.LoginActivity_FatSecret"
+            android:label="@string/title_activity_login_activity__fat_secret" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
