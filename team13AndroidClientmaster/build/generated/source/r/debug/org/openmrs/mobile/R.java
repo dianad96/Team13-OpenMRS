@@ -2517,7 +2517,6 @@ containing a value of this type.
         public static final int btnResetDraw=0x7f0e0102;
         public static final int btnSelectColor=0x7f0e0100;
         public static final int button=0x7f0e0164;
-        public static final int button2=0x7f0e00ea;
         public static final int buttonPanel=0x7f0e0066;
         public static final int button_doctor=0x7f0e01ab;
         public static final int button_user=0x7f0e01aa;
@@ -2738,6 +2737,7 @@ containing a value of this type.
         public static final int none=0x7f0e0011;
         public static final int normal=0x7f0e000d;
         public static final int offlineCheckbox=0x7f0e010b;
+        public static final int ok=0x7f0e00ea;
         public static final int openmrsEditText=0x7f0e0197;
         public static final int openmrsLogo=0x7f0e016b;
         public static final int openmrsLogo2=0x7f0e00e2;

@@ -2,6 +2,8 @@ package org.openmrs.mobile.activities;
 
 import org.apache.http.entity.StringEntity;
 
+import java.util.ArrayList;
+
 /**
  * Created by Diana on 02/02/2016.
  */
@@ -33,5 +35,11 @@ public class Container {
     public static String username = "admin";
     public static String password = "Admin123";
 
-    public static String searchFood = "";
+    public static String breakfast_input = "";
+    public static String lunch_input = "";
+    public static String diner_input = "";
+    public static String meal_choice = "";
+    public static int food_calories_breakfast = 0;
+    public static int food_calories_lunch = 0;
+    public static int food_calories_dinner = 0;
 }

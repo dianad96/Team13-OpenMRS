@@ -517,6 +517,7 @@ org/odk/collect/android/views/ODKView.class
 android/support/annotation/LayoutRes.class
 org/javarosa/core/model/FormDef.class
 org/odk/collect/android/listeners/AdvanceToNextListener.class
+org/openmrs/mobile/activities/SearchFood$5.class
 org/odk/collect/android/activities/FormEntryActivity$19.class
 org/openmrs/mobile/net/FormsManager.class
 org/opendatakit/httpclientandroidlib/client/AuthenticationHandler.class
@@ -575,7 +576,6 @@ net/sqlcipher/database/SQLiteDatabase.class
 com/google/android/gms/appinvite/AppInviteInvitation.class
 org/opendatakit/httpclientandroidlib/impl/conn/tsccm/BasicPooledConnAdapter.class
 org/opendatakit/httpclientandroidlib/impl/conn/tsccm/WaitingThread.class
-org/openmrs/mobile/activities/InputFood$7.class
 android/support/v4/media/VolumeProviderCompat$ControlType.class
 com/google/android/gms/internal/zzee.class
 org/odk/collect/android/openmrs/provider/OpenMRSInstanceProvider.class
@@ -770,7 +770,6 @@ org/opendatakit/httpclientandroidlib/impl/client/AbstractHttpClient.class
 com/google/ads/mediation/MediationInterstitialAdapter.class
 com/google/android/gms/internal/zzcl.class
 com/google/android/gms/ads/search/SearchAdRequest.class
-org/openmrs/mobile/activities/InputFood$8.class
 org/apache/http/params/AbstractHttpParams.class
 com/google/ads/AdRequest.class
 com/google/android/gms/common/api/GoogleApiClient$Builder.class
@@ -1037,7 +1036,6 @@ com/google/android/gms/ads/AdRequest.class
 org/javarosa/form/api/FormEntryController.class
 com/google/android/gms/ads/internal/formats/zzf.class
 com/google/common/util/concurrent/package-info.class
-org/openmrs/mobile/activities/InputFood$5.class
 android/support/v4/view/PagerAdapter.class
 org/opendatakit/httpclientandroidlib/impl/client/ContentEncodingHttpClient.class
 android/support/v7/widget/RecyclerView$RecyclerViewDataObserver.class
@@ -1197,7 +1195,6 @@ org/joda/time/DateTimeZone.class
 com/google/common/base/Joiner.class
 android/support/v4/os/TraceCompat.class
 com/google/android/gms/ads/internal/formats/NativeAdOptionsParcel.class
-org/openmrs/mobile/activities/InputFood$6.class
 com/google/android/gms/internal/zzex.class
 com/google/ads/mediation/MediationServerParameters$Parameter.class
 com/google/common/eventbus/AllowConcurrentEvents.class

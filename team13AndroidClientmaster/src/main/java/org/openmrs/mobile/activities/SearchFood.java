@@ -26,6 +26,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 import org.openmrs.mobile.R;
+import org.w3c.dom.Text;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -48,6 +49,12 @@ public class SearchFood extends Activity {
     MyCustomAdapter dataAdapter = null;
     ArrayList<String> food_desc = new ArrayList<String>();
     ArrayList <String> food_name = new ArrayList<String>();
+
+    ArrayList<String> food_cal = new ArrayList<String>();
+    ArrayList <String> food = new ArrayList<String>();
+
+    ArrayList <String> food_selected = new ArrayList<String>();
+    int calories = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,6 +96,32 @@ public class SearchFood extends Activity {
                 // TODO Auto-generated method stub
 
                 return false;
+            }
+        });
+
+
+        Button ok = (Button) findViewById(R.id.ok);
+        ok.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s = "";
+                for (int i=0; i<food_selected.size(); i++)
+                    s = s + food_selected.get(i) + " ";
+                if(Container.meal_choice.equals("breakfast")) {
+                    s = s + " Calories: " + Container.food_calories_breakfast;
+                    Container.breakfast_input = s;
+                }
+                if(Container.meal_choice.equals("lunch")) {
+                    s = s + " Calories: " + Container.food_calories_lunch;
+                    Container.lunch_input = s;
+                }
+                if(Container.meal_choice.equals("dinner")) {
+                    s = s + " Calories: " + Container.food_calories_dinner;
+                    Container.diner_input = s;
+                }
+
+                Intent i = new Intent(SearchFood.this, InputFood.class);
+                startActivity(i);
             }
         });
     }
@@ -241,13 +274,49 @@ public class SearchFood extends Activity {
                 holder.name.setOnClickListener( new View.OnClickListener() {
                     public void onClick(View v) {
                         CheckBox cb = (CheckBox) v ;
+                        TextView tv = (TextView) v;
+
                         Food Food = (Food) cb.getTag();
                         Toast.makeText(getApplicationContext(),
                                 "Clicked on Checkbox: " + cb.getText() +
                                         " is " + cb.isChecked(),
                                 Toast.LENGTH_LONG).show();
                         Food.setSelected(cb.isChecked());
+
+
+                        if(cb.isChecked()) { //Add food and calories to arrayList
+                            food.add(Food.name);
+                            calories = calories + Integer.parseInt(Food.calories.substring(Food.calories.indexOf(": ") + 1, Food.calories.indexOf("kcal")).substring(1));
+                            food_cal.add(String.valueOf(calories));
+                            food_selected.add(Food.name);
+                            if (Container.meal_choice.equals("breakfast"))
+                                Container.food_calories_breakfast = Container.food_calories_breakfast + calories;
+                            if (Container.meal_choice.equals("lunch"))
+                                Container.food_calories_lunch = Container.food_calories_lunch + calories;
+                            if (Container.meal_choice.equals("dinner"))
+                                Container.food_calories_dinner = Container.food_calories_dinner + calories;
+                        }
+                        else //Remove food and calories from arrayList
+                        {
+                            int pos = 0;
+                            for (int i=0; i<food_selected.size(); i++)
+                            {
+                                if(food_selected.get(i).equals(Food.name)) {
+                                    pos = i;
+                                    break;
+                                }
+                            }
+                            if(Container.meal_choice.equals("breakfast"))
+                                Container.food_calories_breakfast = Container.food_calories_breakfast - Integer.parseInt(food_cal.get(pos));
+                            if(Container.meal_choice.equals("lunch"))
+                                Container.food_calories_lunch = Container.food_calories_lunch - Integer.parseInt(food_cal.get(pos));
+                            if(Container.meal_choice.equals("dinner"))
+                                Container.food_calories_dinner = Container.food_calories_dinner - Integer.parseInt(food_cal.get(pos));
+                            food_selected.remove(pos);
+                            food_cal.remove(pos);
+                        }
                     }
+
                 });
             }
             else {
