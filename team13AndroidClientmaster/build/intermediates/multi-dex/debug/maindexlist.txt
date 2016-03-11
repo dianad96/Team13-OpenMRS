@@ -45,6 +45,7 @@ org/javarosa/core/services/transport/payload/IDataPayload.class
 android/support/v4/app/FragmentManagerImpl$3.class
 com/google/android/gms/internal/zzay.class
 org/opendatakit/httpclientandroidlib/auth/AuthState.class
+org/openmrs/mobile/activities/SearchFood$MyCustomAdapter.class
 com/google/ads/mediation/customevent/CustomEvent.class
 com/google/android/gms/drive/DriveApi.class
 android/support/v7/widget/RecyclerView$Adapter.class
@@ -62,6 +63,7 @@ com/google/android/gms/gcm/GoogleCloudMessaging.class
 com/android/volley/toolbox/BasicNetwork.class
 android/support/v4/media/MediaDescriptionCompat$Builder.class
 org/openmrs/mobile/activities/InputFood$4.class
+oauth/signpost/signature/HmacSha1MessageSigner.class
 android/support/v4/app/FragmentManager$OnBackStackChangedListener.class
 org/openmrs/mobile/models/SettingsListItemDTO.class
 android/support/v7/widget/RecyclerView$State.class
@@ -88,6 +90,7 @@ org/odk/collect/android/database/ODKSQLiteOpenHelper.class
 org/openmrs/mobile/activities/InputHeightWeight$5.class
 org/opendatakit/httpclientandroidlib/client/CredentialsProvider.class
 android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi21.class
+oauth/signpost/signature/SigningStrategy.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserServiceImplBase.class
 com/google/android/gms/games/snapshot/SnapshotMetadata.class
 com/google/common/collect/TreeRangeSet$SubRangeSetRangesByLowerBound.class
@@ -143,7 +146,6 @@ org/apache/http/io/EofSensor.class
 android/support/v7/recyclerview/R$styleable.class
 org/opendatakit/httpclientandroidlib/impl/conn/AbstractClientConnAdapter.class
 android/support/v7/view/CollapsibleActionView.class
-android/support/customtabs/CustomTabsIntent$Builder.class
 android/support/v4/app/LoaderManager.class
 org/javarosa/core/model/data/IAnswerData.class
 com/google/android/gms/ads/internal/zzn.class
@@ -175,7 +177,9 @@ android/support/v7/widget/DefaultItemAnimator.class
 com/google/ads/mediation/customevent/CustomEventInterstitial.class
 com/google/android/gms/maps/MapFragment.class
 android/support/v7/app/ActionBarDrawerToggle$Delegate.class
+org/openmrs/mobile/activities/SearchFood$3.class
 android/support/v4/media/MediaMetadataCompat$RatingKey.class
+oauth/signpost/exception/OAuthException.class
 android/support/v4/view/MotionEventCompat.class
 org/opendatakit/httpclientandroidlib/client/params/ClientPNames.class
 com/google/android/gms/nearby/sharing/SharedContent.class
@@ -188,6 +192,7 @@ org/odk/collect/android/widgets/SelectOneWidget.class
 com/google/gson/JsonNull.class
 org/opendatakit/httpclientandroidlib/params/HttpParams.class
 org/opendatakit/httpclientandroidlib/auth/AuthScheme.class
+org/openmrs/mobile/activities/LoginActivity_FatSecret$2.class
 org/opendatakit/httpclientandroidlib/impl/client/DefaultRedirectStrategyAdaptor.class
 android/support/v4/app/FragmentManager$BackStackEntry.class
 org/javarosa/core/services/PropertyManager.class
@@ -315,6 +320,7 @@ com/google/android/gms/internal/zzel.class
 org/openmrs/mobile/utilities/URLValidator$ValidationResult.class
 com/google/common/collect/Multimaps.class
 com/jjoe64/graphview/series/DataPoint.class
+oauth/signpost/commonshttp/CommonsHttpOAuthConsumer.class
 org/joda/time/Seconds.class
 org/opendatakit/httpclientandroidlib/impl/conn/tsccm/PoolEntryRequest.class
 com/google/android/gms/internal/zzdf.class
@@ -355,6 +361,7 @@ com/google/android/gms/internal/zzhp.class
 org/odk/collect/android/activities/FormEntryActivity$16.class
 org/openmrs/mobile/activities/Chat$4.class
 android/support/v7/widget/RecyclerView$ItemAnimator$ItemHolderInfo.class
+oauth/signpost/exception/OAuthMessageSignerException.class
 org/apache/commons/io/filefilter/WildcardFilter.class
 com/google/common/collect/Maps$EntryFunction$1.class
 android/support/v7/widget/RecyclerView$SavedState.class
@@ -440,7 +447,6 @@ android/support/v4/widget/MaterialProgressDrawable$2.class
 com/google/android/gms/ads/internal/request/AdRequestInfoParcel.class
 android/support/v7/widget/RecyclerView$3.class
 com/google/android/gms/internal/zzff.class
-android/support/customtabs/CustomTabsClient.class
 org/apache/http/entity/mime/content/StringBody.class
 org/apache/commons/io/IOUtils.class
 android/support/v4/media/RatingCompatApi21.class
@@ -467,6 +473,7 @@ com/google/android/gms/ads/internal/overlay/zzd.class
 android/support/v4/media/session/PlaybackStateCompat$1.class
 com/google/common/collect/ImmutableSortedMultisetFauxverideShim.class
 com/google/android/gms/internal/zzgj.class
+org/openmrs/mobile/activities/SearchFood$MyCustomAdapter$ViewHolder.class
 com/google/common/reflect/TypeToken$TypeCollector$2.class
 com/google/android/gms/wallet/Address.class
 android/support/annotation/FloatRange.class
@@ -476,7 +483,6 @@ android/support/v4/app/FragmentManagerImpl$1.class
 org/apache/http/impl/pool/BasicConnPool.class
 com/google/common/reflect/Types$ClassOwnership$2.class
 android/support/v7/widget/AdapterHelper$Callback.class
-org/openmrs/mobile/activities/InputFood$9.class
 android/support/annotation/AttrRes.class
 org/joda/time/Duration.class
 org/openmrs/mobile/activities/fragments/FindPatientInDatabaseFragment.class
@@ -511,9 +517,11 @@ org/odk/collect/android/views/ODKView.class
 android/support/annotation/LayoutRes.class
 org/javarosa/core/model/FormDef.class
 org/odk/collect/android/listeners/AdvanceToNextListener.class
+org/openmrs/mobile/activities/SearchFood$5.class
 org/odk/collect/android/activities/FormEntryActivity$19.class
 org/openmrs/mobile/net/FormsManager.class
 org/opendatakit/httpclientandroidlib/client/AuthenticationHandler.class
+org/openmrs/mobile/activities/SearchFood$MyCustomAdapter$1.class
 org/openmrs/mobile/models/Person.class
 org/apache/http/params/HttpConnectionParamBean.class
 org/odk/collect/android/widgets/QuestionWidget.class
@@ -525,7 +533,9 @@ com/google/android/gms/ads/mediation/admob/AdMobExtras.class
 org/openmrs/mobile/activities/PatientDashboardActivity$TabHost.class
 com/google/android/gms/ads/internal/zze$zzb.class
 org/openmrs/mobile/utilities/FontsUtil$OpenFonts.class
+oauth/signpost/OAuthConsumer.class
 android/support/v7/widget/RecyclerView$ItemAnimator.class
+org/apache/http/message/BasicHttpResponse.class
 android/support/v4/media/MediaBrowserCompat$Subscription.class
 android/support/v4/media/MediaBrowserCompat$ConnectionCallback$ConnectionCallbackInternal.class
 org/openmrs/mobile/utilities/ApplicationConstants.class
@@ -566,15 +576,15 @@ net/sqlcipher/database/SQLiteDatabase.class
 com/google/android/gms/appinvite/AppInviteInvitation.class
 org/opendatakit/httpclientandroidlib/impl/conn/tsccm/BasicPooledConnAdapter.class
 org/opendatakit/httpclientandroidlib/impl/conn/tsccm/WaitingThread.class
-org/openmrs/mobile/activities/InputFood$7.class
-org/openmrs/mobile/activities/SyncData$6.class
 android/support/v4/media/VolumeProviderCompat$ControlType.class
 com/google/android/gms/internal/zzee.class
 org/odk/collect/android/openmrs/provider/OpenMRSInstanceProvider.class
 com/google/android/gms/ads/internal/formats/zzh.class
 com/google/android/gms/common/api/GoogleApiClient$zza.class
 com/google/android/gms/internal/zzey.class
+oauth/signpost/OAuthProvider.class
 org/openmrs/mobile/activities/Graph$4.class
+org/openmrs/mobile/activities/FatSecretUtils.class
 com/google/common/base/package-info.class
 android/support/annotation/FractionRes.class
 android/support/v4/view/accessibility/AccessibilityNodeProviderCompat.class
@@ -582,6 +592,7 @@ com/google/common/base/Joiner$MapJoiner.class
 com/google/android/gms/internal/zzdd.class
 com/google/android/gms/measurement/internal/zzc.class
 com/google/common/util/concurrent/ExecutionList$RunnableExecutorPair.class
+oauth/signpost/signature/OAuthMessageSigner.class
 com/google/common/collect/ImmutableListMultimap.class
 org/openmrs/mobile/adapters/PatientArrayAdapter.class
 com/google/android/gms/ads/doubleclick/PublisherAdRequest.class
@@ -607,7 +618,9 @@ com/google/android/gms/common/GoogleApiAvailability.class
 com/google/common/cache/LocalCache$Segment.class
 org/apache/http/io/SessionInputBuffer.class
 com/google/android/gms/analytics/internal/zzae.class
+com/google/gson/GsonBuilder.class
 com/google/android/gms/internal/zzbq.class
+oauth/signpost/exception/OAuthCommunicationException.class
 com/google/android/gms/internal/zzbv.class
 org/apache/http/protocol/HttpRequestHandlerRegistry.class
 android/support/v7/app/AppCompatDelegate.class
@@ -650,6 +663,7 @@ com/google/android/gms/common/data/AbstractDataBuffer.class
 com/google/common/collect/Maps$NavigableAsMapView.class
 com/android/volley/toolbox/HttpStack.class
 org/apache/http/message/BasicHeaderValueParser.class
+oauth/signpost/http/HttpParameters.class
 com/google/android/gms/internal/zzdl$zzb.class
 com/google/android/gms/wallet/WalletConstants$CardNetwork.class
 com/google/android/gms/internal/zzcr.class
@@ -671,6 +685,7 @@ org/openmrs/mobile/activities/FindPatientsActivity.class
 com/google/common/io/ByteSink.class
 org/openmrs/mobile/activities/FindPatientsActivity$1.class
 com/google/android/gms/ads/internal/formats/zzc.class
+oauth/signpost/AbstractOAuthConsumer.class
 com/google/android/gms/common/Scopes.class
 android/support/v7/app/ActionBar.class
 com/google/android/gms/internal/zzet.class
@@ -707,6 +722,7 @@ org/apache/http/annotation/ThreadSafe.class
 android/support/v7/recyclerview/R.class
 org/apache/http/annotation/NotThreadSafe.class
 android/support/v4/media/session/MediaSessionCompat$MediaSessionImpl.class
+org/openmrs/mobile/activities/SearchFood$2.class
 com/google/android/gms/internal/zzhn.class
 org/odk/collect/android/activities/FormEntryActivity$18.class
 android/support/v4/view/accessibility/AccessibilityEventCompat.class
@@ -754,7 +770,6 @@ org/opendatakit/httpclientandroidlib/impl/client/AbstractHttpClient.class
 com/google/ads/mediation/MediationInterstitialAdapter.class
 com/google/android/gms/internal/zzcl.class
 com/google/android/gms/ads/search/SearchAdRequest.class
-org/openmrs/mobile/activities/InputFood$8.class
 org/apache/http/params/AbstractHttpParams.class
 com/google/ads/AdRequest.class
 com/google/android/gms/common/api/GoogleApiClient$Builder.class
@@ -768,6 +783,7 @@ org/odk/collect/android/activities/FormEntryActivity.class
 org/javarosa/core/model/FormElementStateListener.class
 org/opendatakit/httpclientandroidlib/annotation/GuardedBy.class
 com/google/common/collect/UnmodifiableIterator.class
+org/openmrs/mobile/activities/LoginActivity_FatSecret$1.class
 org/opendatakit/httpclientandroidlib/conn/scheme/LayeredSocketFactoryAdaptor.class
 android/support/v4/app/FragmentManagerImpl$FragmentTag.class
 com/google/gson/annotations/Until.class
@@ -809,7 +825,6 @@ org/apache/http/impl/entity/EntitySerializer.class
 android/support/v4/media/MediaBrowserCompat$ItemCallback.class
 org/odk/collect/android/activities/FormEntryActivity$7.class
 com/google/android/gms/internal/zzft.class
-org/openmrs/mobile/activities/InputFood$10.class
 com/google/android/gms/internal/zzfd.class
 com/google/android/gms/R$style.class
 android/support/v4/media/MediaBrowserCompat.class
@@ -825,7 +840,6 @@ com/google/android/gms/internal/zzbk.class
 android/support/v7/app/ActionBar$OnNavigationListener.class
 com/google/android/gms/ads/internal/request/zzd$zza.class
 com/google/android/gms/internal/zzcd.class
-org/openmrs/mobile/R$color.class
 com/google/android/gms/ads/doubleclick/PublisherAdRequest$Builder.class
 com/google/common/cache/RemovalNotification.class
 org/openmrs/mobile/activities/fragments/FindPatientLastViewedFragment.class
@@ -875,6 +889,7 @@ org/opendatakit/httpclientandroidlib/impl/client/DefaultRequestDirector.class
 com/google/common/collect/ImmutableSortedSetFauxverideShim.class
 android/support/v7/widget/RecyclerView$RecycledViewPool.class
 com/google/android/gms/ads/internal/client/zzk.class
+org/openmrs/mobile/activities/Food.class
 com/google/common/collect/TreeMultiset$AvlNode.class
 com/google/android/gms/internal/zzid.class
 org/odk/collect/android/utilities/FileUtils.class
@@ -1021,9 +1036,7 @@ com/google/android/gms/ads/AdRequest.class
 org/javarosa/form/api/FormEntryController.class
 com/google/android/gms/ads/internal/formats/zzf.class
 com/google/common/util/concurrent/package-info.class
-org/openmrs/mobile/activities/InputFood$5.class
 android/support/v4/view/PagerAdapter.class
-org/openmrs/mobile/activities/SyncData$4.class
 org/opendatakit/httpclientandroidlib/impl/client/ContentEncodingHttpClient.class
 android/support/v7/widget/RecyclerView$RecyclerViewDataObserver.class
 org/openmrs/mobile/activities/PatientDashboardActivity$PatientDashboardPagerAdapter.class
@@ -1052,6 +1065,7 @@ com/google/android/gms/plus/Account.class
 org/apache/commons/io/FileSystemUtils.class
 com/google/common/reflect/TypeToInstanceMap.class
 android/support/v4/view/NestedScrollingChildHelper.class
+org/openmrs/mobile/activities/SearchFood$4.class
 android/support/v4/view/ViewCompatJellybeanMr2.class
 com/google/android/gms/ads/internal/purchase/zzi.class
 android/support/v7/widget/RecyclerView$ViewCacheExtension.class
@@ -1062,6 +1076,7 @@ android/support/v4/view/LayoutInflaterFactory.class
 com/google/common/collect/GenericMapMaker.class
 org/openmrs/mobile/activities/VisitDashboardActivity.class
 com/google/android/gms/internal/zzdw.class
+oauth/signpost/OAuth.class
 org/openmrs/mobile/activities/SyncFitBitAuthorizationActivity.class
 android/support/annotation/StyleRes.class
 com/google/android/gms/internal/zzdc.class
@@ -1089,7 +1104,6 @@ org/odk/collect/android/activities/FormEntryActivity$AnimationType.class
 com/google/android/gms/ads/MobileAds.class
 com/google/android/gms/ads/internal/client/zze.class
 android/support/v7/widget/RecyclerView$SimpleOnItemTouchListener.class
-android/support/customtabs/CustomTabsIntent.class
 com/google/android/gms/internal/zzgk.class
 com/google/android/gms/internal/zzdl$zzc.class
 org/apache/http/entity/mime/content/FileBody.class
@@ -1157,7 +1171,9 @@ org/apache/http/entity/FileEntity.class
 android/support/v7/view/ActionMode.class
 android/support/v4/media/MediaBrowserCompat$MediaItem$1.class
 android/support/v7/appcompat/R$styleable.class
+oauth/signpost/signature/QueryStringSigningStrategy.class
 com/google/android/gms/internal/zzjb.class
+oauth/signpost/exception/OAuthExpectationFailedException.class
 com/google/gson/annotations/Expose.class
 com/google/android/gms/gcm/OneoffTask.class
 android/support/v4/media/MediaBrowserCompat$MediaItem.class
@@ -1179,12 +1195,10 @@ org/joda/time/DateTimeZone.class
 com/google/common/base/Joiner.class
 android/support/v4/os/TraceCompat.class
 com/google/android/gms/ads/internal/formats/NativeAdOptionsParcel.class
-org/openmrs/mobile/activities/InputFood$6.class
 com/google/android/gms/internal/zzex.class
 com/google/ads/mediation/MediationServerParameters$Parameter.class
 com/google/common/eventbus/AllowConcurrentEvents.class
 com/google/android/gms/internal/zzcn.class
-org/openmrs/mobile/activities/SyncData$5.class
 com/google/android/gms/ads/internal/client/AdSizeParcel.class
 org/apache/http/entity/ByteArrayEntity.class
 org/openmrs/mobile/activities/InputManually.class
@@ -1193,7 +1207,6 @@ org/openmrs/mobile/models/Mapping.class
 org/opendatakit/httpclientandroidlib/conn/params/ConnManagerPNames.class
 android/support/v4/media/session/PlaybackStateCompat$Builder.class
 com/google/android/gms/internal/zzqd.class
-android/support/customtabs/CustomTabsServiceConnection.class
 com/jjoe64/graphview/ValueDependentColor.class
 org/joda/time/MutablePeriod.class
 com/google/android/gms/ads/internal/request/zzc.class
@@ -1219,6 +1232,7 @@ com/google/android/gms/common/api/CommonStatusCodes.class
 com/google/gson/reflect/TypeToken.class
 com/google/android/gms/gcm/Task.class
 com/google/android/gms/internal/zzdr.class
+org/openmrs/mobile/activities/SearchFood$1.class
 com/google/android/gms/internal/zzdt.class
 org/odk/collect/android/logic/FormController.class
 android/support/v4/media/MediaMetadataCompat.class
@@ -1272,6 +1286,7 @@ android/support/v4/media/session/PlaybackStateCompat$Actions.class
 com/google/android/gms/ads/internal/overlay/AdLauncherIntentInfoParcel.class
 com/google/android/gms/internal/zzgp.class
 android/support/v4/app/FragmentManagerImpl$2.class
+org/openmrs/mobile/activities/SearchFood.class
 com/google/common/base/Converter.class
 org/apache/http/entity/mime/MultipartEntity.class
 org/opendatakit/httpclientandroidlib/annotation/NotThreadSafe.class
@@ -1300,6 +1315,7 @@ com/google/android/gms/common/api/GoogleApiClient$OnConnectionFailedListener.cla
 com/google/common/cache/LocalCache$ReferenceEntry.class
 org/apache/http/message/BasicNameValuePair.class
 com/google/android/gms/games/Game.class
+org/openmrs/mobile/activities/LoginActivity_FatSecret.class
 android/support/v7/widget/RecyclerView$LayoutManager.class
 com/google/common/collect/TreeRangeSet$ComplementRangesByLowerBound.class
 org/openmrs/mobile/activities/SyncGoogleFitActivity.class

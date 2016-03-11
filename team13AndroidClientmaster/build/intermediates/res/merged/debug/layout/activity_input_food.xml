@@ -152,7 +152,7 @@
                 android:layout_toRightOf="@+id/dinner_photo"
                 android:layout_alignParentTop="true"
                 android:textSize="30sp"
-                android:text="Lunch"
+                android:text="Dinner"
                 />
 
             <TextView

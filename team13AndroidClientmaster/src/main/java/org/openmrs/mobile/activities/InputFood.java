@@ -8,15 +8,14 @@ import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v7.widget.CardView;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import org.apache.http.entity.StringEntity;
 import org.openmrs.mobile.R;
 import org.openmrs.mobile.activities.fragments.ApiAuthRest;
-import org.w3c.dom.Text;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
@@ -26,6 +25,7 @@ import java.util.Calendar;
 public class InputFood extends Activity {
 
 
+    final CharSequence[] items = {};
     final CharSequence[] itemsBreakfast = {"Scrambled Egg Buritos...259 cal","Cornflake Crunch French Toast...149 cal","Banana Corn Muffins...199 cal ","Oatmeal...258 cal"};
     // arraylist to keep the selected items
     final ArrayList<Integer> seletedItemsBreakfast = new ArrayList<Integer>();
@@ -37,13 +37,27 @@ public class InputFood extends Activity {
     final ArrayList<Integer> SelectedItemsDinner = new ArrayList<Integer>();
 
     TextView totalCalories;
+    public static TextView breakfast_log;
+    public static TextView lunch_log;
+    public static TextView dinner_log;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_input_food);
 
+        breakfast_log = (TextView) findViewById(R.id.breakfast_log);
+        breakfast_log.setText(Container.breakfast_input);
+
+        lunch_log = (TextView) findViewById(R.id.lunch_log);
+        lunch_log.setText(Container.lunch_input);
+
+        dinner_log = (TextView) findViewById(R.id.dinner_log);
+        dinner_log.setText(Container.diner_input);
+
+        int total_cal = Container.food_calories_breakfast + Container.food_calories_lunch + Container.food_calories_dinner;
         totalCalories = (TextView) findViewById(R.id.total_calories);
+        totalCalories.setText("Calories: " + total_cal);
 
         // Input Breakfast
         CardView breakfast = (CardView) findViewById(R.id.cv);
@@ -81,181 +95,27 @@ public class InputFood extends Activity {
                 startActivity(i);
             }
         });
-
-
     }
 
     void popUpBreakfast() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Pick your breakfast");
-       // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
-        builder.setMultiChoiceItems(itemsBreakfast, null, new DialogInterface.OnMultiChoiceClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int indexSelected, boolean isChecked) {
-                        if (isChecked) {
-                            // If the user checked the item, add it to the selected items
-                            seletedItemsBreakfast.add(indexSelected);
-                        } else if (seletedItemsBreakfast.contains(indexSelected)) {
-                            // Else, if the item is already in the array, remove it
-                            seletedItemsBreakfast.remove(Integer.valueOf(indexSelected));
-                        }
-                    }
-                });
-
-                builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int id) {
-
-                        String s = "";
-                        for (int i : seletedItemsBreakfast) {
-                            switch (i) {
-                                case 0: {
-                                    s = s + "Scrambled Egg Buritos ";
-                                    Container.total_calories = Container.total_calories + 259;
-                                    break;
-                                }
-                                case 1: {
-                                    s = s + "Cornflake Crunch French Toast ";
-                                    Container.total_calories = Container.total_calories + 149;
-                                    break;
-                                }
-                                case 2: {
-                                    s = s + "Banana Corn Muffins ";
-                                    Container.total_calories = Container.total_calories + 199;
-                                    break;
-                                }
-                                case 3:
-                                    s = s + "Oatmeal ";
-                                    Container.total_calories = Container.total_calories + 258;
-                                    break;
-                            }
-                        }
-                        TextView breakfast_log = (TextView) findViewById(R.id.breakfast_log);
-                        breakfast_log.setText(s);
-                        String TC = "Total calories: " + Container.total_calories;
-                        totalCalories.setText(TC);
-                        //  Your code when user clicked on OK
-                        //  You can write the code  to save the selected item here
-                    }
-                });
-                builder.setNegativeButton("CANCEL", null);
-
-        builder.show();
+        Container.meal_choice = "breakfast";
+        Container.food_calories_breakfast = 0;
+        Intent i = new Intent(InputFood.this, SearchFood.class);
+        startActivity(i);
     }
 
     void popUpLunch() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Pick your Lunch");
-        // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
-        builder.setMultiChoiceItems(itemsLunch, null, new DialogInterface.OnMultiChoiceClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int indexSelected, boolean isChecked) {
-                if (isChecked) {
-                    // If the user checked the item, add it to the selected items
-                    selectedItemsLunch.add(indexSelected);
-                } else if (selectedItemsLunch.contains(indexSelected)) {
-                    // Else, if the item is already in the array, remove it
-                    selectedItemsLunch.remove(Integer.valueOf(indexSelected));
-                }
-            }
-        });
-
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int id) {
-
-                String s = "";
-                for (int i : selectedItemsLunch) {
-                    switch (i) {
-                        case 0: {
-                            s = s + "Garden Pasta Salad ";
-                            Container.total_calories = Container.total_calories + 345;
-                            break;
-                        }
-                        case 1: {
-                            s = s + "Beef Salad ";
-                            Container.total_calories = Container.total_calories + 376;
-                            break;
-                        }
-                        case 2: {
-                            s = s + "Indian-Spiced Chicken Pitas ";
-                            Container.total_calories = Container.total_calories + 333;
-                            break;
-                        }
-                        case 3: {
-                            s = s + "Italian Vegetable Hoagies ";
-                            Container.total_calories = Container.total_calories + 326;
-                            break;
-                        }
-                    }
-                }
-                TextView lunch_log = (TextView) findViewById(R.id.lunch_log);
-                lunch_log.setText(s);
-                String TC = "Total calories: " + Container.total_calories;
-                totalCalories.setText(TC);
-                //  Your code when user clicked on OK
-                //  You can write the code  to save the selected item here
-            }
-        });
-        builder.setNegativeButton("CANCEL", null);
-
-        builder.show();
+        Container.meal_choice = "lunch";
+        Container.food_calories_lunch = 0;
+        Intent i = new Intent(InputFood.this, SearchFood.class);
+        startActivity(i);
     }
 
     void popUpDinner() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Pick your Dinner");
-        // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
-        builder.setMultiChoiceItems(itemsDinner, null, new DialogInterface.OnMultiChoiceClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int indexSelected, boolean isChecked) {
-                if (isChecked) {
-                    // If the user checked the item, add it to the selected items
-                    SelectedItemsDinner.add(indexSelected);
-                } else if (SelectedItemsDinner.contains(indexSelected)) {
-                    // Else, if the item is already in the array, remove it
-                    SelectedItemsDinner.remove(Integer.valueOf(indexSelected));
-                }
-            }
-        });
-
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int id) {
-
-                        String s = "";
-                        for (int i : seletedItemsBreakfast) {
-                            switch (i) {
-                                case 0: {
-                                    s = s + "Chopped Greek Salad with Chicken ";
-                                    Container.total_calories = Container.total_calories + 142;
-                                    break;
-                                }
-                                case 1: {
-                                    s = s + "Hawaiian Ginger-Chicken Stew ";
-                                    Container.total_calories = Container.total_calories + 169;
-                                    break;
-                                }
-                                case 2: {
-                                    s = s + "Braised Paprika Chicken ";
-                                    Container.total_calories = Container.total_calories + 61;
-                                    break;
-                                }
-                            }
-                        }
-                        TextView dinner_log = (TextView) findViewById(R.id.dinner_log);
-                        dinner_log.setText(s);
-                        String TC = "Total calories: " + Container.total_calories;
-                        totalCalories.setText(TC);
-                        //  Your code when user clicked on OK
-                        //  You can write the code  to save the selected item here
-                    }
-                }
-
-        );
-            builder.setNegativeButton("CANCEL", null);
-
-        builder.show();
+        Container.food_calories_dinner = 0;
+        Container.meal_choice = "dinner";
+        Intent i = new Intent(InputFood.this, SearchFood.class);
+        startActivity(i);
     }
 
     public void sendData()
