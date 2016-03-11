@@ -64,12 +64,12 @@
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable\\common_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable\\common_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
@@ -124,12 +124,12 @@
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_media_route_connecting_mono_dark.xml"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_pause_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable\\mr_ic_pause_dark.xml"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_selector.xml",

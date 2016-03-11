@@ -1,27 +1,27 @@
 [
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_signin_btn_icon_normal_light.9.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-mdpi\\common_signin_btn_icon_normal_light.9.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ab_bottom_solid_openmrs.9.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\src\\main\\res\\drawable-mdpi\\ab_bottom_solid_openmrs.9.png"
     },
     {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\radiobutton_unchecked.png",
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\src\\main\\res\\drawable-mdpi\\radiobutton_unchecked.png"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ab_bottom_solid_openmrs.9.png",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\src\\main\\res\\drawable-mdpi\\ab_bottom_solid_openmrs.9.png"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_signin_btn_icon_normal_light.9.png",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-mdpi\\common_signin_btn_icon_normal_light.9.png"
     },
     {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_cast_dark.png",
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-mdpi\\ic_cast_dark.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\powered_by_google_light.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.1.0\\res\\drawable-mdpi\\powered_by_google_light.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\powered_by_google_light.png",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.1.0\\res\\drawable-mdpi\\powered_by_google_light.png"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\openmrs_logo.png",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-mdpi\\common_signin_btn_text_disabled_focus_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_signin_btn_text_normal_light.9.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-mdpi\\common_signin_btn_text_normal_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\btn_cab_done_default_openmrs.9.png",
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\src\\main\\res\\drawable-mdpi\\btn_cab_done_default_openmrs.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_signin_btn_text_normal_light.9.png",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-mdpi\\common_signin_btn_text_normal_light.9.png"
     },
     {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\spinner_ab_default_openmrs.9.png",
@@ -80,12 +80,12 @@
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-mdpi\\common_signin_btn_icon_disabled_focus_light.9.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ab_stacked_solid_openmrs.9.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\src\\main\\res\\drawable-mdpi\\ab_stacked_solid_openmrs.9.png"
-    },
-    {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_cast_on_1_light.png",
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-mdpi\\ic_cast_on_1_light.png"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ab_stacked_solid_openmrs.9.png",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\src\\main\\res\\drawable-mdpi\\ab_stacked_solid_openmrs.9.png"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_plusone_tall_off_client.png",

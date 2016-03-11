@@ -48,12 +48,12 @@
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.1.0\\res\\drawable-xhdpi\\powered_by_google_light.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_menu_clear_playlist.png",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13-OpenMRS\\odkcollect\\unspecified\\res\\drawable-xhdpi-v4\\ic_menu_clear_playlist.png"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_cab_done_default_openmrs.9.png",
@@ -64,20 +64,20 @@
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.1.0\\res\\drawable-xhdpi\\ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tab_selected_openmrs.9.png",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\src\\main\\res\\drawable-xhdpi\\tab_selected_openmrs.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_focused_openmrs.9.png",
@@ -100,28 +100,28 @@
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\src\\main\\res\\drawable-xhdpi\\ico_search.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_switch_track_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_dropdown_panel_openmrs.9.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\src\\main\\res\\drawable-xhdpi\\menu_dropdown_panel_openmrs.9.png"
     },
     {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_light.png",
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-xhdpi\\ic_cast_light.png"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\menu_dropdown_panel_openmrs.9.png",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\src\\main\\res\\drawable-xhdpi\\menu_dropdown_panel_openmrs.9.png"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_menu_goto.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient\\odkcollect\\unspecified\\res\\drawable-xhdpi-v4\\ic_menu_goto.png"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_menu_goto.png",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient\\odkcollect\\unspecified\\res\\drawable-xhdpi-v4\\ic_menu_goto.png"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_cast_on_2_light.png",
@@ -188,12 +188,12 @@
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\src\\main\\res\\drawable-xhdpi\\ico_vitals.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\checkbox_unchecked.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\src\\main\\res\\drawable-xhdpi\\checkbox_unchecked.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cast_ic_notification_2.png",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.1.0\\res\\drawable-xhdpi\\cast_ic_notification_2.png"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\checkbox_unchecked.png",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\src\\main\\res\\drawable-xhdpi\\checkbox_unchecked.png"
     },
     {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\spinner_ab_focused_openmrs.9.png",
