@@ -20,12 +20,12 @@
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient\\odkcollect\\unspecified\\res\\drawable-ldpi-v4\\ic_menu_refresh.png"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_mylocation.png",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13-OpenMRS\\odkcollect\\unspecified\\res\\drawable-ldpi-v4\\ic_menu_mylocation.png"
-    },
-    {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_login.png",
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13AndroidClient\\odkcollect\\unspecified\\res\\drawable-ldpi-v4\\ic_menu_login.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_mylocation.png",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13-OpenMRS\\odkcollect\\unspecified\\res\\drawable-ldpi-v4\\ic_menu_mylocation.png"
     },
     {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_clear_playlist.png",

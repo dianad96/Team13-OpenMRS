@@ -8,16 +8,16 @@
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_entry_end.xml"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\instance_uploader_list.xml",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\instance_uploader_list.xml"
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\data_manage_list.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\data_manage_list.xml"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\server_auth_dialog.xml",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\server_auth_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\data_manage_list.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\data_manage_list.xml"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\instance_uploader_list.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13AndroidClient\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\instance_uploader_list.xml"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\draw_layout.xml",

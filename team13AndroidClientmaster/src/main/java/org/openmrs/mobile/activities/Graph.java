@@ -1,14 +1,13 @@
 package org.openmrs.mobile.activities;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.app.Activity;
 import android.os.StrictMode;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.ValueDependentColor;
@@ -18,6 +17,7 @@ import com.jjoe64.graphview.series.DataPoint;
 
 import org.openmrs.mobile.R;
 import org.openmrs.mobile.activities.fragments.ApiAuthRest;
+import org.openmrs.mobile.utilities.DateUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -31,11 +31,8 @@ public class Graph extends Activity {
     static String URLBase = Container.URLBase;
 
     final static String Raizelb = Container.user_uuid;
-    final static String Chevy = "06168cfe-7d77-45b7-b8ba-290201f2ba07";
     private static final String DATE_FORMAT = "yyyy-MM-dd";
     private static final String GRAPH_DATE_FORMAT = "dd/MM";
-
-    private String exerciseMinutes, BMI = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,17 +79,8 @@ public class Graph extends Activity {
         Float[] values = new Float[]{0f, 0f, 0f, 0f, 0f};
         Date[] dates = new Date[5];
         SimpleDateFormat dateFormat = new SimpleDateFormat(GRAPH_DATE_FORMAT);
-        createGraph(values, dates, getPersonInput(Chevy), "STEPS");
+        createGraph(values, dates, getPersonInput(Raizelb), "STEPS");
         logBS(dates, values);
-
-        TextView exerciseMinsTV = (TextView) findViewById(R.id.exercise_min_log);
-        exerciseMinsTV.setText(exerciseMinutes);
-
-        TextView BMI_TV = (TextView) findViewById(R.id.bmi_log);
-        if(!BMI.equals("")) {
-            BMI_TV.setText(BMI);
-        } else { BMI_TV.setText("19.9"); }
-
 
         BarGraphSeries<DataPoint> series1 = new BarGraphSeries<DataPoint>(new DataPoint[] {
                 new DataPoint(1,values[4]),
@@ -105,7 +93,7 @@ public class Graph extends Activity {
         graphView.addSeries(series1);
 
         StaticLabelsFormatter staticLabelsFormatter = new StaticLabelsFormatter(graphView);
-        staticLabelsFormatter.setHorizontalLabels(new String[]{dateFormat.format(dates[4]), dateFormat.format(dates[3]), dateFormat.format(dates[2]), dateFormat.format(dates[1]), dateFormat.format(dates[0]) });
+        staticLabelsFormatter.setHorizontalLabels(new String[] {dateFormat.format(dates[4]),dateFormat.format(dates[3]),dateFormat.format(dates[2]),dateFormat.format(dates[1]),dateFormat.format(dates[0]) });
         graphView.getGridLabelRenderer().setLabelFormatter(staticLabelsFormatter);
 
         graphView.getGridLabelRenderer().setNumHorizontalLabels(5);
@@ -137,30 +125,18 @@ public class Graph extends Activity {
             location += 7;
             int templocation = input.indexOf("\"", location);
             UUID = input.substring(location,templocation);
-//            Log.d("OpenMRS response UUID:", UUID);
+
             if (checkConcept(input.substring(location), concept)) {
                 String obs = returnObs(UUID);
                 if ((i = checkObsDate(dates, obs)) != -1) {
                     if (getConceptValue(obs,concept) > values[i]) {
                         values[i] = getConceptValue(obs, concept);
-                        Log.d("Values : ", values[i].toString());
                     }
                 }
                 else break;
 
                 //dates[i] = getDate(returnObs(UUID,concept),concept);
             }
-            if(getExerciseMinutes(input.substring(location))){
-                String obs = returnObs(UUID);
-                if ((checkExerciseDate(dates, obs)) == -1) {
-                    exerciseMinutes = "0";
-                }
-                else {
-                    Log.i("ActivityMinutes", exerciseMinutes);
-                    //break;
-                }
-            }
-
         }
 
     }
@@ -171,14 +147,9 @@ public class Graph extends Activity {
         String temp = input.substring(tempLocation + 1);
         tempLocation = temp.indexOf("\"");
         temp = temp.substring(0, tempLocation);
-//        Log.i("OpenMRS response", temp);
+        Log.i("OpenMRS response", temp);
         if (temp.indexOf(concept) != -1) {
             return true;
-        }
-        else if(temp.indexOf("BODY MASS INDEX") != -1) {
-            BMI = temp.substring(16);
-            Log.i("BMI", BMI);
-            return false;
         }
         else
             return false;
@@ -188,7 +159,7 @@ public class Graph extends Activity {
         String display = null;
         try {
             display = ApiAuthRest.getRequestGet("obs?patient=" + patientUUID);
-//            Log.i("OpenMRS response-GPI", display);
+            Log.i("OpenMRS response", display);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -199,7 +170,7 @@ public class Graph extends Activity {
         String display = null;
         try {
             display = ApiAuthRest.getRequestGet("obs/" + UUID);
-            //Log.i("OpenMRS response", display);
+            Log.i("OpenMRS response", display);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -266,41 +237,6 @@ public class Graph extends Activity {
         for (int i = 0; i < 5; i++) {
             Log.i("OpenMRS response", dates[i].toString() + ":" + Float.toString(values[i]));
         }
-    }
-
-    private boolean getExerciseMinutes(String input){
-        int tempLocation;
-        tempLocation = input.indexOf("display") + 9;
-        String temp = input.substring(tempLocation + 1);
-        tempLocation = temp.indexOf("\"");
-        temp = temp.substring(0, tempLocation);
-       // Log.i("OpenMRS response", temp);
-        if (temp.indexOf("Active Minutes") != -1) {
-            exerciseMinutes = temp.substring(15);
-            Log.d("Active minutes spotted!", exerciseMinutes);
-            return true;
-        }
-        else
-            return false;
-    }
-
-    private int checkExerciseDate(Date[] dates, String obs) {
-        SimpleDateFormat dateFormat = new SimpleDateFormat(DATE_FORMAT);
-        int startPoint = obs.indexOf("obsDatetime") + 14;
-        int endPoint = startPoint + 10;
-        Date date = new Date();
-        try {
-            date = dateFormat.parse(obs.substring(startPoint,endPoint));
-            Log.i("OpenMRS response", "Checking exercise date = " + date);
-            if(date.equals(dates[0])) {
-                Log.i("ActivityExercise", "Activity Date is today!!" + date);
-                return 1;
-            }
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-
-        return -1;
     }
 
 }
