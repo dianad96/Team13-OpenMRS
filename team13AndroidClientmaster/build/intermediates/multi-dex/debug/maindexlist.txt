@@ -146,6 +146,7 @@ org/apache/http/io/EofSensor.class
 android/support/v7/recyclerview/R$styleable.class
 org/opendatakit/httpclientandroidlib/impl/conn/AbstractClientConnAdapter.class
 android/support/v7/view/CollapsibleActionView.class
+android/support/customtabs/CustomTabsIntent$Builder.class
 android/support/v4/app/LoaderManager.class
 org/javarosa/core/model/data/IAnswerData.class
 com/google/android/gms/ads/internal/zzn.class
@@ -447,6 +448,7 @@ android/support/v4/widget/MaterialProgressDrawable$2.class
 com/google/android/gms/ads/internal/request/AdRequestInfoParcel.class
 android/support/v7/widget/RecyclerView$3.class
 com/google/android/gms/internal/zzff.class
+android/support/customtabs/CustomTabsClient.class
 org/apache/http/entity/mime/content/StringBody.class
 org/apache/commons/io/IOUtils.class
 android/support/v4/media/RatingCompatApi21.class
@@ -576,6 +578,7 @@ net/sqlcipher/database/SQLiteDatabase.class
 com/google/android/gms/appinvite/AppInviteInvitation.class
 org/opendatakit/httpclientandroidlib/impl/conn/tsccm/BasicPooledConnAdapter.class
 org/opendatakit/httpclientandroidlib/impl/conn/tsccm/WaitingThread.class
+org/openmrs/mobile/activities/SyncData$6.class
 android/support/v4/media/VolumeProviderCompat$ControlType.class
 com/google/android/gms/internal/zzee.class
 org/odk/collect/android/openmrs/provider/OpenMRSInstanceProvider.class
@@ -772,6 +775,7 @@ com/google/android/gms/internal/zzcl.class
 com/google/android/gms/ads/search/SearchAdRequest.class
 org/apache/http/params/AbstractHttpParams.class
 com/google/ads/AdRequest.class
+org/openmrs/mobile/activities/SyncData$7.class
 com/google/android/gms/common/api/GoogleApiClient$Builder.class
 com/google/android/gms/common/api/GoogleApiClient.class
 android/support/v4/widget/DrawerLayout$DrawerListener.class
@@ -840,6 +844,7 @@ com/google/android/gms/internal/zzbk.class
 android/support/v7/app/ActionBar$OnNavigationListener.class
 com/google/android/gms/ads/internal/request/zzd$zza.class
 com/google/android/gms/internal/zzcd.class
+org/openmrs/mobile/R$color.class
 com/google/android/gms/ads/doubleclick/PublisherAdRequest$Builder.class
 com/google/common/cache/RemovalNotification.class
 org/openmrs/mobile/activities/fragments/FindPatientLastViewedFragment.class
@@ -1037,6 +1042,7 @@ org/javarosa/form/api/FormEntryController.class
 com/google/android/gms/ads/internal/formats/zzf.class
 com/google/common/util/concurrent/package-info.class
 android/support/v4/view/PagerAdapter.class
+org/openmrs/mobile/activities/SyncData$4.class
 org/opendatakit/httpclientandroidlib/impl/client/ContentEncodingHttpClient.class
 android/support/v7/widget/RecyclerView$RecyclerViewDataObserver.class
 org/openmrs/mobile/activities/PatientDashboardActivity$PatientDashboardPagerAdapter.class
@@ -1104,6 +1110,7 @@ org/odk/collect/android/activities/FormEntryActivity$AnimationType.class
 com/google/android/gms/ads/MobileAds.class
 com/google/android/gms/ads/internal/client/zze.class
 android/support/v7/widget/RecyclerView$SimpleOnItemTouchListener.class
+android/support/customtabs/CustomTabsIntent.class
 com/google/android/gms/internal/zzgk.class
 com/google/android/gms/internal/zzdl$zzc.class
 org/apache/http/entity/mime/content/FileBody.class
@@ -1199,6 +1206,7 @@ com/google/android/gms/internal/zzex.class
 com/google/ads/mediation/MediationServerParameters$Parameter.class
 com/google/common/eventbus/AllowConcurrentEvents.class
 com/google/android/gms/internal/zzcn.class
+org/openmrs/mobile/activities/SyncData$5.class
 com/google/android/gms/ads/internal/client/AdSizeParcel.class
 org/apache/http/entity/ByteArrayEntity.class
 org/openmrs/mobile/activities/InputManually.class
@@ -1207,6 +1215,7 @@ org/openmrs/mobile/models/Mapping.class
 org/opendatakit/httpclientandroidlib/conn/params/ConnManagerPNames.class
 android/support/v4/media/session/PlaybackStateCompat$Builder.class
 com/google/android/gms/internal/zzqd.class
+android/support/customtabs/CustomTabsServiceConnection.class
 com/jjoe64/graphview/ValueDependentColor.class
 org/joda/time/MutablePeriod.class
 com/google/android/gms/ads/internal/request/zzc.class
