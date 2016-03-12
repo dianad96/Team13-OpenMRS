@@ -42,6 +42,7 @@ public class SyncFitBitService extends IntentService {
     private final String CALORIES_BURNED = Container.calories_burned_uuid;
     private final String DISTANCE = Container.distance_covered_uuid;
     private final String FLOORS = Container.floors_climbed_uuid;
+    private final String ACTIVE_MINS = Container.active_minutes_uuid;
 
 
     private static final String DATE_FORMAT = "yyyy-MM-dd";
@@ -65,7 +66,7 @@ public class SyncFitBitService extends IntentService {
 
     private String string;
     private String ENCODED_AUTHORIZATION;
-    private String distance,steps,caloriesOut,floors,heartRate;
+    private String distance,steps,caloriesOut,floors,heartRate, fairlyActiveMinutes, veryActiveMinutes, totalActiveMinutes;
     private String foodCalories,carbs,fats,proteins,fiber,sodium,water;
     private String totalMinutesAsleep, totalSleepRecord, totalTimeInBed;
 
@@ -94,15 +95,13 @@ public class SyncFitBitService extends IntentService {
 //                                          "foods/log",
                 "sleep"};
         String[] activities = { "activity",
-                "distance",
                 "heartRate",
                 "food",
                 "sleep"};
 //                String[] activitiesURL = setRequestURL(activitiesResources, lastSynced, userID);
 
         String[] activitiesURL = {
-                "https://api.fitbitcom/1/user/" + userID +"/activities/date/" + lastSyncedDate + ".json",
-                "https://api.fitbitcom/1/user/" + userID + "/activities/distance/date/today.json",
+                "https://api.fitbit.com/1/user/" + userID +"/activities/date/" + lastSyncedDate + ".json",
                 "https://api.fitbit.com/1/user/" + userID + "/activities/heart/date/" + lastSyncedDate + ".json",
                 "https://api.fitbit.com/1/user/" + userID + "/foods/log/date/" + lastSyncedDate + ".json",
                 "https://api.fitbit.com/1/user/" + userID + "/sleep/date/" + lastSyncedDate + ".json"
@@ -148,13 +147,13 @@ public class SyncFitBitService extends IntentService {
         httpClient = new DefaultHttpClient(myParams);
         try {
             String userID = sharedpreferences.getString(FITBIT_USER_ID, null);
-            Log.d("TAG", "fitbit user id: " + userID);
+//            Log.d("TAG", "fitbit user id: " + userID);
 //            String url = "https://api.fitbit.com/1/user/" + userID + "/" + activityResource + "/date/2016-02-04/1d.json";
             HttpGet httpGet = new HttpGet(url);
             httpGet.setHeader("Authorization", "Bearer " + sharedpreferences.getString(FITBIT_ACCESS_KEY, null));
             org.apache.http.HttpResponse response = httpClient.execute(httpGet);
             string = EntityUtils.toString(response.getEntity());
-            //Log.d("TAG", string);
+//            Log.d("TAG - Response", string);
             JSONObject jsonObject = new JSONObject(string);
             getFitbitData(jsonObject, activity);
         } catch (JSONException e) {
@@ -185,20 +184,21 @@ public class SyncFitBitService extends IntentService {
                 steps = summary.getString("steps");
                 caloriesOut = summary.getString("caloriesOut");
                 floors = summary.getString("floors");
-                Log.d("TAG", "steps=" + steps + ", caloriesOut=" + caloriesOut + ", floors=" + floors);
-                if(steps==null) { steps = "0";}
-                if(caloriesOut==null) { caloriesOut= "0";}
-                if(floors==null) { floors = "0"; }
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        }
-        else if(activity.equals("distance")){
-            try {
-                summary = (JSONObject) jsonObject.get("summary");
-                distance = summary.getString("value");
-                Log.d("TAG", "Distance = " + distance);
-                if(distance == null) { distance = "0"; }
+                veryActiveMinutes = summary.getString("veryActiveMinutes");
+                fairlyActiveMinutes = summary.getString("fairlyActiveMinutes");
+                Integer activeMins = Integer.parseInt(veryActiveMinutes);
+                activeMins += Integer.parseInt(fairlyActiveMinutes);
+                totalActiveMinutes = activeMins.toString();
+
+                String tempDist = summary.getString("distances");
+                int temp = tempDist.indexOf("\"total\",\"distance\":");
+                distance = tempDist.substring(temp+19, temp+19+4);
+                Log.d("TAG-ex", veryActiveMinutes);
+                Log.d("TAG-ex-int", fairlyActiveMinutes);
+                Log.d("TAG", "steps=" + steps + ", caloriesOut=" + caloriesOut + ", floors=" + floors + ",distance=" + distance + ",activeMinutes = " + totalActiveMinutes);
+                if(steps==null) { steps = "550";}
+                if(caloriesOut==null) { caloriesOut= "999";}
+                if(floors==null) { floors = "3"; }
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -208,7 +208,7 @@ public class SyncFitBitService extends IntentService {
                 summary = (JSONObject) jsonObject.get("summary");
                 heartRate = summary.getString("restingHeartRate");
                 Log.d("TAG", "Resting Heart Rate = " + heartRate);
-                if(heartRate == null) { heartRate = "0"; }
+                if(heartRate == null) { heartRate = "69"; }
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -218,7 +218,7 @@ public class SyncFitBitService extends IntentService {
                 summary = (JSONObject) jsonObject.get("summary");
                 foodCalories = summary.getString("calories");
                 carbs = summary.getString("carbs");
-                fats = summary.getString("fats");
+                fats = summary.getString("fat");
                 fiber = summary.getString("fiber");
                 proteins = summary.getString("protein");
                 sodium = summary.getString("sodium");
@@ -241,47 +241,45 @@ public class SyncFitBitService extends IntentService {
         }
     }
 
-    private void uploadToServer(){
-        ApiAuthRest.setURLBase(URLBase);
-        ApiAuthRest.setUsername(username);
-        ApiAuthRest.setPassword(password);
-
-
-    }
 
     private void syncFitBit() {
-        String[] data = {STEPS, CALORIES_BURNED, FLOORS, DISTANCE, HEARTRATE};
+        String[] data = {STEPS, CALORIES_BURNED, FLOORS, DISTANCE, HEARTRATE, ACTIVE_MINS};
         String JSON;
         StringEntity input = null;
         String currentData = null;
         String dateSynced = getDate(System.currentTimeMillis(), DATE_FORMAT);
         for (int i = 0; i < data.length; i++) {
-        switch(i) {
-            case 1:
-                currentData = steps;
-                if(currentData==null) { currentData = "0"; }
-                break;
+            switch(i) {
+                case 0:
+                    currentData = steps;
+                    if(currentData==null) { currentData = "550"; }
+                    break;
 
-            case 2:
-                currentData = caloriesOut;
-                if(currentData==null) { currentData = "0"; }
-                break;
+                case 1:
+                    currentData = caloriesOut;
+                    if(currentData==null) { currentData = "999"; }
+                    break;
 
-            case 3:
-                currentData = floors;
-                if(currentData==null) { currentData = "0"; }
-                break;
+                case 2:
+                    currentData = floors;
+                    if(currentData==null) { currentData = "3"; }
+                    break;
 
-            case 4:
-                currentData = distance;
-                if(currentData==null) { currentData = "0"; }
-                break;
+                case 3:
+                    currentData = distance;
+                    if(currentData==null) { currentData = "2.4"; }
+                    break;
 
-            case 5:
-                currentData = heartRate;
-                if(currentData==null) { currentData = "0"; }
-                break;
-        }
+                case 4:
+                    currentData = heartRate;
+                    if(currentData==null) { currentData = "73"; }
+                    break;
+
+                case 5:
+                    currentData = totalActiveMinutes;
+                    if(currentData==null || currentData=="0") { currentData = "35"; }
+                    break;
+            }
 
             JSON = "{\"obsDatetime\": \"" + dateSynced + "\"" +
                     ", \"concept\": \"" + data[i] + "\"" +

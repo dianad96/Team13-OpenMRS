@@ -1,5 +1,31 @@
 [
     {
+        "outputFile": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 8,
+                    "endColumn": 9,
+                    "endOffset": 448
+                },
+                "from": {
+                    "file": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 8,
+                        "endColumn": 9,
+                        "endOffset": 448
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v11\\values-v11.xml",
         "map": [
             {

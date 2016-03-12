@@ -8,6 +8,18 @@
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13-OpenMRS\\odkcollect\\unspecified\\res\\xml\\preferences.xml"
     },
     {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\xml\\admin_preferences.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13-OpenMRS\\odkcollect\\unspecified\\res\\xml\\admin_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13-OpenMRS\\odkcollect\\unspecified\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\src\\main\\res\\xml\\searchable.xml"
+    },
+    {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\xml\\admin_preferences.xml",
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13-OpenMRS\\odkcollect\\unspecified\\res\\xml\\admin_preferences.xml"
     }

@@ -1,9 +1,5 @@
 package org.openmrs.mobile.activities;
 
-import org.apache.http.entity.StringEntity;
-
-import java.util.ArrayList;
-
 /**
  * Created by Diana on 02/02/2016.
  */
@@ -31,6 +27,7 @@ public class Container {
     public static String heart_rate_uuid = "be4f67b0-1691-11df-97a5-7038c432aabf";
     public static String height_uuid = "18166deb-a22a-43e3-8d79-f311f4c4dddc";
     public static String weight_uuid = "2009fef8-157c-47af-b866-5446d4415d63";
+    public static String bmi_uuid = "be4d9ce6-1691-11df-97a5-7038c432aabf";
     public static String URLBase = "http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/";
     public static String username = "admin";
     public static String password = "Admin123";

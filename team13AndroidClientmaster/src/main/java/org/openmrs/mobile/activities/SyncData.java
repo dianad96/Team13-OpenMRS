@@ -9,12 +9,10 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.StrictMode;
-/*/
 import android.support.customtabs.CustomTabsClient;
 import android.support.customtabs.CustomTabsIntent;
 import android.support.customtabs.CustomTabsServiceConnection;
 import android.support.customtabs.CustomTabsSession;
-/*/
 import android.support.v4.content.ContextCompat;
 import android.util.Base64;
 import android.util.Log;
@@ -106,7 +104,10 @@ public class SyncData extends Activity {
     private static final String FITBIT_LAST_SYNCED = "lastSynced";
 
     public static final String CUSTOM_TAB_PACKAGE_NAME = "com.android.chrome";
-
+    CustomTabsClient mCustomTabsClient;
+    CustomTabsSession mCustomTabsSession;
+    CustomTabsServiceConnection mCustomTabsServiceConnection;
+    CustomTabsIntent customTabsIntent;
 
     private HttpClient httpClient = new DefaultHttpClient();
     private HttpPost httpPost = new HttpPost(ACCESS_TOKEN_URL);
@@ -114,7 +115,7 @@ public class SyncData extends Activity {
 
     private String string;
     private String ENCODED_AUTHORIZATION;
-    private Button mGoogleFitBtn, mFitBitBtn;
+    private Button mGoogleFitBtn, mFitBitBtn, mFitBitLogoutBtn;
 
 
     @Override
@@ -129,13 +130,47 @@ public class SyncData extends Activity {
 
         mGoogleFitBtn = (Button) findViewById(R.id.mGoogleFitBtn);
         mFitBitBtn = (Button) findViewById(R.id.mFitbitBtn);
+        mFitBitLogoutBtn = (Button) findViewById(R.id.mFitbitLogout);
 
         sharedpreferences = getSharedPreferences(PREFERENCE_TYPE, 4);
         if(sharedpreferences.getString(FITBIT_KEY,null) != null){
-            mFitBitBtn.setText("Get Fitbit Data");
+            mFitBitBtn.setText("Sync Fitbit");
+            mFitBitLogoutBtn.setVisibility(View.VISIBLE);
+            mFitBitLogoutBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    SharedPreferences.Editor editor = sharedpreferences.edit();
+                    editor.clear();
+                    editor.commit();
+                    finish();
+                    startActivity(getIntent());
+                }
+            });
         }
 
+        mCustomTabsServiceConnection = new CustomTabsServiceConnection() {
+            @Override
+            public void onCustomTabsServiceConnected(ComponentName componentName, CustomTabsClient customTabsClient) {
 
+                //Pre-warming
+                mCustomTabsClient = customTabsClient;
+                mCustomTabsClient.warmup(0L);
+                //Initialize a session as soon as possible.
+                mCustomTabsSession = mCustomTabsClient.newSession(null);
+            }
+
+            @Override
+            public void onServiceDisconnected(ComponentName name) {
+                mCustomTabsClient = null;
+            }
+        };
+
+        CustomTabsClient.bindCustomTabsService(SyncData.this, CUSTOM_TAB_PACKAGE_NAME, mCustomTabsServiceConnection);
+
+        customTabsIntent = new CustomTabsIntent.Builder(mCustomTabsSession)
+                .setToolbarColor(ContextCompat.getColor(this, R.color.red))
+                .setShowTitle(true)
+                .build();
         /*
             End custom tabs setup
          */
@@ -143,11 +178,43 @@ public class SyncData extends Activity {
         mGoogleFitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    Intent i = new Intent(SyncData.this, SyncGoogleFitActivity.class);
-                    startActivity(i);
-                }
+                Intent i = new Intent(SyncData.this, SyncGoogleFitActivity.class);
+                startActivity(i);
+            }
         });
 
+        mFitBitBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (sharedpreferences.getString(FITBIT_KEY, null) == null) {
+                    customTabsIntent.launchUrl(SyncData.this, Uri.parse(getAuthorizationUrl()));
+                }
+
+                else {
+                    Calendar calendar = new GregorianCalendar();
+                    AsyncTaskRunner asyncTaskRunner = new AsyncTaskRunner();
+                    Long time = sharedpreferences.getLong(FITBIT_KEY_TIMING, 0);
+
+                    if (time == 0) { //No token
+                        Log.d("TAG", "access code received = " + sharedpreferences.getString(FITBIT_KEY, null));
+                        asyncTaskRunner.doInBackground("authorize");
+                        Intent mServiceIntent = new Intent(SyncData.this, SyncFitBitService.class);
+                        startService(mServiceIntent);
+                    } else if (calendar.getTimeInMillis() > time) {
+                        //Refresh token then start syncing data
+                        asyncTaskRunner.doInBackground("refresh");
+                        Intent mServiceIntent = new Intent(SyncData.this, SyncFitBitService.class);
+                        startService(mServiceIntent);
+                    } else if (calendar.getTimeInMillis() < time) {
+                        // Token is still valid
+                        Intent mServiceIntent = new Intent(SyncData.this, SyncFitBitService.class);
+                        startService(mServiceIntent);
+                    }
+
+                }
+            }
+        });
     }
 
 
@@ -375,7 +442,34 @@ public class SyncData extends Activity {
         return calCount;
     }
 
+    private void buildFitBitClient(){
+        mCustomTabsServiceConnection = new CustomTabsServiceConnection() {
+            @Override
+            public void onCustomTabsServiceConnected(ComponentName componentName, CustomTabsClient customTabsClient) {
 
+                //Pre-warming
+                mCustomTabsClient = customTabsClient;
+                mCustomTabsClient.warmup(0L);
+                //Initialize a session as soon as possible.
+                mCustomTabsSession = mCustomTabsClient.newSession(null);
+            }
+
+            @Override
+            public void onServiceDisconnected(ComponentName name) {
+                mCustomTabsClient = null;
+            }
+        };
+
+        CustomTabsClient.bindCustomTabsService(SyncData.this, CUSTOM_TAB_PACKAGE_NAME, mCustomTabsServiceConnection);
+
+        customTabsIntent = new CustomTabsIntent.Builder(mCustomTabsSession)
+                .setToolbarColor(ContextCompat.getColor(this, R.color.red))
+                .setShowTitle(true)
+                .build();
+        /*
+            End custom tabs setup
+         */
+    }
 
     private String getBase64String(String clientID, String clientSecret) {
         return Base64.encodeToString((clientID + ":" + clientSecret).getBytes(), Base64.URL_SAFE | Base64.NO_WRAP);

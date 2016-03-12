@@ -37,6 +37,18 @@
         android:textAllCaps="true"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Sync Fitbit" />
+        android:text="Login to Fitbit" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/mFitbitLogout"
+        android:layout_marginTop="30dp"
+        android:background="#e11313"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:text="Logout from Fitbit"
+        android:visibility="gone" />
 
 </LinearLayout>
