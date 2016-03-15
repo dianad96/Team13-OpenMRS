@@ -194,11 +194,13 @@ public class Chat extends Activity {
         int itemArray = arrayResult.length();
         int iterator;
         ArrayList<String> array = new ArrayList<String>();
-        for (iterator = 0; iterator < itemArray; iterator++) {
+        for (iterator = itemArray-1; iterator >= 0; iterator--) {
             JSONObject data = (JSONObject) arrayResult.get(iterator);
             String uuid = (String) data.get("uuid");
             String display = (String) data.get("display");
             System.out.println("Rows " + iterator + " => Result OBS UUID:" + uuid + " Display:" + display.substring(7));
+
+            //Only display the first 15 messages
             if(array.size()<15) {
                 array.add(display.substring(7));
                 getChatMessage(display.substring(7));
