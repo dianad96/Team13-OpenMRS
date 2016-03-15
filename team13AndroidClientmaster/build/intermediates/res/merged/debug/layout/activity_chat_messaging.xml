@@ -10,7 +10,7 @@
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="300dp"
         android:fillViewport="true"
         android:paddingBottom="80dp">
 
@@ -26,7 +26,7 @@
                 android:id="@+id/msgview"
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"
+                android:layout_weight="0.01"
                 android:background="@null"
                 android:divider="@null"
                 android:stackFromBottom="true"
@@ -52,6 +52,34 @@
                     android:text="Send" />
 
             </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#efefef"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <ListView
+                android:id="@+id/msgview2"
+                android:layout_width="fill_parent"
+                android:layout_height="232dp"
+                android:background="@null"
+                android:divider="@null"
+                android:stackFromBottom="true"
+                android:transcriptMode="alwaysScroll"></ListView>
+
+
         </LinearLayout>
     </ScrollView>
 

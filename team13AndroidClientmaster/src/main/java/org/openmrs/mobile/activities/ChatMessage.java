@@ -5,12 +5,12 @@ package org.openmrs.mobile.activities;
  */
 
 public class ChatMessage {
-    public boolean left;
+    public boolean right;
     public String message;
 
     public ChatMessage(boolean left, String message) {
         super();
-        this.left = left;
+        this.right = left;
         this.message = message;
     }
 }

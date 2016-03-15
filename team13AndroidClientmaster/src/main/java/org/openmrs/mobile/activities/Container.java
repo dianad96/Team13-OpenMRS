@@ -15,7 +15,7 @@ public class Container {
     public static String height = "";
     public static String weight = "";
 
-    public static String user_id = "";
+    public static String doctor_uuid = "dd73d468-1691-11df-97a5-7038c432aabf";
     public static String user_uuid = "f203f94d-5b02-4798-be06-434c5eb2e26b";
     public static String chat_uuid="182e8d2d-e710-409c-98e2-f98ec9b7bacb";
     public static String calories_uuid = "919df587-688b-4c20-bad8-9d8ebeaf9cd0";

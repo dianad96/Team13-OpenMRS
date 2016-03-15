@@ -898,6 +898,7 @@ com/google/android/gms/ads/internal/purchase/zzb.class
 com/google/common/io/ByteSource.class
 com/google/android/gms/internal/zzmx.class
 org/opendatakit/httpclientandroidlib/impl/client/DefaultRequestDirector.class
+org/openmrs/mobile/activities/ChatMessaging$7.class
 com/google/common/collect/ImmutableSortedSetFauxverideShim.class
 android/support/v7/widget/RecyclerView$RecycledViewPool.class
 com/google/android/gms/ads/internal/client/zzk.class
@@ -1079,6 +1080,7 @@ com/google/android/gms/internal/zzhl.class
 com/google/android/gms/plus/Account.class
 org/apache/commons/io/FileSystemUtils.class
 com/google/common/reflect/TypeToInstanceMap.class
+org/openmrs/mobile/activities/ChatArrayAdapter2.class
 android/support/v4/view/NestedScrollingChildHelper.class
 org/openmrs/mobile/activities/SearchFood$4.class
 android/support/v4/view/ViewCompatJellybeanMr2.class

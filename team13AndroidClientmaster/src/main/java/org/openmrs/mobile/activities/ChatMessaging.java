@@ -33,7 +33,9 @@ public class ChatMessaging extends Activity {
     private static final String TAG = "ChatActivity";
 
     private ChatArrayAdapter chatArrayAdapter;
+    private ChatArrayAdapter2 chatArrayAdapter2;
     private ListView listView;
+    private ListView listView2;
     private EditText chatText;
     private Button buttonSend;
     private boolean side = false;
@@ -75,9 +77,12 @@ public class ChatMessaging extends Activity {
         buttonSend = (Button) findViewById(R.id.send);
 
         listView = (ListView) findViewById(R.id.msgview);
-
         chatArrayAdapter = new ChatArrayAdapter(getApplicationContext(), R.layout.right);
         listView.setAdapter(chatArrayAdapter);
+
+        listView2 = (ListView) findViewById(R.id.msgview2);
+        chatArrayAdapter2 = new ChatArrayAdapter2(getApplicationContext(), R.layout.left);
+        listView2.setAdapter(chatArrayAdapter2);
 
         chatText = (EditText) findViewById(R.id.msg);
         chatText.setOnKeyListener(new View.OnKeyListener() {
@@ -108,8 +113,21 @@ public class ChatMessaging extends Activity {
             }
         });
 
+        listView2.setTranscriptMode(AbsListView.TRANSCRIPT_MODE_ALWAYS_SCROLL);
+        listView2.setAdapter(chatArrayAdapter2);
+
+        //to scroll the list view to bottom on data change
+        chatArrayAdapter2.registerDataSetObserver(new DataSetObserver() {
+            @Override
+            public void onChanged() {
+                super.onChanged();
+                listView2.setSelection(chatArrayAdapter2.getCount() - 1);
+            }
+        });
+
         try {
             getData();
+            getData2();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -127,6 +145,13 @@ public class ChatMessaging extends Activity {
         chatArrayAdapter.add(new ChatMessage(side, s));
         //comment=chatText.getText().toString();
         chatText.setText("");
+        side = !side;
+        return true;
+    }
+
+    private boolean getChatMessage2(String s) {
+        chatArrayAdapter2.add(new ChatMessage(side, s));
+        //comment=chatText.getText().toString();
         side = !side;
         return true;
     }
@@ -167,6 +192,8 @@ public class ChatMessaging extends Activity {
         }
     }
 
+
+    // get patient's messages
     void getData() throws Exception {
     /*
 	 * SET VALUE FOR CONNECT TO OPENMRS
@@ -224,6 +251,67 @@ public class ChatMessaging extends Activity {
             System.out.println("########################");
         }
     }
+
+
+    // get doctor's messages
+    void getData2() throws Exception {
+    /*
+	 * SET VALUE FOR CONNECT TO OPENMRS
+	 */
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+
+        ApiAuthRest.setURLBase("http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/");
+        ApiAuthRest.setUsername("diana");
+        ApiAuthRest.setPassword("Admin123");
+
+
+ 	/*
+ 	 * Example how parse json return session
+ 	 */
+
+        String request = "obs?patient=" + Container.doctor_uuid + "&concept=" + Container.chat_uuid;
+        System.out.println("########################");
+        System.out.println("Search the persons that have name  JOHN");
+        Object obj = ApiAuthRest.getRequestGet(request);
+        JSONObject jsonObject = new JSONObject ((String) obj);
+        JSONArray arrayResult = (JSONArray) jsonObject.get("results");
+
+        System.out.println("########################");
+        int itemArray = arrayResult.length();
+        int iterator;
+        ArrayList<String> array = new ArrayList<String>();
+        for (iterator = itemArray-1; iterator >= 0; iterator--) {
+            JSONObject data = (JSONObject) arrayResult.get(iterator);
+            String uuid = (String) data.get("uuid");
+            String display = (String) data.get("display");
+            System.out.println("Rows " + iterator + " => Result OBS UUID:" + uuid + " Display:" + display.substring(7));
+
+            //Only display the first 15 messages
+            if(array.size()<15) {
+                array.add(display.substring(7));
+                getChatMessage2(display.substring(7));
+            }
+
+
+            /*/
+            //Show ROWS LINKS
+            JSONArray arrayResultLinks = (JSONArray) data.get("links");
+            int largoArrayLinks = arrayResultLinks.length();
+            int contadorLinks;
+            for (contadorLinks = 0; contadorLinks < largoArrayLinks; contadorLinks++) {
+                JSONObject registroLink = (JSONObject) arrayResultLinks.get(contadorLinks);
+                String uri = (String) registroLink.get("uri");
+                String rel = (String) registroLink.get("rel");
+                System.out.println("==>Record Row " + iterator + "." + contadorLinks
+                        + " =>  URI:" + uri + " REL:" + rel);
+
+            }
+            /*/
+            System.out.println("########################");
+        }
+    }
+
 
 }
 
