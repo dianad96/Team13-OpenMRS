@@ -233,20 +233,25 @@
             android:name=".activities.SyncFitBitService"
             android:exported="false"
             android:label="SyncFitBit Service" />
-
         <service
             android:name=".activities.AlarmManagerService"
-            android:exported="false"/>
+            android:exported="false" />
         <service
             android:name=".activities.NotifyService"
-            android:exported="false"/>
+            android:exported="false" />
 
         <activity
             android:name=".activities.SearchFood"
             android:label="@string/title_activity_search_food" />
         <activity
             android:name=".activities.LoginActivity_FatSecret"
-            android:label="@string/title_activity_login_activity__fat_secret"></activity>
+            android:label="@string/title_activity_login_activity__fat_secret" />
+        <activity
+            android:name=".activities.fragments.ChatMessaging"
+            android:label="@string/title_activity_chat_messaging" />
+        <activity
+            android:name=".activities.ChatMessaging"
+            android:label="@string/title_activity_chat_messaging"></activity>
     </application>
 
 </manifest>

@@ -257,6 +257,12 @@
         <activity
             android:name="org.openmrs.mobile.activities.LoginActivity_FatSecret"
             android:label="@string/title_activity_login_activity__fat_secret" />
+        <activity
+            android:name="org.openmrs.mobile.activities.fragments.ChatMessaging"
+            android:label="@string/title_activity_chat_messaging" />
+        <activity
+            android:name="org.openmrs.mobile.activities.ChatMessaging"
+            android:label="@string/title_activity_chat_messaging" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

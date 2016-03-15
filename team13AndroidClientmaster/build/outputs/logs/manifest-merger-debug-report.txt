@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:14:1-252:12
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:14:1-257:12
 	package
 		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:15:5-33
 		INJECTED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml
@@ -227,7 +227,7 @@ ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmas
 	android:name
 		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:29:22-77
 application
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:31:5-250:19
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:31:5-255:19
 MERGED from [Team13-OpenMRS:odkcollect:unspecified] C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\build\intermediates\exploded-aar\Team13-OpenMRS\odkcollect\unspecified\AndroidManifest.xml:20:5-20
 MERGED from [com.android.support:gridlayout-v7:19.0.0] C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\19.0.0\AndroidManifest.xml:19:5-20
 MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
@@ -638,29 +638,41 @@ ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmas
 	android:name
 		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:233:13-57
 service#org.openmrs.mobile.activities.AlarmManagerService
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:237:9-239:39
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:236:9-238:40
 	android:exported
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:239:13-37
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:238:13-37
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:238:13-59
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:237:13-59
 service#org.openmrs.mobile.activities.NotifyService
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:240:9-242:39
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:239:9-241:40
 	android:exported
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:242:13-37
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:241:13-37
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:241:13-53
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:240:13-53
 activity#org.openmrs.mobile.activities.SearchFood
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:244:9-246:66
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:243:9-245:66
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:246:13-63
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:245:13-63
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:245:13-50
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:244:13-50
 activity#org.openmrs.mobile.activities.LoginActivity_FatSecret
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:247:9-249:90
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:246:9-248:81
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:249:13-78
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:248:13-78
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:248:13-63
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:247:13-63
+activity#org.openmrs.mobile.activities.fragments.ChatMessaging
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:249:9-251:69
+	android:label
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:251:13-66
+	android:name
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:250:13-63
+activity#org.openmrs.mobile.activities.ChatMessaging
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:252:9-254:78
+	android:label
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:254:13-66
+	android:name
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:253:13-53
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:26:9-29:64
 MERGED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:26:9-29:64

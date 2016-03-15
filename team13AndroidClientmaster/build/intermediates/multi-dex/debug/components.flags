@@ -145,6 +145,14 @@
     <init>();
 }
 
+-keep class org.openmrs.mobile.activities.fragments.ChatMessaging {
+    <init>();
+}
+
+-keep class org.openmrs.mobile.activities.ChatMessaging {
+    <init>();
+}
+
 -keep class com.google.android.gms.ads.AdActivity {
     <init>();
 }

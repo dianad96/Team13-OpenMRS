@@ -757,6 +757,7 @@
     <string name="synchronize_patient_error">Synchronize patient data unsuccessful</string>
     <string name="synchronize_patient_successful">Synchronize patient data successful</string>
     <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_chat_messaging">ChatMessaging</string>
     <string name="title_activity_graph">Graph</string>
     <string name="title_activity_input_exercise">InputExercise</string>
     <string name="title_activity_input_heart_rate">InputHeartRate</string>

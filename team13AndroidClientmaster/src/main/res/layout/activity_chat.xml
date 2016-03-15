@@ -7,90 +7,57 @@
     tools:context="org.openmrs.mobile.activities.Chat">
 
 
-
-    <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:fillViewport="true"
-        android:paddingBottom="80dp">
-
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#efefef"
-            android:orientation="vertical"
-            tools:context=".MainActivity">
-
-            <ListView
-                android:id="@+id/msgview"
-                android:layout_width="fill_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="@null"
-                android:divider="@null"
-                android:stackFromBottom="true"
-                android:transcriptMode="alwaysScroll"></ListView>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="3">
-
-                <EditText
-                    android:id="@+id/msg"
-                    android:layout_width="0dp"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="2" />
-
-                <Button
-                    android:id="@+id/send"
-                    android:layout_width="0dp"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1"
-                    android:text="Send" />
-
-            </LinearLayout>
-        </LinearLayout>
-    </ScrollView>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_alignParentBottom="true"
-        android:minHeight="25px"
-        android:layout_width="fill_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout2"
-        android:layout_weight="1">
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Introduce your doctor&apos;s name"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
 
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:id="@+id/chat_input"
-            android:background="@color/dark_teal"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.2"
-            android:text="Input"/>
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:id="@+id/chat_graph"
-            android:background="@color/dark_teal"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.2"
-            android:text="Graph"/>
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:id="@+id/chat_chat"
-            android:background="@color/dark_teal"
-            android:textColor="@color/white"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.2"
-            android:text="Chat"/>
-    </LinearLayout>
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Johnson"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Kipchrchir"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/subdoc"
+        android:background="@color/dark_teal"
+        android:textColor="@color/white"
+        android:text="SUBMIT"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Leaving the spaces blank will automatically asign you a random test doctor."
+        android:id="@+id/textView2"
+        android:layout_below="@+id/subdoc"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginTop="37dp" />
 
 </RelativeLayout>

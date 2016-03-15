@@ -10,7 +10,6 @@ android/support/v4/app/FragmentManagerState.class
 com/google/android/gms/fitness/Fitness.class
 com/google/android/gms/ads/internal/purchase/zzk.class
 com/google/android/gms/internal/zzhs$zza.class
-org/openmrs/mobile/activities/Chat$6.class
 com/google/android/gms/common/internal/safeparcel/zza$zza.class
 com/google/android/gms/cast/Cast$CastApi$zza.class
 org/apache/http/impl/SocketHttpClientConnection.class
@@ -289,6 +288,7 @@ org/openmrs/mobile/activities/DashboardActivity$3.class
 com/google/android/gms/internal/zzk.class
 org/apache/http/protocol/RequestExpectContinue.class
 android/support/v4/view/VelocityTrackerCompat.class
+org/openmrs/mobile/activities/ChatMessaging$6.class
 org/openmrs/mobile/activities/InputExercise$7.class
 org/apache/http/util/ExceptionUtils.class
 com/google/common/collect/TreeBasedTable$TreeRow.class
@@ -360,7 +360,6 @@ com/google/ads/mediation/EmptyNetworkExtras.class
 android/support/v4/app/FragmentManagerImpl.class
 com/google/android/gms/internal/zzhp.class
 org/odk/collect/android/activities/FormEntryActivity$16.class
-org/openmrs/mobile/activities/Chat$4.class
 android/support/v7/widget/RecyclerView$ItemAnimator$ItemHolderInfo.class
 oauth/signpost/exception/OAuthMessageSignerException.class
 org/apache/commons/io/filefilter/WildcardFilter.class
@@ -438,6 +437,7 @@ android/support/annotation/InterpolatorRes.class
 org/openmrs/mobile/activities/SyncData$AsyncTaskRunner.class
 org/opendatakit/httpclientandroidlib/impl/client/cache/CacheConfig.class
 com/google/android/gms/internal/zzbx.class
+org/openmrs/mobile/activities/ChatMessaging$5.class
 org/apache/http/impl/DefaultHttpClientConnection.class
 org/opendatakit/httpclientandroidlib/entity/FileEntity.class
 android/support/v4/app/BackStackRecord$TransitionState.class
@@ -624,6 +624,7 @@ com/google/common/cache/LocalCache$Segment.class
 org/apache/http/io/SessionInputBuffer.class
 com/google/android/gms/analytics/internal/zzae.class
 com/google/gson/GsonBuilder.class
+org/openmrs/mobile/activities/ChatMessaging$3.class
 com/google/android/gms/internal/zzbq.class
 oauth/signpost/exception/OAuthCommunicationException.class
 com/google/android/gms/internal/zzbv.class
@@ -732,7 +733,6 @@ com/google/android/gms/internal/zzhn.class
 org/odk/collect/android/activities/FormEntryActivity$18.class
 android/support/v4/view/accessibility/AccessibilityEventCompat.class
 org/apache/http/util/EntityUtils.class
-org/openmrs/mobile/activities/Chat$2.class
 com/google/android/gms/internal/zzdu.class
 android/support/v7/app/ActionBar$NavigationMode.class
 org/javarosa/model/xform/XPathReference.class
@@ -822,6 +822,7 @@ android/support/v7/widget/AdapterHelper.class
 com/google/common/collect/Maps$FilteredEntryNavigableMap.class
 com/google/android/gms/wallet/WalletConstants.class
 org/apache/http/params/HttpAbstractParamBean.class
+org/openmrs/mobile/activities/ChatMessaging$4.class
 com/google/android/gms/appindexing/AppIndexApi$ActionResult.class
 android/support/v7/widget/RecyclerView$ItemAnimator$ItemAnimatorListener.class
 org/javarosa/core/services/storage/IMetaData.class
@@ -906,6 +907,7 @@ org/opendatakit/httpclientandroidlib/conn/scheme/SchemeLayeredSocketFactoryAdapt
 com/google/android/gms/internal/zzit.class
 android/support/v4/app/TaskStackBuilder$SupportParentable.class
 com/google/android/gms/internal/zzje.class
+org/openmrs/mobile/activities/ChatMessaging.class
 org/opendatakit/httpclientandroidlib/entity/HttpEntityWrapper.class
 android/support/v4/app/ActivityCompatApi23.class
 org/apache/http/params/CoreConnectionPNames.class
@@ -1011,6 +1013,7 @@ org/opendatakit/httpclientandroidlib/impl/conn/SingleClientConnManager.class
 android/support/v4/widget/MaterialProgressDrawable$ProgressDrawableSize.class
 org/apache/http/HttpMessage.class
 android/support/v4/media/MediaMetadataCompatApi21.class
+org/openmrs/mobile/activities/ChatMessaging$1.class
 com/google/android/gms/measurement/internal/zzu.class
 android/support/v7/widget/LinearLayoutCompat$DividerMode.class
 com/google/android/gms/ads/internal/zze.class
@@ -1152,6 +1155,7 @@ org/odk/collect/android/activities/FormEntryActivity$1.class
 org/opendatakit/httpclientandroidlib/conn/scheme/SchemeLayeredSocketFactoryAdaptor2.class
 com/google/android/gms/internal/zzfq.class
 android/support/v7/widget/ActionMenuView$LayoutParams.class
+org/openmrs/mobile/activities/ChatMessaging$2.class
 com/google/common/collect/TreeRangeMap.class
 android/support/v4/content/PermissionChecker.class
 com/google/android/gms/internal/zzbu.class
@@ -1252,14 +1256,12 @@ com/google/common/collect/Maps$EntryFunction$2.class
 org/openmrs/mobile/activities/fragments/CustomFragmentDialog.class
 com/google/android/gms/measurement/AppMeasurementContentProvider.class
 com/google/android/gms/ads/internal/request/zzm.class
-org/openmrs/mobile/activities/Chat$5.class
 org/odk/collect/android/logic/PropertyManager.class
 android/support/annotation/RequiresPermission$Read.class
 net/sqlcipher/database/SQLiteDebug$PagerStats.class
 com/google/android/gms/internal/zzhg.class
 com/google/android/gms/internal/zzhq.class
 com/google/android/gms/internal/zzhs.class
-org/openmrs/mobile/activities/Chat$3.class
 org/openmrs/mobile/databases/OpenMRSDBOpenHelper.class
 org/odk/collect/android/activities/FormEntryActivity$15.class
 android/support/v4/app/FragmentActivity$HostCallbacks.class
