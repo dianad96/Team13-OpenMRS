@@ -200,9 +200,6 @@
             android:name=".activities.Chat"
             android:label="@string/title_activity_chat" />
         <activity
-            android:name=".activities.SyncGoogleFitActivity"
-            android:label="SyncGoogleFit" />
-        <activity
             android:name=".activities.SyncFitBitActivity"
             android:label="SyncFitBit" />
         <activity
@@ -229,6 +226,9 @@
             </intent-filter>
         </activity>
 
+        <service
+            android:name=".activities.SyncGoogleFitService"
+            android:label="SyncGoogleFit" />
         <service
             android:name=".activities.SyncFitBitService"
             android:exported="false"

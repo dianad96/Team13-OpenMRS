@@ -25,10 +25,10 @@
 -keep class org.openmrs.mobile.activities.InputHeightWeight { <init>(); }
 -keep class org.openmrs.mobile.activities.Graph { <init>(); }
 -keep class org.openmrs.mobile.activities.Chat { <init>(); }
--keep class org.openmrs.mobile.activities.SyncGoogleFitActivity { <init>(); }
 -keep class org.openmrs.mobile.activities.SyncFitBitActivity { <init>(); }
 -keep class org.openmrs.mobile.activities.SyncFitBitAuthorizationActivity { <init>(); }
 -keep class org.openmrs.mobile.activities.LoginPatient { <init>(); }
+-keep class org.openmrs.mobile.activities.SyncGoogleFitService { <init>(); }
 -keep class org.openmrs.mobile.activities.SyncFitBitService { <init>(); }
 -keep class org.openmrs.mobile.activities.AlarmManagerService { <init>(); }
 -keep class org.openmrs.mobile.activities.NotifyService { <init>(); }

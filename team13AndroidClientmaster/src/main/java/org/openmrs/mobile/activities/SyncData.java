@@ -123,6 +123,33 @@ public class SyncData extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sync_data);
 
+        Button input = (Button) findViewById(R.id.graph_input);
+        input.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(SyncData.this, DashboardActivity.class);
+                startActivity(i);
+            }
+        });
+
+        Button graph = (Button) findViewById(R.id.graph_graph);
+        graph.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(SyncData.this, Graph.class);
+                startActivity(i);
+            }
+        });
+
+        Button chat = (Button) findViewById(R.id.graph_chat);
+        chat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(SyncData.this, Chat.class);
+                startActivity(i);
+            }
+        });
+
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
@@ -178,8 +205,9 @@ public class SyncData extends Activity {
         mGoogleFitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(SyncData.this, SyncGoogleFitActivity.class);
-                startActivity(i);
+                Intent i = new Intent(SyncData.this, SyncGoogleFitService.class);
+                startService(i);
+                // startActivity(i);
             }
         });
 

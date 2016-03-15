@@ -211,9 +211,6 @@
             android:name="org.openmrs.mobile.activities.Chat"
             android:label="@string/title_activity_chat" />
         <activity
-            android:name="org.openmrs.mobile.activities.SyncGoogleFitActivity"
-            android:label="SyncGoogleFit" />
-        <activity
             android:name="org.openmrs.mobile.activities.SyncFitBitActivity"
             android:label="SyncFitBit" />
         <activity
@@ -240,6 +237,9 @@
             </intent-filter>
         </activity>
 
+        <service
+            android:name="org.openmrs.mobile.activities.SyncGoogleFitService"
+            android:label="SyncGoogleFit" />
         <service
             android:name="org.openmrs.mobile.activities.SyncFitBitService"
             android:exported="false"

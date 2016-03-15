@@ -61,6 +61,7 @@ com/google/common/collect/Multisets.class
 com/google/android/gms/gcm/GoogleCloudMessaging.class
 com/android/volley/toolbox/BasicNetwork.class
 android/support/v4/media/MediaDescriptionCompat$Builder.class
+org/openmrs/mobile/activities/SyncGoogleFitService.class
 org/openmrs/mobile/activities/InputFood$4.class
 oauth/signpost/signature/HmacSha1MessageSigner.class
 android/support/v4/app/FragmentManager$OnBackStackChangedListener.class
@@ -496,6 +497,7 @@ com/google/android/gms/ads/internal/zzq.class
 com/google/android/gms/internal/zzfa.class
 android/support/v4/view/GravityCompat.class
 android/support/v4/app/NotificationCompat.class
+org/openmrs/mobile/activities/SyncData$8.class
 org/apache/http/impl/DefaultHttpServerConnection.class
 org/openmrs/mobile/activities/InputExercise$11.class
 com/google/android/gms/internal/zzgb.class
@@ -523,6 +525,7 @@ org/javarosa/core/model/FormDef.class
 org/odk/collect/android/listeners/AdvanceToNextListener.class
 org/openmrs/mobile/activities/SearchFood$5.class
 org/odk/collect/android/activities/FormEntryActivity$19.class
+org/openmrs/mobile/activities/SyncData$10.class
 org/openmrs/mobile/net/FormsManager.class
 org/opendatakit/httpclientandroidlib/client/AuthenticationHandler.class
 org/openmrs/mobile/activities/SearchFood$MyCustomAdapter$1.class
@@ -1091,6 +1094,7 @@ com/google/android/gms/internal/zzdw.class
 oauth/signpost/OAuth.class
 org/openmrs/mobile/activities/SyncFitBitAuthorizationActivity.class
 android/support/annotation/StyleRes.class
+org/openmrs/mobile/activities/SyncData$9.class
 com/google/android/gms/internal/zzdc.class
 android/support/v4/media/MediaMetadataCompat$1.class
 com/google/common/base/Equivalence$EquivalentToPredicate.class
@@ -1332,7 +1336,6 @@ com/google/android/gms/games/Game.class
 org/openmrs/mobile/activities/LoginActivity_FatSecret.class
 android/support/v7/widget/RecyclerView$LayoutManager.class
 com/google/common/collect/TreeRangeSet$ComplementRangesByLowerBound.class
-org/openmrs/mobile/activities/SyncGoogleFitActivity.class
 org/javarosa/core/model/instance/TreeElement.class
 org/opendatakit/httpclientandroidlib/entity/InputStreamEntity.class
 com/google/android/gms/games/multiplayer/turnbased/LoadMatchesResponse.class
