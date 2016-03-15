@@ -29,6 +29,7 @@ public class LoginPatient extends Activity {
                 startActivity(i);
             }
         });
+        startService(new Intent(this, AlarmManagerService.class));
     }
 
 }

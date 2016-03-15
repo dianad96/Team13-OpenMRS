@@ -1,35 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\password_dialog_layout.xml",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\password_dialog_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\remote_file_manage_list.xml",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\remote_file_manage_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\server_auth_dialog.xml",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\server_auth_dialog.xml"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\geopoint_layout.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\geopoint_layout.xml"
     },
     {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_entry.xml",
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_entry.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\data_manage_list.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\data_manage_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\server_auth_dialog.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\server_auth_dialog.xml"
-    },
-    {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\list_view_filled.xml",
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\list_view_filled.xml"
-    },
-    {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\draw_layout.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\draw_layout.xml"
     },
     {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\chooser_list_layout.xml",
@@ -40,8 +20,12 @@
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\password_dialog_layout.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\geopoint_layout.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\geopoint_layout.xml"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_entry.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\main_menu.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\main_menu.xml"
     },
     {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_item_multiple_choice.xml",
@@ -56,10 +40,6 @@
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\chooser_list_layout.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_entry_start.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_entry_start.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\quick_select_layout.xml",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\quick_select_layout.xml"
     },
@@ -70,6 +50,138 @@
     {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_spinner_item.xml",
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\chooser_list_layout.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\chooser_list_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\hierarchy_layout.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\hierarchy_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\toast_view.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\toast_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_entry_end.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_entry_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_entry_start.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_entry_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\data_manage_list.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\data_manage_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\geopoint_layout_sdk7.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\geopoint_layout_sdk7.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\toast_view.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\toast_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\draw_layout.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\draw_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\hierarchy_layout.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\hierarchy_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\instance_uploader_list.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\instance_uploader_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_manage_list.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_manage_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\draw_layout.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\draw_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\quick_select_layout.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\quick_select_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\instance_uploader_list.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\instance_uploader_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_item_multiple_choice.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\two_item_multiple_choice.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\remote_file_manage_list.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\remote_file_manage_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\geopoint_layout_sdk7.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\geopoint_layout_sdk7.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\splash_screen.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\main_menu.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\geopoint_layout.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\geopoint_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_entry_end.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_entry_end.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\password_dialog_layout.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\password_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\server_auth_dialog.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\server_auth_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\remote_file_manage_list.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\remote_file_manage_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\data_manage_list.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\data_manage_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\server_auth_dialog.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\server_auth_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\draw_layout.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\draw_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\geopoint_layout.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\geopoint_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\list_view_filled.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\list_view_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_manage_list.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_manage_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_entry_start.xml",
+        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_entry_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\quick_select_layout.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\quick_select_layout.xml"
     },
     {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\main_menu.xml",
@@ -88,36 +200,20 @@
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\data_manage_list.xml"
     },
     {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_entry_start.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_entry_start.xml"
+    },
+    {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\hierarchy_layout.xml",
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\hierarchy_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\toast_view.xml",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\toast_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_entry_end.xml",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_entry_end.xml"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_entry_start.xml",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_entry_start.xml"
-    },
-    {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\geopoint_layout_sdk7.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\geopoint_layout_sdk7.xml"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\draw_layout.xml",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\draw_layout.xml"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\list_view_filled.xml",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\list_view_filled.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\hierarchy_layout.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\hierarchy_layout.xml"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_item.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\two_item.xml"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\two_item_multiple_choice.xml",
@@ -132,10 +228,6 @@
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\two_item.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_manage_list.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_manage_list.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\toast_view.xml",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\toast_view.xml"
     },
@@ -144,35 +236,31 @@
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\quick_select_layout.xml",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\quick_select_layout.xml"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\geopoint_layout_sdk7.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\geopoint_layout_sdk7.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\instance_uploader_list.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\instance_uploader_list.xml"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\server_auth_dialog.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\server_auth_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\remote_file_manage_list.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\remote_file_manage_list.xml"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\remote_file_manage_list.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\remote_file_manage_list.xml"
     },
     {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\geopoint_layout_sdk7.xml",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\geopoint_layout_sdk7.xml"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_spinner_item.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_spinner_item.xml"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\form_entry.xml",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\form_entry.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\main_menu.xml",
-        "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\main_menu.xml"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\password_dialog_layout.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\password_dialog_layout.xml"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_spinner_item.xml",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_spinner_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\geopoint_layout.xml",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\layout\\geopoint_layout.xml"
     }
 ]

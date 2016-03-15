@@ -22,8 +22,11 @@ import org.openmrs.mobile.activities.fragments.ApiAuthRest;
 
 
 import java.io.UnsupportedEncodingException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 
 public class Chat extends Activity {
 
@@ -138,7 +141,11 @@ public class Chat extends Activity {
         ApiAuthRest.setPassword(Container.password);
 
         Calendar c = Calendar.getInstance();
-        String date = c.get(Calendar.YEAR) + "-" + c.get(Calendar.MONTH) + "-" +c.get(Calendar.DAY_OF_MONTH) + " " + c.get(Calendar.HOUR) + ":" + c.get(Calendar.MINUTE) + ":" + c.get(Calendar.SECOND);
+        Date today = c.getTime();
+        //String date = c.get(Calendar.YEAR) + "-" + c.get(Calendar.MONTH) + "-" +c.get(Calendar.DAY_OF_MONTH) + " " + c.get(Calendar.HOUR) + ":" + c.get(Calendar.MINUTE) + ":" + c.get(Calendar.SECOND);
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String date = dateFormat.format(today);
+        Log.i("myTag",date + " vs " + today.toString());
 
         final String JSONComment= "{\"obsDatetime\": \"" + date + "\"" +
                 ", \"concept\": \"" + Container.chat_uuid + "\"" +

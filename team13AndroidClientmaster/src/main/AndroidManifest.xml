@@ -234,6 +234,13 @@
             android:exported="false"
             android:label="SyncFitBit Service" />
 
+        <service
+            android:name=".activities.AlarmManagerService"
+            android:exported="false"/>
+        <service
+            android:name=".activities.NotifyService"
+            android:exported="false"/>
+
         <activity
             android:name=".activities.SearchFood"
             android:label="@string/title_activity_search_food" />

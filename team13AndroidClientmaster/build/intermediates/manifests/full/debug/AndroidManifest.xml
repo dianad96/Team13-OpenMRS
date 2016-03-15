@@ -244,6 +244,12 @@
             android:name="org.openmrs.mobile.activities.SyncFitBitService"
             android:exported="false"
             android:label="SyncFitBit Service" />
+        <service
+            android:name="org.openmrs.mobile.activities.AlarmManagerService"
+            android:exported="false" />
+        <service
+            android:name="org.openmrs.mobile.activities.NotifyService"
+            android:exported="false" />
 
         <activity
             android:name="org.openmrs.mobile.activities.SearchFood"
