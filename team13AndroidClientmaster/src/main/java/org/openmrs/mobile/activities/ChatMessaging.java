@@ -312,6 +312,19 @@ public class ChatMessaging extends Activity {
         }
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Container.is_visible = true;
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Container.latest_message = Calendar.getInstance().getTime();
+        Container.is_visible = false;
+    }
+
 
 }
 

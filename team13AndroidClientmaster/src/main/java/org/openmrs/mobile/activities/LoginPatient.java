@@ -32,4 +32,5 @@ public class LoginPatient extends Activity {
         startService(new Intent(this, AlarmManagerService.class));
     }
 
+
 }

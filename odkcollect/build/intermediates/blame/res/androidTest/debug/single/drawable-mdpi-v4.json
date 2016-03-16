@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_menu_login.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_menu_mark.png",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_menu_mark.png"
-    },
-    {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_menu_close_clear_cancel.png",
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_menu_close_clear_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_menu_mark.png",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_menu_mark.png"
     },
     {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_menu_mylocation.png",

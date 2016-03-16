@@ -1,5 +1,7 @@
 package org.openmrs.mobile.activities;
 
+import java.util.Date;
+
 /**
  * Created by Diana on 02/02/2016.
  */
@@ -14,6 +16,8 @@ public class Container {
     public static String heart_rate = "";
     public static String height = "";
     public static String weight = "";
+    public static Date latest_message;
+    public static boolean is_visible;
 
     public static String doctor_uuid = "dd73d468-1691-11df-97a5-7038c432aabf";
     public static String user_uuid = "f203f94d-5b02-4798-be06-434c5eb2e26b";

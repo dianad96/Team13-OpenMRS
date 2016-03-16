@@ -36,9 +36,12 @@ public class NotifyService extends IntentService {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        if (newMessage) {
+        if (newMessage && !Container.is_visible) {
             Notify("OpenMRS","You have got a new message");
+            Container.latest_message = Calendar.getInstance().getTime();
         }
+
+
     }
 
     private boolean checkForNewMessage(String userUUID, String concept) throws Exception{
@@ -65,10 +68,12 @@ public class NotifyService extends IntentService {
 
         Calendar calendar = Calendar.getInstance();
         //calendar.set(Calendar.HOUR,-1);
-        Date lastHour = calendar.getTime();
-        Log.i("myTag","Latest msg: " + lastMessage.toString() + " Last hour: " + lastHour.toString());
-        Long halfHour = 1800000L;
-        if ((lastHour.getTime() - lastMessage.getTime()) < halfHour) {
+        //Date lastHour = calendar.getTime();
+        Log.i("myTag", "Latest msg: " + lastMessage.toString() + " Last hour: " + Container.latest_message.toString());
+        //Long halfHour = 1800000L;
+        //if ((lastHour.getTime() - lastMessage.getTime()) < halfHour) {
+        if (lastMessage.after(Container.latest_message)) {
+            Container.latest_message = lastMessage;
             return true;
         }
         return false;
