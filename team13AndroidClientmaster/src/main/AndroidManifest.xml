@@ -182,7 +182,8 @@
             android:label="@string/title_activity_input_manually" />
         <activity
             android:name=".activities.InputFood"
-            android:label="Food" />
+            android:label="Food"
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".activities.InputExercise"
             android:label="@string/title_activity_input_exercise" />
@@ -248,10 +249,12 @@
             android:label="@string/title_activity_login_activity__fat_secret" />
         <activity
             android:name=".activities.fragments.ChatMessaging"
-            android:label="@string/title_activity_chat_messaging" />
+            android:label="@string/title_activity_chat_messaging"
+            android:windowSoftInputMode="adjustPan"/>
         <activity
             android:name=".activities.ChatMessaging"
-            android:label="@string/title_activity_chat_messaging"></activity>
+            android:label="@string/title_activity_chat_messaging"
+            android:windowSoftInputMode="adjustPan"/>
     </application>
 
 </manifest>

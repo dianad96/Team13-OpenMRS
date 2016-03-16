@@ -189,14 +189,14 @@ public class InputExercise extends Activity {
         input.setLayoutParams(lp);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Total Steps (steps)");
+        builder.setTitle("Floors Climbed (floors)");
         // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
         builder.setView(input);
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
 
-                String s = input.getText().toString() + " km";
+                String s = input.getText().toString() + " floors";
                 Container.floors_climbed = input.getText().toString();
                 TextView floorsClimbed_log = (TextView) findViewById(R.id.floors_climbed_log);
                 floorsClimbed_log.setText(s);
@@ -219,14 +219,14 @@ public class InputExercise extends Activity {
         input.setLayoutParams(lp);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Total Steps (steps)");
+        builder.setTitle("Active minutes (min)");
         // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
         builder.setView(input);
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
 
-                String s = input.getText().toString() + " km";
+                String s = input.getText().toString() + " min";
                 Container.active_minutes = input.getText().toString();
                 TextView activeMinutes_log = (TextView) findViewById(R.id.active_minutes_log);
                 activeMinutes_log.setText(s);
