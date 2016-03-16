@@ -243,7 +243,8 @@
 
         <activity
             android:name=".activities.SearchFood"
-            android:label="@string/title_activity_search_food" />
+            android:label="@string/title_activity_search_food"
+            android:windowSoftInputMode="adjustPan"/>
         <activity
             android:name=".activities.LoginActivity_FatSecret"
             android:label="@string/title_activity_login_activity__fat_secret" />
