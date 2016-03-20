@@ -136,6 +136,7 @@ com/google/common/primitives/UnsignedLong.class
 com/google/android/gms/internal/zzdl$zza.class
 org/openmrs/mobile/activities/LoginActivity.class
 android/support/v7/widget/RecyclerView$ViewHolder.class
+com/jjoe64/graphview/LegendRenderer.class
 android/support/v4/app/FragmentManagerNonConfig.class
 org/opendatakit/httpclientandroidlib/impl/auth/DigestScheme.class
 android/support/v7/widget/ChildHelper$Callback.class
@@ -373,6 +374,7 @@ com/google/common/collect/Maps$EntryFunction$1.class
 android/support/v7/widget/RecyclerView$SavedState.class
 com/google/android/gms/ads/internal/request/zzd.class
 com/google/android/gms/games/achievement/Achievement.class
+com/jjoe64/graphview/LegendRenderer$LegendAlign.class
 com/google/common/util/concurrent/Futures.class
 android/support/v7/widget/ChildHelper.class
 com/google/android/gms/ads/internal/client/zzy$zza.class

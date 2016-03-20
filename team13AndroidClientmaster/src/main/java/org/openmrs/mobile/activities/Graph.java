@@ -8,9 +8,11 @@ import android.os.StrictMode;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.LegendRenderer;
 import com.jjoe64.graphview.ValueDependentColor;
 import com.jjoe64.graphview.helper.StaticLabelsFormatter;
 import com.jjoe64.graphview.series.BarGraphSeries;
@@ -84,7 +86,6 @@ public class Graph extends Activity {
         ApiAuthRest.setPassword(password);
 
 
-
         GraphView graphView = (GraphView) findViewById(R.id.graphView);
         Float[] values = new Float[]{0f, 0f, 0f, 0f, 0f};
         Date[] dates = new Date[5];
@@ -92,6 +93,7 @@ public class Graph extends Activity {
         createGraph(values, dates, getPersonInput(Chevy), "STEPS");
         logBS(dates, values);
         setTextView();
+
 
         BarGraphSeries<DataPoint> series1 = new BarGraphSeries<DataPoint>(new DataPoint[] {
                 new DataPoint(1,values[4]),
@@ -104,7 +106,7 @@ public class Graph extends Activity {
         graphView.addSeries(series1);
 
         StaticLabelsFormatter staticLabelsFormatter = new StaticLabelsFormatter(graphView);
-        staticLabelsFormatter.setHorizontalLabels(new String[]{dateFormat.format(dates[4]), dateFormat.format(dates[3]), dateFormat.format(dates[2]), dateFormat.format(dates[1]), dateFormat.format(dates[0]) });
+        staticLabelsFormatter.setHorizontalLabels(new String[]{dateFormat.format(dates[4]), dateFormat.format(dates[3]), dateFormat.format(dates[2]), dateFormat.format(dates[1]), dateFormat.format(dates[0])});
         graphView.getGridLabelRenderer().setLabelFormatter(staticLabelsFormatter);
 
         graphView.getGridLabelRenderer().setNumHorizontalLabels(5);
@@ -120,7 +122,15 @@ public class Graph extends Activity {
 
         // draw values on top
         series1.setDrawValuesOnTop(true);
-        series1.setValuesOnTopColor(Color.RED);
+        series1.setValuesOnTopColor(Color.BLUE);
+
+        //Legends
+        //graphView.getGridLabelRenderer().setVerticalAxisTitle("Step");
+        graphView.getGridLabelRenderer().setHorizontalAxisTitle("Date");
+        series1.setTitle("Step");
+        graphView.getLegendRenderer().setVisible(true);
+        graphView.getLegendRenderer().setTextColor(Color.BLUE);
+        graphView.getLegendRenderer().setAlign(LegendRenderer.LegendAlign.TOP);
 
     }
 

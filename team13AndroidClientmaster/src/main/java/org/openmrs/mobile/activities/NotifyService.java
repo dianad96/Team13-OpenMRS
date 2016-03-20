@@ -31,7 +31,7 @@ public class NotifyService extends IntentService {
     protected void onHandleIntent(Intent intent) {
         boolean newMessage = false;
         try {
-            newMessage = checkForNewMessage(Container.user_uuid, Container.chat_uuid);
+            newMessage = checkForNewMessage(Container.doctor_uuid, Container.chat_uuid);
             Log.i("myTag", Boolean.toString(newMessage));
         } catch (Exception e) {
             e.printStackTrace();
