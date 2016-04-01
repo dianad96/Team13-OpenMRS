@@ -269,6 +269,9 @@
             android:name="org.openmrs.mobile.activities.ChatMessaging"
             android:label="@string/title_activity_chat_messaging"
             android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="org.openmrs.mobile.activities.RegisterPatient"
+            android:label="@string/title_activity_register_patient" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

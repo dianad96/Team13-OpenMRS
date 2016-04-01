@@ -53,6 +53,20 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/subpat"
         android:layout_marginTop="20dp"
-        android:text="    By clicking on the submit button without the patient uuid you'll be logged in as a guest user."/>
+        android:text="  By clicking on the submit button without the patient uuid you'll be logged in as a guest user."
+        android:id="@+id/textView3" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/register"
+        android:background="@color/dark_teal"
+        android:textColor="@color/white"
+        android:text="REGISTER NEW PATIENT"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

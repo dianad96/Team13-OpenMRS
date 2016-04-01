@@ -195,13 +195,13 @@
             android:label="Heart Rate Log" />
         <activity
             android:name=".activities.InputHeightWeight"
-            android:label="Height/Weight Log"/>
+            android:label="Height/Weight Log" />
         <activity
             android:name=".activities.Graph"
             android:label="Overview" />
         <activity
             android:name=".activities.Chat"
-            android:label="Input Your Doctor's Name" />
+            android:label="Input Your Doctor&apos;s Name" />
         <activity
             android:name=".activities.SyncFitBitActivity"
             android:label="SyncFitBit" />
@@ -246,18 +246,21 @@
         <activity
             android:name=".activities.SearchFood"
             android:label="Nutrition Log"
-            android:windowSoftInputMode="adjustPan"/>
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".activities.LoginActivity_FatSecret"
             android:label="@string/title_activity_login_activity__fat_secret" />
         <activity
             android:name=".activities.fragments.ChatMessaging"
             android:label="Chat"
-            android:windowSoftInputMode="adjustPan"/>
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".activities.ChatMessaging"
             android:label="@string/title_activity_chat_messaging"
-            android:windowSoftInputMode="adjustPan"/>
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.RegisterPatient"
+            android:label="@string/title_activity_register_patient"></activity>
     </application>
 
 </manifest>

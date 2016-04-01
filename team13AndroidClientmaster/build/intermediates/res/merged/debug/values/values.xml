@@ -764,6 +764,7 @@
     <string name="title_activity_input_manually">InputManually</string>
     <string name="title_activity_login_activity__fat_secret">LoginActivity_FatSecret</string>
     <string name="title_activity_login_patient">LoginPatient</string>
+    <string name="title_activity_register_patient">RegisterPatient</string>
     <string name="title_activity_search_food">SearchFood</string>
     <string name="title_activity_sync_data">SyncData</string>
     <string name="toggle_selected">Toggle All</string>

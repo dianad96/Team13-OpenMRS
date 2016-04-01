@@ -153,6 +153,10 @@
     <init>();
 }
 
+-keep class org.openmrs.mobile.activities.RegisterPatient {
+    <init>();
+}
+
 -keep class com.google.android.gms.ads.AdActivity {
     <init>();
 }

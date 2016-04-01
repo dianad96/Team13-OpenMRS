@@ -35,6 +35,17 @@ public class LoginPatient extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        Button register = (Button) findViewById(R.id.register);
+        register.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(LoginPatient.this, RegisterPatient.class);
+                startActivity(i);
+            }
+
+        });
         startService(new Intent(this, AlarmManagerService.class));
     }
 

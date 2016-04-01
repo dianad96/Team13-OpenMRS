@@ -816,6 +816,10 @@
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\src\\main\\res\\layout\\activity_input_food.xml"
     },
     {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_patient.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\src\\main\\res\\layout\\activity_register_patient.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen.xml",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13-OpenMRS\\odkcollect\\unspecified\\res\\layout\\splash_screen.xml"
     },

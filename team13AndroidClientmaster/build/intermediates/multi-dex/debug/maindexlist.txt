@@ -573,6 +573,7 @@ android/support/v7/widget/ViewInfoStore$ProcessCallback.class
 com/google/android/gms/cast/Cast$CastOptions.class
 com/google/android/gms/internal/zzin.class
 android/support/v4/app/SuperNotCalledException.class
+org/openmrs/mobile/activities/RegisterPatient.class
 com/google/android/gms/internal/zzaz.class
 org/apache/http/impl/io/DefaultHttpRequestParser.class
 com/google/common/math/package-info.class
@@ -622,6 +623,7 @@ org/openmrs/mobile/activities/Graph.class
 org/apache/http/HttpEntity.class
 com/google/android/gms/measurement/internal/zzm.class
 com/google/android/gms/internal/zzfp.class
+org/openmrs/mobile/activities/LoginPatient$2.class
 android/support/annotation/IntDef.class
 com/android/volley/RequestQueue.class
 com/google/android/gms/common/GoogleApiAvailability.class
@@ -1298,6 +1300,7 @@ org/openmrs/mobile/activities/InputExercise.class
 org/apache/http/protocol/UriPatternMatcher.class
 com/google/android/gms/ads/internal/client/zzj.class
 android/support/v7/widget/LinearLayoutCompat.class
+org/openmrs/mobile/activities/RegisterPatient$1.class
 com/google/common/collect/RangeMap.class
 com/google/android/gms/common/api/Result.class
 com/google/android/gms/fitness/FitnessStatusCodes.class
