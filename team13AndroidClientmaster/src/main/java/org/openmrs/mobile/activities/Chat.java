@@ -2,9 +2,12 @@ package org.openmrs.mobile.activities;
 
 import android.content.Intent;
 import android.database.DataSetObserver;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.StrictMode;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -28,7 +31,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
-public class Chat extends Activity {
+public class Chat extends AppCompatActivity {
 
     private static final String TAG = "ChatActivity";
 
@@ -44,6 +47,9 @@ public class Chat extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_chat);
+
+        android.support.v7.app.ActionBar bar =  getSupportActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00463f")));
 
         Button input = (Button) findViewById(R.id.subdoc);
         input.setOnClickListener(new View.OnClickListener() {

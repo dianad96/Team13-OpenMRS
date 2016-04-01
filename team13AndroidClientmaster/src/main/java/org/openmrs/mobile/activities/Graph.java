@@ -3,8 +3,10 @@ package org.openmrs.mobile.activities;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -26,14 +28,14 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class Graph extends Activity {
+public class Graph extends AppCompatActivity {
 
     static String username = Container.username;
     static String password = Container.password;
     static String URLBase = Container.URLBase;
 
     final static String Raizelb = Container.user_uuid;
-    final static String Chevy = "06168cfe-7d77-45b7-b8ba-290201f2ba07";
+    final static String key = "06168cfe-7d77-45b7-b8ba-290201f2ba07";
     private static final String DATE_FORMAT = "yyyy-MM-dd";
     private static final String GRAPH_DATE_FORMAT = "dd/MM";
 
@@ -44,6 +46,9 @@ public class Graph extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_graph);
+
+        android.support.v7.app.ActionBar bar =  getSupportActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00463f")));
 
         heartRate_TV = (TextView) findViewById(R.id.average_heart_rate_log);
         targetHR_TV = (TextView) findViewById(R.id.target_heart_rate_log);
@@ -90,7 +95,7 @@ public class Graph extends Activity {
         Float[] values = new Float[]{0f, 0f, 0f, 0f, 0f};
         Date[] dates = new Date[5];
         SimpleDateFormat dateFormat = new SimpleDateFormat(GRAPH_DATE_FORMAT);
-        createGraph(values, dates, getPersonInput(Chevy), "STEPS");
+        createGraph(values, dates, getPersonInput(key), "STEPS");
         logBS(dates, values);
         setTextView();
 

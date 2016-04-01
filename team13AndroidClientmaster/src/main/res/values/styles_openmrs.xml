@@ -16,8 +16,8 @@
 
 <resources>
 
-    <style name="Theme.Openmrs" parent="@style/Theme.AppCompat.Light.DarkActionBar">
-        <item name="actionBarItemBackground">@drawable/selectable_background_openmrs</item>
+    <style name="Theme.Openmrs" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">@color/light_teal</item>
         <item name="popupMenuStyle">@style/PopupMenu.Openmrs</item>
         <item name="dropDownListViewStyle">@style/DropDownListView.Openmrs</item>
         <item name="actionBarTabStyle">@style/ActionBarTabStyle.Openmrs</item>

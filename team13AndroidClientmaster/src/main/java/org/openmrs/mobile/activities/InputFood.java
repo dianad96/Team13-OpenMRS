@@ -1,11 +1,15 @@
 package org.openmrs.mobile.activities;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.util.Log;
 import android.view.View;
@@ -22,19 +26,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 
-public class InputFood extends Activity {
-
-
-    final CharSequence[] items = {};
-    final CharSequence[] itemsBreakfast = {"Scrambled Egg Buritos...259 cal","Cornflake Crunch French Toast...149 cal","Banana Corn Muffins...199 cal ","Oatmeal...258 cal"};
-    // arraylist to keep the selected items
-    final ArrayList<Integer> seletedItemsBreakfast = new ArrayList<Integer>();
-
-    final CharSequence [] itemsLunch = {"Garden Pasta Salad...345 cal","Beef Salad...376 cal", "Indian-Spiced Chicken Pitas...333cal", "Italian Vegetable Hoagies...326 cal"};
-    final ArrayList<Integer> selectedItemsLunch = new ArrayList<Integer>();
-
-    final CharSequence [] itemsDinner = {"Chopped Greek Salad with Chicken...142 cal", "Hawaiian Ginger-Chicken Stew...169 cal", "Braised Paprika Chicken...61 cal"};
-    final ArrayList<Integer> SelectedItemsDinner = new ArrayList<Integer>();
+public class InputFood extends AppCompatActivity {
 
     TextView totalCalories;
     public static TextView breakfast_log;
@@ -45,6 +37,9 @@ public class InputFood extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_input_food);
+
+        android.support.v7.app.ActionBar bar =  getSupportActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00463f")));
 
         breakfast_log = (TextView) findViewById(R.id.breakfast_log);
         breakfast_log.setText(Container.breakfast_input);

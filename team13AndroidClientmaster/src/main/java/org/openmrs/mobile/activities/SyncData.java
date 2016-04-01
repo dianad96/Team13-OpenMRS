@@ -5,6 +5,8 @@ import android.content.ComponentName;
 import android.content.Intent;
 import android.content.IntentSender;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -14,6 +16,7 @@ import android.support.customtabs.CustomTabsIntent;
 import android.support.customtabs.CustomTabsServiceConnection;
 import android.support.customtabs.CustomTabsSession;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
@@ -61,7 +64,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
-public class SyncData extends Activity {
+public class SyncData extends AppCompatActivity {
 
     private static final String QUESTION_MARK = "?";
     private static final String AMPERSAND = "&";
@@ -122,6 +125,9 @@ public class SyncData extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sync_data);
+
+        android.support.v7.app.ActionBar bar =  getSupportActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00463f")));
 
         Button input = (Button) findViewById(R.id.graph_input);
         input.setOnClickListener(new View.OnClickListener() {

@@ -62,7 +62,7 @@
 
         <activity
             android:name=".activities.DashboardActivity"
-            android:label="@string/app_name" />
+            android:label="Home" />
         <activity
             android:name=".activities.DialogActivity"
             android:noHistory="true"
@@ -182,24 +182,26 @@
             android:label="@string/title_activity_input_manually" />
         <activity
             android:name=".activities.InputFood"
-            android:label="Food"
+            android:label="Nutrition Log"
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".activities.InputExercise"
-            android:label="@string/title_activity_input_exercise" />
+            android:label="Exercise Log" />
         <activity
             android:name=".activities.SyncData"
-            android:label="@string/title_activity_sync_data" />
+            android:label="Wearables Synchronisation" />
         <activity
             android:name=".activities.InputHeartRate"
-            android:label="@string/title_activity_input_heart_rate" />
-        <activity android:name=".activities.InputHeightWeight" />
+            android:label="Heart Rate Log" />
+        <activity
+            android:name=".activities.InputHeightWeight"
+            android:label="Height/Weight Log"/>
         <activity
             android:name=".activities.Graph"
-            android:label="@string/title_activity_graph" />
+            android:label="Overview" />
         <activity
             android:name=".activities.Chat"
-            android:label="@string/title_activity_chat" />
+            android:label="Input Your Doctor's Name" />
         <activity
             android:name=".activities.SyncFitBitActivity"
             android:label="SyncFitBit" />
@@ -219,7 +221,7 @@
         </activity>
         <activity
             android:name=".activities.LoginPatient"
-            android:label="@string/title_activity_login_patient">
+            android:label="Patient Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -243,14 +245,14 @@
 
         <activity
             android:name=".activities.SearchFood"
-            android:label="@string/title_activity_search_food"
+            android:label="Nutrition Log"
             android:windowSoftInputMode="adjustPan"/>
         <activity
             android:name=".activities.LoginActivity_FatSecret"
             android:label="@string/title_activity_login_activity__fat_secret" />
         <activity
             android:name=".activities.fragments.ChatMessaging"
-            android:label="@string/title_activity_chat_messaging"
+            android:label="Chat"
             android:windowSoftInputMode="adjustPan"/>
         <activity
             android:name=".activities.ChatMessaging"

@@ -14,8 +14,11 @@
 
 package org.openmrs.mobile.activities;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.SparseArray;
 import android.view.Menu;
@@ -37,6 +40,9 @@ public class DashboardActivity extends ACBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
         FontsUtil.setFont((ViewGroup) findViewById(android.R.id.content));
+
+        android.support.v7.app.ActionBar bar =  getSupportActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00463f")));
 
         Button input = (Button) findViewById(R.id.dash_input);
         input.setOnClickListener(new View.OnClickListener() {

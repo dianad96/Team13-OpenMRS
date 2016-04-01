@@ -3,6 +3,7 @@ package org.openmrs.mobile.activities;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.StrictMode;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,7 +20,7 @@ import java.io.UnsupportedEncodingException;
 
 // PAGE ADDED BY TEAM 13
 //** HARD CODED VERSION - TO BE CHANGED!!! **//
-public class InputManually extends Activity {
+public class InputManually extends AppCompatActivity {
 
     static String username = "admin";
     static String password = "Admin123";

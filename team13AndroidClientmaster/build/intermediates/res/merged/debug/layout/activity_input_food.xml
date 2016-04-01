@@ -180,12 +180,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/total_calories"/>
+        android:id="@+id/total_calories"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:id="@+id/submit"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:background="@color/dark_teal"
         android:textColor="@color/white"
         android:textAllCaps="true"

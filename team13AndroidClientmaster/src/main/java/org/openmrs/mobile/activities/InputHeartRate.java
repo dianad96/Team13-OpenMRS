@@ -3,9 +3,12 @@ package org.openmrs.mobile.activities;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.StrictMode;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.util.Log;
 import android.view.View;
@@ -21,12 +24,15 @@ import org.openmrs.mobile.activities.fragments.ApiAuthRest;
 import java.io.UnsupportedEncodingException;
 import java.util.Calendar;
 
-public class InputHeartRate extends Activity {
+public class InputHeartRate extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_input_heart_rate);
+
+        android.support.v7.app.ActionBar bar =  getSupportActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00463f")));
 
         // Input Heart Rate
         CardView calories_burned = (CardView) findViewById(R.id.hr1);

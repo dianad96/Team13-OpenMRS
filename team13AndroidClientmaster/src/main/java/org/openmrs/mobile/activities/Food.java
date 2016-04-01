@@ -1,9 +1,11 @@
 package org.openmrs.mobile.activities;
 
+import android.support.v7.app.AppCompatActivity;
+
 /**
  * Created by Diana on 09/03/2016.
  */
-public class Food {
+public class Food extends AppCompatActivity {
 
     String name = null;
     String calories = null;

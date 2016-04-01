@@ -13,6 +13,7 @@
     <SearchView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:id="@+id/searchView"
         android:layout_gravity="center_horizontal" />
 
@@ -35,6 +36,8 @@
         android:layout_height="wrap_content"
         android:text="OK"
         android:id="@+id/ok"
+        android:background="#00463f"
+        android:textColor="@color/white"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"
         android:layout_alignParentBottom="true"

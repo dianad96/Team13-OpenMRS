@@ -3,8 +3,11 @@ package org.openmrs.mobile.activities;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -39,7 +42,7 @@ import oauth.signpost.exception.OAuthCommunicationException;
 import oauth.signpost.exception.OAuthExpectationFailedException;
 import oauth.signpost.exception.OAuthMessageSignerException;
 
-public class SearchFood extends Activity {
+public class SearchFood extends AppCompatActivity {
 
     // for FatSecret API
     private static final String ACCESS_TOKEN_MISSING = "gone";
@@ -61,9 +64,8 @@ public class SearchFood extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_food);
 
-        //Generate list View from ArrayList
-        //displayListView();
-        //checkButtonClick();
+        android.support.v7.app.ActionBar bar =  getSupportActionBar();
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00463f")));
 
        SearchView search=(SearchView) findViewById(R.id.searchView);
 
