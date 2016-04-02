@@ -167,6 +167,7 @@ org/opendatakit/httpclientandroidlib/impl/conn/tsccm/BasicPoolEntryRef.class
 com/google/android/gms/ads/internal/request/zzb$zza.class
 android/support/v4/widget/SwipeRefreshLayout.class
 org/apache/http/impl/io/ChunkedOutputStream.class
+org/openmrs/mobile/activities/RegisterPatient$2.class
 android/support/v4/media/MediaMetadataCompat$LongKey.class
 org/openmrs/mobile/R$drawable.class
 com/google/common/base/CharMatcher.class

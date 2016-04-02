@@ -1,5 +1,7 @@
 package org.openmrs.mobile.activities;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -42,12 +44,15 @@ public class RegisterPatient extends AppCompatActivity {
         android.support.v7.app.ActionBar bar =  getSupportActionBar();
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00463f")));
 
-        NumberPicker gender = (NumberPicker) findViewById(R.id.numberPicker);
-        gender.setMinValue(0);
-        gender.setMaxValue(1);
-        gender.setDisplayedValues(new String[]{"M", "F",});
+        givenName = (EditText) findViewById(R.id.editText3);
+        familyName = (EditText) findViewById(R.id.editText4);
 
-        NumberPicker location = (NumberPicker) findViewById(R.id.numberPicker2);
+        gender = (NumberPicker) findViewById(R.id.numberPicker);
+        gender.setMinValue(0);
+        gender.setMaxValue(2);
+        gender.setDisplayedValues(new String[]{" ", "M", "F",});
+
+        location = (NumberPicker) findViewById(R.id.numberPicker2);
         location.setMinValue(0);
         location.setMaxValue(4);
 
@@ -58,7 +63,7 @@ public class RegisterPatient extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        //converting
+        //converting location arrayList to location string array
         Object[] objNames = names.toArray();
         String[] names_values = Arrays.copyOf(objNames, objNames.length, String[].class);
         location.setDisplayedValues(names_values);
@@ -70,13 +75,38 @@ public class RegisterPatient extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //create new person
-                createPerson();
+                if (givenName.getText().toString().equals("Given Name"))
+                    alertDialog("All fields are mandatory. Please include your given name.");
+                else
+                    if (familyName.getText().toString().equals("Family Name"))
+                        alertDialog("All fields are mandatory. Please include your family name.");
+                    else
+                        if (gender.getValue() == 0)
+                            alertDialog("All fields are mandatory. Please include your gender.");
+                        else
+                            if (location.getValue() == 0)
+                                alertDialog("All fields are mandatory. Please include your location.");
+                            else
+                                //create new person
+                                createPerson();
             }
 
         });
     }
 
+    void alertDialog(String s)
+    {
+        new AlertDialog.Builder(RegisterPatient.this)
+                .setTitle("Registration Failure")
+                .setMessage(s)
+                .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        // do nothing
+                    }
+                })
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .show();
+    }
     void getLocations () throws Exception
     {
      /*
@@ -95,15 +125,13 @@ public class RegisterPatient extends AppCompatActivity {
  	 */
 
         String request = "location";
-        System.out.println("########################");
-        System.out.println("Search the persons that have name  JOHN");
         Object obj = ApiAuthRest.getRequestGet(request);
         JSONObject jsonObject = new JSONObject ((String) obj);
         JSONArray arrayResult = (JSONArray) jsonObject.get("results");
 
-        System.out.println("########################");
         int itemArray = arrayResult.length();
         int iterator;
+        names.add(" ");
         for (iterator = itemArray-1; iterator >= 0; iterator--) {
             JSONObject data = (JSONObject) arrayResult.get(iterator);
             String uuid = (String) data.get("uuid");
@@ -125,18 +153,23 @@ public class RegisterPatient extends AppCompatActivity {
         ApiAuthRest.setUsername(Container.username);
         ApiAuthRest.setPassword(Container.password);
 
-        final String JSONComment= "{\"gender\": \"" + gender.getValue() + "\", \"names\": [{\"givenName\":\"" + givenName.getText() + "\", \"familyName\":\"" + familyName.getText() + "\"}]}";
+        String gender_value;
+        if(gender.getValue()==1)
+            gender_value = "M";
+        else
+            gender_value = "F";
+        final String JSONinput= "{\"gender\": \"" + gender_value + "\", \"names\": [{\"givenName\":\"" + givenName.getText() + "\", \"familyName\":\"" + familyName.getText() + "\"}]}";
 
         StringEntity input = null;
         try {
-            input = new StringEntity(JSONComment);
+            input = new StringEntity(JSONinput);
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
 
         input.setContentType("application/json");
         try {
-            Log.i("OpenMRS response", "Comment Added = " + ApiAuthRest.getRequestPost("person", input));
+            Log.i("OpenMRS response", "Person Added = " + ApiAuthRest.getRequestPost("person", input));
         } catch (Exception e) {
             e.printStackTrace();
         }
