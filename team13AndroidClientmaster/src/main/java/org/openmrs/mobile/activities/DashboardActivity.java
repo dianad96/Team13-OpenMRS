@@ -14,7 +14,6 @@
 
 package org.openmrs.mobile.activities;
 
-import android.app.ActionBar;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -132,6 +131,11 @@ public class DashboardActivity extends ACBaseActivity {
     protected void onDestroy() {
         super.onDestroy();
         unbindDrawableResources();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
     }
 
     private void bindDrawableResources() {

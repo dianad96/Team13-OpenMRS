@@ -831,9 +831,9 @@ int id change_password 0x7f0e01d7
 int id change_server 0x7f0e01d9
 int id change_url 0x7f0e01d5
 int id change_username 0x7f0e01d6
-int id chat_chat 0x7f0e008e
-int id chat_graph 0x7f0e008d
-int id chat_input 0x7f0e008c
+int id chat_chat 0x7f0e008c
+int id chat_graph 0x7f0e008b
+int id chat_input 0x7f0e008a
 int id checkBox1 0x7f0e0126
 int id checkbox 0x7f0e0068
 int id chronometer 0x7f0e01a6
@@ -973,7 +973,7 @@ int id layout 0x7f0e01c6
 int id left 0x7f0e0025
 int id line1 0x7f0e01a4
 int id line3 0x7f0e01a8
-int id linearLayout2 0x7f0e008b
+int id linearLayout2 0x7f0e0089
 int id listMode 0x7f0e000c
 int id listView1 0x7f0e00fd
 int id listVisitGroupDetailsIcon 0x7f0e017d
@@ -1015,10 +1015,10 @@ int id message 0x7f0e01cd
 int id middle 0x7f0e002a
 int id modulesLayout 0x7f0e008f
 int id monochrome 0x7f0e0052
-int id msg 0x7f0e0087
+int id msg 0x7f0e008d
 int id msgr 0x7f0e0178
-int id msgview 0x7f0e0086
-int id msgview2 0x7f0e008a
+int id msgview 0x7f0e0087
+int id msgview2 0x7f0e0088
 int id multiply 0x7f0e0038
 int id navigation 0x7f0e01dc
 int id negative_button 0x7f0e01b5
@@ -1109,7 +1109,7 @@ int id save_mid 0x7f0e01e5
 int id save_name 0x7f0e012e
 int id save_upload_button 0x7f0e012f
 int id screen 0x7f0e0039
-int id scroll 0x7f0e0089
+int id scroll 0x7f0e0086
 int id scrollView 0x7f0e0062
 int id scrollView2 0x7f0e00f2
 int id searchView 0x7f0e00fb
@@ -1127,7 +1127,7 @@ int id second 0x7f0e01f9
 int id select_dialog_listview 0x7f0e007e
 int id selected_google_account 0x7f0e01eb
 int id selectionDetails 0x7f0e0044
-int id send 0x7f0e0088
+int id send 0x7f0e008e
 int id send_data 0x7f0e018c
 int id send_finalized 0x7f0e01d2
 int id server_url 0x7f0e01e8

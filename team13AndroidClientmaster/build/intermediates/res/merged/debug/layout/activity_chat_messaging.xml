@@ -8,20 +8,15 @@
     tools:context="org.openmrs.mobile.activities.Chat">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="User"
-        android:layout_marginTop="0dp"
-        android:layout_centerHorizontal="true"/>
-
     <ScrollView
         android:id="@+id/s1"
         android:layout_width="fill_parent"
         android:layout_height="280dp"
         android:fillViewport="true"
-        android:layout_marginTop="15dp"
-        android:paddingBottom="80dp">
+        android:paddingBottom="80dp"
+        android:layout_below="@+id/scroll"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
@@ -31,6 +26,14 @@
             android:orientation="vertical"
             tools:context=".MainActivity">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User"
+                android:layout_marginTop="0dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
             <ListView
                 android:id="@+id/msgview"
                 android:layout_width="fill_parent"
@@ -39,44 +42,21 @@
                 android:background="@null"
                 android:divider="@null"
                 android:stackFromBottom="true"
-                android:transcriptMode="alwaysScroll"></ListView>
+                android:transcriptMode="alwaysScroll"
+                android:paddingBottom="2dp"></ListView>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="3">
-
-                <EditText
-                    android:id="@+id/msg"
-                    android:layout_width="0dp"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="2" />
-
-                <Button
-                    android:id="@+id/send"
-                    android:layout_width="0dp"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1"
-                    android:text="Send" />
-
-            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Doctor"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@+id/scroll"/>
     <ScrollView
         android:id="@+id/scroll"
         android:layout_width="wrap_content"
-        android:layout_height="260dp"
-        android:layout_alignParentBottom="true"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="false"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
@@ -85,6 +65,14 @@
             android:background="#efefef"
             android:orientation="vertical"
             tools:context=".MainActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doctor"
+                android:layout_marginTop="0dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
 
             <ListView
                 android:id="@+id/msgview2"
@@ -135,6 +123,31 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
             android:text="Chat"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="3dp">
+
+        <EditText
+            android:id="@+id/msg"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Send" />
+
     </LinearLayout>
 
 </RelativeLayout>

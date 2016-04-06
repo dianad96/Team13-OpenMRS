@@ -35,7 +35,7 @@ public class SyncFitBitService extends IntentService {
     static String username = "diana";
     static String password = "Admin123";
     static String URLBase = "http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/";
-    private final String USER = "06168cfe-7d77-45b7-b8ba-290201f2ba07";
+    private final String USER = Container.user_uuid;
     private final String HEARTRATE = Container.heart_rate_uuid;
     private final String STEPS = Container.steps_uuid;
     private final String CALORIES = Container.calories_uuid;

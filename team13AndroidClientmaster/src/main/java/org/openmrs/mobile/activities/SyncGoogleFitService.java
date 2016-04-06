@@ -20,7 +20,7 @@ public class SyncGoogleFitService extends IntentService {
     static String username = "diana";
     static String password = "Admin123";
     static String URLBase = "http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/";
-    private final String Raizelb = Container.user_uuid;
+    private final String USER = Container.user_uuid;
     private final String CALORIES = Container.calories_uuid;
     private final String STEPS = Container.steps_uuid;
 
@@ -60,7 +60,7 @@ public class SyncGoogleFitService extends IntentService {
         String result = null;
         String obsResult = null;
         try {
-            result = ApiAuthRest.getRequestGet("obs?patient=" + Raizelb);
+            result = ApiAuthRest.getRequestGet("obs?patient=" + USER);
         }catch (Exception e) {
             e.printStackTrace();
         }
@@ -119,7 +119,7 @@ public class SyncGoogleFitService extends IntentService {
                 JSON = "{\"obsDatetime\": \"" + SyncData.getDate() + "\"" +
                         ", \"concept\": \"" + STEPS + "\"" +
                         ", \"value\": \"" + SyncData.getStep() + "\"" +
-                        ", \"person\": \"" + Raizelb + "\"}";
+                        ", \"person\": \"" + USER + "\"}";
                 try {
                     input = new StringEntity(JSON);
                 } catch (UnsupportedEncodingException e) {
@@ -152,7 +152,7 @@ public class SyncGoogleFitService extends IntentService {
                 JSON = "{\"obsDatetime\": \"" + SyncData.getDate() + "\"" +
                         ", \"concept\": \"" + CALORIES + "\"" +
                         ", \"value\": \"" + Math.round(SyncData.getCal()) + "\"" +
-                        ", \"person\": \"" + Raizelb + "\"}";
+                        ", \"person\": \"" + USER + "\"}";
                 try {
                     input = new StringEntity(JSON);
                 } catch (UnsupportedEncodingException e) {

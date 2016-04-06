@@ -2550,9 +2550,9 @@ containing a value of this type.
         public static final int change_server=0x7f0e01d9;
         public static final int change_url=0x7f0e01d5;
         public static final int change_username=0x7f0e01d6;
-        public static final int chat_chat=0x7f0e008e;
-        public static final int chat_graph=0x7f0e008d;
-        public static final int chat_input=0x7f0e008c;
+        public static final int chat_chat=0x7f0e008c;
+        public static final int chat_graph=0x7f0e008b;
+        public static final int chat_input=0x7f0e008a;
         public static final int checkBox1=0x7f0e0126;
         public static final int checkbox=0x7f0e0068;
         public static final int chronometer=0x7f0e01a6;
@@ -2692,7 +2692,7 @@ containing a value of this type.
         public static final int left=0x7f0e0025;
         public static final int line1=0x7f0e01a4;
         public static final int line3=0x7f0e01a8;
-        public static final int linearLayout2=0x7f0e008b;
+        public static final int linearLayout2=0x7f0e0089;
         public static final int listMode=0x7f0e000c;
         public static final int listView1=0x7f0e00fd;
         public static final int listVisitGroupDetailsIcon=0x7f0e017d;
@@ -2734,10 +2734,10 @@ containing a value of this type.
         public static final int middle=0x7f0e002a;
         public static final int modulesLayout=0x7f0e008f;
         public static final int monochrome=0x7f0e0052;
-        public static final int msg=0x7f0e0087;
+        public static final int msg=0x7f0e008d;
         public static final int msgr=0x7f0e0178;
-        public static final int msgview=0x7f0e0086;
-        public static final int msgview2=0x7f0e008a;
+        public static final int msgview=0x7f0e0087;
+        public static final int msgview2=0x7f0e0088;
         public static final int multiply=0x7f0e0038;
         public static final int navigation=0x7f0e01dc;
         public static final int negative_button=0x7f0e01b5;
@@ -2828,7 +2828,7 @@ containing a value of this type.
         public static final int save_name=0x7f0e012e;
         public static final int save_upload_button=0x7f0e012f;
         public static final int screen=0x7f0e0039;
-        public static final int scroll=0x7f0e0089;
+        public static final int scroll=0x7f0e0086;
         public static final int scrollView=0x7f0e0062;
         public static final int scrollView2=0x7f0e00f2;
         public static final int searchView=0x7f0e00fb;
@@ -2846,7 +2846,7 @@ containing a value of this type.
         public static final int select_dialog_listview=0x7f0e007e;
         public static final int selected_google_account=0x7f0e01eb;
         public static final int selectionDetails=0x7f0e0044;
-        public static final int send=0x7f0e0088;
+        public static final int send=0x7f0e008e;
         public static final int send_data=0x7f0e018c;
         public static final int send_finalized=0x7f0e01d2;
         public static final int server_url=0x7f0e01e8;

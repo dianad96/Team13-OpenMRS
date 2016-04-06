@@ -20,7 +20,8 @@ public class Container {
     public static boolean is_visible;
 
     public static String doctor_uuid = "dd73d468-1691-11df-97a5-7038c432aabf";
-    public static String user_uuid = "f203f94d-5b02-4798-be06-434c5eb2e26b";
+    public static String user_uuid = "f203f94d-5b02-4798-be06-434c5eb2e26b"; // Raizel
+    //public static String chevy_user_uuid = "06168cfe-7d77-45b7-b8ba-290201f2ba07";
     public static String chat_uuid="182e8d2d-e710-409c-98e2-f98ec9b7bacb";
     public static String calories_uuid = "919df587-688b-4c20-bad8-9d8ebeaf9cd0";
     public static String steps_uuid = "472224eb-60ac-4865-96fb-4c6848572d0f";

@@ -20,16 +20,16 @@
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_in.xml",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13-OpenMRS\\odkcollect\\unspecified\\res\\anim\\push_left_in.xml"
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_in.xml",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13-OpenMRS\\odkcollect\\unspecified\\res\\anim\\push_left_in.xml"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
