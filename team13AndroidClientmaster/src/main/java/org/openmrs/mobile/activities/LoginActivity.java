@@ -98,7 +98,8 @@ public class LoginActivity extends ACBaseActivity {
         mDropdownLocation = (Spinner) findViewById(R.id.locationSpinner);
         mUrlTextView = (TextView) findViewById(R.id.urlText);
         if (mErrorOccurred || OpenMRS.getInstance().getServerUrl().equals(ApplicationConstants.EMPTY_STRING)) {
-            showURLDialog();
+            setUrl("http://bupaopenmrs.cloudapp.net/openmrs/");
+            //showURLDialog();
         } else {
             if (mLastCorrectURL.equals(ApplicationConstants.EMPTY_STRING)) {
                 mUrlTextView.setText(OpenMRS.getInstance().getServerUrl());
@@ -150,13 +151,14 @@ public class LoginActivity extends ACBaseActivity {
         mUrlField.setVisibility(View.INVISIBLE);
         CustomDialogBundle bundle = new CustomDialogBundle();
         bundle.setTitleViewMessage(getString(R.string.login_dialog_title));
-        if (!mLastURL.equals(ApplicationConstants.EMPTY_STRING)) {
-            bundle.setEditTextViewMessage(mLastURL);
-        } else if (mLastCorrectURL.equals(ApplicationConstants.EMPTY_STRING)) {
-            bundle.setEditTextViewMessage(OpenMRS.getInstance().getServerUrl());
-        } else {
-            bundle.setEditTextViewMessage(mLastCorrectURL);
-        }
+        bundle.setEditTextViewMessage("http://bupaopenmrs.cloudapp.net/openmrs/");
+//        if (!mLastURL.equals(ApplicationConstants.EMPTY_STRING)) {
+//            bundle.setEditTextViewMessage(mLastURL);
+//        } else if (mLastCorrectURL.equals(ApplicationConstants.EMPTY_STRING)) {
+//            bundle.setEditTextViewMessage(OpenMRS.getInstance().getServerUrl());
+//        } else {
+//            bundle.setEditTextViewMessage(mLastCorrectURL);
+//        }
         bundle.setRightButtonText(getString(R.string.dialog_button_done));
         bundle.setRightButtonAction(CustomFragmentDialog.OnClickAction.SET_URL);
         if (!OpenMRS.getInstance().getServerUrl().equals(ApplicationConstants.EMPTY_STRING)) {

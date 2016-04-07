@@ -2,11 +2,9 @@ package org.openmrs.mobile.activities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.app.Activity;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -22,12 +20,8 @@ import org.openmrs.mobile.R;
 import org.openmrs.mobile.activities.fragments.ApiAuthRest;
 
 import java.io.UnsupportedEncodingException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Date;
 
 public class RegisterPatient extends AppCompatActivity {
 
@@ -49,8 +43,8 @@ public class RegisterPatient extends AppCompatActivity {
 
         gender = (NumberPicker) findViewById(R.id.numberPicker);
         gender.setMinValue(0);
-        gender.setMaxValue(2);
-        gender.setDisplayedValues(new String[]{" ", "M", "F",});
+        gender.setMaxValue(1);
+        gender.setDisplayedValues(new String[]{"M", "F",});
 
         location = (NumberPicker) findViewById(R.id.numberPicker2);
         location.setMinValue(0);
