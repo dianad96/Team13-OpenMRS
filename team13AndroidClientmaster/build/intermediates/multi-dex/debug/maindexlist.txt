@@ -1081,6 +1081,7 @@ com/google/android/gms/drive/MetadataBuffer.class
 org/joda/time/base/AbstractDateTime.class
 org/openmrs/mobile/activities/Graph$2.class
 android/support/v7/widget/RecyclerView$RecyclerListener.class
+org/openmrs/mobile/activities/ProfilePage.class
 com/google/android/gms/internal/zzhl.class
 com/google/android/gms/plus/Account.class
 org/apache/commons/io/FileSystemUtils.class

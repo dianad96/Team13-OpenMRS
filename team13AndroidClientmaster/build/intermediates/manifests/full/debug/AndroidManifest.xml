@@ -272,6 +272,9 @@
         <activity
             android:name="org.openmrs.mobile.activities.RegisterPatient"
             android:label="@string/title_activity_register_patient" />
+        <activity
+            android:name="org.openmrs.mobile.activities.ProfilePage"
+            android:label="@string/title_activity_profile_page" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

@@ -15,6 +15,7 @@
 package org.openmrs.mobile.activities;
 
 import android.content.Intent;
+import android.media.audiofx.BassBoost;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBar;
@@ -105,8 +106,8 @@ public abstract class ACBaseActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         switch (id) {
-            case R.id.actionSettings:
-                Intent i = new Intent(this, SettingsActivity.class);
+            case R.id.profilePage:
+                Intent i = new Intent(this, ProfilePage.class);
                 startActivity(i);
             case R.id.actionSearch:
                 return true;

@@ -15,9 +15,10 @@
 
 <resources>
     <style name="DialogTheme" parent="android:Theme.Dialog">
-        <item name="android:background">#ffffff</item>
+        <item name="android:background">#00463f</item>
     </style>
     <style name="LoadingDialogTheme.DialogTheme" parent="android:Theme.Dialog">
         <item name="android:background">@android:color/transparent</item>
     </style>
+
 </resources>

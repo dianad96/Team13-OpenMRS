@@ -260,7 +260,10 @@
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".activities.RegisterPatient"
-            android:label="@string/title_activity_register_patient"></activity>
+            android:label="@string/title_activity_register_patient" />
+        <activity
+            android:name=".activities.ProfilePage"
+            android:label="@string/title_activity_profile_page"></activity>
     </application>
 
 </manifest>

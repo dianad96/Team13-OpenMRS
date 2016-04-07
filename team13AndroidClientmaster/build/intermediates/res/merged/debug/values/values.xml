@@ -764,6 +764,7 @@
     <string name="title_activity_input_manually">Input Manually</string>
     <string name="title_activity_login_activity__fat_secret">LoginActivity_FatSecret</string>
     <string name="title_activity_login_patient">Login Patient</string>
+    <string name="title_activity_profile_page">ProfilePage</string>
     <string name="title_activity_register_patient">Register Patient</string>
     <string name="title_activity_search_food">Search Food</string>
     <string name="title_activity_sync_data">Sync Data</string>
@@ -1764,7 +1765,7 @@
         <item name="android:textColor">@color/white</item>
     </style>
     <style name="DialogTheme" parent="android:Theme.Dialog">
-        <item name="android:background">#ffffff</item>
+        <item name="android:background">#00463f</item>
     </style>
     <style name="Divider">
         <item name="android:background">?android:attr/listDivider</item>
@@ -1799,7 +1800,7 @@
         <item name="android:background">@android:color/transparent</item>
     </style>
     <style name="MenuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/dark_teal</item>
     </style>
     <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowNoTitle">true</item>
@@ -2241,7 +2242,7 @@
         <item name="externalRouteEnabledDrawable">@drawable/mr_ic_media_route_mono_dark</item>
     </style>
     <style name="menuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/dark_teal</item>
         <item name="android:textSize">22dp</item>
     </style>
 </resources>

@@ -79,11 +79,11 @@
     </style>
 
     <style name="MenuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/dark_teal</item>
     </style>
 
     <style name="menuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
-        <item name="android:textColor">@color/white</item>
+        <item name="android:textColor">@color/dark_teal</item>
         <item name="android:textSize">22dp</item>
     </style>
 
