@@ -117,7 +117,7 @@
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/chat_chat"
-            android:background="@color/dark_teal"
+            android:background="#038b33"
             android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

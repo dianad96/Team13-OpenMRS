@@ -239,15 +239,21 @@
         android:id="@+id/linearLayout2"
         android:layout_weight="1">
 
+        <requestFocus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2" />
+
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/dash_input"
-            android:background="@color/dark_teal"
+            android:background="#038b33"
             android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
-            android:text="Input"/>
+            android:text="Input"
+            android:focusable="true" />
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/dash_graph"

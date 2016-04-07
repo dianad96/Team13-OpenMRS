@@ -5,7 +5,6 @@ import android.database.DataSetObserver;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.app.Activity;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -21,8 +20,6 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.openmrs.mobile.R;
 import org.openmrs.mobile.activities.fragments.ApiAuthRest;
-
-
 
 import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
@@ -231,7 +228,7 @@ public class ChatMessaging extends AppCompatActivity {
             JSONObject data = (JSONObject) arrayResult.get(iterator);
             String uuid = (String) data.get("uuid");
             String display = (String) data.get("display");
-            System.out.println("Rows " + iterator + " => Result OBS UUID:" + uuid + " Display:" + display.substring(7));
+//            System.out.println("Rows " + iterator + " => Result OBS UUID:" + uuid + " Display:" + display.substring(7));
 
             //Only display the first 15 messages
             if(array.size()<15) {
@@ -277,11 +274,13 @@ public class ChatMessaging extends AppCompatActivity {
  	 */
 
         String request = "obs?patient=" + Container.doctor_uuid + "&concept=" + Container.chat_uuid;
-        System.out.println("########################");
-        System.out.println("Search the persons that have name  JOHN");
+//        System.out.println("########################");
+//        System.out.println("Search the persons that have name  JOHN");
         Object obj = ApiAuthRest.getRequestGet(request);
         JSONObject jsonObject = new JSONObject ((String) obj);
         JSONArray arrayResult = (JSONArray) jsonObject.get("results");
+
+        System.out.println(jsonObject);
 
         System.out.println("########################");
         int itemArray = arrayResult.length();
@@ -291,7 +290,7 @@ public class ChatMessaging extends AppCompatActivity {
             JSONObject data = (JSONObject) arrayResult.get(iterator);
             String uuid = (String) data.get("uuid");
             String display = (String) data.get("display");
-            System.out.println("Rows " + iterator + " => Result OBS UUID:" + uuid + " Display:" + display.substring(7));
+//            System.out.println("Rows " + iterator + " => Result OBS UUID:" + uuid + " Display:" + display.substring(7));
 
             //Only display the first 15 messages
             if(array.size()<15) {

@@ -34,21 +34,21 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:inputType="textPersonName"
-                android:text="Given Name"
                 android:ems="10"
                 android:id="@+id/editText3"
                 android:layout_below="@+id/textView4"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:hint="Given Name" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:text="Family Name"
                 android:ems="10"
                 android:id="@+id/editText4"
                 android:layout_below="@+id/editText3"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:hint="Family Name" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -62,8 +62,8 @@
 
             <NumberPicker
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="-10dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="0dp"
                 android:id="@+id/numberPicker"
                 android:layout_below="@+id/textView5"
                 android:layout_alignLeft="@+id/textView5"
@@ -81,7 +81,7 @@
 
             <NumberPicker
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="110dp"
                 android:id="@+id/numberPicker2"
                 android:layout_below="@+id/textView6"
                 android:layout_alignLeft="@+id/textView6"
