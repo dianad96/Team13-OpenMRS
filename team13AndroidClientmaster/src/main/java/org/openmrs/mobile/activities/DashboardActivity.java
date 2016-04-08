@@ -19,6 +19,8 @@ import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.os.StrictMode;
+import android.util.Log;
 import android.util.SparseArray;
 import android.view.Menu;
 import android.view.View;
@@ -26,7 +28,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import org.json.JSONObject;
 import org.openmrs.mobile.R;
+import org.openmrs.mobile.activities.fragments.ApiAuthRest;
 import org.openmrs.mobile.utilities.FontsUtil;
 import org.openmrs.mobile.utilities.ImageUtils;
 
@@ -70,6 +74,14 @@ public class DashboardActivity extends ACBaseActivity {
             }
         });
 
+        // Get Patient Information if it has not been loaded before
+        if(Container.patient_name.matches("") || Container.patient_gender.matches("") || Container.patient_age.matches("") || Container.patient_birthdate.matches("")) {
+            try {
+                getPatientData();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     public void onInputFood(View v) {
@@ -173,5 +185,39 @@ public class DashboardActivity extends ACBaseActivity {
                 bitmap.recycle();
             }
         }
+    }
+
+    // Get Patient Information
+    void getPatientData() throws Exception {
+    /*
+	 * SET VALUE FOR CONNECT TO OPENMRS
+	 */
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+
+        ApiAuthRest.setURLBase("http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/person/");
+        ApiAuthRest.setUsername("diana");
+        ApiAuthRest.setPassword("Admin123");
+
+
+ 	/*
+ 	 * Example how parse json return session
+ 	 */
+
+        String request = Container.user_uuid;
+        Object obj = ApiAuthRest.getRequestGet(request);
+        JSONObject jsonObject = new JSONObject ((String) obj);
+        Log.d("Profile page", (String) obj);
+
+        Container.patient_name = jsonObject.getString("display");
+        Container.patient_gender = jsonObject.getString("gender");
+
+        if(Container.patient_gender.matches("M"))
+        { Container.patient_gender = "Male"; }
+        else { Container.patient_gender = "Female"; }
+
+        Container.patient_age =  jsonObject.getString("age");
+        Container.patient_birthdate = jsonObject.getString("birthdate");
+        Container.patient_birthdate  = Container.patient_birthdate.substring(0,10);
     }
 }
