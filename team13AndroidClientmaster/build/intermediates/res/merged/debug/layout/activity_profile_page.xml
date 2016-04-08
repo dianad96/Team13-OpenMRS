@@ -54,6 +54,16 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Patient uuid:"
         android:id="@+id/patient_uuid"
+        android:layout_below="@+id/patient_birthdate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Birthdate:"
+        android:id="@+id/patient_birthdate"
         android:layout_below="@+id/patient_age"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

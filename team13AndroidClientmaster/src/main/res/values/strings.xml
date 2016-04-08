@@ -189,5 +189,5 @@
     <string name="title_activity_login_activity__fat_secret">LoginActivity_FatSecret</string>
     <string name="title_activity_chat_messaging">Chat Messaging</string>
     <string name="title_activity_register_patient">Register Patient</string>
-    <string name="title_activity_profile_page">ProfilePage</string>
+    <string name="title_activity_profile_page">Profile Page</string>
 </resources>

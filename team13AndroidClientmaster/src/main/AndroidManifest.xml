@@ -221,7 +221,7 @@
         </activity>
         <activity
             android:name=".activities.LoginPatient"
-            android:label="Patient Login">
+            android:label="UCL OpenMRS">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

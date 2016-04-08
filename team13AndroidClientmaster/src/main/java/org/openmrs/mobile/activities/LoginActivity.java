@@ -21,7 +21,6 @@ import android.util.SparseArray;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -30,11 +29,11 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
+
 import org.openmrs.mobile.R;
 import org.openmrs.mobile.activities.fragments.CustomFragmentDialog;
-import org.openmrs.mobile.bundle.AuthorizationManagerBundle;
-import org.openmrs.mobile.adapters.LocationArrayAdapter;
 import org.openmrs.mobile.application.OpenMRS;
+import org.openmrs.mobile.bundle.AuthorizationManagerBundle;
 import org.openmrs.mobile.bundle.CustomDialogBundle;
 import org.openmrs.mobile.dao.LocationDAO;
 import org.openmrs.mobile.models.Location;
@@ -46,6 +45,7 @@ import org.openmrs.mobile.utilities.FontsUtil;
 import org.openmrs.mobile.utilities.ImageUtils;
 import org.openmrs.mobile.utilities.ToastUtil;
 import org.openmrs.mobile.utilities.URLValidator;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -234,27 +234,27 @@ public class LoginActivity extends ACBaseActivity {
         mUrlTextView.setText(serverURL);
         mUrlField.setVisibility(View.VISIBLE);
         mLocationsList = locationsList;
-        List<String> items = getLocationStringList(locationsList);
-        final LocationArrayAdapter adapter = new LocationArrayAdapter(this, items);
-        mDropdownLocation.setAdapter(adapter);
-
-        mDropdownLocation.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            private boolean mInitialized;
-
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                if (!mInitialized && position >= 0 && id >= 1) {
-                    mInitialized = true;
-                    adapter.notifyDataSetChanged();
-                    mLoginButton.setEnabled(true);
-                }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-            }
-        });
-        mLoginButton.setEnabled(false);
+//        List<String> items = getLocationStringList(locationsList);
+//        final LocationArrayAdapter adapter = new LocationArrayAdapter(this, items);
+//        mDropdownLocation.setAdapter(adapter);
+//
+//        mDropdownLocation.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+//            private boolean mInitialized;
+//
+//            @Override
+//            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+//                if (!mInitialized && position >= 0 && id >= 1) {
+//                    mInitialized = true;
+//                    adapter.notifyDataSetChanged();
+//                    mLoginButton.setEnabled(true);
+//                }
+//            }
+//
+//            @Override
+//            public void onNothingSelected(AdapterView<?> parent) {
+//            }
+//        });
+        mLoginButton.setEnabled(true);
         mSpinner.setVisibility(View.GONE);
         mLoginFormView.setVisibility(View.VISIBLE);
     }
@@ -269,7 +269,8 @@ public class LoginActivity extends ACBaseActivity {
     }
 
     public void saveLocationsToDatabase() {
-        OpenMRS.getInstance().setLocation(mDropdownLocation.getSelectedItem().toString());
+        OpenMRS.getInstance().setLocation("OpenMRS Android App");
+//        OpenMRS.getInstance().setLocation(mDropdownLocation.getSelectedItem().toString());
         new LocationDAO().deleteAllLocations();
         for (int i = 0; i < mLocationsList.size(); i++) {
             new LocationDAO().saveLocation(mLocationsList.get(i));

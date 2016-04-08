@@ -15,7 +15,6 @@
 package org.openmrs.mobile.activities;
 
 import android.content.Intent;
-import android.media.audiofx.BassBoost;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBar;
@@ -67,7 +66,8 @@ public abstract class ACBaseActivity extends ActionBarActivity {
                 mAuthorizationManager.moveToLoginActivity();
             } else if (this instanceof DashboardActivity || this instanceof SettingsActivity
                     || this instanceof FindPatientsActivity || this instanceof FindActiveVisitsActivity) {
-                actionBar.setSubtitle(getString(R.string.dashboard_logged_as, mOpenMRS.getUsername()));
+                actionBar.setSubtitle("Welcome " + Container.patient_name);
+//                actionBar.setSubtitle(getString(R.string.dashboard_logged_as, mOpenMRS.getUsername()));
             }
             setOfflineActionBarTitle(actionBar);
         }

@@ -42,7 +42,7 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/subpat"
+        android:id="@+id/mBtn_existing_patient"
         android:background="@color/dark_teal"
         android:textColor="@color/white"
         android:layout_below="@+id/editsub"
@@ -51,7 +51,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/subpat"
+        android:layout_below="@+id/mBtn_existing_patient"
         android:layout_marginTop="20dp"
         android:text="  By clicking on the submit button without the patient uuid you'll be logged in as a guest user."
         android:id="@+id/textView3" />
@@ -61,7 +61,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:id="@+id/register"
+        android:id="@+id/mBtn_register_patient"
         android:background="@color/dark_teal"
         android:textColor="@color/white"
         android:text="REGISTER NEW PATIENT"

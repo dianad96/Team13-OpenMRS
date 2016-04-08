@@ -614,7 +614,7 @@ ADDED from C:\Users\User\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmast
 activity#org.openmrs.mobile.activities.LoginPatient
 ADDED from C:\Users\User\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:222:9-230:20
 	android:label
-		ADDED from C:\Users\User\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:224:13-42
+		ADDED from C:\Users\User\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:224:13-40
 	android:name
 		ADDED from C:\Users\User\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:223:13-52
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER

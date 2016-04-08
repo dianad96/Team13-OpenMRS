@@ -402,7 +402,6 @@ com/google/common/hash/BloomFilter.class
 com/google/android/gms/ads/internal/formats/zze.class
 com/google/android/gms/internal/zzgg.class
 org/odk/collect/android/logic/FormController$FailedConstraint.class
-org/openmrs/mobile/adapters/LocationArrayAdapter.class
 com/google/common/collect/ImmutableCollection.class
 org/openmrs/mobile/activities/Container.class
 android/support/v4/media/MediaBrowserCompat$1.class
@@ -875,7 +874,6 @@ com/google/android/gms/ads/internal/client/zzc.class
 com/google/common/collect/Iterators.class
 com/google/android/gms/ads/internal/client/zzf.class
 org/openmrs/mobile/activities/PatientDashboardActivity.class
-org/openmrs/mobile/activities/LoginActivity$2.class
 com/google/android/gms/internal/zzio.class
 android/support/v4/app/ActionBarDrawerToggle.class
 android/support/v4/app/ActivityCompatHoneycomb.class

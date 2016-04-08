@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -22,7 +21,7 @@ public class LoginPatient extends AppCompatActivity {
         android.support.v7.app.ActionBar bar =  getSupportActionBar();
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00463f")));
 
-        Button sub = (Button) findViewById(R.id.subpat);
+        Button sub = (Button) findViewById(R.id.mBtn_existing_patient);
         sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,7 +35,7 @@ public class LoginPatient extends AppCompatActivity {
             }
         });
 
-        Button register = (Button) findViewById(R.id.register);
+        Button register = (Button) findViewById(R.id.mBtn_register_patient);
         register.setOnClickListener(new View.OnClickListener() {
 
             @Override
