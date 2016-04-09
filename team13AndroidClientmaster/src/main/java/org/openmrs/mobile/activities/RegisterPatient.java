@@ -2,6 +2,7 @@ package org.openmrs.mobile.activities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -22,11 +23,12 @@ import org.openmrs.mobile.activities.fragments.ApiAuthRest;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Random;
 
 public class RegisterPatient extends AppCompatActivity {
 
-    ArrayList<String> names = new ArrayList<String>();
-    ArrayList<String> uuids = new ArrayList<String>();
+    ArrayList<String> location_names = new ArrayList<String>();
+    ArrayList<String> location_uuids = new ArrayList<String>();
     EditText givenName, familyName;
     NumberPicker gender, location;
 
@@ -58,7 +60,7 @@ public class RegisterPatient extends AppCompatActivity {
         }
 
         //converting location arrayList to location string array
-        Object[] objNames = names.toArray();
+        Object[] objNames = location_names.toArray();
         String[] names_values = Arrays.copyOf(objNames, objNames.length, String[].class);
         location.setDisplayedValues(names_values);
 
@@ -75,17 +77,38 @@ public class RegisterPatient extends AppCompatActivity {
                     if (familyName.getText().toString().equals("Family Name"))
                         alertDialog("All fields are mandatory. Please include your family name.");
                     else
-                        if (gender.getValue() == 0)
-                            alertDialog("All fields are mandatory. Please include your gender.");
-                        else
-                            if (location.getValue() == 0)
-                                alertDialog("All fields are mandatory. Please include your location.");
-                            else
-                                //create new person
-                                createPerson();
+                        if (location.getValue() == 0)
+                            alertDialog("All fields are mandatory. Please include your location.");
+                        else {
+                            createPerson();
+
+                            Container.location_uuid = location_uuids.get(location.getValue()-1);
+
+                            Random randomGenerator = new Random();
+                            int randomInt = randomGenerator.nextInt(1000000);
+                            Container.person_identifier = String.valueOf(randomInt);
+                            createPatient();
+                            successfulRegistration();
+                        }
             }
 
         });
+    }
+
+    void successfulRegistration()
+    {
+        String s = "Registration was successful! Your patient uuid is " + Container.patient_uuid + ". Make sure you write it down for future logins!";
+        new AlertDialog.Builder(RegisterPatient.this)
+                .setTitle("Registration was successful!")
+                .setMessage(s)
+                .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent i = new Intent(RegisterPatient.this, DashboardActivity.class);
+                        startActivity(i);
+                    }
+                })
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .show();
     }
 
     void alertDialog(String s)
@@ -101,6 +124,7 @@ public class RegisterPatient extends AppCompatActivity {
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
     }
+
     void getLocations () throws Exception
     {
      /*
@@ -125,16 +149,15 @@ public class RegisterPatient extends AppCompatActivity {
 
         int itemArray = arrayResult.length();
         int iterator;
-        names.add(" ");
+        location_names.add(" ");
         for (iterator = itemArray-1; iterator >= 0; iterator--) {
             JSONObject data = (JSONObject) arrayResult.get(iterator);
             String uuid = (String) data.get("uuid");
             String display = (String) data.get("display");
             System.out.println("Rows " + iterator + " => Result OBS UUID:" + uuid + " Display:" + display.substring(7));
 
-            //Only display the first 15 messages
-                names.add(display);
-                uuids.add(uuid);
+                location_names.add(display);
+                location_uuids.add(uuid);
         }
     }
 
@@ -148,7 +171,7 @@ public class RegisterPatient extends AppCompatActivity {
         ApiAuthRest.setPassword(Container.password);
 
         String gender_value;
-        if(gender.getValue()==1)
+        if(gender.getValue()==0)
             gender_value = "M";
         else
             gender_value = "F";
@@ -163,7 +186,53 @@ public class RegisterPatient extends AppCompatActivity {
 
         input.setContentType("application/json");
         try {
-            Log.i("OpenMRS response", "Person Added = " + ApiAuthRest.getRequestPost("person", input));
+            Log.i("OpenMRS response", "Person Added = " + ApiAuthRest.getResponsePost("person", input));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    void getIdentifierType () throws Exception
+    {
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+
+        ApiAuthRest.setURLBase("http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/");
+        ApiAuthRest.setUsername("diana");
+        ApiAuthRest.setPassword("Admin123");
+
+        String request = "patientidentifiertype";
+        Object obj = ApiAuthRest.getRequestGet(request);
+        JSONObject jsonObject = new JSONObject ((String) obj);
+        JSONArray arrayResult = (JSONArray) jsonObject.get("results");
+
+        int itemArray = arrayResult.length();
+        JSONObject data = (JSONObject) arrayResult.get(itemArray-1);
+        Container.identifier_type = (String) data.get("uuid");
+    }
+
+    void createPatient ()
+    {
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+
+        ApiAuthRest.setURLBase(Container.URLBase);
+        ApiAuthRest.setUsername(Container.username);
+        ApiAuthRest.setPassword(Container.password);
+
+        final String JSONinput= "{\"person\": \"" + Container.person_uuid + "\", \"identifiers\": [{\"identifier\":\"" + Container.person_identifier + "\", \"identifierType\":\"" + Container.identifier_type + "\", \"location\":\"" + Container.location_uuid + "\", \"preferred\":true}]}";
+
+        StringEntity input = null;
+        try {
+            input = new StringEntity(JSONinput);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+        input.setContentType("application/json");
+        try {
+            Log.i("OpenMRS response", "Patient Added = " + ApiAuthRest.getResponsePost2("patient", input));
+            Log.i("OpenMRS response", "UUID = " + Container.patient_uuid);
         } catch (Exception e) {
             e.printStackTrace();
         }

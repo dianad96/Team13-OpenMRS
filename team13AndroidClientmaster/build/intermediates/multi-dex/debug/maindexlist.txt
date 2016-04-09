@@ -956,6 +956,7 @@ android/support/v4/view/ViewCompat$JbMr2ViewCompatImpl.class
 org/javarosa/core/services/IPropertyManager.class
 org/javarosa/form/api/FormEntryPrompt.class
 org/apache/http/params/HttpProtocolParamBean.class
+org/openmrs/mobile/activities/RegisterPatient$3.class
 org/apache/http/impl/io/AbstractMessageWriter.class
 org/openmrs/mobile/activities/InputManually$1.class
 org/openmrs/mobile/activities/InputHeightWeight$4.class

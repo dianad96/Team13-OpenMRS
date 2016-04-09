@@ -24,6 +24,16 @@ public class Container {
     public static Date latest_message;
     public static boolean is_visible;
 
+
+    //*For new patient registration*//
+    public static String person_identifier = "123";
+    public static String person_uuid = "";
+    public static String identifier_type = "8d79403a-c2cc-11de-8d13-0010c6dffd0f";
+    public static String location_uuid = "";
+    public static String patient_uuid = "";
+    //*__________________________________*//
+
+
     public static String doctor_uuid = "dd73d468-1691-11df-97a5-7038c432aabf";
     public static String user_uuid = "f203f94d-5b02-4798-be06-434c5eb2e26b"; // Raizel
     public static String chevy_user_uuid = "06168cfe-7d77-45b7-b8ba-290201f2ba07";
