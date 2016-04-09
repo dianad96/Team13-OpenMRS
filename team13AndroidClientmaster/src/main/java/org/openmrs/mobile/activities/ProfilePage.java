@@ -20,13 +20,6 @@ public class ProfilePage extends AppCompatActivity {
         android.support.v7.app.ActionBar bar =  getSupportActionBar();
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00463f")));
 
-//        // Get Patient Information
-//        try {
-//            getData();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-
         TextView patientName = (TextView) findViewById(R.id.patient_name);
         patientName.setText(Container.patient_name);
 
@@ -42,33 +35,5 @@ public class ProfilePage extends AppCompatActivity {
         TextView patientUuid = (TextView) findViewById(R.id.patient_uuid);
         patientUuid.setText("Patient UUID: " + Container.user_uuid);
     }
-
-
-//    // Get Patient Information
-//    void getData() throws Exception {
-//    /*
-//	 * SET VALUE FOR CONNECT TO OPENMRS
-//	 */
-//        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-//        StrictMode.setThreadPolicy(policy);
-//
-//        ApiAuthRest.setURLBase("http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/person/");
-//        ApiAuthRest.setUsername("diana");
-//        ApiAuthRest.setPassword("Admin123");
-//
-//
-// 	/*
-// 	 * Example how parse json return session
-// 	 */
-//
-//        String request = Container.user_uuid;
-//        Object obj = ApiAuthRest.getRequestGet(request);
-//        JSONObject jsonObject = new JSONObject ((String) obj);
-//
-//        uuid = (String) jsonObject.get("uuid");
-//        name = (String) jsonObject.get("display");
-//        gender = (String) jsonObject.get("gender");
-//        age = (String) jsonObject.get("age");
-//    }
 
 }

@@ -28,8 +28,10 @@ public class LoginPatient extends AppCompatActivity {
 
                 EditText mEdit = (EditText) findViewById(R.id.editsub);
                 String s = mEdit.getText().toString();
-                if (!s.equals(""))
+                if (!s.equals("")) {
                     Container.user_uuid = s;
+                    Container.patient_uuid = s;
+                }
                 Intent i = new Intent(LoginPatient.this, DashboardActivity.class);
                 startActivity(i);
             }

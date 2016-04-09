@@ -27,45 +27,131 @@
         android:layout_below="@+id/textView7"
         android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Gender:"
-        android:id="@+id/patient_gender"
+        android:id="@+id/prof1"
+        >
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prof2"
+        >
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prof3"
+        >
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prof4"
+        >
+
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:background="@color/dark_teal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout6">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patient_birthdate"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:text="Birthday: "
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/dark_teal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/relativeLayout3"
+        android:layout_below="@+id/relativeLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patient_uuid"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:text="Patient uuid: "
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/dark_teal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/relativeLayout5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patient_age"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:text="Age: "
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/dark_teal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
         android:layout_below="@+id/patient_name"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="36dp" />
+        android:layout_marginTop="36dp"
+        android:id="@+id/relativeLayout4">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Age:"
-        android:id="@+id/patient_age"
-        android:layout_below="@+id/patient_gender"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patient_gender"
+            android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:text="Gender: "
+            />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Patient uuid:"
-        android:id="@+id/patient_uuid"
-        android:layout_below="@+id/patient_birthdate"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Birthdate:"
-        android:id="@+id/patient_birthdate"
-        android:layout_below="@+id/patient_age"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+    </RelativeLayout>
 
 </RelativeLayout>
