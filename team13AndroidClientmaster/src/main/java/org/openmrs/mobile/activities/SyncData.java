@@ -1,6 +1,5 @@
 package org.openmrs.mobile.activities;
 
-import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.IntentSender;
@@ -120,6 +119,8 @@ public class SyncData extends AppCompatActivity {
     private String ENCODED_AUTHORIZATION;
     private Button mGoogleFitBtn, mFitBitBtn, mFitBitLogoutBtn;
 
+    private DBHelper dbHelper;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -138,7 +139,7 @@ public class SyncData extends AppCompatActivity {
             }
         });
 
-        Button graph = (Button) findViewById(R.id.graph_graph);
+        final Button graph = (Button) findViewById(R.id.graph_graph);
         graph.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -249,9 +250,33 @@ public class SyncData extends AppCompatActivity {
                 }
             }
         });
+
+//        final Button mQueryBtn = (Button) findViewById(R.id.queryBtn);
+//        dbHelper = new DBHelper(this);
+//        mQueryBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                int row = dbHelper.numberOfRows();
+//                ArrayList<String> arrayList = dbHelper.getHealthData();
+//                TextView mQueryTV = (TextView) findViewById(R.id.queryTextview);
+//                mQueryTV.setText("Number of rows = " + row + "\n" + arrayList.get(0) );
+//                TextView mQueryTV2 = (TextView) findViewById(R.id.queryTV2);
+//                GraphData graphData = dbHelper.getHealthData(0);
+//                if(graphData != null)
+//                    mQueryTV2.setText("Steps = " + graphData.getSteps());
+//            }
+//        });
+//
+//
+//        Button mInsertDataBtn = (Button) findViewById(R.id.insertDataBtn);
+//        mInsertDataBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                uploadToDB();
+//            }
+//        });
+
     }
-
-
 
     // GET DATA FROM GOOGLEFIT
 
@@ -647,6 +672,25 @@ public class SyncData extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    private void uploadToDB() {
+        String dateSynced = getDate(System.currentTimeMillis(), DATE_FORMAT);
+        String temp_steps = "888",
+                temp_distance = "0",
+                temp_floors = "0",
+                temp_caloriesOut = "0",
+                temp_foodCalories = "0",
+                temp_totalActiveMinutes = "0",
+                temp_heartRate = "0";
+
+            dbHelper.insertHealthData("2016-04-08", temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, "75");
+            dbHelper.insertHealthData("2016-04-07", "704", temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, "69");
+            dbHelper.insertHealthData("2016-04-06", "604", temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, "75");
+            dbHelper.insertHealthData("2016-04-05", "504", temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, "72");
+            Log.d("DBHelper", "Uploading dummy data ");
+
+
     }
 
 }

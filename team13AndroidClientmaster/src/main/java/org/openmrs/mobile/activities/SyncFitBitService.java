@@ -32,6 +32,9 @@ import java.util.GregorianCalendar;
  * user to the redirect_url provided.
  */
 public class SyncFitBitService extends IntentService {
+
+//    private DBHelper dbHelper;
+
     static String username = "diana";
     static String password = "Admin123";
     static String URLBase = "http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/";
@@ -48,6 +51,7 @@ public class SyncFitBitService extends IntentService {
     private static final String DATE_FORMAT = "yyyy-MM-dd";
 
     SharedPreferences sharedpreferences;
+    SharedPreferences sharedpreferencesHealth;
 
     private static final String ACCESS_TOKEN_URL = "https://api.fitbit.com/oauth2/token";
 
@@ -65,7 +69,6 @@ public class SyncFitBitService extends IntentService {
     private HttpParams myParams = new BasicHttpParams();
 
     private String string;
-    private String ENCODED_AUTHORIZATION;
     private String distance,steps,caloriesOut,floors,heartRate, fairlyActiveMinutes, veryActiveMinutes, totalActiveMinutes;
     private String foodCalories,carbs,fats,proteins,fiber,sodium,water;
     private String totalMinutesAsleep, totalSleepRecord, totalTimeInBed;
@@ -117,6 +120,18 @@ public class SyncFitBitService extends IntentService {
 
         syncFitBit();
 
+
+
+//        dbHelper = new DBHelper(this);
+//        String dateSynced = getDate(System.currentTimeMillis(), DATE_FORMAT);
+//        ArrayList<String> arrayList = dbHelper.getHealthData();
+//        // Check if database contains data already, if it does then doesn't need to upload to database again)
+//        if(!arrayList.contains(dateSynced)) {
+//            uploadToDB(1, 0);
+//        } else {
+//            Log.d("Database", "dateSynced index = " + arrayList.indexOf(dateSynced));
+//            uploadToDB(2, arrayList.indexOf(dateSynced));
+//        }
     }
 
 
@@ -252,7 +267,7 @@ public class SyncFitBitService extends IntentService {
             switch(i) {
                 case 0:
                     currentData = steps;
-                    if(currentData==null) { currentData = "550"; }
+                    if(currentData==null) { currentData = "5678"; }
                     break;
 
                 case 1:
@@ -303,4 +318,30 @@ public class SyncFitBitService extends IntentService {
         }
 
     }
+
+//    private void uploadToDB(int choice, int index) {
+//        String dateSynced = getDate(System.currentTimeMillis(), DATE_FORMAT);
+//        String temp_steps = "888",
+//                temp_distance = "0",
+//                temp_floors = "0",
+//                temp_caloriesOut = "0",
+//                temp_foodCalories = "0",
+//                temp_totalActiveMinutes = "0",
+//                temp_heartRate = "0";
+//        if(steps!=null) { temp_steps = steps; }
+//        if(distance!=null) { temp_distance = distance; }
+//        if(floors!=null) {temp_floors = floors; }
+//        if(caloriesOut!=null) { temp_caloriesOut = caloriesOut; }
+//        if(foodCalories!=null) { temp_foodCalories  = foodCalories; }
+//        if(totalActiveMinutes!=null) { temp_totalActiveMinutes  = totalActiveMinutes; }
+//        if(heartRate!=null) { temp_heartRate  = heartRate; }
+//
+//        if (choice == 1) {
+//            boolean result = dbHelper.insertHealthData(dateSynced, temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, temp_heartRate);
+//            Log.d("Database", "Choice 1 = " + String.valueOf(result));
+//        } else if (choice == 2) {
+//            dbHelper.updateHealthData(index, dateSynced, temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, temp_heartRate);
+//            Log.d("Database", "Choice 2 - updating database");
+//        }
+//    }
 }

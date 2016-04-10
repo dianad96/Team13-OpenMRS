@@ -1,17 +1,17 @@
 package org.openmrs.mobile.activities;
 
-import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.os.StrictMode;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.LegendRenderer;
@@ -21,34 +21,51 @@ import com.jjoe64.graphview.series.BarGraphSeries;
 import com.jjoe64.graphview.series.DataPoint;
 
 import org.openmrs.mobile.R;
-import org.openmrs.mobile.activities.fragments.ApiAuthRest;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
-public class Graph extends AppCompatActivity {
+public class Graph extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener {
 
-    static String username = Container.username;
-    static String password = Container.password;
-    static String URLBase = Container.URLBase;
+    DBHelper dbHelper;
+    SharedPreferences sharedpreferences;
+    GraphView graphView;
 
-    final static String Raizelb = Container.user_uuid;
-    final static String key = "06168cfe-7d77-45b7-b8ba-290201f2ba07";
+    private static final String PREFERENCE_TYPE = "HealthDataPref";
+    private static final String HEALTH_BMI = "BMI";
+    private static final String HEALTH_TARGET_HR = "targetHR";
+    private static final String HEALTH_SYNCED_TIME = "syncTiming";
+    private static final String HEALTH_IS_SYNCED_TODAY = "syncedToday";
+
+    SwipeRefreshLayout swipeLayout;
+
     private static final String DATE_FORMAT = "yyyy-MM-dd";
     private static final String GRAPH_DATE_FORMAT = "dd/MM";
 
-    private String exerciseMinutes ="0", BMI = "", heartRate = "-", targetHR = "-", actualHR = "-";
+    private String exerciseMinutes = "0", BMI = "", heartRate = "-", targetHR = "-", actualHR = "-";
     private TextView heartRate_TV, targetHR_TV, bmi_TV, abnorm_TV, exerciseMin_TV;
+
+    private Date[] dates;
+    private Float[] values;
+    private String[] syncDates;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_graph);
 
-        android.support.v7.app.ActionBar bar =  getSupportActionBar();
+        android.support.v7.app.ActionBar bar = getSupportActionBar();
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00463f")));
+
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipeToRefresh);
+        swipeLayout.setOnRefreshListener(this);
+        swipeLayout.setColorSchemeResources(android.R.color.holo_blue_bright,
+                android.R.color.holo_green_light,
+                android.R.color.holo_orange_light,
+                android.R.color.holo_red_light);
+
 
         heartRate_TV = (TextView) findViewById(R.id.average_heart_rate_log);
         targetHR_TV = (TextView) findViewById(R.id.target_heart_rate_log);
@@ -83,33 +100,148 @@ public class Graph extends AppCompatActivity {
             }
         });
 
-        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-        StrictMode.setThreadPolicy(policy);
+        sharedpreferences = getSharedPreferences(PREFERENCE_TYPE, 4);
+        BMI = sharedpreferences.getString(HEALTH_BMI, "N.A");
+        targetHR = sharedpreferences.getString(HEALTH_TARGET_HR, "--");
 
-        ApiAuthRest.setURLBase(URLBase);
-        ApiAuthRest.setUsername(username);
-        ApiAuthRest.setPassword(password);
+        graphView = (GraphView) findViewById(R.id.graphView);
+        values = new Float[]{0f, 0f, 0f, 0f, 0f};
+        dates = new Date[5];
+        syncDates = new String[5];
 
 
-        GraphView graphView = (GraphView) findViewById(R.id.graphView);
-        Float[] values = new Float[]{0f, 0f, 0f, 0f, 0f};
-        Date[] dates = new Date[5];
-        SimpleDateFormat dateFormat = new SimpleDateFormat(GRAPH_DATE_FORMAT);
-        createGraph(values, dates, getPersonInput(key), "STEPS");
-        logBS(dates, values);
+        loadHealthData();
+        setGraphView();
         setTextView();
+    }
 
 
-        BarGraphSeries<DataPoint> series1 = new BarGraphSeries<DataPoint>(new DataPoint[] {
-                new DataPoint(1,values[4]),
-                new DataPoint(2,values[3]),
-                new DataPoint(3,values[2]),
-                new DataPoint(4,values[1]),
-                new DataPoint(5,values[0])
+
+    private Date getDate(int index) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        calendar.set(Calendar.MILLISECOND, 0);
+        calendar.add(Calendar.DATE, -index);
+        Date xPoint = calendar.getTime();
+        return xPoint;
+    }
+
+    private void loadHealthData() {
+        dbHelper = new DBHelper(this);
+        SimpleDateFormat db_dateFormat = new SimpleDateFormat(DATE_FORMAT);
+        for (int temp = 0; temp < 5; temp++) {
+            // 0 = Today, 1 = Yesterday, etc..
+            dates[temp] = getDate(temp);
+            syncDates[temp] = db_dateFormat.format(dates[temp]);
+            Log.d("SyncDate", "date[temp] = " + dates[temp] + "syncDates[temp] = " + syncDates[temp]);
+        }
+        ArrayList<String> arrayList = dbHelper.getHealthData();
+        Log.d("Database", "arrayList = " + arrayList.size());
+        for (int j = 0; j < arrayList.size(); j++) {
+            Log.d("Database", arrayList.get(j));
+
+            if (arrayList.contains(syncDates[0])) {
+                // Load data for today
+                int index = arrayList.indexOf(syncDates[0]);
+                Log.d("Database", "arrayList contains syncDate[0] = " + syncDates[0] + "  and index = " + index);
+                GraphData graphData = dbHelper.getHealthData(index);
+                if (graphData != null)
+                    values[0] = Float.valueOf(graphData.getSteps());
+                actualHR = graphData.getHeartRate();
+                exerciseMinutes = graphData.getActiveMinutes();
+                exerciseMinutes = String.valueOf((int) Float.parseFloat(exerciseMinutes));
+            }
+            if (arrayList.contains(syncDates[1])) {
+                // Load and save steps data to show on graph
+                int index = arrayList.indexOf(syncDates[1]);
+                String tempSteps = dbHelper.getSteps(index);
+                if (tempSteps != null)
+                    values[1] = Float.valueOf(tempSteps);
+                Log.d("GraphDB", "Syncdate[1] = " + values[1]);
+            }
+            if (arrayList.contains(syncDates[2])) {
+                // Load and save steps data to show on graph
+                int index = arrayList.indexOf(syncDates[2]);
+                String tempSteps = dbHelper.getSteps(index);
+                if (tempSteps != null)
+                    values[2] = Float.valueOf(tempSteps);
+                Log.d("GraphDB", "Syncdate[2] = " + values[2]);
+            }
+            if (arrayList.contains(syncDates[3])) {
+                // Load and save steps data to show on graph
+                int index = arrayList.indexOf(syncDates[3]);
+                String tempSteps = dbHelper.getSteps(index);
+                if (tempSteps != null)
+                    values[3] = Float.valueOf(tempSteps);
+                Log.d("GraphDB", "Syncdate[3] = " + values[3]);
+            }
+            if (arrayList.contains(syncDates[4])) {
+                // Load and save steps data to show on graph
+                int index = arrayList.indexOf(syncDates[4]);
+                String tempSteps = dbHelper.getSteps(index);
+                if (tempSteps != null)
+                    values[4] = Float.valueOf(tempSteps);
+                Log.d("GraphDB", "Syncdate[4] = " + values[4]);
+            }
+
+        }
+    }
+
+    private void setTextView() {
+        double heart_rate = 0, target_HR = 0;
+        int i = 0;
+
+        try {
+            heart_rate = Double.parseDouble(actualHR);
+            heartRate_TV.setText((long) heart_rate + " bpm");
+            i++;
+        } catch (NumberFormatException e) {
+            heartRate_TV.setText("-- bpm");
+        }
+
+        try {
+            target_HR = Double.parseDouble(targetHR);
+            targetHR_TV.setText((long) target_HR + " bpm");
+            i++;
+        } catch (NumberFormatException e) {
+            targetHR_TV.setText("-- bpm");
+        }
+
+        if (i == 2) {
+            if (heart_rate > target_HR) {
+                abnorm_TV.setText("High Average HR");
+            } else if (heart_rate <= target_HR) {
+                abnorm_TV.setText("Normal HR");
+            }
+        } else {
+            abnorm_TV.setText("Insufficient data");
+        }
+
+
+        exerciseMin_TV.setText(exerciseMinutes + " Mins");
+
+
+        if (!BMI.equals("")) {
+            bmi_TV.setText(BMI);
+        } else {
+            bmi_TV.setText("N.A");
+        }
+
+    }
+
+    private void setGraphView(){
+        BarGraphSeries<DataPoint> series1 = new BarGraphSeries<DataPoint>(new DataPoint[]{
+                new DataPoint(1, values[4]),
+                new DataPoint(2, values[3]),
+                new DataPoint(3, values[2]),
+                new DataPoint(4, values[1]),
+                new DataPoint(5, values[0])
         });
 
         graphView.addSeries(series1);
-
+        SimpleDateFormat dateFormat = new SimpleDateFormat(GRAPH_DATE_FORMAT);
         StaticLabelsFormatter staticLabelsFormatter = new StaticLabelsFormatter(graphView);
         staticLabelsFormatter.setHorizontalLabels(new String[]{dateFormat.format(dates[4]), dateFormat.format(dates[3]), dateFormat.format(dates[2]), dateFormat.format(dates[1]), dateFormat.format(dates[0])});
         graphView.getGridLabelRenderer().setLabelFormatter(staticLabelsFormatter);
@@ -136,262 +268,28 @@ public class Graph extends AppCompatActivity {
         graphView.getLegendRenderer().setVisible(true);
         graphView.getLegendRenderer().setTextColor(Color.BLUE);
         graphView.getLegendRenderer().setAlign(LegendRenderer.LegendAlign.TOP);
-
     }
 
-
-    private void createGraph(Float[] values, Date[] dates, String input, String concept) {
-        int location = 0;
-        int i;
-        String UUID;
-        for (int temp = 0; temp < 5; temp++) {
-            dates[temp] = getDate(temp);
+    @Override
+    public void onRefresh() {
+        swipeLayout.setRefreshing(true);
+        graphView.removeAllSeries();
+        boolean isSyncedToday = sharedpreferences.getBoolean(HEALTH_IS_SYNCED_TODAY, false);
+        Long syncTiming = sharedpreferences.getLong(HEALTH_SYNCED_TIME, 0);
+        Long currentTime = System.currentTimeMillis();
+        Log.d("Time", "syncTime = " + syncTiming + " currentTime = " + currentTime);
+        //Check if data has been synced today and prevent user from sending multiple request to overwhelm server!
+        //Currently user has to wait 1min before app will send another request
+        if(isSyncedToday && (syncTiming+ 60000 < currentTime ) ){
+            Intent i = new Intent(Graph.this, SyncGraphService.class);
+            startService(i);
+            Toast.makeText(this, "Syncing data from OpenMRS Server...Please wait before refreshing again", Toast.LENGTH_LONG).show();
+            SharedPreferences.Editor editor = sharedpreferences.edit();
+            editor.putLong(HEALTH_SYNCED_TIME, currentTime).commit();
         }
-        while ((location = input.indexOf("uuid", location)) != -1) {
-            location += 7;
-            int templocation = input.indexOf("\"", location);
-            UUID = input.substring(location,templocation);
-//            Log.d("OpenMRS response UUID:", UUID);
-//            if (checkConcept(input.substring(location), concept)) {
-//                String obs = returnObs(UUID);
-//                if ((i = checkObsDate(dates, obs)) != -1) {
-//                    if (getConceptValue(obs,concept) > values[i]) {
-//                        values[i] = getConceptValue(obs, concept);
-//                        Log.d("Values : ", values[i].toString());
-//                    }
-//                }
-//                else break;
-//
-//                //dates[i] = getDate(returnObs(UUID,concept),concept);
-//            }
-            int a = checkConcept(input.substring(location), concept);
-            String obs = returnObs(UUID);
-//            Log.i("A value", "" + a);
-            switch (a)
-            {
-                case 1:
-                    if ((i = checkObsDate(dates, obs)) != -1) {
-                        if (getConceptValue(obs,concept) > values[i]) {
-                            values[i] = getConceptValue(obs, concept);
-                            Log.d("Steps Values : ", values[i].toString());
-                        }
-                    }
-                    break;
-
-
-                case 2:
-                    Log.i("BMI", BMI);
-                    break;
-
-                case 3:
-                    if((checkExerciseDate(dates, obs)) == -1){
-                        heartRate = "N.A";
-                    }
-                    else {
-                        actualHR = heartRate;
-                        Log.i("heartRate", "heartRate found for today");
-                    }
-                    break;
-
-                case 4:
-                    if ((checkExerciseDate(dates, obs)) == -1) {
-                        exerciseMinutes = "0";
-                    }
-                    else {
-                        Log.i("ActivityMinutes", exerciseMinutes);
-                    }
-                    break;
-
-                case 5:
-                    Log.i("Target HR", targetHR);
-                    break;
-
-                default:
-                    break;
-
-
-            }
-
-        }
-
-    }
-
-    private int checkConcept(String input, String concept) {
-        int tempLocation;
-        tempLocation = input.indexOf("display") + 9;
-        String temp = input.substring(tempLocation + 1);
-        tempLocation = temp.indexOf("\"");
-        temp = temp.substring(0, tempLocation);
-//        Log.i("OpenMRS response", temp);
-        if (temp.indexOf(concept) != -1) {
-            return 1;
-        }
-        else if(temp.indexOf("BODY MASS INDEX") != -1) {
-            BMI = temp.substring(16);
-//            Log.i("BMI", BMI);
-            return 2;
-        }
-        else if(temp.indexOf("PULSE") != -1) {
-            heartRate = temp.substring(6);
-            Log.i("heartRate", heartRate);
-            return 3;
-        }
-        else if (temp.indexOf("Active Minutes") != -1) {
-            exerciseMinutes = temp.substring(15);
-            return 4;
-        }
-        else if (temp.indexOf("TARGET HEART RATE") != -1) {
-            targetHR = temp.substring(18);
-            return 5;
-        }
-        else
-            return 0;
-    }
-
-    private String getPersonInput(String patientUUID) {
-        String display = null;
-        try {
-            display = ApiAuthRest.getRequestGet("obs?patient=" + patientUUID) + "&concept=" + Container.heart_rate_uuid;
-            Log.i("OpenMRS response-GPI", display);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return display;
-    }
-
-    private String returnObs (String UUID) {
-        String display = null;
-        try {
-            display = ApiAuthRest.getRequestGet("obs/" + UUID);
-            //Log.i("OpenMRS response", display);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return display;
-    }
-
-    private int checkObsDate(Date[] dates, String obs) {
-        SimpleDateFormat dateFormat = new SimpleDateFormat(DATE_FORMAT);
-        int startPoint = obs.indexOf("obsDatetime") + 14;
-        int endPoint = startPoint + 10;
-        Date date = new Date();
-        try {
-            date = dateFormat.parse(obs.substring(startPoint, endPoint));
-//            Log.i("OpenMRS response", date.toString());
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        for (int i = 0; i < 5; i++) {
-//            Log.i("OpenMRS response", Boolean.toString(date.equals(dates[i])));
-            if (date.equals(dates[i])) {
-                return i;
-            }
-        }
-        return -1;
-    }
-
-    private Float getConceptValue (String obs, String concept) {
-        int startPoint;
-        int endPoint;
-        float yPoint;
-        obs = obs.substring(obs.indexOf(concept));
-        startPoint = obs.indexOf(":") + 2;
-        endPoint = obs.indexOf("\"");
-        yPoint = Float.parseFloat(obs.substring(startPoint, endPoint));
-        return yPoint;
-
-    }
-
-
-    /*private Date getDate (String obs, String concept) {
-        int startPoint = obs.indexOf("obsDatetime") + 14;
-        int endPoint = startPoint + 10;
-        SimpleDateFormat dateFormat = new SimpleDateFormat(DATE_FORMAT);
-        Date xPoint = new Date();
-        try {
-            xPoint = dateFormat.parse(obs.substring(startPoint,endPoint));
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        return xPoint;
-    }*/
-    private Date getDate (int index) {
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.HOUR_OF_DAY, 0);
-        calendar.set(Calendar.MINUTE, 0);
-        calendar.set(Calendar.SECOND, 0);
-        calendar.set(Calendar.MILLISECOND, 0);
-        calendar.add(Calendar.DATE, -index);
-        Date xPoint = calendar.getTime();
-        return xPoint;
-    }
-
-    private void logBS (Date[] dates, Float[] values) {
-        for (int i = 0; i < 5; i++) {
-//            Log.i("OpenMRS response", dates[i].toString() + ":" + Float.toString(values[i]));
-        }
-    }
-
-
-    private int checkExerciseDate(Date[] dates, String obs) {
-//        Log.i("Obs", obs);
-        SimpleDateFormat dateFormat = new SimpleDateFormat(DATE_FORMAT);
-        int startPoint = obs.indexOf("obsDatetime") + 14;
-        int endPoint = startPoint + 10;
-        Date date;
-//        Date date = new Date();
-        try {
-            date = dateFormat.parse(obs.substring(startPoint,endPoint));
-//            Log.i("OpenMRS response", "Checking exercise date = " + date);
-            if(date.equals(dates[0])) {
-//                Log.i("ActivityExercise", "Activity Date is today!!" + date);
-                return 1;
-            }
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-
-        return -1;
-    }
-
-    private void setTextView() {
-
-        double heart_rate = 0, target_HR = 0;
-        int i=0;
-
-        try {
-            heart_rate = Double.parseDouble(actualHR);
-            heartRate_TV.setText((long)heart_rate + " bpm");
-            i++;
-        } catch(NumberFormatException e) {
-            heartRate_TV.setText("-- bpm");
-        }
-
-        try {
-            target_HR = Double.parseDouble(targetHR);
-            targetHR_TV.setText((long)target_HR + " bpm");
-            i++;
-        } catch(NumberFormatException e) {
-            targetHR_TV.setText("-- bpm");
-        }
-
-        if(i==2) {
-            if (heart_rate > target_HR) {
-                abnorm_TV.setText("High Average HR");
-            } else if (heart_rate <= target_HR) {
-                abnorm_TV.setText("Normal HR");
-            }
-        } else {
-            abnorm_TV.setText("Insufficient data");
-        }
-
-
-        exerciseMin_TV.setText(exerciseMinutes + " Mins");
-
-
-        if(!BMI.equals("")) {
-            bmi_TV.setText(BMI);
-        } else { bmi_TV.setText("N.A"); }
-
+        loadHealthData();
+        setGraphView();
+        setTextView();
+        swipeLayout.setRefreshing(false);
     }
 }
