@@ -38,6 +38,9 @@ public class SyncGraphService extends IntentService{
 
     private String exerciseMinutes ="0", BMI = "", heartRate = "-", targetHR = "-", actualHR = "-", floor="0", caloriesBurned="0", calories="0", distance="0";
     private Float steps = 0f;
+    private GraphData[] graphDatas;
+    private Date[] dates;
+    private String[] formattedDates;
 
     public SyncGraphService() {
         super("SyncGraphService");
@@ -59,7 +62,12 @@ public class SyncGraphService extends IntentService{
         ApiAuthRest.setUsername(username);
         ApiAuthRest.setPassword(password);
 
-        Date[] dates = new Date[5];
+        dates = new Date[5];
+        formattedDates = new String[5];
+        graphDatas = new GraphData[5];
+        for(int i=0; i<5; i++){
+            graphDatas[i] = new GraphData();
+        }
 
         createGraph(dates, getPersonInput(user));
 
@@ -71,12 +79,21 @@ public class SyncGraphService extends IntentService{
             editor.putString(HEALTH_LAST_SYNCED, todayDate).apply();
         }
 
-        // Check if database contains data already, if it does then doesn't need to upload to database again)
-        if(!arrayList.contains(todayDate) && isSyncedToday) {
-            uploadToDB(1, 0);
-        } else if (arrayList.contains(todayDate) && isSyncedToday) {
-            Log.d("Database", "Updating todayDate index = " + arrayList.indexOf(todayDate));
-            uploadToDB(2, arrayList.indexOf(todayDate));
+//        // Check if database contains data already, if it does then doesn't need to upload to database again)
+//        if(!arrayList.contains(todayDate) && isSyncedToday) {
+//            insertToDB(1, 0);
+//        } else if (arrayList.contains(todayDate) && isSyncedToday) {
+//            Log.d("Database", "Updating todayDate index = " + arrayList.indexOf(todayDate));
+//            uploadToDB(2, arrayList.indexOf(todayDate));
+//        }
+
+        for(int i=0; i<5; i++){
+            if(!arrayList.contains(formattedDates[i]) && isSyncedToday) {
+                insertToDB(i);
+            }
+            if(arrayList.contains(formattedDates[i]) && isSyncedToday){
+                updateDB(arrayList.indexOf(formattedDates[i]));
+            }
         }
 
 
@@ -89,6 +106,7 @@ public class SyncGraphService extends IntentService{
 
         for (int temp = 0; temp < 5; temp++) {
             dates[temp] = getDate(temp);
+            formattedDates[temp] = formatDate(dates[temp]);
         }
         while ((location = input.indexOf("uuid", location)) != -1) {
             location += 7;
@@ -97,18 +115,20 @@ public class SyncGraphService extends IntentService{
 
             int a = checkConcept(input.substring(location));
             String obs = returnObs(UUID);
-
+            int index;
             // Check if data is from Today date
             switch (a)
             {
                 // Check Steps
                 case 1:
-                    if(checkExerciseDate(dates, obs) == 1){
+                    index = checkExerciseDate(dates,obs);
+                    if(index==0 || index==1 || index==2 || index==3 || index==4 ){
                         Float value = getConceptValue(obs,"STEPS");
-                        if ( value > steps){
-                            steps = value;
+                        if ( value > Float.parseFloat(graphDatas[index].getSteps()) ){
+                            graphDatas[index].setSteps(value.toString()) ;
                         }
-                        editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
+                        if(index==1)
+                            editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
                     }
                     break;
 
@@ -120,24 +140,27 @@ public class SyncGraphService extends IntentService{
 
                 // Check heart rate
                 case 3:
-                    if(checkExerciseDate(dates, obs) == 1){
+                    index = checkExerciseDate(dates,obs);
+                    if(index==0 || index==1 || index==2 || index==3 || index==4 ){
                         Float value = getConceptValue(obs, "PULSE");
-                        if ( value > Float .parseFloat(heartRate)){
-                            heartRate = value.toString() ;
+                        if ( value > Float.parseFloat(graphDatas[index].getHeartRate()) ){
+                            graphDatas[index].setHeartRate(value.toString());
                         }
-                        editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
+                        if(index==1)
+                            editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
                     }
                     break;
 
                 //Check exerciseMinutes
                 case 4:
-
-                    if(checkExerciseDate(dates, obs) == 1){
+                    index = checkExerciseDate(dates,obs);
+                    if(index==0 || index==1 || index==2 || index==3 || index==4 ){
                         Float value = getConceptValue(obs,"Active Minutes");
-                        if ( value > Float .parseFloat(exerciseMinutes)){
-                            exerciseMinutes = value.toString() ;
+                        if ( value > Float.parseFloat(graphDatas[index].getActiveMinutes()) ){
+                            graphDatas[index].setActiveMinutes(value.toString());
                         }
-                        editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
+                        if(index==1)
+                            editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
                     }
                     break;
 
@@ -149,45 +172,53 @@ public class SyncGraphService extends IntentService{
 
                 //Check floor
                 case 6:
-                    if(checkExerciseDate(dates, obs) == 1){
+                    index = checkExerciseDate(dates,obs);
+                    if(index==0 || index==1 || index==2 || index==3 || index==4 ){
                         Float value = getConceptValue(obs, "Floors");
-                        if ( value > Float .parseFloat(floor)){
-                            floor = value.toString() ;
+                        if ( value > Float.parseFloat(graphDatas[index].getFloor()) ){
+                            graphDatas[index].setFloor(value.toString());
                         }
-                        editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
+                        if(index==1)
+                            editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
                     }
                     break;
 
                 //Check Calories burned
                 case 7:
-                    if(checkExerciseDate(dates, obs) == 1){
+                    index = checkExerciseDate(dates,obs);
+                    if(index==0 || index==1 || index==2 || index==3 || index==4){
                         Float value = getConceptValue(obs,"Calories_Burned");
-                        if ( value > Float.parseFloat(caloriesBurned)){
-                            caloriesBurned = value.toString() ;
+                        if ( value > Float.parseFloat(graphDatas[index].getCaloriesBurned()) ){
+                            graphDatas[index].setCaloriesBurned(value.toString());
                         }
-                        editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
+                        if(index==1)
+                            editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
                     }
                     break;
 
                 //Check Calories
                 case 8:
-                    if(checkExerciseDate(dates, obs) == 1){
+                    index = checkExerciseDate(dates,obs);
+                    if(index==0 || index==1 || index==2 || index==3 || index==4 ){
                         Float value = getConceptValue(obs,"CALORIES");
-                        if ( value > Float .parseFloat(calories)){
-                            calories = value.toString() ;
+                        if ( value > Float.parseFloat(graphDatas[index].getCalories()) ){
+                            graphDatas[index].setCalories(value.toString());
                         }
-                        editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
+                        if(index==1)
+                            editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
                     }
                     break;
 
                 //Check distance
                 case 9:
-                    if(checkExerciseDate(dates, obs) == 1){
+                    index = checkExerciseDate(dates,obs);
+                    if(index==0 || index==1 || index==2 || index==3 || index==4 ){
                         Float value = getConceptValue(obs,"DISTANCE");
-                        if ( value > Float .parseFloat(distance)){
-                            distance = value.toString() ;
+                        if ( value > Float.parseFloat(graphDatas[index].getDistance()) ){
+                            graphDatas[index].setDistance(value.toString());
                         }
-                        editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
+                        if(index==1)
+                            editor.putBoolean(HEALTH_IS_SYNCED_TODAY, true).apply();
                     }
                     break;
 
@@ -201,14 +232,14 @@ public class SyncGraphService extends IntentService{
 
     private int checkConcept(String input) {
         /**
-            Example flow :
-            String input = {"results":[{"uuid":"5e5440ce-94dd-46cd-946b-391c516953ae","display":"STEPS: 0.0","links":[{"rel":"self","uri":"http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/obs/5e5440ce-94dd-46cd-946b-391c516953ae"}]}
-            tempLocation = index at display + 9 (because of * display": * )
-            temp = STEPS: 0.0","links":[{"rel":"self","uri":"http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/obs/5e5440ce-94dd-46cd-946b-391c516953ae"}]}
-            tempLocation = 11
-            temp = STEPS : 0.0
+         Example flow :
+         String input = {"results":[{"uuid":"5e5440ce-94dd-46cd-946b-391c516953ae","display":"STEPS: 0.0","links":[{"rel":"self","uri":"http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/obs/5e5440ce-94dd-46cd-946b-391c516953ae"}]}
+         tempLocation = index at display + 9 (because of * display": * )
+         temp = STEPS: 0.0","links":[{"rel":"self","uri":"http://bupaopenmrs.cloudapp.net/openmrs/ws/rest/v1/obs/5e5440ce-94dd-46cd-946b-391c516953ae"}]}
+         tempLocation = 11
+         temp = STEPS : 0.0
 
-            temp.indexOf("CONCEPT_NAME + 1") will give value of concept
+         temp.indexOf("CONCEPT_NAME + 1") will give value of concept
          **/
         int tempLocation;
         tempLocation = input.indexOf("display") + 9;
@@ -286,13 +317,24 @@ public class SyncGraphService extends IntentService{
         int startPoint = obs.indexOf("obsDatetime") + 14;
         int endPoint = startPoint + 10;
         Date date;
-//        Date date = new Date();
         try {
             date = dateFormat.parse(obs.substring(startPoint, endPoint));
             Log.i("OpenMRS response", "Checking exercise date = " + date);
             if(date.equals(dates[0])) {
                 Log.i("ActivityExercise", "Activity Date is today!!" + date);
+                return 0;
+            }
+            if(date.equals(dates[1])) {
                 return 1;
+            }
+            if(date.equals(dates[2])) {
+                return 2;
+            }
+            if(date.equals(dates[3])) {
+                return 3;
+            }
+            if(date.equals(dates[4])) {
+                return 4;
             }
         } catch (ParseException e) {
             e.printStackTrace();
@@ -335,32 +377,80 @@ public class SyncGraphService extends IntentService{
         return formatter.format(calendar.getTime());
     }
 
-    private void uploadToDB(int choice, int index) {
-        String todayDate = getTodayDate(System.currentTimeMillis(), DATE_FORMAT);
+    public String formatDate(Date date){
+        SimpleDateFormat formatter = new SimpleDateFormat(DATE_FORMAT);
+        return formatter.format(date);
+    }
+
+    private void insertToDB(int i) {
         String temp_steps = "8888",
                 temp_distance = "0",
                 temp_floors = "0",
                 temp_caloriesOut = "0",
                 temp_foodCalories = "0",
                 temp_totalActiveMinutes = "0",
-                temp_heartRate = "0";
-        if(steps != 0f) { temp_steps = steps.toString(); }
-        if(!distance.matches("0")) { temp_distance = distance; }
-        if(!floor.matches("0")) {temp_floors = floor; }
-        if(!caloriesBurned.matches("0")) { temp_caloriesOut = caloriesBurned; }
-        if(!calories.matches("0")) { temp_foodCalories  = calories; }
-        if(!exerciseMinutes.matches("0")) { temp_totalActiveMinutes  = exerciseMinutes; }
-        if(!heartRate.matches("-")) { temp_heartRate  = heartRate; }
-
-        if (choice == 1) {
-            boolean result = dbHelper.insertHealthData(todayDate, temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, temp_heartRate);
-            Log.d("Database", "Choice 1 = " + String.valueOf(result));
-        } else if (choice == 2) {
-            dbHelper.updateHealthData(index, todayDate, temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, temp_heartRate);
-            Log.d("Database", "Choice 2");
+                temp_heartRate = "-";
+        if(!graphDatas[i].getSteps().matches("0")){
+            temp_steps = graphDatas[i].getSteps();
         }
 
+        if (!graphDatas[i].getDistance().matches("0")) {
+            temp_distance = graphDatas[i].getDistance();
+        }
+        if (!graphDatas[i].getFloor().matches("0")) {
+            temp_floors = graphDatas[i].getFloor();
+        }
+        if (!graphDatas[i].getCaloriesBurned().matches("0")) {
+            temp_caloriesOut = graphDatas[i].getCaloriesBurned();
+        }
+        if (!graphDatas[i].getCalories().matches("0")) {
+            temp_foodCalories = graphDatas[i].getCalories();
+        }
+        if (!graphDatas[i].getActiveMinutes().matches("0")) {
+            temp_totalActiveMinutes = graphDatas[i].getActiveMinutes();
+        }
+        if (!graphDatas[i].getHeartRate().matches("0")) {
+            temp_heartRate = graphDatas[i].getHeartRate();
+        }
+
+        dbHelper.insertHealthData(formattedDates[i], temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, temp_heartRate);
+        Log.d("Database", "Inserting data for " + formattedDates[i]);
     }
+
+    private void updateDB(int i) {
+        dbHelper.updateHealthData(i, formattedDates[i], graphDatas[i].getSteps(), graphDatas[i].getDistance(), graphDatas[i].getFloor(),
+                graphDatas[i].getCaloriesBurned(), graphDatas[i].getCalories(), graphDatas[i].getActiveMinutes(), graphDatas[i].getHeartRate());
+        Log.d("Database", "Updating database = " + formattedDates[i]);
+    }
+
+
+
+//    private void uploadToDB(int choice, int index) {
+//        String todayDate = getTodayDate(System.currentTimeMillis(), DATE_FORMAT);
+//        String temp_steps = "8888",
+//                temp_distance = "0",
+//                temp_floors = "0",
+//                temp_caloriesOut = "0",
+//                temp_foodCalories = "0",
+//                temp_totalActiveMinutes = "0",
+//                temp_heartRate = "0";
+//        if(steps != 0f) { temp_steps = steps.toString(); }
+//        if(!distance.matches("0")) { temp_distance = distance; }
+//        if(!floor.matches("0")) {temp_floors = floor; }
+//        if(!caloriesBurned.matches("0")) { temp_caloriesOut = caloriesBurned; }
+//        if(!calories.matches("0")) { temp_foodCalories  = calories; }
+//        if(!exerciseMinutes.matches("0")) { temp_totalActiveMinutes  = exerciseMinutes; }
+//        if(!heartRate.matches("-")) { temp_heartRate  = heartRate; }
+//
+//        if (choice == 1) {
+//            boolean result = dbHelper.insertHealthData(todayDate, temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, temp_heartRate);
+//            Log.d("Database", "Choice 1 = " + String.valueOf(result));
+//        } else if (choice == 2) {
+//            dbHelper.updateHealthData(index, todayDate, temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, temp_heartRate);
+//            Log.d("Database", "Choice 2");
+//        }
+//
+//    }
 
 
 }

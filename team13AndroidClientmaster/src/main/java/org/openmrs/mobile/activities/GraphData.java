@@ -5,19 +5,18 @@ package org.openmrs.mobile.activities;
  */
 public class GraphData {
 
-    private String date;
-    private String steps;
-    private String distance;
-    private String floor;
-    private String calories;
-    private String caloriesBurned;
-    private String heartRate;
-    private String activeMinutes;
-    private String asleepMinutes;
+    private String date = "-";
+    private String steps = "0";
+    private String distance = "0";
+    private String floor = "0";
+    private String calories = "0";
+    private String caloriesBurned = "0";
+    private String heartRate = "0";
+    private String activeMinutes = "0";
 
     public GraphData() {}
 
-    public GraphData(String date, String steps, String distance, String floor, String calories, String caloriesBurned, String heartRate, String activeMinutes, String asleepMinutes) {
+    public GraphData(String date, String steps, String distance, String floor, String calories, String caloriesBurned, String heartRate, String activeMinutes) {
         this.date = date;
         this.steps = steps;
         this.distance = distance;
@@ -26,7 +25,6 @@ public class GraphData {
         this.caloriesBurned = caloriesBurned;
         this.heartRate = heartRate;
         this.activeMinutes = activeMinutes;
-        this.asleepMinutes = asleepMinutes;
     }
 
     public String getDate() {
@@ -85,21 +83,10 @@ public class GraphData {
         this.heartRate = heartRate;
     }
 
-    public String getActiveMinutes() {
-        return activeMinutes;
-    }
+    public String getActiveMinutes() { return activeMinutes; }
 
-    public void setActiveMinutes(String activeMinutes) {
-        this.activeMinutes = activeMinutes;
-    }
+    public void setActiveMinutes(String activeMinutes) { this.activeMinutes = activeMinutes; }
 
-    public String getAsleepMinutes() {
-        return asleepMinutes;
-    }
-
-    public void setAsleepMinutes(String asleepMinutes) {
-        this.asleepMinutes = asleepMinutes;
-    }
 }
 
 
