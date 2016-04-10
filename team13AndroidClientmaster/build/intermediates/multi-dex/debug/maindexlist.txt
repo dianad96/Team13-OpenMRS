@@ -599,6 +599,7 @@ org/openmrs/mobile/activities/FatSecretUtils.class
 com/google/common/base/package-info.class
 android/support/annotation/FractionRes.class
 android/support/v4/view/accessibility/AccessibilityNodeProviderCompat.class
+org/openmrs/mobile/activities/DBHelper.class
 com/google/common/base/Joiner$MapJoiner.class
 com/google/android/gms/internal/zzdd.class
 com/google/android/gms/measurement/internal/zzc.class
@@ -740,6 +741,7 @@ com/google/android/gms/internal/zzhn.class
 org/odk/collect/android/activities/FormEntryActivity$18.class
 android/support/v4/view/accessibility/AccessibilityEventCompat.class
 org/apache/http/util/EntityUtils.class
+org/openmrs/mobile/activities/GraphData.class
 com/google/android/gms/internal/zzdu.class
 android/support/v7/app/ActionBar$NavigationMode.class
 org/javarosa/model/xform/XPathReference.class
@@ -761,6 +763,7 @@ com/google/android/gms/fitness/data/Field.class
 com/google/android/gms/common/api/Scope.class
 org/javarosa/core/model/utils/IInstanceVisitor.class
 com/google/android/gms/ads/internal/client/SearchAdRequestParcel.class
+org/openmrs/mobile/activities/SyncGraphService.class
 org/opendatakit/httpclientandroidlib/conn/params/ConnPerRouteBean.class
 org/openmrs/mobile/adapters/VisitExpandableListAdapter.class
 org/apache/http/params/HttpParams.class
@@ -1229,6 +1232,7 @@ com/google/android/gms/ads/internal/client/AdSizeParcel.class
 org/apache/http/entity/ByteArrayEntity.class
 org/openmrs/mobile/activities/InputManually.class
 com/google/common/collect/LinkedHashMultimap$ValueEntry.class
+android/support/v4/view/NestedScrollingParent.class
 org/openmrs/mobile/models/Mapping.class
 org/opendatakit/httpclientandroidlib/conn/params/ConnManagerPNames.class
 android/support/v4/media/session/PlaybackStateCompat$Builder.class

@@ -15,6 +15,7 @@
 package org.openmrs.mobile.activities;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -37,6 +38,12 @@ import org.openmrs.mobile.utilities.ImageUtils;
 public class DashboardActivity extends ACBaseActivity {
 
     private SparseArray<Bitmap> mBitmapCache;
+    DBHelper dbHelper;
+
+    private SharedPreferences sharedpreferences;
+    private static final String PREFERENCE_TYPE = "HealthDataPref";
+    private static final String HEALTH_LAST_SYNCED = "lastSynced";
+    private static final String HEALTH_IS_SYNCED_TODAY = "syncedToday";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +80,26 @@ public class DashboardActivity extends ACBaseActivity {
                 startActivity(i);
             }
         });
+
+        dbHelper = new DBHelper(this);
+        sharedpreferences = getSharedPreferences(PREFERENCE_TYPE, 4);
+        String lastSynced = sharedpreferences.getString(HEALTH_LAST_SYNCED, " ");
+        boolean syncedToday = sharedpreferences.getBoolean(HEALTH_IS_SYNCED_TODAY, false);
+        String todayDate = SyncFitBitService.getDate(System.currentTimeMillis(), "yyyy-MM-dd");
+
+        // Set is synced today to false once a new day arrive
+        if(!lastSynced.matches(todayDate)) {
+            // Only sync if it has not been synced today
+            SharedPreferences.Editor editor = sharedpreferences.edit();
+            editor.putBoolean(HEALTH_IS_SYNCED_TODAY, false);
+        }
+
+        //Run SyncGraphService if no data is found today, if it has been synced, it will not run service
+        if(!syncedToday){
+            Intent i = new Intent(DashboardActivity.this, SyncGraphService.class);
+            startService(i);
+        }
+
 
         // Get Patient Information if it has not been loaded before
         if(Container.patient_name.matches("") || Container.patient_gender.matches("") || Container.patient_age.matches("") || Container.patient_birthdate.matches("")) {

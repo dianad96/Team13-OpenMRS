@@ -24,202 +24,209 @@
 
 
 
-    <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:fillViewport="true"
-        android:paddingBottom="80dp">
-
-
-
-
-        <RelativeLayout
-            android:paddingLeft="10dp"
-            android:id="@+id/modulesLayout"
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeToRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ScrollView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:layout_weight="1">
+            android:fillViewport="true"
+            android:paddingBottom="80dp">
 
 
 
-            <com.jjoe64.graphview.GraphView
-                android:layout_width="wrap_content"
-                android:layout_height="220dp"
-                android:layout_alignParentTop="true"
-                android:id="@+id/graphView" />
 
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
+            <RelativeLayout
+                android:paddingLeft="10dp"
+                android:id="@+id/modulesLayout"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/g1"
-                android:layout_below="@+id/graphView"
-                >
+                android:gravity="center_vertical"
+                android:layout_weight="1">
 
-                <RelativeLayout
+
+
+                <com.jjoe64.graphview.GraphView
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dp"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/graphView" />
+
+                <android.support.v7.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
-                    android:clickable="false">
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/average_heart_rate"
-                        android:layout_alignParentTop="true"
-                        android:textSize="20sp"
-                        android:text="Average Heart Rate"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/average_heart_rate_log"
-                        android:layout_alignParentRight="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginRight="0dp"
-                        android:text="-- bpm"
-                        android:textSize="20dp" />
-                </RelativeLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/g1"
-                android:layout_marginTop="10dp"
-                android:id="@+id/g2"
-                >
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="16dp"
+                    android:id="@+id/g1"
+                    android:layout_below="@+id/graphView"
                     >
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <RelativeLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/target_heart_rate"
-                        android:layout_alignParentTop="true"
-                        android:textSize="20sp"
-                        android:text="Target Heart Rate"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/target_heart_rate_log"
-                        android:layout_alignParentRight="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginRight="0dp"
-                        android:textSize="20dp"
-                        android:text="-- bpm" />
-                </RelativeLayout>
-            </android.support.v7.widget.CardView>
+                        android:padding="16dp"
+                        android:clickable="false">
 
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/g2"
-                android:layout_marginTop="10dp"
-                android:id="@+id/g3"
-                >
 
-                <RelativeLayout
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/average_heart_rate"
+                            android:layout_alignParentTop="true"
+                            android:textSize="20sp"
+                            android:text="Average Heart Rate"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/average_heart_rate_log"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="0dp"
+                            android:text="-- bpm"
+                            android:textSize="20dp" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
+                    android:layout_below="@+id/g1"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/g2"
                     >
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <RelativeLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/abnormalities"
-                        android:layout_alignParentTop="true"
-                        android:textSize="20sp"
-                        android:text="Abnormalities"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/abnormalities_log"
-                        android:layout_alignParentRight="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginRight="0dp"
-                        android:textSize="20dp" />
-                </RelativeLayout>
-            </android.support.v7.widget.CardView>
+                        android:padding="16dp"
+                        >
 
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/g3"
-                android:layout_marginTop="10dp"
-                android:id="@+id/g4"
-                >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/target_heart_rate"
+                            android:layout_alignParentTop="true"
+                            android:textSize="20sp"
+                            android:text="Target Heart Rate"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/target_heart_rate_log"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="0dp"
+                            android:textSize="20dp"
+                            android:text="-- bpm" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
 
-                <RelativeLayout
+                <android.support.v7.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
+                    android:layout_below="@+id/g2"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/g3"
                     >
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <RelativeLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/bmi"
-                        android:layout_alignParentTop="true"
-                        android:textSize="20sp"
-                        android:text="BMI"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/bmi_log"
-                        android:layout_alignParentRight="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginRight="0dp"
-                        android:textSize="20dp" />
-                </RelativeLayout>
-            </android.support.v7.widget.CardView>
+                        android:padding="16dp"
+                        >
 
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/g4"
-                android:layout_marginTop="10dp"
-                android:id="@+id/g5"
-                >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/abnormalities"
+                            android:layout_alignParentTop="true"
+                            android:textSize="20sp"
+                            android:text="Abnormalities"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/abnormalities_log"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="0dp"
+                            android:textSize="20dp" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
 
-                <RelativeLayout
+                <android.support.v7.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
+                    android:layout_below="@+id/g3"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/g4"
                     >
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <RelativeLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/exercise_min"
-                        android:layout_alignParentTop="true"
-                        android:textSize="20sp"
-                        android:text="Exercise Minutes (per day)"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/bmi"
+                            android:layout_alignParentTop="true"
+                            android:textSize="20sp"
+                            android:text="BMI"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/bmi_log"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="0dp"
+                            android:textSize="20dp" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/g4"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/g5"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/exercise_min_log"
-                        android:layout_alignParentRight="true"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginRight="0dp"
-                        android:textSize="20dp" />
+                        android:padding="16dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/exercise_min"
+                            android:layout_alignParentTop="true"
+                            android:textSize="20sp"
+                            android:text="Exercise Minutes (per day)"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/exercise_min_log"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginRight="0dp"
+                            android:textSize="20dp" />
 
 
-                </RelativeLayout>
-            </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
 
-        </RelativeLayout>
-    </ScrollView>
+            </RelativeLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
 
     <LinearLayout
         android:orientation="horizontal"

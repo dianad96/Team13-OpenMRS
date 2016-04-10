@@ -102,4 +102,44 @@
             android:text="Chat"/>
     </LinearLayout>
 
+    <!--<Button-->
+        <!--style="?android:attr/buttonStyleSmall"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Query"-->
+        <!--android:id="@+id/queryBtn"-->
+        <!--android:layout_below="@+id/insertDataBtn"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Results :"-->
+        <!--android:id="@+id/queryTextview"-->
+        <!--android:layout_below="@+id/queryBtn"-->
+        <!--android:layout_alignLeft="@+id/queryBtn"-->
+        <!--android:layout_alignStart="@+id/queryBtn"-->
+        <!--android:layout_alignRight="@+id/mFitbitLogout"-->
+        <!--android:layout_alignEnd="@+id/mFitbitLogout" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="New Text"-->
+        <!--android:id="@+id/queryTV2"-->
+        <!--android:layout_below="@+id/queryTextview"-->
+        <!--android:layout_alignLeft="@+id/queryTextview"-->
+        <!--android:layout_alignStart="@+id/queryTextview" />-->
+
+    <!--<Button-->
+        <!--style="?android:attr/buttonStyleSmall"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Insert Dummy Data"-->
+        <!--android:id="@+id/insertDataBtn"-->
+        <!--android:layout_below="@+id/mFitbitBtn"-->
+        <!--android:layout_alignRight="@+id/queryTextview"-->
+        <!--android:layout_alignEnd="@+id/queryTextview" />-->
+
 </RelativeLayout>

@@ -32,12 +32,12 @@
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\expander_ic_right.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_menu_start_conversation.png",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_menu_start_conversation.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_menu_close_clear_cancel.png",
         "source": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_menu_close_clear_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_menu_start_conversation.png",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_menu_start_conversation.png"
     },
     {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\notes.png",
@@ -48,12 +48,12 @@
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_menu_start_conversation.png"
     },
     {
-        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_menu_forward.png",
-        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_menu_forward.png"
-    },
-    {
         "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_menu_close_clear_cancel.png",
         "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_menu_close_clear_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_menu_forward.png",
+        "source": "C:\\Users\\ga\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_menu_forward.png"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_menu_clear_playlist.png",

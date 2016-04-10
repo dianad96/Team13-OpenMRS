@@ -248,6 +248,9 @@
             android:exported="false"
             android:label="SyncFitBit Service" />
         <service
+            android:name="org.openmrs.mobile.activities.SyncGraphService"
+            android:label="SyncGraph Service" />
+        <service
             android:name="org.openmrs.mobile.activities.AlarmManagerService"
             android:exported="false" />
         <service

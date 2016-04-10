@@ -30,6 +30,7 @@
 -keep class org.openmrs.mobile.activities.LoginPatient { <init>(); }
 -keep class org.openmrs.mobile.activities.SyncGoogleFitService { <init>(); }
 -keep class org.openmrs.mobile.activities.SyncFitBitService { <init>(); }
+-keep class org.openmrs.mobile.activities.SyncGraphService { <init>(); }
 -keep class org.openmrs.mobile.activities.AlarmManagerService { <init>(); }
 -keep class org.openmrs.mobile.activities.NotifyService { <init>(); }
 -keep class org.openmrs.mobile.activities.SearchFood { <init>(); }
