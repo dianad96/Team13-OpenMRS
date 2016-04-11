@@ -190,13 +190,11 @@ public class LoginActivity extends ACBaseActivity {
     public void login() {
         mLoginFormView.setVisibility(View.GONE);
         mSpinner.setVisibility(View.VISIBLE);
-        Container.username = mUsername.getText().toString();
-        Container.password =  mPassword.getText().toString();
         AuthorizationManagerBundle bundle =
                 AuthorizationHelper.createBundle(
-                        mUsername.getText().toString(),
-                        mPassword.getText().toString(),
-                        mUrlTextView.getText().toString());
+                        Container.username,
+                        Container.password,
+                        Container.url);
         mAuthorizationManager.login(
                 AuthorizationHelper.createLoginListener(bundle, this));
     }

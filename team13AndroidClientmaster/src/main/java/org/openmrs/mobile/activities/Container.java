@@ -7,6 +7,10 @@ import java.util.Date;
  */
 public class Container {
 
+
+    //login in to the bupa server
+    public static String url = "http://bupaopenmrs.cloudapp.net/openmrs";
+
     public static String patient_name = "";
     public static String patient_age = "";
     public static String patient_gender = "";
