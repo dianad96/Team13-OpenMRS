@@ -62,14 +62,13 @@ public abstract class ACBaseActivity extends ActionBarActivity {
         super.onResume();
         if (!(this instanceof LoginActivity || this instanceof DialogActivity)) {
             ActionBar actionBar = this.getSupportActionBar();
-            if (!mAuthorizationManager.isUserLoggedIn()) {
-                mAuthorizationManager.moveToLoginActivity();
-            } else if (this instanceof DashboardActivity || this instanceof SettingsActivity
-                    || this instanceof FindPatientsActivity || this instanceof FindActiveVisitsActivity) {
+          //  if (!mAuthorizationManager.isUserLoggedIn()) {//     mAuthorizationManager.moveToLoginActivity();
+          //  } else if (this instanceof DashboardActivity || this instanceof SettingsActivity
+          //          || this instanceof FindPatientsActivity || this instanceof FindActiveVisitsActivity) {
                 actionBar.setSubtitle("Welcome " + Container.patient_name);
 //                actionBar.setSubtitle(getString(R.string.dashboard_logged_as, mOpenMRS.getUsername()));
-            }
-            setOfflineActionBarTitle(actionBar);
+          //  }
+           // setOfflineActionBarTitle(actionBar);
         }
     }
 

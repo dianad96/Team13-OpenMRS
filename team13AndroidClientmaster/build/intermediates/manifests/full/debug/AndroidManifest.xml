@@ -116,8 +116,6 @@
         <activity
             android:name="org.openmrs.mobile.activities.LoginActivity"
             android:label="@string/app_name"
-            android:launchMode="singleTop"
-            android:noHistory="true"
             android:theme="@style/NoActionBarTheme" />
         <activity
             android:name="org.openmrs.mobile.activities.SettingsActivity"

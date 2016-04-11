@@ -18,6 +18,7 @@ import android.content.Intent;
 import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import org.openmrs.mobile.activities.LoginActivity;
+import org.openmrs.mobile.activities.RegisterPatient;
 import org.openmrs.mobile.listeners.authorization.LoginListener;
 import org.openmrs.mobile.net.volley.wrappers.JsonObjectRequestWrapper;
 import org.openmrs.mobile.utilities.ApplicationConstants;
@@ -87,7 +88,7 @@ public class AuthorizationManager extends BaseManager {
     }
 
     public void moveToLoginActivity() {
-        Intent intent = new Intent(getCurrentContext(), LoginActivity.class);
+        Intent intent = new Intent(getCurrentContext(), RegisterPatient.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         getCurrentContext().startActivity(intent);
     }

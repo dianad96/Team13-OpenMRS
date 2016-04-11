@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:14:1-272:12
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:14:1-270:12
 	package
 		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:15:5-33
 		INJECTED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml
@@ -227,7 +227,7 @@ ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmas
 	android:name
 		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:29:22-77
 application
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:31:5-270:19
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:31:5-268:19
 MERGED from [Team13-OpenMRS:odkcollect:unspecified] C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\build\intermediates\exploded-aar\Team13-OpenMRS\odkcollect\unspecified\AndroidManifest.xml:20:5-20
 MERGED from [com.android.support:gridlayout-v7:19.0.0] C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\19.0.0\AndroidManifest.xml:19:5-20
 MERGED from [com.android.support:support-v4:23.2.0] C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
@@ -466,241 +466,237 @@ ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmas
 	android:name
 		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:89:13-66
 activity#org.openmrs.mobile.activities.LoginActivity
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:105:9-110:55
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:105:9-108:55
 	android:label
 		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:107:13-45
-	android:launchMode
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:108:13-43
-	android:noHistory
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:109:13-37
 	android:theme
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:110:13-52
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:108:13-52
 	android:name
 		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:106:13-53
 activity#org.openmrs.mobile.activities.SettingsActivity
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:111:9-114:40
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:109:9-112:40
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:113:13-52
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:111:13-52
 	android:noHistory
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:114:13-37
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:112:13-37
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:112:13-56
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:110:13-56
 activity#org.openmrs.mobile.activities.PatientDashboardActivity
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:115:9-121:20
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:113:9-119:20
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:115:19-70
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:113:19-70
 activity#org.openmrs.mobile.activities.FindActiveVisitsActivity
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:122:9-138:20
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:120:9-136:20
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:124:13-57
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:122:13-57
 	android:launchMode
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:125:13-43
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:123:13-43
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:123:13-64
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:121:13-64
 activity#org.openmrs.mobile.activities.FindActiveVisitsSearchActivity
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:139:9-155:20
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:137:9-153:20
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:141:13-57
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:139:13-57
 	android:launchMode
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:142:13-43
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:140:13-43
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:140:13-70
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:138:13-70
 activity#org.openmrs.mobile.activities.VisitDashboardActivity
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:156:9-165:20
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:154:9-163:20
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:158:13-58
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:156:13-58
 	android:launchMode
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:159:13-43
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:157:13-43
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:157:13-62
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:155:13-62
 activity#org.openmrs.mobile.activities.FormEntryActivity
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:166:9-169:46
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:164:9-167:46
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:168:13-57
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:166:13-57
 	android:launchMode
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:169:13-43
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:167:13-43
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:167:13-57
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:165:13-57
 activity#org.openmrs.mobile.activities.CaptureVitalsActivity
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:170:9-179:20
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:168:9-177:20
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:173:13-58
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:171:13-58
 	android:configChanges
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:172:13-74
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:170:13-74
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:171:13-61
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:169:13-61
 activity#org.openmrs.mobile.activities.InputManually
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:180:9-182:69
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:178:9-180:69
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:182:13-66
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:180:13-66
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:181:13-53
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:179:13-53
 activity#org.openmrs.mobile.activities.InputFood
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:183:9-186:55
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:181:9-184:55
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:185:13-42
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:183:13-42
 	android:windowSoftInputMode
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:186:13-52
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:184:13-52
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:184:13-49
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:182:13-49
 activity#org.openmrs.mobile.activities.InputExercise
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:187:9-189:44
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:185:9-187:44
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:189:13-41
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:187:13-41
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:188:13-53
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:186:13-53
 activity#org.openmrs.mobile.activities.SyncData
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:190:9-192:57
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:188:9-190:57
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:192:13-54
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:190:13-54
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:191:13-48
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:189:13-48
 activity#org.openmrs.mobile.activities.InputHeartRate
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:193:9-195:46
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:191:9-193:46
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:195:13-43
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:193:13-43
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:194:13-54
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:192:13-54
 activity#org.openmrs.mobile.activities.InputHeightWeight
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:196:9-198:49
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:194:9-196:49
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:198:13-46
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:196:13-46
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:197:13-57
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:195:13-57
 activity#org.openmrs.mobile.activities.Graph
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:199:9-201:40
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:197:9-199:40
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:201:13-37
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:199:13-37
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:200:13-45
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:198:13-45
 activity#org.openmrs.mobile.activities.Chat
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:202:9-204:61
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:200:9-202:61
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:204:13-58
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:202:13-58
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:203:13-44
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:201:13-44
 activity#org.openmrs.mobile.activities.SyncFitBitActivity
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:205:9-207:42
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:203:9-205:42
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:207:13-39
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:205:13-39
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:206:13-58
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:204:13-58
 activity#org.openmrs.mobile.activities.SyncFitBitAuthorizationActivity
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:208:9-221:20
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:206:9-219:20
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:210:13-58
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:208:13-58
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:209:13-71
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:207:13-71
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:211:13-220:29
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:209:13-218:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:212:17-69
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:210:17-69
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:212:25-66
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:210:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:214:17-76
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:212:17-76
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:214:27-73
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:212:27-73
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:215:17-78
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:213:17-78
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:215:27-75
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:213:27-75
 data
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:217:17-219:48
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:215:17-217:48
 	android:host
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:218:21-49
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:216:21-49
 	android:scheme
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:219:21-45
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:217:21-45
 activity#org.openmrs.mobile.activities.LoginPatient
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:222:9-230:20
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:220:9-228:20
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:224:13-40
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:222:13-40
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:223:13-52
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:221:13-52
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:225:13-229:29
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:223:13-227:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:226:17-69
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:224:17-69
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:226:25-66
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:224:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:228:17-77
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:226:17-77
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:228:27-74
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:226:27-74
 service#org.openmrs.mobile.activities.SyncGoogleFitService
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:232:9-234:45
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:230:9-232:45
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:234:13-42
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:232:13-42
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:233:13-60
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:231:13-60
 service#org.openmrs.mobile.activities.SyncFitBitService
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:235:9-238:50
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:233:9-236:50
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:238:13-47
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:236:13-47
 	android:exported
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:237:13-37
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:235:13-37
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:236:13-57
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:234:13-57
 service#org.openmrs.mobile.activities.SyncGraphService
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:239:9-241:49
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:237:9-239:49
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:241:13-46
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:239:13-46
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:240:13-56
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:238:13-56
 service#org.openmrs.mobile.activities.AlarmManagerService
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:242:9-244:40
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:240:9-242:40
 	android:exported
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:244:13-37
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:242:13-37
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:243:13-59
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:241:13-59
 service#org.openmrs.mobile.activities.NotifyService
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:245:9-247:40
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:243:9-245:40
 	android:exported
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:247:13-37
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:245:13-37
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:246:13-53
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:244:13-53
 activity#org.openmrs.mobile.activities.SearchFood
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:249:9-252:55
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:247:9-250:55
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:251:13-42
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:249:13-42
 	android:windowSoftInputMode
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:252:13-52
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:250:13-52
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:250:13-50
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:248:13-50
 activity#org.openmrs.mobile.activities.LoginActivity_FatSecret
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:253:9-255:81
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:251:9-253:81
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:255:13-78
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:253:13-78
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:254:13-63
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:252:13-63
 activity#org.openmrs.mobile.activities.fragments.ChatMessaging
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:256:9-259:55
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:254:9-257:55
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:258:13-33
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:256:13-33
 	android:windowSoftInputMode
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:259:13-52
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:257:13-52
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:257:13-63
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:255:13-63
 activity#org.openmrs.mobile.activities.ChatMessaging
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:260:9-263:55
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:258:9-261:55
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:262:13-66
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:260:13-66
 	android:windowSoftInputMode
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:263:13-52
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:261:13-52
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:261:13-53
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:259:13-53
 activity#org.openmrs.mobile.activities.RegisterPatient
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:264:9-266:71
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:262:9-264:71
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:266:13-68
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:264:13-68
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:265:13-55
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:263:13-55
 activity#org.openmrs.mobile.activities.ProfilePage
-ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:267:9-269:76
+ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:265:9-267:76
 	android:label
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:269:13-64
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:267:13-64
 	android:name
-		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:268:13-51
+		ADDED from C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\src\main\AndroidManifest.xml:266:13-51
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:26:9-29:64
 MERGED from [com.google.android.gms:play-services-ads:8.1.0] C:\Users\Diana\Documents\GitHub\Team13-OpenMRS\team13AndroidClientmaster\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:26:9-29:64
