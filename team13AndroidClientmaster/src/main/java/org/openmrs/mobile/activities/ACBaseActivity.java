@@ -29,6 +29,7 @@ import org.openmrs.mobile.application.OpenMRS;
 import org.openmrs.mobile.application.OpenMRSLogger;
 import org.openmrs.mobile.bundle.CustomDialogBundle;
 import org.openmrs.mobile.databases.OpenMRSDBOpenHelper;
+import org.openmrs.mobile.models.Patient;
 import org.openmrs.mobile.net.AuthorizationManager;
 import org.openmrs.mobile.utilities.ApplicationConstants;
 import org.openmrs.mobile.utilities.ToastUtil;
@@ -111,7 +112,8 @@ public abstract class ACBaseActivity extends ActionBarActivity {
             case R.id.actionSearch:
                 return true;
             case R.id.actionLogout:
-                this.showLogoutDialog();
+                Intent j = new Intent(this, LoginPatient.class);
+                startActivity(j);
             default:
                 return super.onOptionsItemSelected(item);
         }
