@@ -212,9 +212,6 @@
             android:name="org.openmrs.mobile.activities.Chat"
             android:label="Input Your Doctor&apos;s Name" />
         <activity
-            android:name="org.openmrs.mobile.activities.SyncFitBitActivity"
-            android:label="SyncFitBit" />
-        <activity
             android:name="org.openmrs.mobile.activities.SyncFitBitAuthorizationActivity"
             android:label="FitBit Authorization Activity" >
             <intent-filter>

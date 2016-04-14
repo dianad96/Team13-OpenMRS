@@ -8,7 +8,7 @@ import android.util.Base64;
 import android.util.Log;
 
 /**
- * Created by User on 15-Feb-16.
+ * Used to catch the redirect_url from Fitbit Server and store the essential authorisation code into the sharedpreferences for usage in other activity
  */
 public class SyncFitBitAuthorizationActivity extends Activity {
 

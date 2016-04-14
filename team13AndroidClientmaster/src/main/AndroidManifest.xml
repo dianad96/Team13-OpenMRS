@@ -201,9 +201,6 @@
             android:name=".activities.Chat"
             android:label="Input Your Doctor&apos;s Name" />
         <activity
-            android:name=".activities.SyncFitBitActivity"
-            android:label="SyncFitBit" />
-        <activity
             android:name=".activities.SyncFitBitAuthorizationActivity"
             android:label="FitBit Authorization Activity">
             <intent-filter>

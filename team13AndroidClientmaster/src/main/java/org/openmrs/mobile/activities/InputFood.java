@@ -1,9 +1,5 @@
 package org.openmrs.mobile.activities;
 
-import android.app.ActionBar;
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -14,7 +10,6 @@ import android.support.v7.widget.CardView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import org.apache.http.entity.StringEntity;
@@ -22,8 +17,6 @@ import org.openmrs.mobile.R;
 import org.openmrs.mobile.activities.fragments.ApiAuthRest;
 
 import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.Calendar;
 
 
 public class InputFood extends AppCompatActivity {
@@ -122,8 +115,7 @@ public class InputFood extends AppCompatActivity {
         ApiAuthRest.setUsername(Container.username);
         ApiAuthRest.setPassword(Container.password);
 
-        Calendar c = Calendar.getInstance();
-        String date = c.get(Calendar.YEAR) + "-" + c.get(Calendar.MONTH) + "-" +c.get(Calendar.DAY_OF_MONTH) + " " + c.get(Calendar.HOUR) + ":" + c.get(Calendar.MINUTE) + ":" + c.get(Calendar.SECOND);
+        String date = SyncFitBitService.getDate(System.currentTimeMillis(), Container.DATE_FORMAT);
 
         final String JSONCalories = "{\"obsDatetime\": \"" + date + "\"" +
                 ", \"concept\": \"" + Container.calories_uuid + "\"" +
@@ -139,7 +131,7 @@ public class InputFood extends AppCompatActivity {
 
         inputCalories.setContentType("application/json");
         try {
-            Log.i("OpenMRS response", "AddCalories = " + ApiAuthRest.getRequestPost("obs", inputCalories));
+            Log.i("OpenMRS response", "Add Calories = " + ApiAuthRest.getRequestPost("obs", inputCalories));
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -1135,7 +1135,6 @@ com/google/android/gms/internal/zzgk.class
 com/google/android/gms/internal/zzdl$zzc.class
 org/apache/http/entity/mime/content/FileBody.class
 com/google/android/gms/fitness/data/DataSource.class
-org/openmrs/mobile/activities/SyncFitBitActivity.class
 org/apache/commons/io/filefilter/FileFilterUtils.class
 android/support/v7/app/ActionBar$TabListener.class
 com/google/android/gms/internal/zzie.class

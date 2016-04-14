@@ -18,7 +18,11 @@ import java.util.Date;
  * Created by User on 09-Apr-16.
  */
 public class SyncGraphService extends IntentService{
+
     private DBHelper dbHelper;
+    private GraphData[] graphDatas;
+    private Date[] dates;
+    private String[] formattedDates;
 
     static String username = "diana";
     static String password = "Admin123";
@@ -26,6 +30,7 @@ public class SyncGraphService extends IntentService{
 
     private SharedPreferences sharedpreferences;
     private SharedPreferences.Editor editor;
+
     private static final String PREFERENCE_TYPE = "HealthDataPref";
     private static final String HEALTH_BMI = "BMI";
     private static final String HEALTH_TARGET_HR = "targetHR";
@@ -33,14 +38,9 @@ public class SyncGraphService extends IntentService{
     private static final String HEALTH_IS_SYNCED_TODAY = "syncedToday";
 
 
-    final static String user = Container.user_uuid;
-    private static final String DATE_FORMAT = "yyyy-MM-dd";
+    private final static String user = Container.user_uuid;
+    private String BMI = "", heartRate = "-", targetHR = "-";
 
-    private String exerciseMinutes ="0", BMI = "", heartRate = "-", targetHR = "-", actualHR = "-", floor="0", caloriesBurned="0", calories="0", distance="0";
-    private Float steps = 0f;
-    private GraphData[] graphDatas;
-    private Date[] dates;
-    private String[] formattedDates;
 
     public SyncGraphService() {
         super("SyncGraphService");
@@ -69,23 +69,15 @@ public class SyncGraphService extends IntentService{
             graphDatas[i] = new GraphData();
         }
 
-        createGraph(dates, getPersonInput(user));
+        pullData(dates, getPersonInput(user));
 
         ArrayList<String> arrayList = dbHelper.getHealthData();
-        String todayDate = getTodayDate(System.currentTimeMillis(), DATE_FORMAT);
+        String todayDate = getTodayDate(System.currentTimeMillis(), Container.DATE_FORMAT);
         boolean isSyncedToday = sharedpreferences.getBoolean(HEALTH_IS_SYNCED_TODAY, false);
         if(isSyncedToday) {
             editor.remove(HEALTH_LAST_SYNCED).commit();
             editor.putString(HEALTH_LAST_SYNCED, todayDate).apply();
         }
-
-//        // Check if database contains data already, if it does then doesn't need to upload to database again)
-//        if(!arrayList.contains(todayDate) && isSyncedToday) {
-//            insertToDB(1, 0);
-//        } else if (arrayList.contains(todayDate) && isSyncedToday) {
-//            Log.d("Database", "Updating todayDate index = " + arrayList.indexOf(todayDate));
-//            uploadToDB(2, arrayList.indexOf(todayDate));
-//        }
 
         for(int i=0; i<5; i++){
             if(!arrayList.contains(formattedDates[i]) && isSyncedToday) {
@@ -99,7 +91,7 @@ public class SyncGraphService extends IntentService{
 
     }
 
-    private void createGraph(Date[] dates, String input) {
+    private void pullData(Date[] dates, String input) {
         int location = 0;
         String UUID;
         SharedPreferences.Editor editor = sharedpreferences.edit();
@@ -108,6 +100,7 @@ public class SyncGraphService extends IntentService{
             dates[temp] = getDate(temp);
             formattedDates[temp] = formatDate(dates[temp]);
         }
+
         while ((location = input.indexOf("uuid", location)) != -1) {
             location += 7;
             int templocation = input.indexOf("\"", location);
@@ -246,13 +239,11 @@ public class SyncGraphService extends IntentService{
         String temp = input.substring(tempLocation + 1);
         tempLocation = temp.indexOf("\"");
         temp = temp.substring(0, tempLocation);
-//        Log.i("OpenMRS response", temp);
         if (temp.indexOf("STEPS") != -1) {
             return 1;
         }
         else if(temp.indexOf("BODY MASS INDEX") != -1) {
             BMI = temp.substring(16);
-//            Log.i("BMI", BMI);
             return 2;
         }
         else if(temp.indexOf("PULSE") != -1) {
@@ -261,7 +252,6 @@ public class SyncGraphService extends IntentService{
             return 3;
         }
         else if (temp.indexOf("Active Minutes") != -1) {
-            exerciseMinutes = temp.substring(15);
             return 4;
         }
         else if (temp.indexOf("TARGET HEART RATE") != -1) {
@@ -269,19 +259,15 @@ public class SyncGraphService extends IntentService{
             return 5;
         }
         else if (temp.indexOf("Floors") != -1) {
-            floor = temp.substring(7);
             return 6;
         }
         else if (temp.indexOf("Calories_Burned") != -1){
-            caloriesBurned = temp.substring(16);
             return 7;
         }
         else if (temp.indexOf("CALORIES") != -1) {
-            calories = temp.substring(9);
             return 8;
         }
         else if (temp.indexOf("DISTANCE") != -1) {
-            distance = temp.substring(9);
             return 9;
         }
         else
@@ -303,7 +289,6 @@ public class SyncGraphService extends IntentService{
         String display = null;
         try {
             display = ApiAuthRest.getRequestGet("obs/" + UUID);
-            //Log.i("OpenMRS response", display);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -312,8 +297,7 @@ public class SyncGraphService extends IntentService{
 
 
     private int checkExerciseDate(Date[] dates, String obs) {
-//        Log.i("Obs", obs);
-        SimpleDateFormat dateFormat = new SimpleDateFormat(DATE_FORMAT);
+        SimpleDateFormat dateFormat = new SimpleDateFormat(Container.DATE_FORMAT);
         int startPoint = obs.indexOf("obsDatetime") + 14;
         int endPoint = startPoint + 10;
         Date date;
@@ -378,7 +362,7 @@ public class SyncGraphService extends IntentService{
     }
 
     public String formatDate(Date date){
-        SimpleDateFormat formatter = new SimpleDateFormat(DATE_FORMAT);
+        SimpleDateFormat formatter = new SimpleDateFormat(Container.DATE_FORMAT);
         return formatter.format(date);
     }
 
@@ -422,35 +406,5 @@ public class SyncGraphService extends IntentService{
                 graphDatas[i].getCaloriesBurned(), graphDatas[i].getCalories(), graphDatas[i].getActiveMinutes(), graphDatas[i].getHeartRate());
         Log.d("Database", "Updating database = " + formattedDates[i]);
     }
-
-
-
-//    private void uploadToDB(int choice, int index) {
-//        String todayDate = getTodayDate(System.currentTimeMillis(), DATE_FORMAT);
-//        String temp_steps = "8888",
-//                temp_distance = "0",
-//                temp_floors = "0",
-//                temp_caloriesOut = "0",
-//                temp_foodCalories = "0",
-//                temp_totalActiveMinutes = "0",
-//                temp_heartRate = "0";
-//        if(steps != 0f) { temp_steps = steps.toString(); }
-//        if(!distance.matches("0")) { temp_distance = distance; }
-//        if(!floor.matches("0")) {temp_floors = floor; }
-//        if(!caloriesBurned.matches("0")) { temp_caloriesOut = caloriesBurned; }
-//        if(!calories.matches("0")) { temp_foodCalories  = calories; }
-//        if(!exerciseMinutes.matches("0")) { temp_totalActiveMinutes  = exerciseMinutes; }
-//        if(!heartRate.matches("-")) { temp_heartRate  = heartRate; }
-//
-//        if (choice == 1) {
-//            boolean result = dbHelper.insertHealthData(todayDate, temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, temp_heartRate);
-//            Log.d("Database", "Choice 1 = " + String.valueOf(result));
-//        } else if (choice == 2) {
-//            dbHelper.updateHealthData(index, todayDate, temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, temp_heartRate);
-//            Log.d("Database", "Choice 2");
-//        }
-//
-//    }
-
 
 }
