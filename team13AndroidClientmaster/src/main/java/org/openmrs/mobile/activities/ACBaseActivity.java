@@ -111,7 +111,8 @@ public abstract class ACBaseActivity extends ActionBarActivity {
             case R.id.actionSearch:
                 return true;
             case R.id.actionLogout:
-                this.showLogoutDialog();
+                Intent j = new Intent(this, LoginPatient.class);
+                startActivity(j);
             default:
                 return super.onOptionsItemSelected(item);
         }

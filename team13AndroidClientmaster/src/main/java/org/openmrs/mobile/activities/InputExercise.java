@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.app.Activity;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
@@ -22,9 +21,10 @@ import org.openmrs.mobile.R;
 import org.openmrs.mobile.activities.fragments.ApiAuthRest;
 
 import java.io.UnsupportedEncodingException;
-import java.util.Calendar;
 
 public class InputExercise extends AppCompatActivity {
+
+    private String calories, distance , totalSteps, floors , activeMins;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,19 +105,27 @@ public class InputExercise extends AppCompatActivity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Calories Burned (cal)");
-        // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
         builder.setView(input);
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
 
-                String s = input.getText().toString() + " cals";
-                Container.calories_burned = input.getText().toString();
+                String s;
+                calories = input.getText().toString();
+                try{
+                    float cal = Float.parseFloat(calories);
+                    calories = String.valueOf((int)cal);
+                    s = calories + " cals";
+                } catch (Exception e) {
+                    s = "Unknown value";
+                    e.printStackTrace();
+                }
+
+
                 TextView caloriesBurned_log = (TextView) findViewById(R.id.calories_burned_log);
                 caloriesBurned_log.setText(s);
+                Log.d("OpenMRS", "calories = " + calories);
 
-                //  Your code when user clicked on OK
-                //  You can write the code  to save the selected item here
             }
         });
         builder.setNegativeButton("CANCEL", null);
@@ -135,19 +143,25 @@ public class InputExercise extends AppCompatActivity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Distance Covered (km)");
-        // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
         builder.setView(input);
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
 
-                String s = input.getText().toString() + " km";
-                Container.distance_covered = input.getText().toString();
+                String s;
+                distance = input.getText().toString();
+                try{
+                    float dist = Float.parseFloat(distance);
+                    distance = String.valueOf((int) (dist * 1000));
+                    s = distance + " m";
+                } catch (Exception e) {
+                    s ="Unknown value";
+                    e.printStackTrace();
+                }
+
                 TextView distanceCovered_log = (TextView) findViewById(R.id.distance_covered_log);
                 distanceCovered_log.setText(s);
 
-                //  Your code when user clicked on OK
-                //  You can write the code  to save the selected item here
             }
         });
         builder.setNegativeButton("CANCEL", null);
@@ -165,19 +179,25 @@ public class InputExercise extends AppCompatActivity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Total Steps (steps)");
-        // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
         builder.setView(input);
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
 
-                String s = input.getText().toString() + " steps";
-                Container.total_steps = input.getText().toString();
+                String s;
+                totalSteps = input.getText().toString();
+                try{
+                    float tempSteps = Float.parseFloat(totalSteps);
+                    totalSteps = String.valueOf((int) tempSteps);
+                    s = totalSteps + " steps";
+                } catch (Exception e) {
+                    s ="Unknown value";
+                    e.printStackTrace();
+                }
+
                 TextView totalSteps_log = (TextView) findViewById(R.id.total_steps_log);
                 totalSteps_log.setText(s);
 
-                //  Your code when user clicked on OK
-                //  You can write the code  to save the selected item here
             }
         });
         builder.setNegativeButton("CANCEL", null);
@@ -195,19 +215,26 @@ public class InputExercise extends AppCompatActivity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Floors Climbed (floors)");
-        // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
         builder.setView(input);
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
 
-                String s = input.getText().toString() + " floors";
-                Container.floors_climbed = input.getText().toString();
+                String s;
+                floors = input.getText().toString();
+                try{
+                    float tempFloors = Float.parseFloat(floors);
+                    totalSteps = String.valueOf((int) tempFloors);
+                    s = totalSteps + " floors";
+                } catch (Exception e) {
+                    s ="Unknown value";
+                    e.printStackTrace();
+                }
+
                 TextView floorsClimbed_log = (TextView) findViewById(R.id.floors_climbed_log);
                 floorsClimbed_log.setText(s);
 
-                //  Your code when user clicked on OK
-                //  You can write the code  to save the selected item here
+
             }
         });
         builder.setNegativeButton("CANCEL", null);
@@ -223,21 +250,27 @@ public class InputExercise extends AppCompatActivity {
                 LinearLayout.LayoutParams.MATCH_PARENT);
         input.setLayoutParams(lp);
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Active minutes (min)");
-        // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
         builder.setView(input);
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
 
-                String s = input.getText().toString() + " min";
-                Container.active_minutes = input.getText().toString();
+                String s;
+                activeMins = input.getText().toString();
+                try {
+                    float tempMins = Float.parseFloat(activeMins);
+                    activeMins = String.valueOf((int)tempMins);
+                    s = activeMins + " min";
+                } catch (Exception e) {
+                    s ="Unknown value";
+                    e.printStackTrace();
+                }
+
                 TextView activeMinutes_log = (TextView) findViewById(R.id.active_minutes_log);
                 activeMinutes_log.setText(s);
 
-                //  Your code when user clicked on OK
-                //  You can write the code  to save the selected item here
             }
         });
         builder.setNegativeButton("CANCEL", null);
@@ -254,32 +287,31 @@ public class InputExercise extends AppCompatActivity {
         ApiAuthRest.setUsername(Container.username);
         ApiAuthRest.setPassword(Container.password);
 
-        Calendar c = Calendar.getInstance();
-        String date = c.get(Calendar.YEAR) + "-" + c.get(Calendar.MONTH) + "-" +c.get(Calendar.DAY_OF_MONTH) + " " + c.get(Calendar.HOUR) + ":" + c.get(Calendar.MINUTE) + ":" + c.get(Calendar.SECOND);
+        String date = SyncFitBitService.getDate(System.currentTimeMillis(), Container.DATE_FORMAT);
 
         final String JSONCaloriesBurned = "{\"obsDatetime\": \"" + date + "\"" +
                 ", \"concept\": \"" + Container.calories_burned_uuid + "\"" +
-                ", \"value\": \"" + Container.calories_burned + "\"" +
+                ", \"value\": \"" + calories + "\"" +
                 ", \"person\": \"" + Container.user_uuid + "\"}";
 
         final String JSONDistanceCovered = "{\"obsDatetime\": \"" + date + "\"" +
                 ", \"concept\": \"" + Container.distance_covered_uuid + "\"" +
-                ", \"value\": \"" + Container.distance_covered + "\"" +
+                ", \"value\": \"" + distance + "\"" +
                 ", \"person\": \"" + Container.user_uuid + "\"}";
 
         final String JSONTotalSteps = "{\"obsDatetime\": \"" + date + "\"" +
                 ", \"concept\": \"" + Container.total_steps_uuid + "\"" +
-                ", \"value\": \"" + Container.total_steps + "\"" +
+                ", \"value\": \"" + totalSteps + "\"" +
                 ", \"person\": \"" + Container.user_uuid + "\"}";
 
         final String JSONFloorsClimbed = "{\"obsDatetime\": \"" + date + "\"" +
                 ", \"concept\": \"" + Container.floors_climbed_uuid + "\"" +
-                ", \"value\": \"" + Container.floors_climbed + "\"" +
+                ", \"value\": \"" + floors + "\"" +
                 ", \"person\": \"" + Container.user_uuid + "\"}";
 
         final String JSONActiveMinutes = "{\"obsDatetime\": \"" + date + "\"" +
                 ", \"concept\": \"" + Container.active_minutes_uuid + "\"" +
-                ", \"value\": \"" + Container.active_minutes + "\"" +
+                ", \"value\": \"" + activeMins + "\"" +
                 ", \"person\": \"" + Container.user_uuid + "\"}";
 
 
@@ -306,15 +338,16 @@ public class InputExercise extends AppCompatActivity {
         inputFloorsClimbed.setContentType("application/json");
         inputActiveMinutes.setContentType("application/json");
         try {
-            if (Container.calories_burned!="")
+            Log.d("OpenMRS", "calories = " + calories + ", distance = " + distance + ",steps = " + totalSteps);
+            if (calories != null)
                 Log.i("OpenMRS response", "AddCaloriesBurned = " + ApiAuthRest.getRequestPost("obs", inputCaloriesBurned));
-            if (Container.distance_covered!="")
+            if (distance != null)
                 Log.i("OpenMRS response", "AddDistanceCovered = " + ApiAuthRest.getRequestPost("obs", inputDistanceCovered));
-            if (Container.total_steps!="")
+            if (totalSteps != null)
                 Log.i("OpenMRS response", "AddTotalSteps = " + ApiAuthRest.getRequestPost("obs", inputTotalSteps));
-            if (Container.floors_climbed!="")
+            if (floors != null)
                 Log.i("OpenMRS response", "AddFloorsClimbed = " + ApiAuthRest.getRequestPost("obs", inputFloorsClimbed));
-            if (Container.active_minutes!="")
+            if (activeMins != null)
                 Log.i("OpenMRS response", "AddActiveMinutes = " + ApiAuthRest.getRequestPost("obs", inputActiveMinutes));
         } catch (Exception e) {
             e.printStackTrace();
