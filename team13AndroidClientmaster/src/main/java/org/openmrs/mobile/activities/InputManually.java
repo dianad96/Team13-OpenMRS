@@ -1,13 +1,17 @@
 package org.openmrs.mobile.activities;
 
 import android.os.Bundle;
+import android.app.Activity;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+
 import org.apache.http.entity.StringEntity;
+
+
 import org.openmrs.mobile.R;
 import org.openmrs.mobile.activities.fragments.ApiAuthRest;
 
@@ -56,6 +60,7 @@ public class InputManually extends AppCompatActivity {
                 try {
                     inputAddPerson = new StringEntity(JSON);
                 } catch (UnsupportedEncodingException e) {
+                   // System.out.println("NOOO");
                     e.printStackTrace();
                 }
 
@@ -63,6 +68,7 @@ public class InputManually extends AppCompatActivity {
                 try {
                     System.out.println("AddPerson = " + ApiAuthRest.getRequestPost("person", inputAddPerson));
                 } catch (Exception e) {
+                 //   System.out.println("Whaat?");
                     e.printStackTrace();
                 }
 

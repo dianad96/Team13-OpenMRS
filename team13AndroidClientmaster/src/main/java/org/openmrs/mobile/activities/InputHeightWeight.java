@@ -1,5 +1,6 @@
 package org.openmrs.mobile.activities;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -21,6 +22,7 @@ import org.openmrs.mobile.R;
 import org.openmrs.mobile.activities.fragments.ApiAuthRest;
 
 import java.io.UnsupportedEncodingException;
+import java.util.Calendar;
 
 public class InputHeightWeight extends AppCompatActivity {
 
@@ -73,6 +75,7 @@ public class InputHeightWeight extends AppCompatActivity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Height (cm)");
+        // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
         builder.setView(input);
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
@@ -83,6 +86,8 @@ public class InputHeightWeight extends AppCompatActivity {
                 TextView height_log = (TextView) findViewById(R.id.height_log);
                 height_log.setText(s);
 
+                //  Your code when user clicked on OK
+                //  You can write the code  to save the selected item here
             }
         });
         builder.setNegativeButton("CANCEL", null);
@@ -101,15 +106,19 @@ public class InputHeightWeight extends AppCompatActivity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Weight (kg)");
+        // builder.setMessage("Which creature has one voice and yet becomes four-footed and two-footed and three-footed?");
         builder.setView(input);
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int id) {
 
                 String s = input.getText().toString() + " kg";
-                Container.weight = input.getText().toString();
+                Container.height = input.getText().toString();
                 TextView weight_log = (TextView) findViewById(R.id.weight_log);
                 weight_log.setText(s);
+
+                //  Your code when user clicked on OK
+                //  You can write the code  to save the selected item here
             }
         });
         builder.setNegativeButton("CANCEL", null);
@@ -126,7 +135,8 @@ public class InputHeightWeight extends AppCompatActivity {
         ApiAuthRest.setUsername(Container.username);
         ApiAuthRest.setPassword(Container.password);
 
-        String date = SyncFitBitService.getDate(System.currentTimeMillis(), Container.DATE_FORMAT);
+        Calendar c = Calendar.getInstance();
+        String date = c.get(Calendar.YEAR) + "-" + c.get(Calendar.MONTH) + "-" +c.get(Calendar.DAY_OF_MONTH) + " " + c.get(Calendar.HOUR) + ":" + c.get(Calendar.MINUTE) + ":" + c.get(Calendar.SECOND);
 
         final String JSONHeight= "{\"obsDatetime\": \"" + date + "\"" +
                 ", \"concept\": \"" + Container.height_uuid + "\"" +
@@ -150,8 +160,8 @@ public class InputHeightWeight extends AppCompatActivity {
         heightV.setContentType("application/json");
         weightV.setContentType("application/json");
         try {
-            Log.i("OpenMRS response", "Height = " + ApiAuthRest.getRequestPost("obs", heightV));
-            Log.i("OpenMRS response", "Weight = " + ApiAuthRest.getRequestPost("obs", weightV));
+            Log.i("OpenMRS response", "AddCalories = " + ApiAuthRest.getRequestPost("obs", heightV));
+            Log.i("OpenMRS response", "AddCalories = " + ApiAuthRest.getRequestPost("obs", weightV));
         } catch (Exception e) {
             e.printStackTrace();
         }

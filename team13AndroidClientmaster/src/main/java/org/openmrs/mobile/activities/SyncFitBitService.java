@@ -33,7 +33,7 @@ import java.util.GregorianCalendar;
  */
 public class SyncFitBitService extends IntentService {
 
-    SharedPreferences sharedpreferences;
+//    private DBHelper dbHelper;
 
     static String username = "diana";
     static String password = "Admin123";
@@ -48,13 +48,21 @@ public class SyncFitBitService extends IntentService {
     private final String ACTIVE_MINS = Container.active_minutes_uuid;
 
 
+    private static final String DATE_FORMAT = "yyyy-MM-dd";
 
+    SharedPreferences sharedpreferences;
+    SharedPreferences sharedpreferencesHealth;
 
     private static final String ACCESS_TOKEN_URL = "https://api.fitbit.com/oauth2/token";
 
     private static final String PREFERENCE_TYPE = "FitbitPref";
+    private static final String FITBIT_KEY = "fitbitAuth";
     private static final String FITBIT_ACCESS_KEY = "accessKey";
+    private static final String FITBIT_REFRESH_KEY = "refreshKey";
+    private static final String FITBIT_KEY_TIMING = "keyTiming";
     private static final String FITBIT_USER_ID = "userID";
+    private static final String FITBIT_LAST_SYNCED = "lastSynced";
+
 
     private HttpClient httpClient = new DefaultHttpClient();
     private HttpPost httpPost = new HttpPost(ACCESS_TOKEN_URL);
@@ -82,13 +90,18 @@ public class SyncFitBitService extends IntentService {
         String userID = sharedpreferences.getString(FITBIT_USER_ID, null);
         Calendar today = new GregorianCalendar();
         Long currentTime= today.getTimeInMillis();
-        String lastSyncedDate = getDate(currentTime, Container.DATE_FORMAT);
+        String lastSyncedDate = getDate(currentTime, DATE_FORMAT);
         Log.d("TAG", "Inside SyncFitBitService!");
-
+        String[] activitiesResources = {"activities",
+                "activities/distance",
+                "activities/heart",
+//                                          "foods/log",
+                "sleep"};
         String[] activities = { "activity",
                 "heartRate",
                 "food",
                 "sleep"};
+//                String[] activitiesURL = setRequestURL(activitiesResources, lastSynced, userID);
 
         String[] activitiesURL = {
                 "https://api.fitbit.com/1/user/" + userID +"/activities/date/" + lastSyncedDate + ".json",
@@ -106,21 +119,51 @@ public class SyncFitBitService extends IntentService {
         ApiAuthRest.setPassword(password);
 
         syncFitBit();
-        try {
-            // Wait 1second before calling SyncGraphService to store data into database
-            Thread.sleep(1000);
-            Intent i = new Intent(SyncFitBitService.this, SyncGraphService.class);
-            startService(i);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
+
+
+//        dbHelper = new DBHelper(this);
+//        String dateSynced = getDate(System.currentTimeMillis(), DATE_FORMAT);
+//        ArrayList<String> arrayList = dbHelper.getHealthData();
+//        // Check if database contains data already, if it does then doesn't need to upload to database again)
+//        if(!arrayList.contains(dateSynced)) {
+//            uploadToDB(1, 0);
+//        } else {
+//            Log.d("Database", "dateSynced index = " + arrayList.indexOf(dateSynced));
+//            uploadToDB(2, arrayList.indexOf(dateSynced));
+//        }
     }
 
+
+    private String[] setRequestURL(String[] activityResource, Long lastSynced, String userID){
+        Calendar today = Calendar.getInstance();
+        Long timeDiff = today.getTimeInMillis() - lastSynced;
+        long numDays = timeDiff / (24 * 60 * 60 * 1000);
+
+        String[] allUrls = new String[(int)numDays];
+
+        /**
+         * Loop through days since last Synced and get data + upload it immediately
+         * (Put days as parameter to method so that it can send to OpenMRS directly)
+         */
+        for(int i=0; i < (int) numDays; i++) {
+            lastSynced += (24 * 60 * 60 * 1000);
+            String lastSyncedDate = getDate(numDays, "yyyy-MM-dd");
+            String url = "https://api.fitbit.com/1/user/" + userID + "/"
+                    + activityResource[i] + "/date/"
+                    + lastSyncedDate + ".json";
+            allUrls[i] = url;
+        }
+
+        return allUrls;
+    }
 
     private void getUserData(String url, String activity) {
         httpClient = new DefaultHttpClient(myParams);
         try {
+            String userID = sharedpreferences.getString(FITBIT_USER_ID, null);
+//            Log.d("TAG", "fitbit user id: " + userID);
+//            String url = "https://api.fitbit.com/1/user/" + userID + "/" + activityResource + "/date/2016-02-04/1d.json";
             HttpGet httpGet = new HttpGet(url);
             httpGet.setHeader("Authorization", "Bearer " + sharedpreferences.getString(FITBIT_ACCESS_KEY, null));
             org.apache.http.HttpResponse response = httpClient.execute(httpGet);
@@ -165,6 +208,9 @@ public class SyncFitBitService extends IntentService {
                 String tempDist = summary.getString("distances");
                 int temp = tempDist.indexOf("\"total\",\"distance\":");
                 distance = tempDist.substring(temp+19, temp+19+4);
+                Log.d("TAG-ex", veryActiveMinutes);
+                Log.d("TAG-ex-int", fairlyActiveMinutes);
+                Log.d("TAG", "steps=" + steps + ", caloriesOut=" + caloriesOut + ", floors=" + floors + ",distance=" + distance + ",activeMinutes = " + totalActiveMinutes);
                 if(steps==null) { steps = "550";}
                 if(caloriesOut==null) { caloriesOut= "999";}
                 if(floors==null) { floors = "3"; }
@@ -216,7 +262,7 @@ public class SyncFitBitService extends IntentService {
         String JSON;
         StringEntity input = null;
         String currentData = null;
-        String dateSynced = getDate(System.currentTimeMillis(), Container.DATE_FORMAT);
+        String dateSynced = getDate(System.currentTimeMillis(), DATE_FORMAT);
         for (int i = 0; i < data.length; i++) {
             switch(i) {
                 case 0:
@@ -272,4 +318,30 @@ public class SyncFitBitService extends IntentService {
         }
 
     }
+
+//    private void uploadToDB(int choice, int index) {
+//        String dateSynced = getDate(System.currentTimeMillis(), DATE_FORMAT);
+//        String temp_steps = "888",
+//                temp_distance = "0",
+//                temp_floors = "0",
+//                temp_caloriesOut = "0",
+//                temp_foodCalories = "0",
+//                temp_totalActiveMinutes = "0",
+//                temp_heartRate = "0";
+//        if(steps!=null) { temp_steps = steps; }
+//        if(distance!=null) { temp_distance = distance; }
+//        if(floors!=null) {temp_floors = floors; }
+//        if(caloriesOut!=null) { temp_caloriesOut = caloriesOut; }
+//        if(foodCalories!=null) { temp_foodCalories  = foodCalories; }
+//        if(totalActiveMinutes!=null) { temp_totalActiveMinutes  = totalActiveMinutes; }
+//        if(heartRate!=null) { temp_heartRate  = heartRate; }
+//
+//        if (choice == 1) {
+//            boolean result = dbHelper.insertHealthData(dateSynced, temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, temp_heartRate);
+//            Log.d("Database", "Choice 1 = " + String.valueOf(result));
+//        } else if (choice == 2) {
+//            dbHelper.updateHealthData(index, dateSynced, temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, temp_heartRate);
+//            Log.d("Database", "Choice 2 - updating database");
+//        }
+//    }
 }

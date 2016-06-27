@@ -674,6 +674,24 @@ public class SyncData extends AppCompatActivity {
         }
     }
 
+    private void uploadToDB() {
+        String dateSynced = getDate(System.currentTimeMillis(), DATE_FORMAT);
+        String temp_steps = "888",
+                temp_distance = "0",
+                temp_floors = "0",
+                temp_caloriesOut = "0",
+                temp_foodCalories = "0",
+                temp_totalActiveMinutes = "0",
+                temp_heartRate = "0";
+
+            dbHelper.insertHealthData("2016-04-08", temp_steps, temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, "75");
+            dbHelper.insertHealthData("2016-04-07", "704", temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, "69");
+            dbHelper.insertHealthData("2016-04-06", "604", temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, "75");
+            dbHelper.insertHealthData("2016-04-05", "504", temp_distance, temp_floors, temp_caloriesOut, temp_foodCalories, temp_totalActiveMinutes, "72");
+            Log.d("DBHelper", "Uploading dummy data ");
+
+
+    }
 
 }
 

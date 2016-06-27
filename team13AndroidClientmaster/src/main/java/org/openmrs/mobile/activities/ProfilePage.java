@@ -10,6 +10,7 @@ import org.openmrs.mobile.R;
 
 public class ProfilePage extends AppCompatActivity {
 
+    String uuid, name, age, gender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,12 +27,7 @@ public class ProfilePage extends AppCompatActivity {
         patientAge.setText("Age: " + Container.patient_age);
 
         TextView patientBirthdate = (TextView) findViewById(R.id.patient_birthdate);
-        String bday = Container.patient_birthdate;
-        if(!bday.matches("")) {
-            patientBirthdate.setText("Birthdate: " + Container.patient_birthdate);
-        } else {
-            patientBirthdate.setText("Not Available");
-        }
+        patientBirthdate.setText("Birthdate: " + Container.patient_birthdate);
 
         TextView patientGender = (TextView) findViewById(R.id.patient_gender);
         patientGender.setText("Gender: " + Container.patient_gender);
