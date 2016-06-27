@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Base64;
+import android.util.Log;
 
 /**
  * Used to catch the redirect_url from Fitbit Server and store the essential authorisation code into the sharedpreferences for usage in other activity
@@ -35,6 +36,8 @@ public class SyncFitBitAuthorizationActivity extends Activity {
         editor.putString(FITBIT_KEY, intentString.substring(intentString.indexOf("code=") + 5));
         editor.putString(AUTHORIZATION_ENCODED, getBase64String(CLIENT_ID, CLIENT_SECRET));
         editor.commit();
+
+        Log.d("TAG", "Inside FitbitAuthorizationActivity");
 
         startActivity(new Intent(getApplicationContext(), SyncData.class));
     }

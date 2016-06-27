@@ -139,7 +139,8 @@ public class Graph extends AppCompatActivity implements SwipeRefreshLayout.OnRef
         }
         ArrayList<String> arrayList = dbHelper.getHealthData();
         Log.d("Database", "arrayList = " + arrayList.size());
-
+//        for (int j = 0; j < arrayList.size(); j++) {
+//            Log.d("Database", arrayList.get(j));
 
             if (arrayList.contains(syncDates[0])) {
                 // Load data for today
@@ -163,6 +164,7 @@ public class Graph extends AppCompatActivity implements SwipeRefreshLayout.OnRef
                 // Load and save steps data to show on graph
                 int index = arrayList.indexOf(syncDates[1]);
                 GraphData graphData = dbHelper.getHealthData(index);
+                String tempSteps = dbHelper.getSteps(index);
                 if (graphData != null){
                     values[1] = Float.valueOf(graphData.getSteps());
                     float temp = Float.valueOf(graphData.getHeartRate());
@@ -178,6 +180,7 @@ public class Graph extends AppCompatActivity implements SwipeRefreshLayout.OnRef
                 // Load and save steps data to show on graph
                 int index = arrayList.indexOf(syncDates[2]);
                 GraphData graphData = dbHelper.getHealthData(index);
+                String tempSteps = dbHelper.getSteps(index);
                 if (graphData != null) {
                     values[2] = Float.valueOf(graphData.getSteps());
                     float temp = Float.valueOf(graphData.getHeartRate());
@@ -193,6 +196,7 @@ public class Graph extends AppCompatActivity implements SwipeRefreshLayout.OnRef
                 // Load and save steps data to show on graph
                 int index = arrayList.indexOf(syncDates[3]);
                 GraphData graphData = dbHelper.getHealthData(index);
+                String tempSteps = dbHelper.getSteps(index);
                 if (graphData != null) {
                     values[3] = Float.valueOf(graphData.getSteps());
                     float temp = Float.valueOf(graphData.getHeartRate());
@@ -208,6 +212,7 @@ public class Graph extends AppCompatActivity implements SwipeRefreshLayout.OnRef
                 // Load and save steps data to show on graph
                 int index = arrayList.indexOf(syncDates[4]);
                 GraphData graphData = dbHelper.getHealthData(index);
+                String tempSteps = dbHelper.getSteps(index);
                 if (graphData != null) {
                     values[4] = Float.valueOf(graphData.getSteps());
                     float temp = Float.valueOf(graphData.getHeartRate());

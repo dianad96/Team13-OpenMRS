@@ -65,8 +65,6 @@ import java.util.concurrent.TimeUnit;
 
 public class SyncData extends AppCompatActivity {
 
-    // Required for Fitbit Authorization
-
     private static final String QUESTION_MARK = "?";
     private static final String AMPERSAND = "&";
     private static final String EQUALS = "=";
@@ -84,6 +82,20 @@ public class SyncData extends AppCompatActivity {
     private static final String SCOPE_TYPE_PARAM = "scope";
     private static final String REDIRECT_URI_PARAM = "redirect_uri";
 
+    // Read Google Fit Data
+
+    public static final String TAG = "Team13AndroidClient";
+    private static final int REQUEST_OAUTH = 1;
+    private static final String DATE_FORMAT = "yyyy-MM-dd";
+
+    private static final String AUTH_PENDING = "auth_state_pending";
+    private boolean authInProgress = false;
+    private static String dateSynced;
+    private static float calCount;
+    private static int stepCount;
+
+    private GoogleApiClient mClient = null;
+
     SharedPreferences sharedpreferences;
     private static final String PREFERENCE_TYPE = "FitbitPref";
     private static final String FITBIT_KEY = "fitbitAuth";
@@ -91,6 +103,7 @@ public class SyncData extends AppCompatActivity {
     private static final String FITBIT_REFRESH_KEY = "refreshKey";
     private static final String FITBIT_KEY_TIMING = "keyTiming";
     private static final String FITBIT_USER_ID = "userID";
+    private static final String FITBIT_LAST_SYNCED = "lastSynced";
 
     public static final String CUSTOM_TAB_PACKAGE_NAME = "com.android.chrome";
     CustomTabsClient mCustomTabsClient;
@@ -106,19 +119,7 @@ public class SyncData extends AppCompatActivity {
     private String ENCODED_AUTHORIZATION;
     private Button mGoogleFitBtn, mFitBitBtn, mFitBitLogoutBtn;
 
-    // Read Google Fit Data
-
-    public static final String TAG = "Team13AndroidClient";
-    private static final int REQUEST_OAUTH = 1;
-    private static final String DATE_FORMAT = "yyyy-MM-dd";
-
-    private static final String AUTH_PENDING = "auth_state_pending";
-    private boolean authInProgress = false;
-    private static String dateSynced;
-    private static float calCount;
-    private static int stepCount;
-
-    private GoogleApiClient mClient = null;
+    private DBHelper dbHelper;
 
 
     @Override
@@ -249,6 +250,31 @@ public class SyncData extends AppCompatActivity {
                 }
             }
         });
+
+//        final Button mQueryBtn = (Button) findViewById(R.id.queryBtn);
+//        dbHelper = new DBHelper(this);
+//        mQueryBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                int row = dbHelper.numberOfRows();
+//                ArrayList<String> arrayList = dbHelper.getHealthData();
+//                TextView mQueryTV = (TextView) findViewById(R.id.queryTextview);
+//                mQueryTV.setText("Number of rows = " + row + "\n" + arrayList.get(0) );
+//                TextView mQueryTV2 = (TextView) findViewById(R.id.queryTV2);
+//                GraphData graphData = dbHelper.getHealthData(0);
+//                if(graphData != null)
+//                    mQueryTV2.setText("Steps = " + graphData.getSteps());
+//            }
+//        });
+//
+//
+//        Button mInsertDataBtn = (Button) findViewById(R.id.insertDataBtn);
+//        mInsertDataBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                uploadToDB();
+//            }
+//        });
 
     }
 
@@ -588,7 +614,7 @@ public class SyncData extends AppCompatActivity {
             editor.putLong(FITBIT_KEY_TIMING, (time + 3600 * 1000)); // seconds to milliseconds
             editor.commit();
 
-//            Toast.makeText(SyncData.this, "Access Token received : " + accessToken, Toast.LENGTH_LONG).show();
+            Toast.makeText(SyncData.this, "Access Token received : " + accessToken, Toast.LENGTH_LONG).show();
             Log.d("TAG", "access_token = " + accessToken);
             Log.d("TAG", "refresh_token = " + refreshToken);
         } catch (UnsupportedEncodingException e) {
