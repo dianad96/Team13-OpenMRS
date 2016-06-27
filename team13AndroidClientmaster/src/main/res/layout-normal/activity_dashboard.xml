@@ -233,45 +233,42 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
-        android:minHeight="25px"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout2"
-        android:layout_weight="1">
-
-        <requestFocus
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.2" />
+        android:elevation="30dp"
+        android:background="@color/white">
 
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/dash_input"
-            android:background="#038b33"
-            android:textColor="@color/white"
+            android:drawableTop="@drawable/input_green"
+            android:textColor="@color/dark_teal"
+            android:textSize="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
             android:text="Input"
-            android:focusable="true" />
+            android:focusable="true"
+            android:background="@drawable/ripple_effect_menu"/>
+
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/dash_graph"
-            android:background="@color/dark_teal"
-            android:textColor="@color/white"
+            android:drawableTop="@drawable/progress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
-            android:text="Graph"/>
+            android:background="@drawable/ripple_effect_menu"/>
+
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/dash_chat"
-            android:background="@color/dark_teal"
-            android:textColor="@color/white"
+            android:drawableTop="@drawable/message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
-            android:text="Chat"/>
+            android:background="@drawable/ripple_effect_menu"/>
     </LinearLayout>
 
 </RelativeLayout>

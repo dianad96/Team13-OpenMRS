@@ -130,7 +130,7 @@ public class SyncData extends AppCompatActivity {
         android.support.v7.app.ActionBar bar =  getSupportActionBar();
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#00463f")));
 
-        Button input = (Button) findViewById(R.id.graph_input);
+        Button input = (Button) findViewById(R.id.sync_input);
         input.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -139,7 +139,7 @@ public class SyncData extends AppCompatActivity {
             }
         });
 
-        final Button graph = (Button) findViewById(R.id.graph_graph);
+        final Button graph = (Button) findViewById(R.id.sync_graph);
         graph.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -148,7 +148,7 @@ public class SyncData extends AppCompatActivity {
             }
         });
 
-        Button chat = (Button) findViewById(R.id.graph_chat);
+        Button chat = (Button) findViewById(R.id.sync_chat);
         chat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
