@@ -21,6 +21,8 @@ import org.openmrs.mobile.R;
 import org.openmrs.mobile.activities.fragments.ApiAuthRest;
 
 import java.io.UnsupportedEncodingException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class InputExercise extends AppCompatActivity {
 
@@ -287,7 +289,12 @@ public class InputExercise extends AppCompatActivity {
         ApiAuthRest.setUsername(Container.username);
         ApiAuthRest.setPassword(Container.password);
 
-        String date = SyncFitBitService.getDate(System.currentTimeMillis(), Container.DATE_FORMAT);
+        Calendar c = Calendar.getInstance();
+        System.out.println("Current time => " + c.getTime());
+
+        SimpleDateFormat df = new SimpleDateFormat("dd-MMM-yyyy");
+        String formattedDate = df.format(c.getTime());
+        String date = SyncFitBitService.getDate(System.currentTimeMillis(), formattedDate);
 
         final String JSONCaloriesBurned = "{\"obsDatetime\": \"" + date + "\"" +
                 ", \"concept\": \"" + Container.calories_burned_uuid + "\"" +
