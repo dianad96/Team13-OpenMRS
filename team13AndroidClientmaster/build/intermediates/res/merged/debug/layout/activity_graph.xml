@@ -235,7 +235,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout2"
         android:elevation="30dp"
-        android:background="@color/white">
+        android:background="@color/dark_teal">
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -246,13 +246,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
             android:focusable="true"
+            android:paddingTop="10dp"
             android:background="@drawable/ripple_effect_menu"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/graph_graph"
-            android:drawableTop="@drawable/progress_green"
-            android:textColor="@color/dark_teal"
+            android:drawableTop="@drawable/progress"
+            android:textColor="@color/white"
             android:textSize="10dp"
             android:text="Progress"
             android:layout_width="wrap_content"
@@ -262,6 +263,7 @@
 
         <Button
             style="?android:attr/buttonStyleSmall"
+            android:paddingTop="10dp"
             android:id="@+id/graph_chat"
             android:drawableTop="@drawable/message"
             android:layout_width="wrap_content"

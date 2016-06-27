@@ -17,7 +17,7 @@
         style="?android:attr/buttonStyleSmall"
         android:id="@+id/mGoogleFitBtn"
         android:layout_marginTop="30dp"
-        android:background="@color/dark_teal"
+        android:background="@drawable/ripple_effect_menu"
         android:textColor="@color/white"
         android:textAllCaps="true"
         android:layout_width="fill_parent"
@@ -30,7 +30,7 @@
     <Button
         style="?android:attr/buttonStyleSmall"
         android:id="@+id/mFitbitBtn"
-        android:background="@color/dark_teal"
+        android:background="@drawable/ripple_effect_menu"
         android:textColor="@color/white"
         android:textAllCaps="true"
         android:layout_width="fill_parent"
@@ -69,13 +69,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout2"
         android:elevation="30dp"
-        android:background="@color/white">
+        android:background="@color/dark_teal">
 
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/sync_input"
-            android:drawableTop="@drawable/input_green"
-            android:textColor="@color/dark_teal"
+            android:drawableTop="@drawable/input"
+            android:textColor="@color/white"
             android:textSize="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -91,6 +91,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
+            android:paddingTop="10dp"
             android:background="@drawable/ripple_effect_menu"/>
 
         <Button
@@ -100,6 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
+            android:paddingTop="10dp"
             android:background="@drawable/ripple_effect_menu"/>
     </LinearLayout>
 

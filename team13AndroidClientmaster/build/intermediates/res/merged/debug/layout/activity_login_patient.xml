@@ -38,12 +38,13 @@
         android:layout_marginTop="20dp"
         android:layout_below="@+id/uuid"
         android:layout_centerHorizontal="true"/>
+
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/mBtn_existing_patient"
-        android:background="@color/dark_teal"
+        android:background="@drawable/ripple_effect_menu"
         android:textColor="@color/white"
         android:layout_below="@+id/editsub"
         android:text="SUBMIT"/>
@@ -62,9 +63,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:id="@+id/mBtn_register_patient"
-        android:background="@color/dark_teal"
         android:textColor="@color/white"
         android:text="REGISTER NEW PATIENT"
+        android:background="@drawable/ripple_effect_menu"
         android:layout_below="@+id/textView3"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />

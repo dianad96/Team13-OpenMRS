@@ -41,7 +41,7 @@
                 android:id="@+id/add_friend"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/edit"
+                android:src="@drawable/input"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"

@@ -94,11 +94,12 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout2"
         android:elevation="30dp"
-        android:background="@color/white">
+        android:background="@color/dark_teal">
 
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/chat_input"
+
             android:drawableTop="@drawable/input"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -109,6 +110,7 @@
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/chat_graph"
+            android:paddingTop="10dp"
             android:drawableTop="@drawable/progress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -118,11 +120,11 @@
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/chat_chat"
-            android:drawableTop="@drawable/message_green"
+            android:drawableTop="@drawable/message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
-            android:textColor="@color/dark_teal"
+            android:textColor="@color/white"
             android:textSize="10dp"
             android:text="Chat"
             android:background="@drawable/ripple_effect_menu"/>
@@ -147,10 +149,12 @@
 
         <Button
             android:id="@+id/send"
+            android:background="@drawable/ripple_effect_menu"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="Send" />
+            android:text="Send"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 

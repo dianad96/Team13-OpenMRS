@@ -237,13 +237,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout2"
         android:elevation="30dp"
-        android:background="@color/white">
+        android:background="@color/dark_teal">
 
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/dash_input"
-            android:drawableTop="@drawable/input_green"
-            android:textColor="@color/dark_teal"
+            android:drawableTop="@drawable/input"
+            android:textColor="@color/white"
             android:textSize="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -255,6 +255,7 @@
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/dash_graph"
+            android:paddingTop="10dp"
             android:drawableTop="@drawable/progress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -264,6 +265,7 @@
         <Button
             style="?android:attr/buttonStyleSmall"
             android:id="@+id/dash_chat"
+            android:paddingTop="10dp"
             android:drawableTop="@drawable/message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -3,6 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:color="#f816a463"
     tools:targetApi="lollipop">
+
+    <!-- the normal bg color will be light grey -->
+    <item>
+        <color android:color="#00463f" />
+    </item>
+
     <item android:id="@android:id/mask">
         <shape android:shape="rectangle">
             <solid android:color="#f816a463" />
