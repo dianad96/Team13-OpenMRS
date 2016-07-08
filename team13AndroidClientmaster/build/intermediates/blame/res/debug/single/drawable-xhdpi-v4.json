@@ -132,12 +132,12 @@
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\src\\main\\res\\drawable-xhdpi\\tab_unselected_openmrs.9.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_light.9.png",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xhdpi\\common_signin_btn_icon_disabled_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_menu_manage.png",
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\Team13-OpenMRS\\odkcollect\\unspecified\\res\\drawable-xhdpi-v4\\ic_menu_manage.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_icon_disabled_light.9.png",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable-xhdpi\\common_signin_btn_icon_disabled_light.9.png"
     },
     {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\team13AndroidClientmaster\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_signin_btn_text_pressed_light.9.png",

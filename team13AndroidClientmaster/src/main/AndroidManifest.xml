@@ -176,9 +176,6 @@
                 android:value=".activities.DashboardActivity" />
         </activity>
         <activity
-            android:name=".activities.InputManually"
-            android:label="@string/title_activity_input_manually" />
-        <activity
             android:name=".activities.InputFood"
             android:label="Nutrition Log"
             android:windowSoftInputMode="adjustPan" />

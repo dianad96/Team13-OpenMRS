@@ -56,12 +56,12 @@
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\expander_ic_right.png"
     },
     {
-        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_menu_backward.png",
-        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_menu_backward.png"
-    },
-    {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_menu_manage.png",
         "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_menu_manage.png"
+    },
+    {
+        "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_menu_backward.png",
+        "source": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_menu_backward.png"
     },
     {
         "merged": "C:\\Users\\Diana\\Documents\\GitHub\\Team13-OpenMRS\\odkcollect\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\left_arrow.png",

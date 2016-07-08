@@ -1,0 +1,51 @@
+-keep class org.openmrs.mobile.application.OpenMRS {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class org.odk.collect.android.openmrs.provider.OpenMRSFormsProvider { <init>(); }
+-keep class org.odk.collect.android.openmrs.provider.OpenMRSInstanceProvider { <init>(); }
+-keep class org.openmrs.mobile.application.OpenMRSBroadcastReceiver { <init>(); }
+-keep class org.openmrs.mobile.activities.DashboardActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.DialogActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.FindPatientsActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.FindPatientsSearchActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.LoginActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.SettingsActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.PatientDashboardActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.FindActiveVisitsActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.FindActiveVisitsSearchActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.VisitDashboardActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.FormEntryActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.CaptureVitalsActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.InputFood { <init>(); }
+-keep class org.openmrs.mobile.activities.InputExercise { <init>(); }
+-keep class org.openmrs.mobile.activities.SyncData { <init>(); }
+-keep class org.openmrs.mobile.activities.InputHeartRate { <init>(); }
+-keep class org.openmrs.mobile.activities.InputHeightWeight { <init>(); }
+-keep class org.openmrs.mobile.activities.Graph { <init>(); }
+-keep class org.openmrs.mobile.activities.Chat { <init>(); }
+-keep class org.openmrs.mobile.activities.SyncFitBitActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.SyncFitBitAuthorizationActivity { <init>(); }
+-keep class org.openmrs.mobile.activities.LoginPatient { <init>(); }
+-keep class org.openmrs.mobile.activities.SyncGoogleFitService { <init>(); }
+-keep class org.openmrs.mobile.activities.SyncFitBitService { <init>(); }
+-keep class org.openmrs.mobile.activities.SyncGraphService { <init>(); }
+-keep class org.openmrs.mobile.activities.AlarmManagerService { <init>(); }
+-keep class org.openmrs.mobile.activities.NotifyService { <init>(); }
+-keep class org.openmrs.mobile.activities.SearchFood { <init>(); }
+-keep class org.openmrs.mobile.activities.LoginActivity_FatSecret { <init>(); }
+-keep class org.openmrs.mobile.activities.fragments.ChatMessaging { <init>(); }
+-keep class org.openmrs.mobile.activities.ChatMessaging { <init>(); }
+-keep class org.openmrs.mobile.activities.RegisterPatient { <init>(); }
+-keep class org.openmrs.mobile.activities.ProfilePage { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
