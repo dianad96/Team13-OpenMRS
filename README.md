@@ -15,6 +15,7 @@ Find more about the [project] (https://github.com/DianaD96/UCL-Active)
 
 ## To Do:
 + Change the REST to FHIR module
++ Change the Rest calls to the Nodejs server
 
 [Architecture]: http://i68.tinypic.com/k1rhht.png
 [Work]: http://i66.tinypic.com/900but.png
